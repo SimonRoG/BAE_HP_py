@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAE GROUP</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='BAE.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='Logo/Rauten BAE.png') }}" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="{{ url_for('static', filename='BAE.js')}}"></script>
+</head>
+
+<body>
+    {% include menu_bar %}
+    
+    <div class="TGA Bild"></div>
+    <div id="TGA" class="ContainerTGA">
+        <h2>Technische Gebäudeausrüstung.</h2>
+        <div class="TGA-container">
+            <div class="TGA-subcontainer1">
+                <p>Gebäude ohne Technik ist wie der menschliche Körper ohne seine Blutbahnen und Muskeln: Nicht
+                    überlebensfähig. <br>
+                    Die Technik in Gebäuden sind die Blutbahnen und Muskeln einer jeden Immobilie. Sie
+                    gewährleistet, dass Immobilien nutzbar sind. Sie umfasst alle technische Systeme die für den
+                    Betrieb und das Wohlbefinden innerhalb eines Gebäudes unerlässlich sind. Diese Systeme
+                    gewährleisten nicht nur den reibungslosen Ablauf des täglichen Lebens, sondern tragen auch
+                    maßgeblich zur Effizienz, Sicherheit und Umweltfreundlichkeit von Gebäuden bei.<br><br>
+                    Die Technische Gebäudeausrüstung nimmt heute eine zentrale Rolle bei der Entwicklung und
+                    Sanierung von Gebäuden ein. Während früher nur die Lage und das Design des Gebäudes entscheidend
+                    waren, ist heute die Gebäudetechnik im Kontext der Nachhaltigkeit eine weitere zentrale Säule
+                    bei der Gestaltung zeitgemäßer Gebäude. Eine nachhaltige Gebäudetechnik gewährleistet die
+                    Energieeffizienz von Gebäuden und damit geringe Nebenkosten. Denn Energie ist teuer geworden.
+                    <br> <br>
+                    Mit unserem Geschäftsfeld der Technischen Gebäudeausrüstung erbringen wir sämtliche
+                    Ingenieursdienstleistungen in Bezug auf die Technische Gebäudeausrüstung. Wir legen dabei hohen
+                    Wert auf die Energieeffizienz von Gebäuden, dass ein Teil unseres Selbstverständnisses und
+                    Anspruchs als Ingenieure ist.
+                </p>
+            </div>
+            <div class="TGA-subcontainer2">
+                <h1>Überblick der Leistungen:</h1><br>
+                <p class="list-item">Planung und Überwachung sämtlicher Leistungsphasen und aller Anlagengruppen
+                    gemäß HOAI:</p>
+                <p class="sublist">Sanitärtechnik</p>
+                <p class="sublist">Heizungstechnik</p>
+                <p class="sublist">Lüftungs- und Klimatechnik</p>
+                <p class="sublist">Starkstrom</p>
+                <p class="sublist">Schwachstrom</p>
+                <p class="sublist">Nutzungsspezifische Anlagen (Sprinklertechnik und ähnlich)</p>
+                <p class="sublist">Gebäudeautomation</p>
+                <p class="sublist">Sonstige Maßnahmen für technische Anlagen</p>
+
+                <p class="list-item">Machbarkeitsstudien</p>
+                <p class="list-item">Simulationen</p>
+                <p class="list-item">Energetische Optimierungen</p>
+                <p class="list-item">Bestandsaufnahme und -Analyse</p>
+                <p class="list-item">Retro-Fit von Anlagentechnik</p>
+                <p class="list-item">Technischen Due Diligence</p>
+                <p class="list-item">ESG-Beratung</p>
+            </div>
+            <div class="TGA-subcontainer2">
+                <div class="TGA image-container">
+                    <button class="img-button" onclick="popup('/Bilder/3DModellTGA.png')">
+                        <img src="{{ url_for('static', filename='/Bilder/3DModellTGA.png') }}" alt="3D-Modell TGA">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

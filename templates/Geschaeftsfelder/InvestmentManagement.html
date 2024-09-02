@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAE GROUP</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='BAE.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='Logo/Rauten BAE.png') }}" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="{{ url_for('static', filename='BAE.js')}}"></script>
+</head>
+
+<body>
+    {% include menu_bar %}
+    
+    <div class="InvestmentManagement Bild"></div>
+    <div id="InvestmentManagement" class="ContainerInvestmentManagement">
+        <h2>Investment Management.</h2>
+        <div class="InvestmentManagement-container">
+            <div class="InvestmentManagement-subcontainer0">
+                <p> Wir betrachten das Investment Management im Bereich von Gebäuden als die umfassende Verwaltung
+                    von Immobilieninvestitionen mit dem Ziel, den langfristigen Wert und die Rentabilität der
+                    Gebäude zu maximieren. Diese Disziplin kombiniert strategische, finanzielle und operative
+                    Maßnahmen, um die Performance von Immobilienportfolios zu optimieren. Die Leistungen, die im
+                    Rahmen unseres Geschäftsfelds Investment Managements für Gebäude erbracht werden, sind
+                    vielfältig.<br>
+
+                    <br> Unsere Leistungen umfassen die Analyse und Bewertung von Immobilienportfolios, um eine
+                    fundierte Entscheidungsgrundlage für Ankaufs- und Verkaufsentscheidungen zu schaffen. Unser Team
+                    führt Due-Diligence-Prüfungen durch, um Risiken und Chancen zu identifizieren, und entwickelt
+                    darauf aufbauend Strategien zur Portfoliooptimierung. Im Rahmen des Vermietungsmanagement werden
+                    Strategien entwickelt, um eine maximale Auslastung der Gebäude zu erreichen, die Verhandlung von
+                    Mietverträgen und die kontinuierliche Optimierung der Mietpreise. Das Management pflegt auch
+                    Beziehungen zu Mietern und kümmert sich um Konfliktlösungen, um langfristige Mieterbindung zu
+                    gewährleisten.
+                </p>
+            </div>
+
+            <div class="InvestmentManagement-subcontainer2">
+                <p>
+                </p>
+            </div>
+
+            <div class="InvestmentManagement-subcontainer4">
+                <p>
+                    Die Betriebskostenoptimierung ist ein weiterer wesentlicher Bestandteil unserer Leistungen.
+                    Hierbei werden die Betriebskosten analysiert, um Effizienzpotenziale zu identifizieren. Durch
+                    die Implementierung von Maßnahmen zur Reduzierung von Betriebskosten wird die Rentabilität der
+                    Immobilien verbessert. Um den Wert der Gebäude zu steigern, plant und koordiniert das Investment
+                    Management Renovierungs- und Modernisierungsmaßnahmen. Dies beinhaltet die Entwicklung von
+                    Strategien zur Wertsteigerung und die Umsetzung von Maßnahmen zur Verbesserung der Attraktivität
+                    der Immobilien. <br>
+
+                    Ein weiterer Fokus unserer Leistungen in diesem Geschäftsfeld liegt auf dem Risikomanagement,
+                    bei dem potenzielle Risiken im Zusammenhang mit Immobilieninvestitionen identifiziert und
+                    bewertet werden. Das Team implementiert dann geeignete Strategien, um gegen diese Risiken
+                    abzusichern.<br><br>
+
+                    Finanzmanagement ist ein entscheidender Bereich unserer Geschäftsfeld, das Budgetierung, die
+                    finanzielle Planung und die Überwachung der Finanzkennzahlen umfasst. Ziel ist es, eine solide
+                    finanzielle Basis für die Immobilieninvestitionen zu schaffen und eine optimale Rendite zu
+                    gewährleisten. <br><br>
+
+                    Mit unserem Geschäftsfeld Investment Management erbringen wir somit eine eine Bandbreite von
+                    Dienstleistungen, die darauf abzielen, den langfristigen Wert der Immobilien zu steigern, die
+                    Rentabilität zu maximieren und Risiken zu minimieren.
+
+                </p>
+            </div>
+
+            <div class="InvestmentManagement-subcontainer5">
+                <h1>Überblick unserer Leistungen und Ablauf:</h1><br>
+                <div class="InvestmentManagement image-container5">
+                    <button class="img-button" onclick="popup('/Bilder/Leistungen_Investment.png')">
+                        <img src="{{ url_for('static', filename='/Bilder/Leistungen_Investment.png') }}" alt="InvestmentManagement Leistungen">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

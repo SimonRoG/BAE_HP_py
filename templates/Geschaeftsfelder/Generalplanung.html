@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAE GROUP</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='BAE.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='Logo/Rauten BAE.png') }}" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="{{ url_for('static', filename='BAE.js')}}"></script>
+</head>
+
+<body>
+    {% include menu_bar %}
+    
+    <div class="Generalplanung Bild"></div>
+    <div id="Generalplanung" class="ContainerGeneralplanung">
+        <h2>Generalplanung.</h2>
+        <div class="Generalplanung-container">
+            <div class="Generalplanung-subcontainer1">
+                <p> Mit unserem Geschäftsfeld der Generalplanung verfolgen wir einen umfassenden Ansatz, der die
+                    Koordination und Integration aller planerischen und bautechnischen Aspekte eines Bauprojekts
+                    durch einen einzigen Generalplaner umfasst. Ziel ist es, den gesamten Planungs- und Bauprozess
+                    zu optimieren, indem eine zentrale Anlaufstelle für alle Belange geschaffen wird. <br><br>
+
+                    Ein wesentlicher Vorteil der Beauftragung eines Generalplaners für Eigentümer und Investoren
+                    besteht in der Effizienz und der besseren Koordination des Bauprojekts. Da der Generalplaner als
+                    Verantwortlicher für sämtliche Planungs- und Bauprozesse fungiert, werden mögliche
+                    Schnittstellenprobleme zwischen verschiedenen Gewerken minimiert. Dies trägt dazu bei, Zeit- und
+                    Ressourcenverschwendung zu vermeiden. <br><br>
+
+                    Des Weiteren ermöglicht die Generalplanung eine ganzheitliche Betrachtung des Projekts. Der
+                    Generalplaner koordiniert nicht nur die Architektur, sondern auch die technischen,
+                    bauphysikalischen, ökonomischen und zeitlichen Aspekte. Dadurch kann eine optimale Abstimmung
+                    zwischen den verschiedenen Anforderungen und Bedürfnissen sichergestellt werden.
+                </p>
+            </div>
+
+            <div class="Generalplanung-subcontainer3">
+                <p>
+                    Eigentümer und Investoren profitieren außerdem von der Risikominimierung, da der Generalplaner
+                    für die Einhaltung von Vorschriften und Qualitätsstandards verantwortlich ist. Durch die
+                    zentrale Koordination kann er frühzeitig potenzielle Probleme erkennen und Gegenmaßnahmen
+                    ergreifen, was letztendlich zu einer höheren Bauqualität führt.Ein weiterer finanzieller Vorteil
+                    für Eigentümer und Investoren liegt darin, dass die Generalplanung oft zu Kostenersparnissen
+                    führen kann. Durch die Bündelung der verschiedenen Planungs- und Bauprozesse kann eine
+                    effizientere Nutzung von Ressourcen erreicht werden. Dies kann sich positiv auf das Budget des
+                    Projekts auswirken.<br><br>
+
+                    Mit unseren Leistungen im Rahmen der Generalplanung bieten wir eine ganzheitliche und effiziente
+                    Herangehensweise an Bauprojekte. Eigentümer und Investoren profitieren von einer reduzierten
+                    Komplexität, einer höheren Bauqualität und einer besseren Kontrolle über den gesamten
+                    Bauprozess. Unser Team besteht aus den Fachdisziplinen Architektur, Technische
+                    Gebäudeausrüstung, Statik, Informatik und immobilienorientierte Betriebswirtschaftslehre. Die
+                    Integration dieser Fachdisziplinen in einem Generalplanungsteam erlaubt uns eine holistische
+                    Herangehensweise an Bauprojekte. Die Synergieeffekte zwischen Architektur, TGA, Statik,
+                    Informatik und immobilienorientierter Betriebswirtschaftslehre führen zu einer umfassenden
+                    Planung und Realisierung von Gebäuden, die sowohl funktional als auch wirtschaftlich optimiert
+                    sind. Dies trägt dazu bei, die Komplexität zu reduzieren, Risiken zu minimieren und die Qualität
+                    des Bauvorhabens zu steigern.
+                </p>
+            </div>
+
+            <div class="Generalplanung-subcontainer2">
+                <h1>Überblick unserer Leistungen:</h1><br>
+                <div class="Generalplanung image-container">
+                    <button class="img-button" onclick="popup('/Bilder/Leistungen_Generalplanung.png')">
+                        <img src="{{ url_for('static', filename='/Bilder/Leistungen_Generalplanung.png') }}" alt="Projektmanagement Leistungen">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

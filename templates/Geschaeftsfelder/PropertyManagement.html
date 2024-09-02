@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAE GROUP</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='BAE.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='Logo/Rauten BAE.png') }}" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="{{ url_for('static', filename='BAE.js')}}"></script>
+</head>
+
+<body>
+    {% include menu_bar %}
+    
+    <div class="PropertyManagement Bild"></div>
+    <div id="PropertyManagement" class="ContainerPropertyManagement">
+        <h2>Property Management.</h2>
+
+        <div class="PropertyManagement-container">
+
+
+            <div class="PropertyManagement-subcontainer0">
+                <p> Wir bieten mit unserem Geschäftsfeld Property Management sowohl das kaufmännische- als auch
+                    technische Property Management an. Nach unserer Ansicht ist das kaufmännische und technische
+                    Property Management in Gebäuden zwei wesentliche Aspekte der ganzheitlichen
+                    Immobilienverwaltung.<br><br>
+
+                    Das kaufmännische Property Management konzentriert sich auf die finanzielle und administrative
+                    Seite der Gebäudebewirtschaftung. Hierbei geht es um die Verwaltung von Mietverträgen, die
+                    Erhebung von Mietzahlungen, die Budgetierung von Betriebskosten, das Management von
+                    Serviceverträgen und die Kommunikation mit Mietern. Das Ziel besteht darin, sicherzustellen,
+                    dass die finanziellen Abläufe reibungslos funktionieren, Mieteinnahmen maximiert und
+                    Betriebskosten effizient verwaltet werden. Die Abgrenzung zum Asset Management liegt darin, dass
+                    das kaufmännische Property Management eher auf die kurzfristigen finanziellen Belange fokussiert
+                    ist und weniger strategische Entscheidungen über den gesamten Lebenszyklus der Vermögenswerte
+                    trifft. <br>
+                </p>
+            </div>
+
+
+            <div class="PropertyManagement-subcontainer2">
+                <p>Im Gegensatz dazu liegt der Schwerpunkt des technischen Property Managements auf der physischen
+                    Instandhaltung und Optimierung von Gebäuden. Dies umfasst die Wartung technischer Anlagen,
+                    Reparaturen, Inspektionen und die Umsetzung von Modernisierungsmaßnahmen. Das technische
+                    Property Management zielt darauf ab, die Lebensdauer der Gebäudeinfrastruktur zu verlängern, die
+                    Betriebszuverlässigkeit sicherzustellen und den technischen Standard aufrechtzuerhalten. Auch
+                    hier ist die Abgrenzung zum Asset Management erkennbar, da das technische Property Management
+                    auf die unmittelbare physische Bewirtschaftung fokussiert ist und weniger auf strategische,
+                    finanzielle Entscheidungen abzielt.
+                </p>
+            </div>
+
+            <div class="PropertyManagement-subcontainer4">
+                <p>
+
+                    Der Vorteil des kaufmännischen Property Management liegt in der effizienten Finanzverwaltung und
+                    Budgetierung, die Optimierung von Mieteinnahmen und Betriebskosten sowie die Schaffung von
+                    Zufriedenheit und Bindung von Mietern durch professionelles Mietermanagement. Das technische
+                    Property Management hat den Vorteil, dass eine Verlängerung der Lebensdauer der
+                    Gebäudeinfrastruktur, Minimierung von Ausfallzeiten und Betriebsstörungen und die Sicherstellung
+                    eines hohen technischen Standards aversiert wird. <br><br>
+
+                    Insgesamt tragen sowohl das kaufmännische als auch das technische Property Management dazu bei,
+                    die Werthaltigkeit von Gebäuden zu erhalten und den Anforderungen von Mietern gerecht zu werden.
+                    Mit unserem Geschäftsfeld Property Management bieten wir zahlreiche Leistungen, um die
+                    Werthaltigkeit von Gebäuden zu halten und weiter zu optimieren.
+                </p>
+            </div>
+
+
+            <div class="PropertyManagement-subcontainer5">
+                <h1>Überblick unserer Leistungen:</h1><br>
+                <div class="PropertyManagement image-container5">
+                    <button class="img-button" onclick="popup('/Bilder/Leistungen_Property_Management.png')">
+                        <img src="{{ url_for('static', filename='/Bilder/Leistungen_Property_Management.png') }}" alt="PropertyManagement Leistungen">
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="BAE.css">
+    <link rel="icon" href="Logo/Rauten BAE.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>BAE GROUP</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+
+<body>
+
+
+    
+    <copyright-bae></copyright-bae>
+
+
+    <!-- Hier ist die Hauptseite-->
+    <div class="Hauptseite">
+
+
+        <!-- Hier ist der Container für die Texte -->
+
+        <!-- Desktop Navigation Menu -->
+        <menu-bar></menu-bar>
+
+        <!-- Cookie Banner -->
+        <div id="cookieBanner" class="cookieBanner">
+            <div class="cookie-content">
+                <p><b>Cookies</b></p>
+                <p>Mit Klick auf den Button Akzeptieren erlauben Sie uns, Ihnen ein optimales Webseiten-Erlebnis und
+                    einfache Einkaufsprozesse zu bieten. Dazu zählen Cookies, die für den Betrieb der Seite und für die
+                    Steuerung unserer Dienstleistungen und Anwendungen notwendig sind, sowie solche, die lediglich zu
+                    Statistikzwecken, für Komforteinstellungen oder zur Anzeige personalisierter Inhalte genutzt werden.
+                    Sie können selbst entscheiden, welche Kategorien Sie zulassen möchten und die Einstellungen zur
+                    Datennutzung individuell anpassen. Bitte beachten Sie, dass auf Basis Ihrer Einstellungen womöglich
+                    nicht alle Funktionalitäten der Seite zur Verfügung stehen. Diese Entscheidung können Sie natürlich
+                    jederzeit anpassen</p><br>
+                <a href="#impressum" class="impressum">Impressum</a>
+                <a href="#datenschutz" class="datenschutz">Datenschutz</a><br>
+
+                <div class="cookie-options">
+                    <label><input type="radio" name="cookiePreference" value="all" checked> Alle Cookies</label>
+                    <label><input type="radio" name="cookiePreference" value="necessary"> Notwendige Cookies</label>
+                </div>
+                <div class="cookie-buttons">
+                    <button id="acceptCookiesBtn">Akzeptieren</button>
+                    <button id="showCookieSettingsBtn">Cookie Einstellungen</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cookie Settings Modal -->
+        <div id="cookieSettingsModal" class="cookieSettingsModal">
+            <div class="modal-content">
+                <span class="close" id="closeCookieSettingsModalBtn">&times;</span>
+                <h2>Cookie Einstellungen</h2>
+                <p> Hier können Sie Ihre persönlichen Cookie-Präferenzen verwalten.Wählen Sie aus, welche Arten von
+                    Cookies Sie zulassen möchten.<br><br>
+                    <b>Notwendige Cookies: </b> Notwendige Cookies: Diese Cookies sind für die grundlegende
+                    Funktionalität der Webseite erforderlich und können nicht deaktiviert werden. Sie gewährleisten die
+                    Kernfunktionen und Sicherheitsmerkmale der Seite. <br><br>
+                    <b>Analytics-Cookies:</b> Diese Cookies ermöglichen es uns, das Nutzungsverhalten auf unserer
+                    Webseite zu analysieren und die Leistung zu messen. Sie dienen dazu, unsere Angebote stetig zu
+                    verbessern und auf Ihre Bedürfnisse anzupassen.<br><br>
+                    <b>Marketing-Cookies:</b> Wir verwenden Marketing-Cookies, um Ihnen personalisierte Werbung zu
+                    zeigen, die Ihren Interessen entspricht. Dadurch können wir Ihnen relevantere Werbung präsentieren
+                    und Ihr Internet-Erlebnis verbessern.
+
+                </p>
+                <div class="cookie-options">
+                    <label><input type="checkbox" name="analytics"> Analytics Cookies</label>
+                    <label><input type="checkbox" name="marketing"> Marketing Cookies</label>
+                </div>
+                <div class="cookie-buttons">
+                    <button id="saveCookieSettingsBtn">Einstellungen speichern</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="leistungen" class="ContainerLeistungen">
+            <h1>Geschäftsfelder.</h1>
+
+            <div class="geschaeftsfelder-container">
+
+                <div class="geschaeftsfeld">
+                    <a href=#TGA>
+                        <img src="Bilder/Gebäudetechnik.jpg" alt="Technische Gebäudeausrüstung">
+                        <p>Technische Gebäudeausrüstung</p>
+                    </a>
+                </div>
+
+                <div class="geschaeftsfeld">
+                    <a href=#Contracting>
+                        <img src="Bilder/Contracting.jpg" alt="Contracting">
+                        <p>Contracting</p>
+                    </a>
+                </div>
+
+                <div class="geschaeftsfeld">
+                    <a href=#Projektmanagement>
+                        <img src="Bilder/Projektmanagement.jpg" alt="Projektmanagement.jpg">
+                        <p>Projekt Management</p>
+                    </a>
+                </div>
+
+                <div class="geschaeftsfeld">
+                    <a href=#DigitalSolutions>
+                        <img src="Bilder/Digital Soluation.jpg" alt="Digital Soluation">
+                        <p>Digital Solutions</p>
+                    </a>
+                </div>
+
+
+                <div class="geschaeftsfeld">
+                    <a href=#AssetManagement>
+                        <img src="Bilder/Assetmanagement.jpg" alt="Assetmanagement.jpg">
+                        <p>Asset Management</p>
+                    </a>
+                </div>
+
+                <div class="geschaeftsfeld">
+                    <a href=#PropertyManagement>
+                        <img src="Bilder/Propertymanagement.jpeg" alt="Propertymanagement">
+                        <p>Property Management</p>
+                    </a>
+                </div>
+
+                <div class="geschaeftsfeld">
+                    <a href=#Generalplanung>
+                        <img src="Bilder/Generalplanung.jpg" alt="Generalplanung">
+                        <p>Generalplanung</p>
+                    </a>
+                </div>
+
+                <div class="geschaeftsfeld">
+                    <a href=#InvestmentManagement>
+                        <img src="Bilder/Investmentmanagement.jpeg" alt="Investmentmanagement">
+                        <p>Investment Management</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="TGA" class="ContainerTGA">
+            <h2>Technische Gebäudeausrüstung.</h2>
+            <div class="TGA-container">
+                <div class="TGA-subcontainer1">
+                    <p>Gebäude ohne Technik ist wie der menschliche Körper ohne seine Blutbahnen und Muskeln: Nicht
+                        überlebensfähig. <br>
+                        Die Technik in Gebäuden sind die Blutbahnen und Muskeln einer jeden Immobilie. Sie
+                        gewährleistet, dass Immobilien nutzbar sind. Sie umfasst alle technische Systeme die für den
+                        Betrieb und das Wohlbefinden innerhalb eines Gebäudes unerlässlich sind. Diese Systeme
+                        gewährleisten nicht nur den reibungslosen Ablauf des täglichen Lebens, sondern tragen auch
+                        maßgeblich zur Effizienz, Sicherheit und Umweltfreundlichkeit von Gebäuden bei.<br><br>
+                        Die Technische Gebäudeausrüstung nimmt heute eine zentrale Rolle bei der Entwicklung und
+                        Sanierung von Gebäuden ein. Während früher nur die Lage und das Design des Gebäudes entscheidend
+                        waren, ist heute die Gebäudetechnik im Kontext der Nachhaltigkeit eine weitere zentrale Säule
+                        bei der Gestaltung zeitgemäßer Gebäude. Eine nachhaltige Gebäudetechnik gewährleistet die
+                        Energieeffizienz von Gebäuden und damit geringe Nebenkosten. Denn Energie ist teuer geworden.
+                        <br> <br>
+                        Mit unserem Geschäftsfeld der Technischen Gebäudeausrüstung erbringen wir sämtliche
+                        Ingenieursdienstleistungen in Bezug auf die Technische Gebäudeausrüstung. Wir legen dabei hohen
+                        Wert auf die Energieeffizienz von Gebäuden, dass ein Teil unseres Selbstverständnisses und
+                        Anspruchs als Ingenieure ist.
+                    </p>
+                </div>
+                <div class="TGA-subcontainer2">
+                    <h1>Überblick der Leistungen:</h1><br>
+                    <p class="list-item">Planung und Überwachung sämtlicher Leistungsphasen und aller Anlagengruppen
+                        gemäß HOAI:</p>
+                    <p class="sublist">Sanitärtechnik</p>
+                    <p class="sublist">Heizungstechnik</p>
+                    <p class="sublist">Lüftungs- und Klimatechnik</p>
+                    <p class="sublist">Starkstrom</p>
+                    <p class="sublist">Schwachstrom</p>
+                    <p class="sublist">Nutzungsspezifische Anlagen (Sprinklertechnik und ähnlich)</p>
+                    <p class="sublist">Gebäudeautomation</p>
+                    <p class="sublist">Sonstige Maßnahmen für technische Anlagen</p>
+
+                    <p class="list-item">Machbarkeitsstudien</p>
+                    <p class="list-item">Simulationen</p>
+                    <p class="list-item">Energetische Optimierungen</p>
+                    <p class="list-item">Bestandsaufnahme und -Analyse</p>
+                    <p class="list-item">Retro-Fit von Anlagentechnik</p>
+                    <p class="list-item">Technischen Due Diligence</p>
+                    <p class="list-item">ESG-Beratung</p>
+                </div>
+                <div class="TGA-subcontainer2">
+                    <div class="TGA image-container">
+                        <button class="img-button" onclick="popup('Bilder/3DModellTGA.png')">
+                            <img src="Bilder/3DModellTGA.png" alt="3D-Modell TGA">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="Contracting" class="ContainerContracting">
+            <h2>Contracting.</h2>
+            <div class="Contracting-container">
+                <div class="Contracting-subcontainer0">
+                    <p>Energiecontracting, auch als Energiedienstleistung oder Energieliefercontracting bekannt, ist ein
+                        effektives Instrument zur Steigerung der Energieeffizienz in Gebäuden. Bei diesem Ansatz
+                        übernimmt ein externer Dienstleister, der sogenannte Contractor, die Planung, Finanzierung,
+                        Umsetzung und den Betrieb von Energieeffizienzmaßnahmen. Im Gegenzug erhält der Contractor eine
+                        vertraglich festgelegte Vergütung, die sich häufig aus den eingesparten Energiekosten ergibt.
+                        <br><br>
+
+                        Als erfahrener Partner im Bereich Energiecontracting bieten wir mit unserem Geschäftsfeld
+                        Energie-Contracting umfassende Dienstleistungen, von der Analyse der Energieeffizienzpotenziale
+                        bis zur langfristigen Betreuung der installierten Systeme. Wir entwickeln maßgeschneiderte
+                        Lösungen, die nicht nur wirtschaftlich, sondern auch ökologisch nachhaltig sind.
+                    </p>
+                </div>
+
+                <div class="Contracting-subcontainer2">
+                    <h1>Überblick unserer Leistungen und Ablauf:</h1><br>
+                    <div class="Contracting image-container">
+                        <button class="img-button" onclick="popup('Bilder/Contracting_Ablauf.png')">
+                            <img src="Bilder/Contracting_Ablauf.png" alt="Contracting Ablauf">
+                        </button>
+                    </div>
+
+                    <div class="Contracting-subcontainer3">
+                        <br>
+
+                        <p> Für Eigentümer, Bauherren und Verwalter ergeben sich zahlreiche Vorteile durch
+                            Energiecontracting:</p>
+
+                        <p class="list-item">Der Gebäudeeigner/Auftraggeber muss keine eigenen Finanzmittel einsetzen,
+                            das eigene Investitionsrisiko wird damit ausgelagert.</p>
+                        <p class="list-item">Durch die Modernisierung von Anlagen wird die Energieeffizienz und damit
+                            auch die Betriebs- und Versorgungssicherheit erhöht, Energiekosten und Umweltbelastung
+                            sinken. Institutionell gesteckte Klimaschutzziele werden durch das ESC unterstützt.</p>
+                        <p class="list-item">Dazu wird das technische Know-how und das professionelle Energiemanagement
+                            der Contractoren genutzt.</p>
+                        <p class="list-item">Der Gebäudeeigner/Auftraggeber wird von wesentlichen Planungs- und
+                            Betriebsaufgaben entlastet. Es bleibt mehr Zeit für die eigenen Kernaufgaben.</p>
+                        <p class="list-item">Der Wert, die Produktivität und der Komfort eines Gebäudes (oder einer
+                            Anlage) werden gesteigert.</p>
+                        <p class="list-item">Viele Einzelbereiche (Planung, Finanzierung, Bau, Betrieb, Instandhaltung)
+                            werden aus einer Hand abgedeckt. So ist eine deutliche Reduktion der Schnittstellen
+                            realisierbar</p>
+                        <p class="list-item">Zusätzliche Leistungen wie z. B. Nutzermotivation, Schulungsmaßnahmen
+                            können vertraglich vereinbart werden.</p>
+
+                        <p>Das herausragende Qualitätsmerkmal des ESC ist insbesondere die Wertschätzung der
+                            Einspargarantie und ist herauszuheben. Sie bildet den wesentlichen Zusatznuten zu Lösungen
+                            in Eigenregie.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="Projektmanagement" class="ContainerProjektmanagement">
+            <h2>Projekt Management.</h2>
+            <div class="Projektmanagement-container">
+                <div class="Projektmanagement-subcontainer1">
+                    <p>Projektmanagement im Bauwesen spielt eine entscheidende Rolle, um komplexe Bauprojekte
+                        erfolgreich zu planen, koordinieren und abschließen. Es ist wie die Komposition eines
+                        Orchesters, bei dem verschiedene Fachleute zusammenkommen, um harmonisch an einem gemeinsamen
+                        Ziel zu arbeiten – in diesem Fall, das Errichten eines Gebäudes.<br><br>
+
+                        Der Dirigent in einem Orchester ist vergleichbar mit dem Projektmanager im Bauwesen. Beide
+                        spielen eine zentrale Rolle bei der Koordination und Führung des Teams. Der Dirigent gibt den
+                        Takt an und sorgt dafür, dass jeder Musiker zur richtigen Zeit und im richtigen Tempo spielt.
+                        Ähnlich leitet der Projektmanager das Bauprojekt, indem er sicherstellt, dass alle Beteiligten
+                        aufeinander abgestimmt sind und ihre Aufgaben koordiniert ausführen.
+                        Die Musiker im Orchester repräsentieren die verschiedenen Bauexperten, darunter Architekten,
+                        Ingenieure, Handwerker und andere Spezialisten. Jeder Musiker bringt sein eigenes Können und
+                        Fachwissen ein, genau wie die Bauexperten ihre einzigartigen Fähigkeiten zur Umsetzung des
+                        Bauprojekts beitragen.<br><br>
+                    </p>
+                </div>
+
+                <div class="Projektmanagement-subcontainer3">
+                    <p>
+                        Das Bauwesen erfordert eine reibungsloses Zusammenarbeiten der Beteiligten, um ein erfolgreiches
+                        Projekt zu gewährleisten. Das Projektmanagement spielt dabei die Rolle, sicherzustellen, dass
+                        die verschiedenen Fachleute effektiv zusammenarbeiten und ihre individuellen Fähigkeiten
+                        harmonisch integriert werden. In der Regel werden diese Aufgaben auf Bauherrenseite als
+                        Vertreter der Eigentümerinteressen angesiedelt. Unser Geschäftsfeld des Projektmanagement setzt
+                        hier an. Wir erbringen sämtliche Aufgaben rund um das bauherrenseitige
+                        Projektmanagement.<br><br>
+                    </p>
+                </div>
+
+                <div class="Contracting-subcontainer2">
+                    <h1>Überblick unserer Leistungen und Ablauf:</h1><br>
+                    <div class="Contracting image-container">
+                        <button class="img-button" onclick="popup('Bilder/Leistungen_Projektmanagement.png')">
+                            <img src="Bilder/Leistungen_Projektmanagement.png" alt="Projektmanagement Leistungen">
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="DigitalSolutions" class="ContainerDigitalSolutions">
+            <h2>Digital Solutions.</h2>
+
+            <div class="DigitalSolutions-container">
+
+                <div class="DigitalSolutions-subcontainer0">
+                    <p>Die Integration digitaler Dienste und Software in Gebäuden spielt bereits heute eine
+                        entscheidende Rolle und prägt die Art und Weise, wie wir Gebäude entwerfen, bauen und nutzen.
+                        Ähnlich der Revolution im Automobilsektor, bei dem Sensoren, Aktorik und digitale Dienste zum
+                        Standard gehören, werden auch in Gebäuden vermehrt auf diese Technologien gesetzt, um ihre
+                        Funktionalität, Effizienz und Nutzererfahrung zu optimieren.<br><br>
+
+                        Die Bedeutung von Software Engineering und Apps kommt besonders in der Benutzerfreundlichkeit
+                        von Gebäuden zum Tragen. Durch maßgeschneiderte Apps können Nutzer personalisierte Einstellungen
+                        für Raumtemperatur, Beleuchtung und andere Umgebungsbedingungen vornehmen. Diese Apps,
+                        integriert in das Gebäudemanagementsystem, passen sich automatisch an die individuellen
+                        Vorlieben und Gewohnheiten der Gebäudenutzer an, was nicht nur den Komfort steigert, sondern
+                        auch die Effizienz durch die Anpassung an die Bedürfnisse der Bewohner verbessert. Die
+                        Sicherheit von Gebäuden wird durch fortschrittliche Softwarelösungen gestärkt, wie biometrische
+                        Zugangskontrollen, Überwachungskameras, intelligente Alarmsysteme und die Analyse von
+                        Bewegungsmustern. Diese digitalen Dienste tragen dazu bei, die Sicherheit von Gebäuden zu
+                        erhöhen und unerwünschten Zugriff zu verhindern.<br>
+                    </p>
+                </div>
+
+
+                <div class="DigitalSolutions-subcontainer3">
+                    <p>
+                        In der Vernetzung von Gebäuden wird nicht nur das Gebäude selbst betrachtet, sondern auch die
+                        umliegende Infrastruktur einbezogen. Hierbei spielt die Entwicklung von Softwarelösungen und
+                        APPS eine Schlüsselrolle, um die reibungslose Interaktion und Kommunikation zwischen den
+                        verschiedenen Subsystemen sicherzustellen. Durch die Verknüpfung von klassischen Betriebsdaten
+                        mit Informationen aus verschiedenen Subsystemen eröffnen sich neue Möglichkeiten, um umfassende
+                        Einblicke zu gewinnen und effizientere Gebäudesysteme zu gestalten. Der eigentliche Mehrwert
+                        liegt jedoch in der Entwicklung neuer digitaler Dienste. Die umfassende Analyse der kombinierten
+                        Daten ermöglicht die Schaffung innovativer Lösungen, sei es in Form von personalisierten
+                        Nutzererlebnissen, automatischer Energieoptimierung oder intelligenten Raumplanungskonzepten.
+                        Digitale Dienste setzen auf die Datenverfügbarkeit innerhalb- und außerhalb des Gebäudes auf.
+                        Die Daten eines Gebäudes sind ein Asset. Über die Digitalen Dienste können die Daten zusätzliche
+                        Erträge generiert werden. Daten und Digitale Dienste können damit den Wert eines Gebäudes
+                        maßgeblich beeinflussen.
+                    </p>
+                </div>
+                <div class="DigitalSolutions-subcontainer3">
+                    <div class="DigitalSolutions image-container3">
+                        <button class="img-button" onclick="popup('Bilder/Grafik_DatenalsAsset.png')">
+                            <img src="Bilder/Grafik_DatenalsAsset.png" alt="3D-Modell TGA">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="DigitalSolutions-subcontainer4">
+                    <p>
+
+                        Die Einbindung von künstlicher Intelligenz (KI) und maschinellem Lernen spielt eine zentrale
+                        Rolle in der Gebäudeautomatisierung. Diese Technologien identifizieren Muster im
+                        Energieverbrauch, ermöglichen vorausschauende Wartung und optimieren kontinuierlich das
+                        Gebäudemanagement. Durch die Schaffung digitaler Zwillinge von Gebäuden können virtuelle Modelle
+                        in Echtzeit mit den physischen Gebäuden synchronisiert werden. Dies erleichtert das Monitoring,
+                        die Wartung und die Simulation von Veränderungen, bevor sie physisch umgesetzt werden. <br><br>
+
+                        Mit unserem Geschäftsfeld Digital Solutions bieten wir umfangreiche Leistungen im Bereich der
+                        Beratung und Entwicklung von gebäudenahen APPS, Software- und Webentwicklung an.
+                    </p>
+                </div>
+
+
+                <div class="DigitalSolutions-subcontainer5">
+                    <h1>Überblick unserer Leistungen:</h1><br>
+                    <div class="DigitalSolutions image-container5">
+                        <button class="img-button" onclick="popup('Bilder/Leistungen_DigitalSolutions.png')">
+                            <img src="Bilder/Leistungen_DigitalSolutions.png" alt="Contracting Ablauf">
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="AssetManagement" class="ContainerAssetManagement">
+            <h2>Asset Management.</h2>
+
+            <div class="AssetManagement-container">
+
+                <div class="AssetManagement-subcontainer1">
+                    <p>Das umfassende Management von Vermögenswerten in Gebäuden setzt sich aus zwei entscheidenden
+                        Komponenten zusammen: dem technischen Asset Management und dem kaufmännischen Asset Management.
+                        Das technische Asset Management konzentriert sich auf die strategische Pflege und Optimierung
+                        der physischen Ressourcen im Gebäude, während das kaufmännische Asset Management die finanzielle
+                        Dimension dieser Vermögenswerte in den Fokus rückt.<br><br>
+
+                        Im technischen Bereich geht es darum, den Lebenszyklus von Gebäudeanlagen und -systemen
+                        effizient zu planen und zu überwachen. Hierbei spielen regelmäßige Inspektionen, Wartungen und
+                        gezielte Modernisierungsmaßnahmen eine zentrale Rolle, um die Zuverlässigkeit und
+                        Leistungsfähigkeit der technischen Infrastruktur sicherzustellen. Dies trägt nicht nur zur
+                        Verlängerung der Lebensdauer der Anlagen bei, sondern minimiert auch unvorhergesehene
+                        Ausfallzeiten und senkt langfristig die Instandhaltungskosten.<br><br>
+
+                        Parallel dazu steht das kaufmännische Asset Management, das die finanzielle Seite der
+                        Vermögenswerte abdeckt. Budgetierung und Finanzplanung sind hierbei von zentraler Bedeutung, um
+                        eine strategische Allokation finanzieller Ressourcen über den gesamten Lebenszyklus der Anlagen
+                        zu ermöglichen. Durch Risikomanagement werden finanzielle Unsicherheiten identifiziert und
+                        minimiert, während Wertsteigerung und Renditeoptimierung darauf abzielen, den ökonomischen
+                        Nutzen der Investitionen zu maximieren.
+                    </p>
+                </div>
+
+                <div class="AssetManagement-subcontainer3">
+                    <p>
+                        Die Verbindung zwischen technischem und kaufmännischem Asset Management ist essenziell, um einen
+                        ganzheitlichen Ansatz zu gewährleisten. Effektive Planung und Umsetzung von technischen
+                        Maßnahmen beeinflussen unmittelbar die langfristige finanzielle Performance eines Gebäudes.
+                        Beispielsweise können gezielte Modernisierungen durch das technische Asset Management nicht nur
+                        die Energieeffizienz verbessern, sondern auch langfristig Betriebskosten senken, was sich
+                        positiv auf die finanzielle Rentabilität auswirkt.
+                        Umgekehrt ermöglicht das kaufmännische Asset Management eine fundierte Grundlage für die
+                        Priorisierung von technischen Maßnahmen. Budgetierungen basieren auf den Erfordernissen der
+                        technischen Infrastruktur, und finanzielle Analysen unterstützen die Entscheidungsfindung
+                        hinsichtlich Investitionen in Wartung, Modernisierung oder neue Technologien.<br> <br>
+
+                        Mit unserem Geschäftsfeld Asset Management bieten wir alle Aspekte des kaufmännischen- als auch
+                        des technischen Asset Management an. Nach unserer Ansicht kann nur eine harmonische Verbindung
+                        beider Aspekte eine grundlegende Voraussetzung für eine effiziente, nachhaltige Bewirtschaftung
+                        von Gebäuden. Durch die Integration von technischem und kaufmännischem Asset Management können
+                        Eigentümer und Betreiber die Lebensdauer ihrer Vermögenswerte verlängern, Betriebskosten
+                        minimieren und gleichzeitig den wirtschaftlichen Erfolg ihrer Investitionen sicherstellen.
+                    </p>
+                </div>
+
+                <div class="AssetManagement-subcontainer2">
+                    <h1>Überblick unserer Leistungen:</h1><br>
+                    <div class="AssetManagement image-container">
+                        <button class="img-button" onclick="popup('Bilder/Leistungen_Assetmanagement.png')">
+                            <img src="Bilder/Leistungen_Assetmanagement.png" alt="Projektmanagement Leistungen">
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="PropertyManagement" class="ContainerPropertyManagement">
+            <h2>Property Management.</h2>
+
+            <div class="PropertyManagement-container">
+
+
+                <div class="PropertyManagement-subcontainer0">
+                    <p> Wir bieten mit unserem Geschäftsfeld Property Management sowohl das kaufmännische- als auch
+                        technische Property Management an. Nach unserer Ansicht ist das kaufmännische und technische
+                        Property Management in Gebäuden zwei wesentliche Aspekte der ganzheitlichen
+                        Immobilienverwaltung.<br><br>
+
+                        Das kaufmännische Property Management konzentriert sich auf die finanzielle und administrative
+                        Seite der Gebäudebewirtschaftung. Hierbei geht es um die Verwaltung von Mietverträgen, die
+                        Erhebung von Mietzahlungen, die Budgetierung von Betriebskosten, das Management von
+                        Serviceverträgen und die Kommunikation mit Mietern. Das Ziel besteht darin, sicherzustellen,
+                        dass die finanziellen Abläufe reibungslos funktionieren, Mieteinnahmen maximiert und
+                        Betriebskosten effizient verwaltet werden. Die Abgrenzung zum Asset Management liegt darin, dass
+                        das kaufmännische Property Management eher auf die kurzfristigen finanziellen Belange fokussiert
+                        ist und weniger strategische Entscheidungen über den gesamten Lebenszyklus der Vermögenswerte
+                        trifft. <br>
+                    </p>
+                </div>
+
+
+                <div class="PropertyManagement-subcontainer2">
+                    <p>Im Gegensatz dazu liegt der Schwerpunkt des technischen Property Managements auf der physischen
+                        Instandhaltung und Optimierung von Gebäuden. Dies umfasst die Wartung technischer Anlagen,
+                        Reparaturen, Inspektionen und die Umsetzung von Modernisierungsmaßnahmen. Das technische
+                        Property Management zielt darauf ab, die Lebensdauer der Gebäudeinfrastruktur zu verlängern, die
+                        Betriebszuverlässigkeit sicherzustellen und den technischen Standard aufrechtzuerhalten. Auch
+                        hier ist die Abgrenzung zum Asset Management erkennbar, da das technische Property Management
+                        auf die unmittelbare physische Bewirtschaftung fokussiert ist und weniger auf strategische,
+                        finanzielle Entscheidungen abzielt.
+                    </p>
+                </div>
+
+                <div class="PropertyManagement-subcontainer4">
+                    <p>
+
+                        Der Vorteil des kaufmännischen Property Management liegt in der effizienten Finanzverwaltung und
+                        Budgetierung, die Optimierung von Mieteinnahmen und Betriebskosten sowie die Schaffung von
+                        Zufriedenheit und Bindung von Mietern durch professionelles Mietermanagement. Das technische
+                        Property Management hat den Vorteil, dass eine Verlängerung der Lebensdauer der
+                        Gebäudeinfrastruktur, Minimierung von Ausfallzeiten und Betriebsstörungen und die Sicherstellung
+                        eines hohen technischen Standards aversiert wird. <br><br>
+
+                        Insgesamt tragen sowohl das kaufmännische als auch das technische Property Management dazu bei,
+                        die Werthaltigkeit von Gebäuden zu erhalten und den Anforderungen von Mietern gerecht zu werden.
+                        Mit unserem Geschäftsfeld Property Management bieten wir zahlreiche Leistungen, um die
+                        Werthaltigkeit von Gebäuden zu halten und weiter zu optimieren.
+                    </p>
+                </div>
+
+
+                <div class="PropertyManagement-subcontainer5">
+                    <h1>Überblick unserer Leistungen:</h1><br>
+                    <div class="PropertyManagement image-container5">
+                        <button class="img-button" onclick="popup('Bilder/Leistungen_Property_Management.png')">
+                            <img src="Bilder/Leistungen_Property_Management.png" alt="PropertyManagement Leistungen">
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div id="Generalplanung" class="ContainerGeneralplanung">
+            <h2>Generalplanung.</h2>
+
+            <div class="Generalplanung-container">
+
+                <div class="Generalplanung-subcontainer1">
+                    <p> Mit unserem Geschäftsfeld der Generalplanung verfolgen wir einen umfassenden Ansatz, der die
+                        Koordination und Integration aller planerischen und bautechnischen Aspekte eines Bauprojekts
+                        durch einen einzigen Generalplaner umfasst. Ziel ist es, den gesamten Planungs- und Bauprozess
+                        zu optimieren, indem eine zentrale Anlaufstelle für alle Belange geschaffen wird. <br><br>
+
+                        Ein wesentlicher Vorteil der Beauftragung eines Generalplaners für Eigentümer und Investoren
+                        besteht in der Effizienz und der besseren Koordination des Bauprojekts. Da der Generalplaner als
+                        Verantwortlicher für sämtliche Planungs- und Bauprozesse fungiert, werden mögliche
+                        Schnittstellenprobleme zwischen verschiedenen Gewerken minimiert. Dies trägt dazu bei, Zeit- und
+                        Ressourcenverschwendung zu vermeiden. <br><br>
+
+                        Des Weiteren ermöglicht die Generalplanung eine ganzheitliche Betrachtung des Projekts. Der
+                        Generalplaner koordiniert nicht nur die Architektur, sondern auch die technischen,
+                        bauphysikalischen, ökonomischen und zeitlichen Aspekte. Dadurch kann eine optimale Abstimmung
+                        zwischen den verschiedenen Anforderungen und Bedürfnissen sichergestellt werden.
+                    </p>
+                </div>
+
+                <div class="Generalplanung-subcontainer3">
+                    <p>
+                        Eigentümer und Investoren profitieren außerdem von der Risikominimierung, da der Generalplaner
+                        für die Einhaltung von Vorschriften und Qualitätsstandards verantwortlich ist. Durch die
+                        zentrale Koordination kann er frühzeitig potenzielle Probleme erkennen und Gegenmaßnahmen
+                        ergreifen, was letztendlich zu einer höheren Bauqualität führt.Ein weiterer finanzieller Vorteil
+                        für Eigentümer und Investoren liegt darin, dass die Generalplanung oft zu Kostenersparnissen
+                        führen kann. Durch die Bündelung der verschiedenen Planungs- und Bauprozesse kann eine
+                        effizientere Nutzung von Ressourcen erreicht werden. Dies kann sich positiv auf das Budget des
+                        Projekts auswirken.<br><br>
+
+                        Mit unseren Leistungen im Rahmen der Generalplanung bieten wir eine ganzheitliche und effiziente
+                        Herangehensweise an Bauprojekte. Eigentümer und Investoren profitieren von einer reduzierten
+                        Komplexität, einer höheren Bauqualität und einer besseren Kontrolle über den gesamten
+                        Bauprozess. Unser Team besteht aus den Fachdisziplinen Architektur, Technische
+                        Gebäudeausrüstung, Statik, Informatik und immobilienorientierte Betriebswirtschaftslehre. Die
+                        Integration dieser Fachdisziplinen in einem Generalplanungsteam erlaubt uns eine holistische
+                        Herangehensweise an Bauprojekte. Die Synergieeffekte zwischen Architektur, TGA, Statik,
+                        Informatik und immobilienorientierter Betriebswirtschaftslehre führen zu einer umfassenden
+                        Planung und Realisierung von Gebäuden, die sowohl funktional als auch wirtschaftlich optimiert
+                        sind. Dies trägt dazu bei, die Komplexität zu reduzieren, Risiken zu minimieren und die Qualität
+                        des Bauvorhabens zu steigern.
+                    </p>
+                </div>
+
+                <div class="Generalplanung-subcontainer2">
+                    <h1>Überblick unserer Leistungen:</h1><br>
+                    <div class="Generalplanung image-container">
+                        <button class="img-button" onclick="popup('Bilder/Leistungen_Generalplanung.png')">
+                            <img src="Bilder/Leistungen_Generalplanung.png" alt="Projektmanagement Leistungen">
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div id="InvestmentManagement" class="ContainerInvestmentManagement">
+            <h2>Investment Management.</h2>
+
+            <div class="InvestmentManagement-container">
+
+
+                <div class="InvestmentManagement-subcontainer0">
+                    <p> Wir betrachten das Investment Management im Bereich von Gebäuden als die umfassende Verwaltung
+                        von Immobilieninvestitionen mit dem Ziel, den langfristigen Wert und die Rentabilität der
+                        Gebäude zu maximieren. Diese Disziplin kombiniert strategische, finanzielle und operative
+                        Maßnahmen, um die Performance von Immobilienportfolios zu optimieren. Die Leistungen, die im
+                        Rahmen unseres Geschäftsfelds Investment Managements für Gebäude erbracht werden, sind
+                        vielfältig.<br>
+
+                        <br> Unsere Leistungen umfassen die Analyse und Bewertung von Immobilienportfolios, um eine
+                        fundierte Entscheidungsgrundlage für Ankaufs- und Verkaufsentscheidungen zu schaffen. Unser Team
+                        führt Due-Diligence-Prüfungen durch, um Risiken und Chancen zu identifizieren, und entwickelt
+                        darauf aufbauend Strategien zur Portfoliooptimierung. Im Rahmen des Vermietungsmanagement werden
+                        Strategien entwickelt, um eine maximale Auslastung der Gebäude zu erreichen, die Verhandlung von
+                        Mietverträgen und die kontinuierliche Optimierung der Mietpreise. Das Management pflegt auch
+                        Beziehungen zu Mietern und kümmert sich um Konfliktlösungen, um langfristige Mieterbindung zu
+                        gewährleisten.
+                    </p>
+                </div>
+
+
+                <div class="InvestmentManagement-subcontainer2">
+                    <p>
+                    </p>
+                </div>
+
+                <div class="InvestmentManagement-subcontainer4">
+                    <p>
+                        Die Betriebskostenoptimierung ist ein weiterer wesentlicher Bestandteil unserer Leistungen.
+                        Hierbei werden die Betriebskosten analysiert, um Effizienzpotenziale zu identifizieren. Durch
+                        die Implementierung von Maßnahmen zur Reduzierung von Betriebskosten wird die Rentabilität der
+                        Immobilien verbessert. Um den Wert der Gebäude zu steigern, plant und koordiniert das Investment
+                        Management Renovierungs- und Modernisierungsmaßnahmen. Dies beinhaltet die Entwicklung von
+                        Strategien zur Wertsteigerung und die Umsetzung von Maßnahmen zur Verbesserung der Attraktivität
+                        der Immobilien. <br>
+
+                        Ein weiterer Fokus unserer Leistungen in diesem Geschäftsfeld liegt auf dem Risikomanagement,
+                        bei dem potenzielle Risiken im Zusammenhang mit Immobilieninvestitionen identifiziert und
+                        bewertet werden. Das Team implementiert dann geeignete Strategien, um gegen diese Risiken
+                        abzusichern.<br><br>
+
+                        Finanzmanagement ist ein entscheidender Bereich unserer Geschäftsfeld, das Budgetierung, die
+                        finanzielle Planung und die Überwachung der Finanzkennzahlen umfasst. Ziel ist es, eine solide
+                        finanzielle Basis für die Immobilieninvestitionen zu schaffen und eine optimale Rendite zu
+                        gewährleisten. <br><br>
+
+                        Mit unserem Geschäftsfeld Investment Management erbringen wir somit eine eine Bandbreite von
+                        Dienstleistungen, die darauf abzielen, den langfristigen Wert der Immobilien zu steigern, die
+                        Rentabilität zu maximieren und Risiken zu minimieren.
+
+                    </p>
+                </div>
+
+
+                <div class="InvestmentManagement-subcontainer5">
+                    <h1>Überblick unserer Leistungen und Ablauf:</h1><br>
+                    <div class="InvestmentManagement image-container5">
+                        <button class="img-button" onclick="popup('Bilder/Leistungen_Investment.png')">
+                            <img src="Bilder/Leistungen_Investment.png" alt="InvestmentManagement Leistungen">
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+    </div>
+    </div>
+
+    <script src="BAE.js"></script>
+</body>
+
+</html>

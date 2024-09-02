@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/BAE.css">
+    <link rel="icon" href="/Logo/Rauten BAE.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>BAE GROUP</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="/BAE.js"></script>
+</head>
+
+<body>
+
+
+    <copyright-bae></copyright-bae>
+
+    <!-- Desktop Navigation Menu -->
+    <menu-bar></menu-bar>
+
+
+    <!-- Hier ist die Hauptseite-->
+    <div class="Hauptseite">
+
+        <div class="containerbildkarriere">
+
+            <h1>Career in the BAE GROUP.</h1>
+        </div>
+
+        <div class="karriere-container">
+            <h1>Ready to change the real estate world?</h1>
+        </div>
+
+        <div class="containerkarrierevorwort">
+            <p>
+                We shape the today and tomorrow of buildings -as BAE Group we look at the topic of real estate
+                holistic. Through our work on central topics, we are divided into eight strategic ones
+                Business areas: technical building equipment, contracting, project management, digital solutions, assets
+                Management, property management, general planning and investment management, we bring it all
+                building-related solutions under one roof.
+                We are looking for you!
+            </p>
+        </div>
+
+        <div class="benefits">
+            <h2><b>Here's why you should come to BAE:</b></h2>
+            <ul>
+                <li> You can vary your working hours within the 40-hour week, by arrangement
+                    Mobile working is also possible.</li>
+                <li> We have your future in mind. With us you have the opportunity to contact us internally and
+                    externally
+                    To further develop training courses or seminars and within the exciting business areas
+                    change. </li>
+                <li> We have a collegial atmosphere with direct communication channels. </li>
+                <li> In addition to an attractive salary, we also offer you a subsidy for economics,
+                    Direct insurance and BAV and your personal transport, also for private use.</li>
+                <li> Diversity, respect, acceptance and working at eye level are particularly important to us.</li>
+                <li> Joint team events make us a strong team even outside of work.</li>
+            </ul>
+
+        </div>
+
+        <div class="TitleStellen">
+            <h1>Vacancies:</h1>
+        </div>
+
+        <div class="filter">
+            <div>
+                <label for="ort"><b>Location:</b></label>
+                <select id="ort" name="ort">
+                    <option value="stellenanzeige">All</option>
+                    <option value="frankfurt">Frankfurt am Main</option>
+                    <option value="berlin">Berlin</option>
+                    <option value="muenchen">München</option>
+                    <option value="coburg">Coburg</option>
+                    <option value="bamberg">Bamberg</option>
+                    <option value="deggendorf">Deggendorf</option>
+                    <option value="sofia">Sofia</option>
+                    <option value="varna">Varna</option>
+                    <option value="stuttgart">Stuttgart</option>
+                </select>
+            </div>
+            <div>
+                <label for="anstellung"><b>Employment:</b></label>
+                <select id="anstellung" name="anstellung">
+                    <option value="stellenanzeige">All</option>
+                    <option value="voll">Full time</option>
+                    <option value="teil">Part time</option>
+                    <option value="student">Working student</option>
+                    <option value="azubi">Trainee</option>
+                </select>
+            </div>
+            <div>
+                <label for="taetigkeit"><b>Task:</b></label>
+                <select id="taetigkeit" name="taetigkeit">
+                    <option value="stellenanzeige">All</option>
+                    <option value="azubi">Trainee</option>
+                    <option value="systemplaner">Systemplaner</option>
+                    <option value="fachplaner">Specialist planner</option>
+                    <option value="projektleiter">Project manager</option>
+                    <option value="fuehrungspersonal">Management personnel</option>
+                    <option value="assistenz">Assistance</option>
+                    <option value="hr">HR</option>
+                    <option value="marketing">Marketing, Social media</option>
+                </select>
+            </div>
+
+            <button onclick="filterApply()"><b>Apply filters</b></button>
+        </div>
+
+        <div id="stellen"></div>
+
+        <div class="SperrbereichKarriere"></div>
+
+        <div class="Ansprechpartner">
+            <div class="AnsprechpartnerBild">
+                <img src="/Bilder/HR_Ansprechpartnerin.jpg" alt="Gebäudetechnik Bild">
+            </div>
+            <div class="AnsprechpartnerText">
+                <p><b>Apply now!</b></p><br>
+                <p>e-mail: hr@b-a-e.eu</p><br>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

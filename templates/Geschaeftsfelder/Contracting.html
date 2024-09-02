@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAE GROUP</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='BAE.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='Logo/Rauten BAE.png') }}" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="{{ url_for('static', filename='BAE.js')}}"></script>
+</head>
+
+<body>
+    {% include menu_bar %}
+    
+    <div class="Contracting Bild"></div>
+    <div id="Contracting" class="ContainerContracting">
+        <h2>Contracting.</h2>
+        <div class="Contracting-container">
+            <div class="Contracting-subcontainer0">
+                <p>Energiecontracting, auch als Energiedienstleistung oder Energieliefercontracting bekannt, ist ein
+                    effektives Instrument zur Steigerung der Energieeffizienz in Gebäuden. Bei diesem Ansatz
+                    übernimmt ein externer Dienstleister, der sogenannte Contractor, die Planung, Finanzierung,
+                    Umsetzung und den Betrieb von Energieeffizienzmaßnahmen. Im Gegenzug erhält der Contractor eine
+                    vertraglich festgelegte Vergütung, die sich häufig aus den eingesparten Energiekosten ergibt.
+                    <br><br>
+
+                    Als erfahrener Partner im Bereich Energiecontracting bieten wir mit unserem Geschäftsfeld
+                    Energie-Contracting umfassende Dienstleistungen, von der Analyse der Energieeffizienzpotenziale
+                    bis zur langfristigen Betreuung der installierten Systeme. Wir entwickeln maßgeschneiderte
+                    Lösungen, die nicht nur wirtschaftlich, sondern auch ökologisch nachhaltig sind.
+                </p>
+            </div>
+
+            <div class="Contracting-subcontainer2">
+                <h1>Überblick unserer Leistungen und Ablauf:</h1><br>
+                <div class="Contracting image-container">
+                    <button class="img-button" onclick="popup('/Bilder/Contracting_Ablauf.png')">
+                        <img src="{{ url_for('static', filename='/Bilder/Contracting_Ablauf.png') }}" alt="Contracting Ablauf">
+                    </button>
+                </div>
+
+                <div class="Contracting-subcontainer3">
+                    <br>
+                    <p> Für Eigentümer, Bauherren und Verwalter ergeben sich zahlreiche Vorteile durch
+                        Energiecontracting:</p>
+
+                    <p class="list-item">Der Gebäudeeigner/Auftraggeber muss keine eigenen Finanzmittel einsetzen,
+                        das eigene Investitionsrisiko wird damit ausgelagert.</p>
+                    <p class="list-item">Durch die Modernisierung von Anlagen wird die Energieeffizienz und damit
+                        auch die Betriebs- und Versorgungssicherheit erhöht, Energiekosten und Umweltbelastung
+                        sinken. Institutionell gesteckte Klimaschutzziele werden durch das ESC unterstützt.</p>
+                    <p class="list-item">Dazu wird das technische Know-how und das professionelle Energiemanagement
+                        der Contractoren genutzt.</p>
+                    <p class="list-item">Der Gebäudeeigner/Auftraggeber wird von wesentlichen Planungs- und
+                        Betriebsaufgaben entlastet. Es bleibt mehr Zeit für die eigenen Kernaufgaben.</p>
+                    <p class="list-item">Der Wert, die Produktivität und der Komfort eines Gebäudes (oder einer
+                        Anlage) werden gesteigert.</p>
+                    <p class="list-item">Viele Einzelbereiche (Planung, Finanzierung, Bau, Betrieb, Instandhaltung)
+                        werden aus einer Hand abgedeckt. So ist eine deutliche Reduktion der Schnittstellen
+                        realisierbar</p>
+                    <p class="list-item">Zusätzliche Leistungen wie z. B. Nutzermotivation, Schulungsmaßnahmen
+                        können vertraglich vereinbart werden.</p>
+                    <p>Das herausragende Qualitätsmerkmal des ESC ist insbesondere die Wertschätzung der
+                        Einspargarantie und ist herauszuheben. Sie bildet den wesentlichen Zusatznuten zu Lösungen
+                        in Eigenregie.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
