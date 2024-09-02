@@ -16,6 +16,11 @@ body {
   overflow-y: auto;
 }
 
+.footer {
+  width: 100%;
+  height: 30px;
+}
+
 #menuBar {
   width: 100%;
   height: 80px;
@@ -2958,22 +2963,18 @@ a.karriere:hover {
 
 #karriere {
   background-color: white;
-  padding-top: 1vw;
   position: relative;
-  /* Sicherstellen, dass diese Eigenschaft gesetzt ist */
 }
 
 #karriere::before {
   content: '';
   position: absolute;
-  top: 1vw;
-  /* Etwas nach oben verschieben, damit es sichtbar ist */
+  top: -2px;
   left: 5vw;
-  width: calc(100% - 10vw);
-  height: 0.1vw;
+  width: 90vw;
+  height: 2px;
   background-color: #017AC0;
   z-index: 0;
-  /* Stellen Sie sicher, dass es über anderen Elementen liegt */
 }
 
 .karriere-container {
@@ -2990,14 +2991,10 @@ a.karriere:hover {
 
 .ueberschrift,
 .unterueberschrift {
-  width: 90%;
-  margin-left: 5vw;
-  margin-top: 1vw;
-  margin-bottom: 1vw;
+  margin: 1vw 0;
 }
 
-.ueberschrift h2,
-.unterueberschrift p {
+.ueberschrift h2 {
   width: auto;
   font-size: 2.5vw;
   margin: 0;
@@ -3167,12 +3164,6 @@ div.containerbildkarriere {
 }
 
 
-div.ueberschrift {
-  margin-left: 5vw;
-  margin-top: 1vw;
-  margin-bottom: 0vw;
-}
-
 .ueberschrift h2 {
   width: 60vw;
   /* Anpassung: Verwende 90% der Viewport-Breite für die Überschrift */
@@ -3195,28 +3186,9 @@ div.ueberschrift {
   /* Runde Ecken mit 10px Radius */
 }
 
-div.unterueberschrift {
-  width: 90%;
-  margin-left: 5vw;
-  margin-top: 0.5vw;
-  margin-bottom: 1vw;
-}
-
 .unterueberschrift p {
-  width: 90vw;
-  /* Anpassung: Verwende 90% der Viewport-Breite für die Überschrift */
   font-size: 1.2vw;
-  /* Anpassung: Verwende 6% der Viewport-Breite für die Schriftgröße */
-  margin-bottom: 0.0vw;
-  /* Anpassung: Verwende 3% der Viewport-Breite als unteren Rand */
-  margin-top: 0.0vw;
-  /* Anpassung: Verwende -2% der Viewport-Breite als oberen Rand */
   color: #017AC0;
-  box-sizing: border-box;
-  top: 0vw;
-  /* Hier den Wert anpassen, um die vertikale Position zu steuern */
-  left: 0vw;
-  /* Hier den Wert anpassen, um die horizontale Position zu steuern */
 }
 
 
@@ -3225,102 +3197,41 @@ div.unterueberschrift {
   flex-wrap: wrap;
   box-sizing: border-box;
   justify-content: space-between;
-  /* Platz zwischen den Subcontainern */
   width: 90%;
-  /* Anpassung zur Angleichung an die Eigenschaften Box */
-  padding-top: 1vw;
-  /* Abstand zur h2*/
-  margin-left: 5vw;
+  padding: 1% 0;
+  margin: 0 5vw;
 
 }
 
-
-div.stellenanzeigeLinks {
-  width: 25%;
-  margin-bottom: 0vw;
-  /*Abstand nach unten */
-  display: flex;
-  justify-content: center;
-}
-
-div.stellenanzeigeLinks img {
-  width: 21vw;
-  height: 21vw;
+div.stellenanzeigeBild img {
+  width: 15vw;
+  height: 15vw;
   border-radius: 50%;
   overflow: hidden;
-  margin-bottom: 1.5vw;
   border: 3px solid #017AC0;
 }
 
-div.stellenanzeigeRechts {
-  width: 74%;
-  /* Einstellung, damit es mit stellenanzeigeLinks und dem Rand passt */
-  margin-bottom: 0vw;
-  /* Abstand nach unten */
-  margin-left: 0%;
-  /* Kleine Anpassung für den Abstand zwischen Links und Rechts */
-  position: relative;
-  /* Hinzugefügt, um das Bild relativ zu diesem Container zu positionieren */
-  padding: 1vw;
-  /* Ein Padding, um sicherzustellen, dass Text nicht direkt am Rand anfängt */
-  box-sizing: border-box;
-  /* Stellt sicher, dass Padding und Border innerhalb der 74% Breite enthalten sind */
-  overflow-wrap: break-word;
-  /* Stellt sicher, dass der Text bei Bedarf umgebrochen wird */
+.stellenanzeigeText {
+  width: 70%;
 }
 
-.stellenanzeigeRechts ul {
-  margin-top: 0.5vw;
-  font-size: 1.2vw;
-  /* Anpassbare Schriftgröße */
-  line-height: 2.5;
-  /* Einstellbarer Abstand zwischen den Zeilen */
-  hyphens: auto;
-  /* Automatische Silbentrennung, falls unterstützt */
-  word-wrap: break-word;
-  /* Sicherstellen, dass Wörter umgebrochen werden, wenn notwendig */
+div.stellenanzeigeRechts {
+  position: relative;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
 }
+
+
 
 .stellenanzeigeRechts h2 {
   margin-bottom: 0;
-  /* Anpassung: Verwende 0% der Viewport-Breite als unteren Rand */
   margin-top: 0;
-  /* Anpassung: Verwende 0% der Viewport-Breite als oberen Rand */
   font-size: 1.2vw;
-  /* Anpassbare Schriftgröße */
   line-height: 1.5;
-  /* Einstellbarer Abstand zwischen den Zeilen */
   font-weight: normal;
-  /* Setzt das Schriftgewicht auf normal */
-}
-
-.stellenanzeigeRechts p {
-  width: 100%;
-  /* Ändern von 90vw zu 100%, um sicherzustellen, dass es innerhalb der Eltern-Box bleibt */
-  margin-bottom: 0;
-  /* Anpassung: Verwende 0% der Viewport-Breite als unteren Rand */
-  padding-top: 1vw;
-  /* Anpassung: Verwende 0% der Viewport-Breite als oberen Rand */
-  box-sizing: border-box;
 }
 
 
-.stellenanzeigeRechts p {
-  width: 90vw;
-  /* Anpassung: Verwende 90% der Viewport-Breite für die Überschrift */
-  font-size: 1.2vw;
-  /* Anpassung: Verwende 6% der Viewport-Breite für die Schriftgröße */
-  margin-bottom: 0.0vw;
-  /* Anpassung: Verwende 3% der Viewport-Breite als unteren Rand */
-  margin-top: 0.0vw;
-  /* Anpassung: Verwende -2% der Viewport-Breite als oberen Rand */
-  color: #017AC0;
-  box-sizing: border-box;
-  top: 1vw;
-  /* Hier den Wert anpassen, um die vertikale Position zu steuern */
-  left: 0vw;
-  /* Hier den Wert anpassen, um die horizontale Position zu steuern */
-}
 
 div.Eigenschaften {
   width: 75%;

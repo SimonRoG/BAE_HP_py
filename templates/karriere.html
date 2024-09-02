@@ -104,44 +104,32 @@
         <div id="stellen">
             {% for item in data %}
             <div id="karriere" class="stellenanzeige {{item.Tags}}">
-                <div class="ueberschrift">
-                    <h2>{{item.Name}}</h2>
-                </div>
-                <div class="unterueberschrift">
-                    <p>Standorte: {{item.Standort}}</p>
-                </div>
+
                 <div class="karriereBox">
-                    <div class="stellenanzeigeLinks">
+                    <div class="stellenanzeigeText">
+                        <div class="ueberschrift">
+                            <h2>{{item.Name}}</h2>
+                        </div>
+                        <div class="unterueberschrift">
+                            <p>Standorte: {{item.Standort}}</p>
+                        </div>
+                        <div class="stellenanzeigeRechts">
+                            <h2>
+                                {{item.Beschreibung}}
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="stellenanzeigeBild">
                         <img src="{{ url_for('static', filename='Bilder/'+item.Bild) }}" alt="{{item.Bild}}">
                     </div>
-                    <div class="stellenanzeigeRechts">
-                        <h2>
-                            {{item.Beschreibung}}
-                        </h2>
-                        <p><b>Deine Aufgaben:</b></p>
-                        <ul>
-                            {% for Aufgabe in item.Aufgaben.split("\n") %}
-                            <li>{{Aufgabe}}</li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="Eigenschaften">
-                    <h2><b>Das solltest du mitbringen:</b></h2>
-                    <ul>
-                        {% for Eigenschaft in item.Eigenschaften.split("\n") %}
-                        <li>{{Eigenschaft}}</li>
-                        {% endfor %}
-                    </ul>
-                    <h2>Wir konnten dein Interesse wecken? Dann möchten wir Dich für uns gewinnen! Bewirb dich unter
-                        <a href="mailto:hr@b-a-e.eu">hr@b-a-e.eu</a>!
-                    </h2>
                 </div>
             </div>
             {% endfor %}
         </div>
     </div>
+    <div class="footer">
+    </div>
+
 </body>
 
 </html>
