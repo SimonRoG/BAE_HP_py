@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='BAE.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='Logo/Rauten BAE.png') }}" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>BAE GROUP</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="{{ url_for('static', filename='BAE.js') }}"></script>
+</head>
+
+<body>
+    {% include menu_bar%}
+
+    <div class="containerbildkarriere">
+        <h1>Karriere in der BAE GROUP.</h1>
+    </div>
+
+    <div class="stelle">
+        <h1>{{ item.Name }}</h1>
+        <div class="ortetext">
+            <h2>Standorte: {{item.Standort}}</h2>
+            <p>
+                {{item.Beschreibung}}
+            </p>
+        </div>
+        <div class="aufgaben">
+            <h2>Deine Aufgaben:</h2>
+            <ul>
+                {% for Aufgabe in item.Aufgaben.split("\n") %}
+                <li>{{Aufgabe}}</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="eigenschaften">
+            <h2>Das solltest du mitbringen:</h2>
+            <ul>
+                {% for Eigenschaft in item.Eigenschaften.split("\n") %}
+                <li>{{Eigenschaft}}</li>
+                {% endfor %}
+            </ul>
+
+        </div>
+
+        <h2>Wir konnten dein Interesse wecken? Dann möchten wir Dich für uns gewinnen! Bewirb dich unter
+            <a href="mailto:hr@b-a-e.eu">hr@b-a-e.eu</a>!
+        </h2>
+    </div>
+
+</body>

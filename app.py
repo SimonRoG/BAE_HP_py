@@ -24,9 +24,10 @@ def datenschutz():
     return render_template_("datenschutz.html")
 
 
-@app.template_filter('format_number')
+@app.template_filter("format_number")
 def format_number(value):
     return f"{int(value):_}".replace("_", " ")
+
 
 @app.route("/Referenzen")
 def referenzen():
@@ -41,7 +42,7 @@ def referenzen():
 
 
 @app.route("/Referenzen/<Projekt>")
-def referenz(Projekt):
+def projekt(Projekt):
     return render_template_("projekt.html")
 
 
@@ -55,6 +56,20 @@ def karriere():
         data = json.load(f)
 
     return render_template_("karriere.html", data=data)
+
+
+@app.route("/Karriere/<Stelle>")
+def stelle(Stelle):
+    with open(
+        os.path.join(app.root_path, "data", "Stellenanzeigen.json"),
+        "r",
+        encoding="utf-8",
+    ) as f:
+        data = json.load(f)
+
+    for item in data:
+        if item['Name'][:-7] == Stelle:
+            return render_template_("stelle.html", item=item)
 
 
 @app.route("/Geschaeftsfelder/<Geschaeftsfeld>")

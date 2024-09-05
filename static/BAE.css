@@ -2994,11 +2994,22 @@ a.karriere:hover {
   margin: 1vw 0;
 }
 
+.ueberschrift {
+  cursor: pointer;
+}
+
+.ueberschrift:hover {
+  box-shadow: 0 0 6px 0 #015080;
+  border-radius: 10px;
+}
+
 .ueberschrift h2 {
-  width: auto;
   font-size: 2.5vw;
-  margin: 0;
-  padding: 0;
+  height: 3.0vw;
+  padding-left: 1vw;
+  color: #fff;
+  background-color: #017AC0;
+  border-radius: 10px;
 }
 
 div.containerkarrierevorwort {
@@ -3133,57 +3144,42 @@ li::marker {
 
 div.containerbildkarriere {
   width: 100%;
-  height: 25vw;
+  height: 40vh;
   background-image: url('Bilder/Karrierebereich.jpg');
   background-size: cover;
-  /* Dies stellt sicher, dass das Bild den gesamten Container bedeckt */
   background-repeat: no-repeat;
   background-position: center;
-  /* Zentriert das Bild im Container */
+  position: relative;
 }
 
 .containerbildkarriere h1 {
   background-color: #017AC0;
   width: 85%;
-  height: auto;
   position: absolute;
-  top: 15.0%;
+  bottom: 15%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
   font-size: 6vw;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-  filter: blur(0.5px);
-  z-index: +0;
   border-radius: 10px;
-  /* Runde Ecken mit 10px Radius */
   text-align: center;
-  /* Stellt sicher, dass der Text horizontal zentriert ist */
   padding: 5px 15px;
-  /* Optional, für etwas Abstand innerhalb des h1 */
 }
 
-
-.ueberschrift h2 {
-  width: 60vw;
-  /* Anpassung: Verwende 90% der Viewport-Breite für die Überschrift */
-  height: 3.0vw;
-  font-size: 2.5vw;
-  /* Anpassung: Verwende 6% der Viewport-Breite für die Schriftgröße */
-  padding-left: 1vw;
-  margin-bottom: 0.0vw;
-  /* Anpassung: Verwende 3% der Viewport-Breite als unteren Rand */
-  margin-top: 0.0vw;
-  /* Anpassung: Verwende -2% der Viewport-Breite als oberen Rand */
-  color: #fff;
-  box-sizing: border-box;
-  top: 0vw;
-  /* Hier den Wert anpassen, um die vertikale Position zu steuern */
-  left: 0vw;
-  /* Hier den Wert anpassen, um die horizontale Position zu steuern */
+.containerbildkarriere h2 {
   background-color: #017AC0;
+  white-space: nowrap;
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 3vw;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
   border-radius: 10px;
-  /* Runde Ecken mit 10px Radius */
+  text-align: center;
+  padding: 5px 15px;
 }
 
 .unterueberschrift p {
@@ -3200,19 +3196,29 @@ div.containerbildkarriere {
   width: 90%;
   padding: 1% 0;
   margin: 0 5vw;
-
 }
 
-div.stellenanzeigeBild img {
+div.stellenanzeigeBild {
+  cursor: pointer;
   width: 15vw;
   height: 15vw;
   border-radius: 50%;
   overflow: hidden;
   border: 3px solid #017AC0;
+
+  img {
+    width: 15vw;
+    height: 15vw;
+  }
+}
+
+.stellenanzeigeBild:hover {
+  box-shadow: 0 0 6px 0 #015080;
+  border-radius: 50%;
 }
 
 .stellenanzeigeText {
-  width: 70%;
+  width: 76%;
 }
 
 div.stellenanzeigeRechts {
@@ -3221,51 +3227,69 @@ div.stellenanzeigeRechts {
   overflow-wrap: break-word;
 }
 
-
-
 .stellenanzeigeRechts h2 {
-  margin-bottom: 0;
-  margin-top: 0;
+  margin: 0;
   font-size: 1.2vw;
   line-height: 1.5;
   font-weight: normal;
 }
 
+.stelle {
+  margin: 3% 8%;
 
-
-div.Eigenschaften {
-  width: 75%;
-  margin-left: 5vw;
+  h1 {
+    padding: 0.5% 1%;
+    margin: 0 0 1% 0;
+    font-size: 3.5em;
+    background-color: #017AC0;
+    color: #ffffff;
+    border-radius: 10px;
+  }
 }
 
+.ortetext {
+  margin: 0 0 3% 0;
 
-.Eigenschaften ul {
-  margin-top: 0.5vw;
-  font-size: 1.2vw;
-  /* Anpassbare Schriftgröße */
-  line-height: 2.0;
-  /* Einstellbarer Abstand zwischen den Zeilen */
-  hyphens: auto;
-  /* Automatische Silbentrennung, falls unterstützt */
-  word-wrap: break-word;
-  /* Sicherstellen, dass Wörter umgebrochen werden, wenn notwendig */
+  h2 {
+    color: #017AC0;
+    font: caption;
+    font-size: 1.5em;
+    margin: 0 0 1% 0;
+  }
+
+  p {
+    font-size: 1.5em;
+    margin: 0 0 1% 0;
+  }
 }
 
-.Eigenschaften h2 {
-  margin-bottom: 0;
-  /* Anpassung: Verwende 0% der Viewport-Breite als unteren Rand */
-  margin-top: 0;
-  /* Anpassung: Verwende 0% der Viewport-Breite als oberen Rand */
-  color: #017AC0;
-  font-size: 1.2vw;
-  /* Anpassbare Schriftgröße */
-  line-height: 1.5;
-  /* Einstellbarer Abstand zwischen den Zeilen */
-  font-weight: normal;
-  /* Setzt das Schriftgewicht auf normal */
+.aufgaben {
+  margin: 0 0 3% 0;
+
+  h2 {
+    font-size: 2.5em;
+    margin: 0 0 1% 0;
+  }
+
+  li {
+    font-size: 1.5em;
+    margin: 0 0 1% 2%;
+  }
 }
 
+.eigenschaften {
+  margin: 0 0 3% 0;
 
+  h2 {
+    font-size: 2.5em;
+    margin: 0 0 1% 0;
+  }
+
+  li {
+    font-size: 1.5em;
+    margin: 0 0 1% 2%;
+  }
+}
 
 
 .Ansprechpartner {
@@ -3984,7 +4008,6 @@ div.SperrbereichKarriere {
   }
 
   .containerbildkarriere h1 {
-    top: 50%;
     font-size: 2.5em;
   }
 

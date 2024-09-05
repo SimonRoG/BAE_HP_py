@@ -19,8 +19,6 @@
         <h1>Karriere in der BAE GROUP.</h1>
     </div>
     <div class="Hauptseite">
-
-
         <div class="karriere-container">
             <h1> Bereit die Immobilien-Welt zu verändern?</h1>
         </div>
@@ -108,7 +106,7 @@
                 <div class="karriereBox">
                     <div class="stellenanzeigeText">
                         <div class="ueberschrift">
-                            <h2>{{item.Name}}</h2>
+                            <a href="/Karriere/{{item.Name[:-7]}}"><h2>{{item.Name}}</h2></a>
                         </div>
                         <div class="unterueberschrift">
                             <p>Standorte: {{item.Standort}}</p>
@@ -120,7 +118,9 @@
                         </div>
                     </div>
                     <div class="stellenanzeigeBild">
-                        <img src="{{ url_for('static', filename='Bilder/'+item.Bild) }}" alt="{{item.Bild}}">
+                        <a href="/Karriere/{{item.Name[:-7]}}">
+                            <img src="{{ url_for('static', filename='Bilder/'+item.Bild) }}" alt="{{item.Bild}}">
+                        </a>
                     </div>
                 </div>
             </div>
