@@ -1,8 +1,22 @@
 from flask import *
 import json
 import os
+import requests
 
 app = Flask(__name__)
+
+UPLOAD_FOLDER = "uploads/"
+app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
+
+
+with open(os.path.join(app.root_path, "data", "keys.json"), "r") as file:
+    keys = json.load(file)
+
+RECAPTCHA_SITE_KEY = keys['RECAPTCHA_SITE_KEY']
+RECAPTCHA_SECRET_KEY = keys['RECAPTCHA_SECRET_KEY']
+
+if not os.path.exists(UPLOAD_FOLDER):
+    os.makedirs(UPLOAD_FOLDER)
 
 
 def render_template_(html, **context):
@@ -35,8 +49,8 @@ def referenzen():
         os.path.join(app.root_path, "data", "Referenzen.json"),
         "r",
         encoding="utf-8-sig",
-    ) as f:
-        data = json.load(f)
+    ) as file:
+        data = json.load(file)
 
     return render_template_("referenzen.html", data=data)
 
@@ -52,8 +66,8 @@ def karriere():
         os.path.join(app.root_path, "data", "Stellenanzeigen.json"),
         "r",
         encoding="utf-8",
-    ) as f:
-        data = json.load(f)
+    ) as file:
+        data = json.load(file)
 
     return render_template_("karriere.html", data=data)
 
@@ -64,12 +78,35 @@ def stelle(Stelle):
         os.path.join(app.root_path, "data", "Stellenanzeigen.json"),
         "r",
         encoding="utf-8",
-    ) as f:
-        data = json.load(f)
+    ) as file:
+        data = json.load(file)
 
     for item in data:
-        if item['Name'][:-7] == Stelle:
-            return render_template_("stelle.html", item=item)
+        if item["Name"][:-7] == Stelle:
+            return render_template_(
+                "stelle.html", item=item, recaptcha_site_key=RECAPTCHA_SITE_KEY
+            )
+
+
+@app.route("/submit", methods=["POST"])
+def submit():
+    if request.method == "POST":
+
+        recaptcha_response = request.form["g-recaptcha-response"]
+        data = {"secret": RECAPTCHA_SECRET_KEY, "response": recaptcha_response}
+        verify_url = "https://www.google.com/recaptcha/api/siteverify"
+        response = requests.post(verify_url, data=data)
+        result = response.json()
+
+        if result["success"]:
+            name = request.form["name"]
+            email = request.form["email"]
+            message = request.form["message"]
+            file = request.files["file"]
+
+            file.save(os.path.join(app.config["UPLOAD_FOLDER"], file.filename))
+
+            return f"Received: Name - {name}, Email - {email}<br> Massage: {message}<br> {file.filename}"
 
 
 @app.route("/Geschaeftsfelder/<Geschaeftsfeld>")

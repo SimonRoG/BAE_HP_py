@@ -10,6 +10,7 @@
     <title>BAE GROUP</title>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="{{ url_for('static', filename='BAE.js') }}"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body>
@@ -49,6 +50,30 @@
         <h2>Wir konnten dein Interesse wecken? Dann möchten wir Dich für uns gewinnen! Bewirb dich unter
             <a href="mailto:hr@b-a-e.eu">hr@b-a-e.eu</a>!
         </h2>
+
+        <div class="formular">
+            <form action="/submit" method="POST" enctype="multipart/form-data">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="massage">Massage:</label><br>
+                <textarea id="message" name="message" rows="5"></textarea><br><br>
+
+                <label for="file">Lebenslauf:</label><br>
+                <input type="file" id="file" name="file" required><br><br>
+
+
+                <div class="g-recaptcha" data-sitekey="{{ recaptcha_site_key }}"></div><br>
+
+                <input type="submit" id="submit" value="Submit">
+            </form>
+        </div>
     </div>
+
+
+
 
 </body>

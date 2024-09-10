@@ -6,12 +6,12 @@
   box-sizing: border-box;
   scroll-margin-top: 80px;
   scroll-behavior: smooth;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
   overflow-x: hidden;
   overflow-y: auto;
 }
@@ -3288,6 +3288,41 @@ div.stellenanzeigeRechts {
   li {
     font-size: 1.5em;
     margin: 0 0 1% 2%;
+  }
+}
+
+
+.formular {
+  margin: 3% 0;
+
+  label {
+    font-size: 1.5em;
+  }
+
+  input,
+  textarea {
+    border: #017AC0 solid 1px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 50%;
+    font-size: 1.5em;
+  }
+
+  #submit {
+    background-color: #017AC0;
+    border: #017AC0 solid 1px;
+    width: 15%;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+  }
+
+  #submit:hover {
+    background-color: #01609C;
+  }
+
+  #submit:active {
+    background-color: #015080;
   }
 }
 
