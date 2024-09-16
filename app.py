@@ -12,8 +12,8 @@ app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 with open(os.path.join(app.root_path, "data", "keys.json"), "r") as file:
     keys = json.load(file)
 
-RECAPTCHA_SITE_KEY = keys['RECAPTCHA_SITE_KEY']
-RECAPTCHA_SECRET_KEY = keys['RECAPTCHA_SECRET_KEY']
+RECAPTCHA_SITE_KEY = keys["RECAPTCHA_SITE_KEY"]
+RECAPTCHA_SECRET_KEY = keys["RECAPTCHA_SECRET_KEY"]
 
 if not os.path.exists(UPLOAD_FOLDER):
     os.makedirs(UPLOAD_FOLDER)
@@ -112,8 +112,3 @@ def submit():
 @app.route("/Geschaeftsfelder/<Geschaeftsfeld>")
 def geschaeftsfelder(Geschaeftsfeld):
     return render_template_(f"Geschaeftsfelder/{Geschaeftsfeld}.html")
-
-
-if __name__ == "__main__":
-    app.config["SERVER_NAME"] = "semen.net:666"
-    app.run()

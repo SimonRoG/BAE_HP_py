@@ -52,23 +52,28 @@
         </h2>
 
         <div class="formular">
-            <form action="/submit" method="POST" enctype="multipart/form-data">
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name" required><br><br>
+            <form id="form" action="/submit" method="POST" enctype="multipart/form-data">
+                <input type="text" id="name" name="name" placeholder="Name" required><br><br>
 
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email" required><br><br>
+                <input type="email" id="email" name="email" placeholder="Email" required><br><br>
 
-                <label for="massage">Massage:</label><br>
-                <textarea id="message" name="message" rows="5"></textarea><br><br>
+                <textarea id="message" name="message" rows="5" placeholder="Massage"></textarea><br><br>
 
-                <label for="file">Lebenslauf:</label><br>
-                <input type="file" id="file" name="file" required><br><br>
+                <div class="fileinput">
+                    <label for="file">
+                        <i><img src="{{ url_for('static', filename='/Icons/pdf.svg') }}" alt="pdf"></i>
+                    </label>
+                    <div>
+                        <input type="file" id="file" name="file" accept=".pdf" required>
+                        <label for="file">
+                            <p>Lebenslauf hochladen</p>
+                        </label>
+                    </div>
+                </div><br>
 
+                <div class="g-recaptcha" data-sitekey="{{ recaptcha_site_key }}" required></div><br>
 
-                <div class="g-recaptcha" data-sitekey="{{ recaptcha_site_key }}"></div><br>
-
-                <input type="submit" id="submit" value="Submit">
+                <input type="submit" id="submit" value="Senden">
             </form>
         </div>
     </div>
