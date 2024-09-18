@@ -4081,6 +4081,7 @@ div.SperrbereichKarriere {
   }
 
   div.benefits {
+    width: 90%;
     height: auto;
     font-size: 1em;
   }
@@ -4124,7 +4125,7 @@ div.SperrbereichKarriere {
       'ueberschrift stellenanzeigeBild'
       'unterueberschrift unterueberschrift'
       'stellenanzeigeRechts stellenanzeigeRechts';
-      grid-template-columns: auto 20vw;
+    grid-template-columns: auto 20vw;
   }
 
   .ueberschrift {
@@ -4168,6 +4169,38 @@ div.SperrbereichKarriere {
 
   .stellenanzeigeBild {
     justify-self: center;
+  }
+
+  .stelle {
+    h1 {
+      font-size: 1.5em;
+    }
+
+    h2 {
+      font-size: 1em;
+    }
+
+    p {
+      font-size: 1em;
+    }
+
+    li {
+      font-size: 1em;
+    }
+  }
+
+  .formular {
+
+    input,
+    textarea {
+      width: 100%;
+      font-size: 1em;
+    }
+
+    .fileinput {
+      width: 100%;
+      font-size: 1em;
+    }
   }
 
   .ContainerImpressum {
