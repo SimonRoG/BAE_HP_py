@@ -2940,43 +2940,6 @@ div.ContainerUeberuns {
 
 
 /* Ende Investmentmanagement */
-
-/* Beginn Karriere Bereich */
-a.karriere,
-a.karriere {
-  text-decoration: none;
-  /* Keine Unterstreichung */
-  color: white;
-  /* Standardtextfarbe */
-  transition: color 0.3s;
-  /* Sanfter Farbübergang beim Hover-Effekt */
-  margin-left: 10px;
-}
-
-/* Hover-Effekt für Impressum und Datenschutz */
-a.karriere:hover,
-a.karriere:hover {
-  color: #017AC0;
-  /* Farbe ändern, wenn der Mauszeiger darüber schwebt */
-}
-
-
-#karriere {
-  background-color: white;
-  position: relative;
-}
-
-#karriere::before {
-  content: '';
-  position: absolute;
-  top: -2px;
-  left: 5vw;
-  width: 90vw;
-  height: 2px;
-  background-color: #017AC0;
-  z-index: 0;
-}
-
 .karriere-container {
   display: flex;
   padding: 0vw;
@@ -2987,29 +2950,6 @@ a.karriere:hover {
   margin-top: 1vw;
   /*Abstand */
   position: relative;
-}
-
-.ueberschrift,
-.unterueberschrift {
-  margin: 1vw 0;
-}
-
-.ueberschrift {
-  cursor: pointer;
-}
-
-.ueberschrift:hover {
-  box-shadow: 0 0 6px 0 #015080;
-  border-radius: 10px;
-}
-
-.ueberschrift h2 {
-  font-size: 2.5vw;
-  height: 3.0vw;
-  padding-left: 1vw;
-  color: #fff;
-  background-color: #017AC0;
-  border-radius: 10px;
 }
 
 div.containerkarrierevorwort {
@@ -3182,23 +3122,88 @@ div.containerbildkarriere {
   padding: 5px 15px;
 }
 
-.unterueberschrift p {
-  font-size: 1.2vw;
-  color: #017AC0;
+#karriere {
+  background-color: white;
+  position: relative;
 }
 
+#karriere::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: 5vw;
+  width: 90vw;
+  height: 2px;
+  background-color: #017AC0;
+  z-index: 0;
+}
 
 .karriereBox {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  align-items: center;
+  grid-template-areas:
+    'ueberschrift stellenanzeigeBild'
+    'unterueberschrift stellenanzeigeBild'
+    'stellenanzeigeRechts stellenanzeigeBild';
   box-sizing: border-box;
-  justify-content: space-between;
   width: 90%;
   padding: 1% 0;
   margin: 0 5vw;
 }
 
+.ueberschrift {
+  grid-area: ueberschrift;
+  align-self: end;
+  width: 90%;
+  height: 3.0vw;
+  margin: -2vw 0 0 0;
+  cursor: pointer;
+}
+
+.ueberschrift:hover {
+  box-shadow: 0 0 6px 0 #015080;
+  border-radius: 10px;
+}
+
+.ueberschrift h2 {
+  font-size: 2.5vw;
+  height: 3.0vw;
+  padding-left: 1vw;
+  color: #fff;
+  background-color: #017AC0;
+  border-radius: 10px;
+}
+
+.unterueberschrift {
+  grid-area: unterueberschrift;
+  width: 90%;
+  height: 1.3vw;
+  margin: -1vw 0;
+}
+
+.unterueberschrift p {
+  font-size: 1.2vw;
+  color: #017AC0;
+}
+
+.stellenanzeigeRechts {
+  grid-area: stellenanzeigeRechts;
+  align-self: start;
+  position: relative;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  width: 90%;
+}
+
+.stellenanzeigeRechts h2 {
+  margin: 0;
+  font-size: 1.2vw;
+  line-height: 1.5;
+  font-weight: normal;
+}
+
 div.stellenanzeigeBild {
+  grid-area: stellenanzeigeBild;
   cursor: pointer;
   width: 15vw;
   height: 15vw;
@@ -3219,19 +3224,6 @@ div.stellenanzeigeBild {
 
 .stellenanzeigeText {
   width: 76%;
-}
-
-div.stellenanzeigeRechts {
-  position: relative;
-  box-sizing: border-box;
-  overflow-wrap: break-word;
-}
-
-.stellenanzeigeRechts h2 {
-  margin: 0;
-  font-size: 1.2vw;
-  line-height: 1.5;
-  font-weight: normal;
 }
 
 .stelle {
@@ -3404,22 +3396,6 @@ div.stellenanzeigeRechts {
   color: white;
 
   margin-bottom: 0.1vw;
-}
-
-.AnsprechpartnerText {
-  width: 70%;
-  /* Jeder Container nimmt 50% der Breite ein */
-  display: flex;
-  flex-direction: column;
-  /* Stapelt die Textelemente vertikal */
-  justify-content: center;
-  /* Zentriert den Text vertikal */
-  font-size: 1.5vw;
-  padding: 10px;
-  /* Einstellbarer Abstand im Inneren der Container */
-  color: white;
-  max-width: 100%;
-  max-height: 100%;
 }
 
 
@@ -4130,7 +4106,7 @@ div.SperrbereichKarriere {
     gap: 6px;
 
     div {
-      width: 60%;
+      width: 100%;
     }
 
     select,
@@ -4139,47 +4115,59 @@ div.SperrbereichKarriere {
     }
 
     button {
-      width: 60%;
+      width: 100%;
     }
   }
 
-  .ueberschrift h2 {
+  .karriereBox {
+    grid-template-areas:
+      'ueberschrift stellenanzeigeBild'
+      'unterueberschrift unterueberschrift'
+      'stellenanzeigeRechts stellenanzeigeRechts';
+      grid-template-columns: auto 20vw;
+  }
+
+  .ueberschrift {
     width: 100%;
     height: auto;
-    font-size: 1.5em;
-    padding: 1%;
+    margin: 0;
+
+    h2 {
+      width: 100%;
+      height: auto;
+      font-size: 1.5em;
+      padding: 1%;
+    }
   }
 
-  .unterueberschrift p {
-    width: auto;
-    font-size: 1em;
-    text-align: left;
-    hyphens: auto;
-  }
-
-  div.Eigenschaften {
-    width: auto;
+  .unterueberschrift {
+    width: 100%;
     height: auto;
-  }
-
-  .stellenanzeigeRechts h2,
-  .stellenanzeigeRechts p,
-  .stellenanzeigeRechts ul,
-  .Eigenschaften h2,
-  .Eigenschaften ul {
-    font-size: 1em;
-    line-height: 1.5;
-    text-align: left;
-    hyphens: auto;
-  }
-
-  .AnsprechpartnerText {
-    font-size: 1em;
-    line-height: 1;
+    margin: 0;
 
     p {
-      margin: 0;
+      width: auto;
+      font-size: 1em;
+      text-align: left;
+      hyphens: auto;
     }
+  }
+
+  .stellenanzeigeRechts {
+    width: 100%;
+    height: auto;
+    margin: 0;
+
+    h2 {
+      font-size: 1em;
+      line-height: 1.5;
+      text-align: left;
+      hyphens: auto;
+    }
+  }
+
+  .stellenanzeigeBild {
+    justify-self: center;
   }
 
   .ContainerImpressum {

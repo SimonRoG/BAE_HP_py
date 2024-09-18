@@ -102,20 +102,19 @@
         <div id="stellen">
             {% for item in data %}
             <div id="karriere" class="stellenanzeige {{item.Tags}}">
-
                 <div class="karriereBox">
-                    <div class="stellenanzeigeText">
-                        <div class="ueberschrift">
-                            <a href="/Karriere/{{item.Name[:-7]}}"><h2>{{item.Name}}</h2></a>
-                        </div>
-                        <div class="unterueberschrift">
-                            <p>Standorte: {{item.Standort}}</p>
-                        </div>
-                        <div class="stellenanzeigeRechts">
-                            <h2>
-                                {{item.Beschreibung}}
-                            </h2>
-                        </div>
+                    <div class="ueberschrift">
+                        <a href="/Karriere/{{item.Name[:-7]}}">
+                            <h2>{{item.Name}}</h2>
+                        </a>
+                    </div>
+                    <div class="unterueberschrift">
+                        <p>Standorte: {{item.Standort}}</p>
+                    </div>
+                    <div class="stellenanzeigeRechts">
+                        <h2>
+                            {{item.Beschreibung}}
+                        </h2>
                     </div>
                     <div class="stellenanzeigeBild">
                         <a href="/Karriere/{{item.Name[:-7]}}">
