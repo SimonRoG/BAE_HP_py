@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='BAE.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='Logo/Rauten BAE.png') }}" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>BAE GROUP</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="{{ url_for('static', filename='BAE.js') }}"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+</head>
+
+<body>
+    {% include menu_bar %}
+
+    <div class="referenzenbild parallax">
+        <h1>Unsere Projekte</h1>
+    </div>
+    <div class="projektseite">
+        <div class="projekttitel">
+            <h1>{{ item.Projekt }}</h1>
+            <table>
+                <tr>
+                    <td>Gebäudetyp:</td>
+                    <td>{{ item.Gebaeude }}</td>
+                </tr>
+                <tr>
+                    <td>Projektart:</td>
+                    <td>{{ item.Projektart }}</td>
+                </tr>
+                <tr>
+                    <td>Leitungsphasen:</td>
+                    <td>{{ item.LPH }}</td>
+                </tr>
+                <tr>
+                    <td>Anlagengruppe:</td>
+                    <td>{{ item.Anlagengruppe }}</td>
+                </tr>
+                <tr>
+                    <td>Fläche:</td>
+                    <td>{{ item.BGF|format_number }} m²</td>
+                </tr>
+                {% if item.Gesamtkosten != '' %}
+                <tr>
+                    <td>Gesamtkosten:</td>
+                    <td>{{ item.Gesamtkosten|format_number }} €</td>
+                </tr>
+                {% endif %}
+            </table>
+            <p>Standort:</p>
+            <div id="map"></div>
+            <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+            <script>
+                var coordinates = [50.2661, 10.96];
+                var map = L.map('map').setView(coordinates, 18);
+
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+                L.marker(coordinates).addTo(map)
+            </script>
+        </div>
+        <div class="projektbild">
+            <img src="{{ url_for('static', filename='Bilder/'+item.Bild) }}" alt="{{item.Projekt}}">
+        </div>
+    </div>
+
+
+</body>

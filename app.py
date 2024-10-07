@@ -12,6 +12,20 @@ app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 with open(os.path.join(app.root_path, "data", "keys.json"), "r") as file:
     keys = json.load(file)
 
+with open(
+    os.path.join(app.root_path, "data", "Referenzen.json"),
+    "r",
+    encoding="utf-8-sig",
+) as file:
+    Referenzen = json.load(file)
+
+with open(
+    os.path.join(app.root_path, "data", "Stellenanzeigen.json"),
+    "r",
+    encoding="utf-8",
+) as file:
+    Stellenanzeigen = json.load(file)
+
 RECAPTCHA_SITE_KEY = keys["RECAPTCHA_SITE_KEY"]
 RECAPTCHA_SECRET_KEY = keys["RECAPTCHA_SECRET_KEY"]
 
@@ -45,43 +59,24 @@ def format_number(value):
 
 @app.route("/Referenzen")
 def referenzen():
-    with open(
-        os.path.join(app.root_path, "data", "Referenzen.json"),
-        "r",
-        encoding="utf-8-sig",
-    ) as file:
-        data = json.load(file)
-
-    return render_template_("referenzen.html", data=data)
+    return render_template_("referenzen.html", data=Referenzen)
 
 
 @app.route("/Referenzen/<Projekt>")
 def projekt(Projekt):
-    return render_template_("projekt.html")
+    for item in Referenzen:
+        if item["Bild"][:-4] == Projekt:
+            return render_template_("projekt.html", item=item)
 
 
 @app.route("/Karriere")
 def karriere():
-    with open(
-        os.path.join(app.root_path, "data", "Stellenanzeigen.json"),
-        "r",
-        encoding="utf-8",
-    ) as file:
-        data = json.load(file)
-
-    return render_template_("karriere.html", data=data)
+    return render_template_("karriere.html", data=Stellenanzeigen)
 
 
 @app.route("/Karriere/<Stelle>")
 def stelle(Stelle):
-    with open(
-        os.path.join(app.root_path, "data", "Stellenanzeigen.json"),
-        "r",
-        encoding="utf-8",
-    ) as file:
-        data = json.load(file)
-
-    for item in data:
+    for item in Stellenanzeigen:
         if item["Name"][:-7] == Stelle:
             return render_template_(
                 "stelle.html", item=item, recaptcha_site_key=RECAPTCHA_SITE_KEY

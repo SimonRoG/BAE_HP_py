@@ -15,7 +15,7 @@
 <body>
     {% include menu_bar %}
 
-    <div class="referenzenbild">
+    <div class="referenzenbild parallax">
         <h1>Unsere Projekte</h1>
     </div>
 
@@ -23,21 +23,20 @@
 
         {% set ns = namespace(counter=0) %}
         {% for item in data %}
-        {% if item.Bild != '' %}
+        {% if item.Bild != '' %} 
         {% set display = 'flex' if ns.counter < 10 else 'none' %}
         <div class="projekt" id="projekt{{ns.counter}}" style="display: {{ display }};">
-            <div class="projektbild"><img src="{{ url_for('static', filename='Bilder/'+item.Bild) }}"
-                    alt="{{item.Projekt}}"></div>
+            <div class="projektbild">
+                <a href="/Referenzen/{{item.Bild[:-4]}}">
+                    <img src="{{ url_for('static', filename='Bilder/'+item.Bild) }}" alt="{{item.Projekt}}">
+                </a>
+            </div>
             <div class="projekttitel">
-                <h1>{{ item.Projekt }}</h1>
+                <a href="/Referenzen/{{item.Bild[:-4]}}">
+                    <h1>{{ item.Projekt }}</h1>
+                </a>
                 <p>{{ item.Gebaeude }}</p>
                 <p>{{ item.Projektart }}</p>
-                <p>Leitungsphasen: {{ item.LPH }}</p>
-                <p>Anlagengruppe: {{ item.Anlagengruppe }}</p>
-                <p>Fläche: {{ item.BGF|format_number }} m²</p>
-                {% if item.Gesamtkosten != '' %}
-                <p>Gesamtkosten: {{ item.Gesamtkosten|format_number }} €</p>
-                {% endif %}
             </div>
         </div>
         {% set ns.counter = ns.counter + 1 %}

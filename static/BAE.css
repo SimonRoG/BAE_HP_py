@@ -309,6 +309,14 @@ body {
   z-index: -1;
 }
 
+.parallax {
+  height: 50%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #textContainer {
   position: absolute;
   top: 20vw;
@@ -3085,7 +3093,7 @@ li::marker {
 div.containerbildkarriere {
   width: 100%;
   height: 40vh;
-  background-image: url('Bilder/Karrierebereich.jpg');
+  background-image: url('Bilder/KarrierebereichParallax.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -3416,7 +3424,7 @@ div.SperrbereichKarriere {
 
 .referenzenbild {
   width: 100%;
-  height: 50vh;
+  height: 40vh;
   background-image: url('Bilder/Projekte.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -3445,7 +3453,6 @@ div.SperrbereichKarriere {
 
 .projekt {
   width: 48%;
-  /*border: solid 1px black;*/
   display: flex;
   align-items: center;
   margin: 1%;
@@ -3453,22 +3460,36 @@ div.SperrbereichKarriere {
   div {
     width: 50%;
   }
-}
 
-.projektbild img {
-  width: 100%;
-  height: 20em;
-  object-fit: cover;
-  border: 1px solid #017ac0aa;
-  border-radius: 10px;
-}
 
-.projekttitel {
-  color: #017AC0;
-  position: relative;
-  hyphens: auto;
-  word-wrap: break-word;
-  padding: 2%;
+  .projektbild img {
+    width: 100%;
+    height: 20em;
+    object-fit: cover;
+    border: 1px solid #017ac0aa;
+    border-radius: 10px;
+  }
+
+  .projektbild img:hover {
+    box-shadow: 0 0 6px 0 #015080;
+  }
+
+  .projekttitel {
+    color: #017AC0;
+    position: relative;
+    hyphens: auto;
+    word-wrap: break-word;
+    padding: 2%;
+
+    h1 {
+      color: #017AC0;
+      text-shadow: 1px 1px 1px #014f8069;
+    }
+
+    h1:hover {
+      text-shadow: 0px 0px 0px #00000000;
+    }
+  }
 }
 
 .navigate {
@@ -3508,7 +3529,66 @@ div.SperrbereichKarriere {
 
 }
 
-/* Mobil Menü */
+.projektseite {
+  display: grid;
+  justify-content: space-between;
+  grid-template-areas:
+    'projekttitel projektbild';
+  grid-template-columns: 40% 50%;
+  padding: 4%;
+
+  .projektbild {
+    grid-area: projektbild;
+  }
+
+  .projektbild img {
+    width: 100%;
+    height: 40em;
+    object-fit: cover;
+    border: 1px solid #017ac0aa;
+    border-radius: 10px;
+  }
+
+  .projekttitel {
+    grid-area: projekttitel;
+    display: flex;
+    flex-direction: column;
+    hyphens: auto;
+    word-wrap: break-word;
+
+    h1 {
+      font-size: 3em;
+      color: #017AC0;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 5% 0 0 0;
+    }
+
+    td {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 6px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #eeeeee;
+    }
+
+    p {
+      margin: 2% 0 1% 0;
+    }
+
+    #map {
+      width: 100%;
+      min-height: 250px;
+      flex-grow: 1;
+      border: 1px solid black;
+    }
+  }
+}
 
 /* Hamburger-Icon */
 #hamburgerIcon {
@@ -4273,5 +4353,23 @@ div.SperrbereichKarriere {
 
   .projektbild img {
     height: 13em;
+  }
+
+  .projektseite {
+    display: block;
+
+    .projekttitel {
+      h1 {
+        font-size: 2em;
+      }
+    }
+
+    .projektbild {
+      margin: 5% 0;
+
+      img {
+        height: 20em;
+      }
+    }
   }
 }

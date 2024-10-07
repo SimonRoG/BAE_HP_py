@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (document.body.id === "home-page") {
         videoBackground.addEventListener('canplay', function () {
-            setupPageTransition(); 
+            setupPageTransition();
             videoBackground.addEventListener('canplaythrough', function () {
                 videoBackground.play();
             });
@@ -50,16 +50,10 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     window.addEventListener("scroll", function () {
-        var scrollPosition = window.scrollY || document.documentElement.scrollTop;
-        if (videoContainer) {
-            var videoOffset = videoContainer.offsetTop;
-
-            if (scrollPosition < videoOffset && videoBackground && !videoBackground.paused) {
-                var menuBarOverlay = document.getElementById("menuBarOverlay");
-                if (menuBarOverlay) {
-                    menuBarOverlay.style.display = "block";
-                }
-            }
+        if (window.scrollY >= 800) {
+            videoBackground.pause();
+        } else {
+            videoBackground.play();
         }
     });
 });
