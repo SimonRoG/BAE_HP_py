@@ -107,3 +107,8 @@ def submit():
 @app.route("/Geschaeftsfelder/<Geschaeftsfeld>")
 def geschaeftsfelder(Geschaeftsfeld):
     return render_template_(f"Geschaeftsfelder/{Geschaeftsfeld}.html")
+
+@app.route("/Bilder/<Bild>")
+def bild(Bild):
+    return send_from_directory('static/Bilder', Bild)
+

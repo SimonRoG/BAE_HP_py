@@ -17,10 +17,10 @@
     {% include menu_bar%}
 
     <div class="containerbildkarriere parallax">
+        <img src="{{ url_for('static', filename='Bilder/Karrierebereich.jpg') }}">
         <h1>Karriere in der BAE GROUP.</h1>
     </div>
-
-    <div class="stelle">
+    <div class="stelle Hauptseite">
         <h1>{{ item.Name }}</h1>
         <div class="ortetext">
             <h2>Standorte: {{item.Standort}}</h2>

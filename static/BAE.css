@@ -305,16 +305,11 @@ body {
   height: 100%;
   object-fit: cover;
   transform: translate(-50%, -50%);
-  /* Centers the video */
   z-index: -1;
 }
 
-.parallax {
-  height: 50%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.Hauptseite {
+  background-color: white;
 }
 
 #textContainer {
@@ -2289,7 +2284,7 @@ div.ContainerUeberuns {
 
 /* Beginn Geschäftsfeld PropertyManagement */
 .PropertyManagement.Bild {
-  background-image: url('Bilder/Propertymanagement.jpeg');
+  background-image: url('Bilder/Propertymanagement.jpg');
 }
 
 #PropertyManagement {
@@ -2695,7 +2690,7 @@ div.ContainerUeberuns {
 
 /* Beginn Geschäftsfeld Investmentmanagement */
 .InvestmentManagement.Bild {
-  background-image: url('Bilder/Investmentmanagement.jpeg');
+  background-image: url('Bilder/Investmentmanagement.jpg');
 }
 
 #InvestmentManagement {
@@ -3092,12 +3087,16 @@ li::marker {
 
 div.containerbildkarriere {
   width: 100%;
-  height: 40vh;
-  background-image: url('Bilder/KarrierebereichParallax.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  height: 50vh;
   position: relative;
+  z-index: -1;
+
+  img {
+    position: fixed;
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+  }
 }
 
 .containerbildkarriere h1 {
@@ -3235,7 +3234,7 @@ div.stellenanzeigeBild {
 }
 
 .stelle {
-  margin: 3% 8%;
+  padding: 3% 8%;
 
   h1 {
     padding: 0.5% 1%;
@@ -3424,12 +3423,16 @@ div.SperrbereichKarriere {
 
 .referenzenbild {
   width: 100%;
-  height: 40vh;
-  background-image: url('Bilder/Projekte.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  height: 50vh;
   position: relative;
+  z-index: -1;
+
+  img {
+    position: fixed;
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+  }
 }
 
 .referenzenbild h1 {
@@ -3448,7 +3451,8 @@ div.SperrbereichKarriere {
 .projekte {
   display: flex;
   flex-wrap: wrap;
-  margin: 1%;
+  padding: 1%;
+  background-color: white;
 }
 
 .projekt {
@@ -3536,6 +3540,7 @@ div.SperrbereichKarriere {
     'projekttitel projektbild';
   grid-template-columns: 40% 50%;
   padding: 4%;
+  background-color: white;
 
   .projektbild {
     grid-area: projektbild;
