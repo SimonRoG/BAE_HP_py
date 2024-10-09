@@ -3591,6 +3591,7 @@ div.SperrbereichKarriere {
       min-height: 250px;
       flex-grow: 1;
       border: 1px solid black;
+      z-index: 0;
     }
   }
 }
@@ -4376,5 +4377,9 @@ div.SperrbereichKarriere {
         height: 20em;
       }
     }
+  }
+
+  .navigate{
+    padding: 5% 0 10% 0;
   }
 }

@@ -83,32 +83,11 @@ def stelle(Stelle):
             )
 
 
-@app.route("/submit", methods=["POST"])
-def submit():
-    if request.method == "POST":
-
-        recaptcha_response = request.form["g-recaptcha-response"]
-        data = {"secret": RECAPTCHA_SECRET_KEY, "response": recaptcha_response}
-        verify_url = "https://www.google.com/recaptcha/api/siteverify"
-        response = requests.post(verify_url, data=data)
-        result = response.json()
-
-        if result["success"]:
-            name = request.form["name"]
-            email = request.form["email"]
-            message = request.form["message"]
-            file = request.files["file"]
-
-            file.save(os.path.join(app.config["UPLOAD_FOLDER"], file.filename))
-
-            return f"Received: Name - {name}, Email - {email}<br> Massage: {message}<br> {file.filename}"
-
-
 @app.route("/Geschaeftsfelder/<Geschaeftsfeld>")
 def geschaeftsfelder(Geschaeftsfeld):
     return render_template_(f"Geschaeftsfelder/{Geschaeftsfeld}.html")
 
+
 @app.route("/Bilder/<Bild>")
 def bild(Bild):
-    return send_from_directory('static/Bilder', Bild)
-
+    return send_from_directory("static/Bilder", Bild)
