@@ -56,6 +56,13 @@ document.addEventListener("DOMContentLoaded", function () {
             videoBackground.play();
         }
     });
+
+    window.addEventListener('load', () => {
+        const $recaptcha = document.querySelector('#g-recaptcha-response');
+        if ($recaptcha) {
+            $recaptcha.setAttribute('required', 'required');
+        }
+    })
 });
 
 function closeMobileMenu() {

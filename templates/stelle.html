@@ -52,28 +52,23 @@
         </h2>
 
         <div class="formular">
-            <form id="form" action="/submit" method="POST" enctype="multipart/form-data">
-                <input type="text" id="name" name="name" placeholder="Name" required><br><br>
-
-                <input type="email" id="email" name="email" placeholder="Email" required><br><br>
-
-                <textarea id="message" name="message" rows="5" placeholder="Massage"></textarea><br><br>
-
+            <form>
+                {{ form.name(placeholder="Name*") }} <br><br>
+                {{ form.email(placeholder="Email*") }} <br><br>
+                {{ form.massage(rows="5", placeholder="Massage") }} <br><br>
                 <div class="fileinput">
                     <label for="file">
                         <i><img src="{{ url_for('static', filename='/Icons/pdf.svg') }}" alt="pdf"></i>
                     </label>
                     <div>
-                        <input type="file" id="file" name="file" accept=".pdf" required>
+                        {{ form.file(accept=".pdf") }}
                         <label for="file">
-                            <p>Lebenslauf hochladen</p>
+                            <p>Lebenslauf hochladen*</p>
                         </label>
                     </div>
                 </div><br>
-
-                <div class="g-recaptcha" data-sitekey="{{ recaptcha_site_key }}" required></div><br>
-
-                <input type="submit" id="submit" value="Senden">
+                {{ form.recaptcha }} <br>
+                {{ form.submit() }} <br><br>
             </form>
         </div>
     </div>

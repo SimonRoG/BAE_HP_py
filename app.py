@@ -1,16 +1,38 @@
 from flask import *
 import json
 import os
-import requests
+from flask_wtf import FlaskForm, RecaptchaField
+from wtforms import StringField, EmailField, TextAreaField, SubmitField
+from wtforms.validators import DataRequired
+from flask_wtf.file import FileField, FileAllowed, FileRequired
 
 app = Flask(__name__)
+app.secret_key = os.urandom(24)
 
 UPLOAD_FOLDER = "uploads/"
 app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 
+if not os.path.exists(UPLOAD_FOLDER):
+    os.makedirs(UPLOAD_FOLDER)
 
 with open(os.path.join(app.root_path, "data", "keys.json"), "r") as file:
     keys = json.load(file)
+
+RECAPTCHA_SITE_KEY = keys["RECAPTCHA_SITE_KEY"]
+RECAPTCHA_SECRET_KEY = keys["RECAPTCHA_SECRET_KEY"]
+app.config['RECAPTCHA_PUBLIC_KEY'] = RECAPTCHA_SITE_KEY
+app.config['RECAPTCHA_PRIVATE_KEY'] = RECAPTCHA_SECRET_KEY
+
+class Formular(FlaskForm):
+    name = StringField('Name', validators=[DataRequired()])
+    email = EmailField('Email', validators=[DataRequired()])
+    massage = TextAreaField('Massage')
+    file = FileField('File', validators=[
+        FileRequired(),
+        FileAllowed(['pdf'], '*.pdf only!')
+        ])
+    recaptcha = RecaptchaField('reCAPTCHA', validators=[DataRequired()])
+    submit = SubmitField('Senden')
 
 with open(
     os.path.join(app.root_path, "data", "Referenzen.json"),
@@ -25,12 +47,6 @@ with open(
     encoding="utf-8",
 ) as file:
     Stellenanzeigen = json.load(file)
-
-RECAPTCHA_SITE_KEY = keys["RECAPTCHA_SITE_KEY"]
-RECAPTCHA_SECRET_KEY = keys["RECAPTCHA_SECRET_KEY"]
-
-if not os.path.exists(UPLOAD_FOLDER):
-    os.makedirs(UPLOAD_FOLDER)
 
 
 def render_template_(html, **context):
@@ -76,10 +92,12 @@ def karriere():
 
 @app.route("/Karriere/<Stelle>")
 def stelle(Stelle):
+    form = Formular()
+
     for item in Stellenanzeigen:
         if item["Name"][:-7] == Stelle:
             return render_template_(
-                "stelle.html", item=item, recaptcha_site_key=RECAPTCHA_SITE_KEY
+                "stelle.html", item=item, recaptcha_site_key=RECAPTCHA_SITE_KEY, form=form
             )
 
 
