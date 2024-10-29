@@ -3,20 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/BAE.css">
-    <link rel="icon" href="/Logo/Rauten BAE.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <title>BAE GROUP</title>
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script src="/BAE.js"></script>
 </head>
 
 <body>
     <div id="copyright">
         BAE-GROUP 2024
-        <a href="/en/impressum.html" class="impressum">Imprint</a>
-        <a href="/en/datenschutz.html" class="datenschutz">Data Protection</a>
+        <a href="/en/Impressum" class="impressum">Imprint</a>
+        <a href="/en/Datenschutz" class="datenschutz">Data protection</a>
     </div>
 
     <div id="menuBar" class="desktop-menu">
@@ -27,104 +20,102 @@
         </div>
         <!-- BAEGroup Logo -->
         <div id="logoLink">
-            <a href="/en/index.html" onclick="navigateToHomePage()">
-                <img id="logo" src="/Logo/BAE_Group_Logo.png" alt="Logo_BAE_Group">
+            <a href="/en/" onclick="navigateToHomePage()">
+                <img id="logo" src="{{ url_for('static', filename='/Logo/BAE_Group_Logo.png') }}"  alt="Logo_BAE_Group">
             </a>
         </div>
 
         <!-- Elemente in der Leiste  -->
         <div class="menu-links">
-            <div><a href="/en/index.html#ContainerVideo">Home Page</a></div>
-            <div><a href="/en/index.html#ueberuns">About Us</a></div>
+            <div><a href="/en/">Home page</a></div>
+            <div><a href="/en/#ueberuns">About us</a></div>
             <div id="geschaeftsfelder">
-                <a href="/en/index.html#leistungen">Business areas</a>
+                <a href="/en/#leistungen">Business areas</a>
                 <div class="dropdown-content">
-                    <div class="dropdown-item"><a href="/en/Geschaeftsfelder/TGA.html">Technical Building Equipment</a>
+                    <div class="dropdown-item"><a href="/en/Geschaeftsfelder/TGA">Technical Building Equipment</a>
                     </div>
-                    <div class="dropdown-item"><a href="/en/Geschaeftsfelder/Contracting.html">Contracting</a></div>
-                    <div class="dropdown-item"><a href="/en/Geschaeftsfelder/Projektmanagement.html">Project Management</a>
+                    <div class="dropdown-item"><a href="/en/Geschaeftsfelder/Contracting">Contracting</a></div>
+                    <div class="dropdown-item"><a href="/en/Geschaeftsfelder/Projektmanagement">Project Management</a>
                     </div>
-                    <div class="dropdown-item"><a href="/en/Geschaeftsfelder/DigitalSolutions.html">Digital Solutions</a>
+                    <div class="dropdown-item"><a href="/en/Geschaeftsfelder/DigitalSolutions">Digital Solutions</a>
                     </div>
-                    <div class="dropdown-item"><a href="/en/Geschaeftsfelder/AssetManagement.html">Asset Management</a>
+                    <div class="dropdown-item"><a href="/en/Geschaeftsfelder/AssetManagement">Asset Management</a>
                     </div>
-                    <div class="dropdown-item"><a href="/en/Geschaeftsfelder/PropertyManagement.html">Property
-                            Management</a></div>
-                    <div class="dropdown-item"><a href="/en/Geschaeftsfelder/Generalplanung.html">General planning</a></div>
-                    <div class="dropdown-item"><a href="/en/Geschaeftsfelder/InvestmentManagement.html">Investment
-                            Management</a></div>
+                    <div class="dropdown-item"><a href="/en/Geschaeftsfelder/PropertyManagement">Property Management</a></div>
+                    <div class="dropdown-item"><a href="/en/Geschaeftsfelder/Generalplanung">General Planning</a></div>
+                    <div class="dropdown-item"><a href="/en/Geschaeftsfelder/InvestmentManagement">Investment Management</a></div>
                 </div>
             </div>
-            <div><a href="/en/index.html#standorte">Locations</a></div>
-            <div><a href="/en/referenzen.html">References</a></div>
-            <div><a href="/en/karriere.html">Career</a></div>
-            <div><a href="/en/index.html#kontakte" class="buttonKontakte">Contact</a></div>
+            <div><a href="/en/#standorte">Locations</a></div>
+            <div><a href="/en/Referenzen">References</a></div>
+            <div><a href="/en/Karriere">Career</a></div>
+            <div><a href="/en/#kontakte" class="buttonKontakte">Contact</a></div>
         </div>
 
         <!-- Icons für LinkedIn, Facebook und Instagram -->
         <div class="social-icons">
             <a href="https://www.linkedin.com/company/baegroup/" target="_blank" title="LinkedIn">
-                <img src="/Icons/linkedin.svg" alt="LinkedIn">
+                <img src="{{ url_for('static', filename='/Icons/linkedin.svg') }}"  alt="LinkedIn">
             </a>
             <a href="https://www.xing.com/pages/bae-group" target="_blank" title="xing">
-                <img src="/Icons/xing.svg" alt="xing">
+                <img src="{{ url_for('static', filename='/Icons/xing.svg') }}"  alt="xing">
             </a>
             <a href="https://www.facebook.com/profile.php?id=61554842673825" target="_blank" title="Facebook">
-                <img src="/Icons/facebook.svg" alt="Facebook">
+                <img src="{{ url_for('static', filename='/Icons/facebook.svg') }}"  alt="Facebook">
             </a>
             <a href="https://www.instagram.com/baegroup.eu/" target="_blank" title="linkedin">
-                <img src="/Icons/instagram.svg" alt="instagram">
+                <img src="{{ url_for('static', filename='/Icons/instagram.svg') }}"  alt="instagram">
             </a>
         </div>
 
         <div id="language" class="desktop">
             <div id="off">
-                <a href="/index.html">DE</a>
+                <a href="/">DE</a>
             </div>
             <div id="on">
-                <a href="/en/index.html">EN</a>
+                <a href="/en/">EN</a>
             </div>
         </div>
         <!-- Mobile Navigation Menu -->
         <div id="mobileMenu" class="mobile-menu">
             <div><button id="closeMobileMenu" type="button" onclick="closeMobileMenu()">
                     <i class="fas fa-times"></i></button></div>
-            <div><a href="/en/index.html" onclick="closeMobileMenu()">Home Page</a></div>
-            <div><a href="/en/index.html#ueberuns" onclick="closeMobileMenu()">About Us</a></div>
-            <div><a href="/en/index.html#leistungen" onclick="closeMobileMenu()">Business Areas</a></div>
-            <div><a href="/en/index.html#standorte" onclick="closeMobileMenu()">Locations</a></div>
-            <div><a href="/en/referenzen.html" onclick="closeMobileMenu()">References</a></div>
-            <div><a href="/en/karriere.html" onclick="closeMobileMenu()">Career</a></div>
-            <div><a href="/en/index.html#kontakte" onclick="closeMobileMenu()">Contact</a></div>
+            <div><a href="/en/" onclick="closeMobileMenu()">Home page</a></div>
+            <div><a href="/en/#ueberuns" onclick="closeMobileMenu()">About us</a></div>
+            <div><a href="/en/#leistungen" onclick="closeMobileMenu()">Business areas</a></div>
+            <div><a href="/en/#standorte" onclick="closeMobileMenu()">Locations</a></div>
+            <div><a href="/en/Referenzen" onclick="closeMobileMenu()">References</a></div>
+            <div><a href="/en/Karriere" onclick="closeMobileMenu()">Career</a></div>
+            <div><a href="/en/#kontakte" onclick="closeMobileMenu()">Contact</a></div>
             <div class="social-icons">
                 <a href="https://www.linkedin.com/company/baegroup/" target="_blank" title="LinkedIn"
                     onclick="closeMobileMenu()">
-                    <img src="/Icons/linkedin.svg" alt="LinkedIn">
+                    <img src="{{ url_for('static', filename='/Icons/linkedin.svg') }}"  alt="LinkedIn">
                 </a>
                 <a href="https://www.xing.com/pages/bae-group" target="_blank" title="xing" onclick="closeMobileMenu()">
-                    <img src="/Icons/xing.svg" alt="xing">
+                    <img src="{{ url_for('static', filename='/Icons/xing.svg') }}"  alt="xing">
                 </a>
                 <a href="https://www.facebook.com/profile.php?id=61554842673825" target="_blank" title="Facebook"
                     onclick="closeMobileMenu()">
-                    <img src="/Icons/facebook.svg" alt="Facebook">
+                    <img src="{{ url_for('static', filename='/Icons/facebook.svg') }}"  alt="Facebook">
                 </a>
                 <a href="https://www.instagram.com/baegroup.eu/" target="_blank" title="instagram"
                     onclick="closeMobileMenu()">
-                    <img src="/Icons/instagram.svg" alt="instagram">
+                    <img src="{{ url_for('static', filename='/Icons/instagram.svg') }}"  alt="instagram">
                 </a>
             </div>
             <div id="language" class="mobile">
                 <div id="off">
-                    <a href="/index.html">DE</a>
+                    <a href="/">DE</a>
                 </div>
                 <div id="on">
-                    <a href="en/index.html">EN</a>
+                    <a href="/en/">EN</a>
                 </div>
             </div>
             <div id="copyright">
                 BAE-GROUP 2024 <br>
-                <a href="/en/impressum.html" class="impressum" onclick="closeMobileMenu()">Imprint</a>
-                <a href="/en/datenschutz.html" class="datenschutz" onclick="closeMobileMenu()">Data Protection</a>
+                <a href="/en/Impressum" class="impressum" onclick="closeMobileMenu()">Imprint</a>
+                <a href="/en/Datenschutz" class="datenschutz" onclick="closeMobileMenu()">Data Protection</a>
             </div>
         </div>
     </div>

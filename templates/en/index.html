@@ -4,158 +4,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/BAE.css">
-    <link rel="icon" href="/Logo/Rauten BAE.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>BAE GROUP</title>
-    <!-- jQuery -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='BAE.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='Logo/Rauten BAE.png') }}" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-    <!-- Cookie Banner -->
-    <link rel="stylesheet" href="/cookiebanner.style.css">
-    <script src="/cookiebanner.script.js"></script>
-    <script>
-        $(document).ready(function () {
-            cookieBanner.init();
-        });
-    </script>
-    <script src="/BAE.js"></script>
+    <script src="{{ url_for('static', filename='BAE.js')}}"></script>
 </head>
 
 <body id="home-page">
+    {% include menu_bar %}
 
-    <div id="loadingPage">
-        <div id="loadingLogoContainer">
-            <img id="loadingLogo" src="/Logo/BAE_Loading.png" alt="Logo_BAE_Group"><br>
-        </div>
-        <div id="loadingSpinner"></div>
+    <div id="ContainerVideo">
+        <video id="video-background" class="parallax" loop autoplay muted
+            poster="{{ url_for('static', filename='Video/Landingpage.jpg') }}">
+            <source src="{{ url_for('static', filename='Video/LandingpageBAE.mp4') }}" type="video/mp4">
+            <img src="{{ url_for('static', filename='Video/Landingpage.jpg') }}">
+        </video>
     </div>
-
-
-
-    <copyright-bae></copyright-bae>
-
-    <!-- Hier ist die Hauptseite-->
     <div class="Hauptseite">
-        <!-- Hier ist der Container für die Texte -->
         <div id="textContainer">
             <div id="textElement1" class="textElement">
                 Your Partner For The Building Life Cycle.
             </div>
             <div id="textElement2" class="textElement">
-                #TechnicalBuildingEquipment #Contracting #ProjectManagement #DigitalSolutions
+                #TechnischeGebäudeausrüstung #Contracting #ProjectManagement #DigitalSolutions
             </div>
             <div id="textElement3" class="textElement">
                 #AssetManagement #PropertyManagement #Generalplanung #InvestmentManagement
             </div>
         </div>
 
-        <menu-bar></menu-bar>
-
-
-
-
-        <!-- Cookie Banner -->
-        <div id="cookieBanner" class="cookieBanner">
-            <div class="cookie-content">
-                <p><b>Cookies</b></p>
-                <p>By clicking the Accept button, you allow us to provide you with the best possible website experience
-                    to offer simple purchasing processes. These include cookies that are used to operate the site and
-                    for the Control of our services and applications are necessary, as well as those that are only
-                    necessary for be used for statistical purposes, for convenience settings or to display personalized
-                    content. You can decide for yourself which categories you want to allow and the settings
-                    Customize data usage individually. Please note that based on your settings you may
-                    Not all functionalities of the site are available. Of course you can make this decision
-                    adjust at any time</p><br>
-                <a href="#impressum" class="impressum">imprint</a>
-                <a href="#datenschutz" class="datenschutz">data protection</a><br>
-
-                <div class="cookie-options">
-                    <label><input type="radio" name="cookiePreference" value="all" checked> All Cookies</label>
-                    <label><input type="radio" name="cookiePreference" value="necessary"> Necessary cookies</label>
-                </div>
-                <div class="cookie-buttons">
-                    <button id="acceptCookiesBtn">Accept</button>
-                    <button id="showCookieSettingsBtn">Cookie Settings</button>
-                </div>
-            </div>
-        </div>
-
-        <!-- Cookie Settings Modal -->
-        <div id="cookieSettingsModal" class="cookieSettingsModal">
-            <div class="modal-content">
-                <span class="close" id="closeCookieSettingsModalBtn">&times;</span>
-                <h2>Cookie Settings</h2>
-                <p> Here you can manage your personal cookie preferences. Choose which types of
-                    Cookies you want to allow.<br><br>
-                    <b>Necessary cookies: </b> Necessary cookies: These cookies are for basic
-                    functionality of the website is required and cannot be deactivated. They guarantee that
-                    Core functions and security features of the site. <br><br>
-                    <b>Analytics cookies:</b> These cookies enable us to monitor usage behavior on our website
-                    Analyze website and measure performance. They serve to continually increase our offers
-                    improve and adapt to your needs.<br><br>
-                    <b>Marketing cookies:</b> We use marketing cookies to provide you with personalized advertising
-                    show that matches your interests. This allows us to show you more relevant advertising
-                    and improve your internet experience.
-
-                </p>
-                <div class="cookie-options">
-                    <label><input type="checkbox" name="analytics"> Analytics Cookies</label>
-                    <label><input type="checkbox" name="marketing"> Marketing Cookies</label>
-                </div>
-                <div class="cookie-buttons">
-                    <button id="saveCookieSettingsBtn">Einstellungen speichern</button>
-                </div>
-            </div>
-        </div>
-
-        <div id="ContainerVideo">
-            <video id="video-background" loop autoplay muted>
-                <source src="/Video/LandingpageBAE.mp4" type="video/mp4">
-            </video>
-        </div>
 
         <div id="ueberuns" class="ContainerUeberuns">
-            <h1>About Us.</h1>
-
+            <h1>About us.</h1>
             <div class="Ueberuns-subcontainer0">
                 <p>
-                    The BAE GROUP represents a diverse group of companies that comprehensively addresses the life cycle
-                    of real estate.
-                    Our core competencies extend across eight strategic business areas that cover the entire
-                    Cover the range of the real estate industry. Starting with the technical building equipment, over
-                    Contracting, project management, through to digital solutions, asset management, property
-                    Management, general planning and investment management – ​​the BAE GROUP is a holistic one
-                    Partner for all aspects of your real estate.<br><br>
-                    With a large number of committed employees, we form a dynamic team
-                    Real estate specialists who cover different perspectives and disciplines. Our experts,
-                    be it engineers, technicians, architects, business economists or computer scientists, unite theirs
-                    Competencies to develop innovative and tailor-made solutions for our customers.<br><br>
-                    The BAE GROUP is not only characterized by its wide range of services, but also
-                    also through their regional presence and global perspective. Our locations in Germany and
-                    Eastern Europe allows us to respond flexibly to the needs of our customers
-                    to offer tailor-made solutions for every challenge.<br><br>
-
+                    The BAE GROUP represents a multifaceted group of companies that is comprehensively dedicated to the life cycle of real estate. Our core competencies extend across eight strategic business areas that cover the entire spectrum of the real estate industry. From technical building services, contracting, and project management to digital solutions, asset management, property management, general planning and investment management - the BAE GROUP is a holistic partner for all aspects of your real estate.<br><br>
+                    With numerous dedicated employees, we form a dynamic team of real estate specialists covering different perspectives and disciplines. Our experts, be they engineers, technicians, architects, business economists or computer scientists, combine their skills to develop innovative and customized solutions for our clients.<br><br>
+                    The BAE GROUP is characterized not only by its wide range of services, but also by its regional presence and global perspective. Our locations in Germany and Eastern Europe enable us to respond flexibly to the needs of our customers and offer customized solutions for every challenge.<br><br>
                 </p>
-            </div>
-
-            <div class="Ueberuns-subcontainer1">
-
-                <div class="Ueberuns-subcontainer2">
-                    <img class="full-image" src="/Bilder/Geschäftsfelder_Icon.jpg" alt="Geschäftsfelder Icon">
-                </div>
-
-                <div class="Ueberuns-subcontainer2">
-                    <img class="full-image" src="/Bilder/Mitarbeiter_Icon.jpg" alt="Mitarbeiter Icon">
-                </div>
-
-                <div class="Ueberuns-subcontainer2">
-                    <img class="full-image" src="/Bilder/Team_Icon.jpg" alt="Team Icon">
-                </div>
-
-                <div class="Ueberuns-subcontainer2">
-                    <img class="full-image" src="/Bilder/Standorte_Icon.jpg" alt="Standorte Icon">
-                </div>
             </div>
         </div>
 
@@ -165,58 +53,64 @@
             <div class="geschaeftsfelder-container">
 
                 <div class="geschaeftsfeld">
-                    <a href="/Geschaeftsfelder/TGA.html">
-                        <img src="/Bilder/Gebäudetechnik.jpg" alt="Technische Gebäudeausrüstung">
-                        <p>Technical building equipment</p>
+                    <a href="/en/Geschaeftsfelder/TGA">
+                        <img src="{{ url_for('static', filename='Bilder/Gebäudetechnik.jpg') }}"
+                            alt="Technische Gebäudeausrüstung">
+                        <p>Technical Building Equipment</p>
                     </a>
                 </div>
 
                 <div class="geschaeftsfeld">
-                    <a href="/Geschaeftsfelder/Contracting.html">
-                        <img src="/Bilder/Contracting.jpg" alt="Contracting">
+                    <a href="/en/Geschaeftsfelder/Contracting">
+                        <img src="{{ url_for('static', filename='Bilder/Contracting.jpg') }}" alt="Contracting">
                         <p>Contracting</p>
                     </a>
                 </div>
 
                 <div class="geschaeftsfeld">
-                    <a href="/Geschaeftsfelder/Projektmanagement.html">
-                        <img src="/Bilder/Projektmanagement.jpg" alt="Projektmanagement.jpg">
-                        <p>Project management</p>
+                    <a href="/en/Geschaeftsfelder/Projektmanagement">
+                        <img src="{{ url_for('static', filename='Bilder/Projektmanagement.jpg') }}"
+                            alt="Projektmanagement.jpg">
+                        <p>Project Management</p>
                     </a>
                 </div>
 
                 <div class="geschaeftsfeld">
-                    <a href="/Geschaeftsfelder/DigitalSolutions.html">
-                        <img src="/Bilder/Digital Soluation.jpg" alt="Digital Soluation">
+                    <a href="/en/Geschaeftsfelder/DigitalSolutions">
+                        <img src="{{ url_for('static', filename='Bilder/Digital_Soluation.jpg') }}"
+                            alt="Digital Soluation">
                         <p>Digital Solutions</p>
                     </a>
                 </div>
 
 
                 <div class="geschaeftsfeld">
-                    <a href="/Geschaeftsfelder/AssetManagement.html">
-                        <img src="/Bilder/Assetmanagement.jpg" alt="Assetmanagement.jpg">
+                    <a href="/en/Geschaeftsfelder/AssetManagement">
+                        <img src="{{ url_for('static', filename='Bilder/Assetmanagement.jpg') }}"
+                            alt="Assetmanagement.jpg">
                         <p>Asset Management</p>
                     </a>
                 </div>
 
                 <div class="geschaeftsfeld">
-                    <a href="/Geschaeftsfelder/PropertyManagement.html">
-                        <img src="/Bilder/Propertymanagement.jpeg" alt="Propertymanagement">
+                    <a href="/en/Geschaeftsfelder/PropertyManagement">
+                        <img src="{{ url_for('static', filename='Bilder/Propertymanagement.jpg') }}"
+                            alt="Propertymanagement">
                         <p>Property Management</p>
                     </a>
                 </div>
 
                 <div class="geschaeftsfeld">
-                    <a href="/Geschaeftsfelder/Generalplanung.html">
-                        <img src="/Bilder/Generalplanung.jpg" alt="Generalplanung">
-                        <p>General planning</p>
+                    <a href="/en/Geschaeftsfelder/Generalplanung">
+                        <img src="{{ url_for('static', filename='Bilder/Generalplanung.jpg') }}" alt="Generalplanung">
+                        <p>General Planning</p>
                     </a>
                 </div>
 
                 <div class="geschaeftsfeld">
-                    <a href="/Geschaeftsfelder/InvestmentManagement.html">
-                        <img src="/Bilder/Investmentmanagement.jpeg" alt="Investmentmanagement">
+                    <a href="/en/Geschaeftsfelder/InvestmentManagement">
+                        <img src="{{ url_for('static', filename='Bilder/Investmentmanagement.jpg') }}"
+                            alt="Investmentmanagement">
                         <p>Investment Management</p>
                     </a>
                 </div>
@@ -230,63 +124,63 @@
 
                 <div class="standort">
                     <div class="circle-img">
-                        <img src="/Bilder/Frankfurt.jpeg" alt="Frankfurt">
+                        <img src="{{ url_for('static', filename='Bilder/Frankfurt.jpg') }}" alt="Frankfurt">
                     </div>
                     <p>Frankfurt am Main</p>
                 </div>
 
                 <div class="standort">
                     <div class="circle-img">
-                        <img src="/Bilder/Berlin.jpeg" alt="Berlin">
+                        <img src="{{ url_for('static', filename='Bilder/Berlin.jpg') }}" alt="Berlin">
                     </div>
                     <p>Berlin</p>
                 </div>
 
                 <div class="standort">
                     <div class="circle-img">
-                        <img src="/Bilder/Muenchen.jpeg" alt="München">
+                        <img src="{{ url_for('static', filename='Bilder/Muenchen.jpg') }}" alt="München">
                     </div>
-                    <p>München</p>
+                    <p>Munich</p>
                 </div>
 
                 <div class="standort">
                     <div class="circle-img">
-                        <img src="/Bilder/Stuttgart.jpeg" alt="Stuttgart">
+                        <img src="{{ url_for('static', filename='Bilder/Stuttgart.jpg') }}" alt="Stuttgart">
                     </div>
                     <p>Stuttgart</p>
                 </div>
 
                 <div class="standort">
                     <div class="circle-img">
-                        <img src="/Bilder/Coburg.jpeg" alt="Coburg">
+                        <img src="{{ url_for('static', filename='Bilder/Coburg.jpg') }}" alt="Coburg">
                     </div>
                     <p>Coburg</p>
                 </div>
 
                 <div class="standort">
                     <div class="circle-img">
-                        <img src="/Bilder/Bamberg.jpeg" alt="Bamberg">
+                        <img src="{{ url_for('static', filename='Bilder/Bamberg.jpg')}}" alt="Bamberg">
                     </div>
                     <p>Bamberg</p>
                 </div>
 
                 <div class="standort">
                     <div class="circle-img">
-                        <img src="/Bilder/Deggendorf.jpeg" alt="Deggendorf">
+                        <img src="{{ url_for('static', filename='Bilder/Deggendorf.jpg')}}" alt="Deggendorf">
                     </div>
                     <p>Deggendorf</p>
                 </div>
 
                 <div class="standort">
                     <div class="circle-img">
-                        <img src="/Bilder/Sofia.jpeg" alt="Sofia">
+                        <img src="{{ url_for('static', filename='Bilder/Sofia.jpg')}}" alt="Sofia">
                     </div>
                     <p>Sofia</p>
                 </div>
 
                 <div class="standort">
                     <div class="circle-img">
-                        <img src="/Bilder/Varna.jpeg" alt="Varna">
+                        <img src="{{ url_for('static', filename='Bilder/Varna.jpg')}}" alt="Varna">
                     </div>
                     <p>Varna</p>
                 </div>
@@ -296,17 +190,17 @@
         <div id="kontakte" class="ContainerKontakt">
             <div class="Kontakt-container">
 
-                <h1>Contact.</h1>
+                <h1>Kontakt.</h1>
                 <div class="Kontakt-subcontainer2 mobile">
                     <div class="Kontakt image-container">
-                        <img src="/Bilder/MAP_Deutschland.png" alt="Map Deutschland">
+                        <img src="{{ url_for('static', filename='Bilder/MAP_Deutschland.png')}}" alt="Map Deutschland">
                     </div>
                 </div>
                 <div class="Kontakt-subcontainer1">
                     <h1>Locations in Germany:</h1>
                     <div class="kontakte">
                         <h2>Frankfurt am Main</h2>
-                        <p><b>BAE Frankfurt GmbH (Hauptsitz)</b></p>
+                        <p><b>BAE Frankfurt GmbH (Head office)</b></p>
                         <p><i class="fas fa-street-view"></i><span class="icon-text">Berner Straße 119</span></p>
                         <p><i class="fas fa-city"></i><span class="icon-text">60437 Frankfurt am Main</span></p>
                         <p><i class="fas fa-envelope"></i><span class="icon-text">frankfurt@b-a-e.eu</span></p>
@@ -316,7 +210,7 @@
                     <div class="kontakte">
                         <h2>Berlin</h2>
 
-                        <p><b>BAE Frankfurt GmbH, Repräsentanz Berlin</b></p>
+                        <p><b>BAE Frankfurt GmbH, Berlin representative office</b></p>
                         <p><i class="fas fa-street-view"></i><span class="icon-text">Erich-Weinert-Straße 141</span></p>
                         <p><i class="fas fa-city"></i><span class="icon-text">10409 Berlin</span></p>
                         <p><i class="fas fa-envelope"></i> <span class="icon-text">berlin@b-a-e.eu</span></p>
@@ -326,9 +220,9 @@
                     <div class="kontakte">
                         <h2>München</h2>
 
-                        <p><b>BAE GmbH, Niederlassung München</b></p>
+                        <p><b>BAE GmbH, Munich branch</b></p>
                         <p><i class="fas fa-street-view"></i><span class="icon-text">Humboldtstraße 6</span></p>
-                        <p><i class="fas fa-city"></i><span class="icon-text">85609 München</span></p>
+                        <p><i class="fas fa-city"></i><span class="icon-text">85609 Munich</span></p>
                         <p><i class="fas fa-envelope"></i> <span class="icon-text">office@b-a-e.eu</span></p>
                         <p><i class="fas fa-phone"></i> <span class="icon-text">+49 89 24 41 85 960</span></p>
                     </div>
@@ -346,7 +240,7 @@
                     <div class="kontakte">
                         <h2>Coburg</h2>
 
-                        <p><b>BAE GmbH (Hauptsitz)</b></p>
+                        <p><b>BAE GmbH (Head office)</b></p>
                         <p><i class="fas fa-street-view"></i><span class="icon-text">Raststraße 20</span></p>
                         <p><i class="fas fa-city"></i><span class="icon-text">96450 Coburg</span></p>
                         <p><i class="fas fa-envelope"></i> <span class="icon-text">office@b-a-e.eu</span></p>
@@ -356,7 +250,7 @@
                     <div class="kontakte">
                         <h2>Bamberg</h2>
 
-                        <p><b>BAE GmbH, Niederlassung Bamberg</b></p>
+                        <p><b>BAE GmbH, Bamberg branch</b></p>
                         <p><i class="fas fa-street-view"></i><span class="icon-text">Kirschäckerstraße 27</span></p>
                         <p><i class="fas fa-city"></i><span class="icon-text">96052 Bamberg</span></p>
                         <p><i class="fas fa-envelope"></i><span class="icon-text">office@b-a-e.eu </span></p>
@@ -366,7 +260,7 @@
                     <div class="kontakte">
                         <h2>Deggendorf</h2>
 
-                        <p><b>BAE GmbH, Niederlassung Deggendorf</b></p>
+                        <p><b>BAE GmbH, Deggendorf branch</b></p>
                         <p><i class="fas fa-street-view"></i><span class="icon-text">Itzlinger Weg 2</span></p>
                         <p><i class="fas fa-city"></i><span class="icon-text">94469 Deggendorf</span></p>
                         <p><i class="fas fa-envelope"></i> <span class="icon-text">office@b-a-e.eu</span></p>
@@ -376,13 +270,13 @@
 
                 <div class="Kontakt-subcontainer2 desktop">
                     <div class="Kontakt image-container">
-                        <img src="/Bilder/MAP_Deutschland.png" alt="Map Deutschland">
+                        <img src="{{ url_for('static', filename='Bilder/MAP_Deutschland.png')}}" alt="Map Deutschland">
                     </div>
                 </div>
 
                 <div class="Kontakt-subcontainer4 mobile">
                     <div class="Kontakt image-container">
-                        <img src="/Bilder/MAP_Bulgarien.jpg" alt="Map Bulgarien">
+                        <img src="{{ url_for('static', filename='Bilder/MAP_Bulgarien.jpg')}}" alt="Map Bulgarien">
                     </div>
                 </div>
                 <div class="Kontakt-subcontainer3">
@@ -390,7 +284,7 @@
                     <div class="kontakte">
                         <h2>Sofia</h2>
 
-                        <p><b>BAE OOD (Hauptsitz)</b></p>
+                        <p><b>BAE OOD (Head office)</b></p>
                         <p><i class="fas fa-street-view"></i><span class="icon-text">r.c. Mladost 2, bl. 254, ground
                                 floor, office 1</span></p>
                         <p><i class="fas fa-city"></i><span class="icon-text">1799 Sofia</span></p>
@@ -401,7 +295,7 @@
                     <div class="kontakte">
                         <h2>Varna</h2>
 
-                        <p><b>BAE OOD, Niederlassung Varna</b></p>
+                        <p><b>BAE OOD, Varna branch</b></p>
                         <p><i class="fas fa-street-view"></i> <span class="icon-text">Slivnitsa bul. 166a, floor 5,
                                 office 39/40</span></p>
                         <p><i class="fas fa-city"></i> <span class="icon-text">9009 Varna</span></p>
@@ -412,16 +306,12 @@
 
                 <div class="Kontakt-subcontainer4 desktop">
                     <div class="Kontakt image-container">
-                        <img src="/Bilder/MAP_Bulgarien.jpg" alt="Map Bulgarien">
+                        <img src="{{ url_for('static', filename='Bilder/MAP_Bulgarien.jpg')}}" alt="Map Bulgarien">
                     </div>
                 </div>
-
             </div>
         </div>
-
     </div>
-    </div>
-
 </body>
 
 </html>

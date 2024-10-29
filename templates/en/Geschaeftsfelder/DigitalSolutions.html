@@ -4,81 +4,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/BAE.css">
-    <link rel="icon" href="/Logo/Rauten BAE.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>BAE GROUP</title>
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script src="/BAE.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='BAE.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='Logo/Rauten BAE.png') }}" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="{{ url_for('static', filename='BAE.js')}}"></script>
 </head>
 
 <body>
-    <menu-bar></menu-bar>
-    <copyright-bae></copyright-bae>
-
+    {% include menu_bar %}
+    
     <div class="DigitalSolutions Bild"></div>
     <div id="DigitalSolutions" class="ContainerDigitalSolutions">
         <h2>Digital Solutions.</h2>
         <div class="DigitalSolutions-container">
             <div class="DigitalSolutions-subcontainer0">
-                <p>The integration of digital services and software in buildings is already playing a role today
-                    crucial role and shapes the way we design, build and use buildings.
-                    Similar to the revolution in the automotive sector, where sensors, actuators and digital services
-                    are being used
-                    As part of the standard, these technologies are increasingly being used in buildings to improve
-                    their performance
-                    Optimize functionality, efficiency and user experience.<br><br>
+                <p>
+                    The integration of digital services and software in buildings is already playing a crucial role and is shaping the way we design, build and use buildings. Similar to the revolution in the automotive sector, where sensors, actuators and digital services are standard, buildings are also increasingly relying on these technologies to optimize their functionality, efficiency and user experience.<br><br>
 
-                    The importance of software engineering and apps comes especially in user-friendliness
-                    of buildings to bear. Customized apps allow users to have personalized settings
-                    for room temperature, lighting and other environmental conditions. These apps,
-                    integrated into the building management system, automatically adapt to the individual
-                    preferences and habits of building users, which not only increases comfort, but also
-                    also improves efficiency by adapting to residents' needs. The
-                    Building security is strengthened by advanced software solutions, such as biometric
-                    Access controls, surveillance cameras, intelligent alarm systems and the analysis of
-                    movement patterns. These digital services help ensure the security of buildings
-                    increase and prevent unwanted access.<br>
+                    The importance of software engineering and apps is particularly evident in the user-friendliness of buildings. Customized apps allow users to make personalized settings for room temperature, lighting and other environmental conditions. These apps, integrated into the building management system, automatically adapt to the individual preferences and habits of the building users, which not only increases comfort but also improves efficiency by adapting to the needs of the occupants. Building security is strengthened by advanced software solutions, such as biometric access control, surveillance cameras, intelligent alarm systems and the analysis of movement patterns. These digital services help to increase the security of buildings and prevent unwanted access.<br>
                 </p>
             </div>
 
             <div class="DigitalSolutions-subcontainer3">
                 <p>
-                    When networking buildings, not only the building itself is considered, but also the
-                    surrounding infrastructure included. The development of software solutions and
-                    APPS play a key role in ensuring smooth interaction and communication between
-                    different subsystems. By linking classic operating data
-                    With information from different subsystems, new possibilities open up for comprehensive
-                    Gain insights and design more efficient building systems. The actual added value
-                    lies in the development of new digital services. The comprehensive analysis of the combined
-                    Data enables the creation of innovative solutions, be it in the form of personalized ones
-                    User experiences, automatic energy optimization or intelligent room planning concepts.
-                    Digital services rely on data availability inside and outside the building.
-                    A building's data is an asset. The data can be used additionally via the digital services
-                    Income is generated. Data and digital services can thus determine the value of a building
-                    significantly influence.
+                    When networking buildings, not only the building itself is considered, but also the surrounding infrastructure. Here, the development of software solutions and APPS plays a key role in ensuring smooth interaction and communication between the various subsystems. Linking traditional operating data with information from different subsystems opens up new opportunities to gain comprehensive insights and design more efficient building systems. However, the real added value lies in the development of new digital services. The comprehensive analysis of the combined data enables the creation of innovative solutions, be it in the form of personalized user experiences, automatic energy optimization or intelligent space planning concepts. Digital services are based on the availability of data inside and outside the building. A building's data is an asset. Data can be used to generate additional revenue via digital services. Data and digital services can therefore significantly influence the value of a building.
                 </p>
             </div>
 
             <div class="DigitalSolutions-subcontainer3">
                 <div class="DigitalSolutions image-container3">
                     <button class="img-button" onclick="popup('/Bilder/Grafik_DatenalsAsset.png')">
-                        <img src="/Bilder/Grafik_DatenalsAsset.png" alt="3D-Modell TGA">
+                        <img src="{{ url_for('static', filename='/Bilder/Grafik_DatenalsAsset.png') }}" alt="3D-Modell TGA">
                     </button>
                 </div>
             </div>
 
             <div class="DigitalSolutions-subcontainer4">
                 <p>
-                    The integration of artificial intelligence (AI) and machine learning plays a central role
-                    Role in building automation. These technologies identify patterns in the
-                    energy consumption, enable predictive maintenance and continuously optimize it
-                    Building management. By creating digital twins of buildings, virtual models can be created
-                    synchronized with the physical buildings in real time. This makes monitoring easier,
-                    the maintenance and simulation of changes before they are physically implemented. <br><br>
+                    The integration of artificial intelligence (AI) and machine learning plays a central role in building automation. These technologies identify patterns in energy consumption, enable predictive maintenance and continuously optimize building management. By creating digital twins of buildings, virtual models can be synchronized with the physical buildings in real time. This facilitates monitoring, maintenance and the simulation of changes before they are physically implemented.<br><br>
 
-                    With our Digital Solutions business area, we offer extensive services in the area of
-                    Consulting and development of building-related APPS, software and web development.
+                    With our Digital Solutions division, we offer comprehensive services in the field of consulting and development of building-related APPS, software and web development.
                 </p>
             </div>
 
@@ -86,7 +53,7 @@
                 <h1>Overview of our services:</h1><br>
                 <div class="DigitalSolutions image-container5">
                     <button class="img-button" onclick="popup('/Bilder/Leistungen_DigitalSolutions.png')">
-                        <img src="/Bilder/Leistungen_DigitalSolutions.png" alt="Contracting Ablauf">
+                        <img src="{{ url_for('static', filename='/Bilder/Leistungen_DigitalSolutions.png') }}" alt="Contracting Ablauf">
                     </button>
                 </div>
             </div>

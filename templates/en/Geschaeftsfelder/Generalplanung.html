@@ -4,65 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/BAE.css">
-    <link rel="icon" href="/Logo/Rauten BAE.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>BAE GROUP</title>
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script src="/BAE.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='BAE.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='Logo/Rauten BAE.png') }}" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="{{ url_for('static', filename='BAE.js')}}"></script>
 </head>
 
 <body>
-    <menu-bar></menu-bar>
-    <copyright-bae></copyright-bae>
-
+    {% include menu_bar %}
+    
     <div class="Generalplanung Bild"></div>
     <div id="Generalplanung" class="ContainerGeneralplanung">
-        <h2>General planning.</h2>
+        <h2>General Planning.</h2>
         <div class="Generalplanung-container">
             <div class="Generalplanung-subcontainer1">
-                <p> With our general planning business area, we pursue a comprehensive approach that...
-                    Coordination and integration of all planning and construction aspects of a construction project
-                    covered by a single general planner. The aim is to cover the entire planning and construction
-                    process
-                    to optimize by creating a central point of contact for all matters. <br><br>
-                    A significant advantage of hiring a general planner for owners and investors
-                    consists in the efficiency and better coordination of the construction project. Since the general
-                    planner as
-                    Responsible for all planning and construction processes are possible
-                    Interface problems between different trades are minimized. This helps save time and
-                    To avoid wasting resources. <br><br>
+                <p> 
+                    With our general planning business area, we pursue a comprehensive approach that encompasses the coordination and integration of all planning and construction aspects of a building project by a single general planner. The aim is to optimize the entire planning and construction process by creating a central point of contact for all matters. <br><br>
 
-                    Furthermore, general planning enables a holistic view of the project. The
-                    General planner not only coordinates the architecture, but also the technical,
-                    building physics, economics and time aspects. This allows for optimal coordination
-                    between the different requirements and needs.
+                    A major advantage of commissioning a general planner for owners and investors is the efficiency and better coordination of the construction project. As the general planner acts as the person responsible for all planning and construction processes, potential interface problems between different trades are minimized. This helps to avoid wasting time and resources. <br><br>
+
+                    Furthermore, general planning enables a holistic view of the project. The general planner not only coordinates the architecture, but also the technical, physical, economic and time-related aspects. This ensures optimal coordination between the various requirements and needs.
                 </p>
             </div>
 
             <div class="Generalplanung-subcontainer3">
                 <p>
-                    Owners and investors also benefit from risk minimization, as the general planner
-                    is responsible for compliance with regulations and quality standards. Through the
-                    With central coordination, he can identify potential problems at an early stage and take
-                    countermeasures
-                    take action, which ultimately leads to higher construction quality. Another financial advantage
-                    for owners and investors is that general planning often leads to cost savings
-                    can lead. By bundling the various planning and construction processes, one can...
-                    more efficient use of resources can be achieved. This can have a positive impact on the budget
-                    project.<br><br>
-                    With our general planning services, we offer a holistic and efficient solution
-                    Approach to construction projects. Owners and investors benefit from a reduced rate
-                    Complexity, higher build quality and better control over the entire
-                    Construction process. Our team consists of the disciplines of architecture and technology
-                    Building equipment, statics, computer science and real estate-oriented business administration. The
-                    Integration of these specialist disciplines in a general planning team allows us to achieve a
-                    holistic approach
-                    Approach to construction projects. The synergy effects between architecture, TGA, statics,
-                    Computer science and real estate-oriented business administration lead to a comprehensive
-                    Planning and realization of buildings that are both functionally and economically optimized
-                    are. This helps reduce complexity, minimize risks and improve quality
-                    of the construction project.
+                    Owners and investors also benefit from risk minimization, as the general planner is responsible for compliance with regulations and quality standards. Central coordination allows them to identify potential problems at an early stage and take countermeasures, which ultimately leads to higher construction quality.Another financial advantage for owners and investors is that general planning can often lead to cost savings. By bundling the various planning and construction processes, a more efficient use of resources can be achieved. This can have a positive impact on the project budget.<br><br>
+
+                    With our general planning services, we offer a holistic and efficient approach to construction projects. Owners and investors benefit from reduced complexity, higher construction quality and better control over the entire construction process. Our team consists of the specialist disciplines of architecture, technical building services, statics, IT and real estate-oriented business administration. The integration of these specialist disciplines in a general planning team allows us to take a holistic approach to construction projects. The synergy effects between architecture, technical building equipment, statics, IT and real estate-oriented business administration lead to comprehensive planning and realization of buildings that are both functionally and economically optimized. This helps to reduce complexity, minimize risks and increase the quality of the construction project.
                 </p>
             </div>
 
@@ -70,7 +41,7 @@
                 <h1>Overview of our services:</h1><br>
                 <div class="Generalplanung image-container">
                     <button class="img-button" onclick="popup('/Bilder/Leistungen_Generalplanung.png')">
-                        <img src="/Bilder/Leistungen_Generalplanung.png" alt="Projektmanagement Leistungen">
+                        <img src="{{ url_for('static', filename='/Bilder/Leistungen_Generalplanung.png') }}" alt="Projektmanagement Leistungen">
                     </button>
                 </div>
             </div>

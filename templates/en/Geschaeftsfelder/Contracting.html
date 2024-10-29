@@ -4,71 +4,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/BAE.css">
-    <link rel="icon" href="/Logo/Rauten BAE.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>BAE GROUP</title>
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script src="/BAE.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='BAE.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='Logo/Rauten BAE.png') }}" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="{{ url_for('static', filename='BAE.js')}}"></script>
 </head>
 
 <body>
-    <menu-bar></menu-bar>
-    <copyright-bae></copyright-bae>
-
+    {% include menu_bar %}
+    
     <div class="Contracting Bild"></div>
     <div id="Contracting" class="ContainerContracting">
         <h2>Contracting.</h2>
         <div class="Contracting-container">
             <div class="Contracting-subcontainer0">
-                <p>Energy contracting, also known as energy services or energy supply contracting, is a
-                    effective tool for increasing energy efficiency in buildings. With this approach
-                    an external service provider, the so-called contractor, takes over the planning, financing,
-                    Implementation and operation of energy efficiency measures. In return, the contractor receives one
-                    contractually agreed remuneration, which often results from the energy costs saved.
+                <p>
+                    Energy contracting, also known as energy services or energy supply contracting, is an effective instrument for increasing energy efficiency in buildings. In this approach, an external service provider, known as the contractor, takes on the planning, financing, implementation and operation of energy efficiency measures. In return, the contractor receives a contractually agreed fee, which is often based on the energy costs saved.
                     <br><br>
 
-                    As an experienced partner in the field of energy contracting, we offer our business area
-                    Energy contracting comprehensive services, from the analysis of energy efficiency potential
-                    to long-term support of the installed systems. We develop tailor-made ones
-                    Solutions that are not only economically but also ecologically sustainable.
+                    As an experienced partner in the field of energy contracting, our Energy Contracting division offers comprehensive services, from analyzing energy efficiency potential to long-term support for installed systems. We develop tailor-made solutions that are not only economical but also ecologically sustainable.
                 </p>
             </div>
 
             <div class="Contracting-subcontainer2">
-                <h1>Overview of our services and process:</h1><br>
+                <h1>Überblick unserer Leistungen und Ablauf:</h1><br>
                 <div class="Contracting image-container">
                     <button class="img-button" onclick="popup('/Bilder/Contracting_Ablauf.png')">
-                        <img src="/Bilder/Contracting_Ablauf.png" alt="Contracting Ablauf">
+                        <img src="{{ url_for('static', filename='/Bilder/Contracting_Ablauf.png') }}" alt="Contracting Ablauf">
                     </button>
                 </div>
 
                 <div class="Contracting-subcontainer3">
                     <br>
-                    <p> There are numerous advantages for owners, builders and managers
-                        Energy contracting:</p>
+                    <p> 
+                        Energy contracting offers numerous advantages for owners, building owners and managers:
+                    </p>
 
-                    <p class="list-item">The building owner/client does not have to use his own financial resources,
-                        Your own investment risk is thus outsourced.</p>
-                    <p class="list-item">Modernizing systems increases energy efficiency and thus
-                        also increases operational and supply security, energy costs and environmental impact
-                        sink. Institutionally set climate protection goals are supported by the ESC.</p>
-                    <p class="list-item">This includes technical know-how and professional energy management
-                        used by the contractors.</p>
-                    <p class="list-item">The building owner/client is responsible for essential planning and
-                        Operating tasks relieved. There is more time left for your own core tasks.</p>
-                    <p class="list-item">The value, productivity and comfort of a building (or a
-                        system) are increased.</p>
-                    <p class="list-item">Many individual areas (planning, financing, construction, operation,
-                        maintenance)
-                        are covered from a single source. This means a significant reduction in interfaces
-                        feasible</p>
-                    <p class="list-item">Additional services such as: B. user motivation, training measures
-                        can be contractually agreed.</p>
-                    <p>The outstanding quality feature of the ESC is the appreciation of the
-                        Savings guarantee and is to be highlighted. It forms the essential additional benefit to
-                        solutions
-                        on your own.</p>
+                    <p class="list-item">
+                        The building owner/client does not have to use his own financial resources, thus outsourcing his own investment risk.
+                    </p>
+                    <p class="list-item">
+                        The modernization of systems increases energy efficiency and thus also operational and supply security, while reducing energy costs and environmental pollution. Institutional climate protection targets are supported by the ESC.
+                    </p>
+                    <p class="list-item">
+                        The contractors' technical expertise and professional energy management are used for this purpose.
+                    </p>
+                    <p class="list-item">
+                        The building owner/client is relieved of essential planning and operational tasks. This leaves more time for their own core tasks.
+                    </p>
+                    <p class="list-item">
+                        The value, productivity and comfort of a building (or system) are increased.
+                    </p>
+                    <p class="list-item">
+                        Many individual areas (planning, financing, construction, operation, maintenance) are covered from a single source. This enables a significant reduction in the number of interfaces
+                    </p>
+                    <p class="list-item">
+                        Additional services such as user motivation and training measures can be contractually agreed.
+                    </p>
+                    <p>
+                        The outstanding quality feature of the ESC is in particular the appreciation of the savings guarantee and should be emphasized. It is the essential additional benefit compared to self-directed solutions.
+                    </p>
                 </div>
             </div>
         </div>

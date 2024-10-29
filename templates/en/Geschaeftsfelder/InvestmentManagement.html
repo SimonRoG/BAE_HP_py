@@ -4,72 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/BAE.css">
-    <link rel="icon" href="/Logo/Rauten BAE.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>BAE GROUP</title>
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script src="/BAE.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='BAE.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='Logo/Rauten BAE.png') }}" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="{{ url_for('static', filename='BAE.js')}}"></script>
 </head>
 
 <body>
-    <menu-bar></menu-bar>
-    <copyright-bae></copyright-bae>
-
+    {% include menu_bar %}
+    
     <div class="InvestmentManagement Bild"></div>
     <div id="InvestmentManagement" class="ContainerInvestmentManagement">
         <h2>Investment Management.</h2>
         <div class="InvestmentManagement-container">
             <div class="InvestmentManagement-subcontainer0">
-                <p> We view investment management in the area of ​​buildings as comprehensive administration
-                    of real estate investments with the aim of improving the long-term value and profitability of the
-                    property
-                    Maximize buildings. This discipline combines strategic, financial and operational
-                    Measures to optimize the performance of real estate portfolios. The services provided in
-                    are provided as part of our investment management business for buildings
-                    diverse.<br>
-
-                    <br> Our services include the analysis and evaluation of real estate portfolios in order to...
-                    to create a sound basis for purchasing and selling decisions. Our team
-                    conducts due diligence to identify risks and opportunities and develops
-                    based on this, strategies for portfolio optimization. As part of rental management
-                    Strategies developed to achieve maximum utilization of the buildings, the negotiation of
-                    Rental agreements and the continuous optimization of rental prices. The management also maintains
-                    Relations with tenants and takes care of conflict resolution in order to ensure long-term tenant
-                    loyalty
-                    guarantee.
-                </p>
-            </div>
-
-            <div class="InvestmentManagement-subcontainer2">
-                <p>
+                <p> 
+                    We view investment management in the field of buildings as the comprehensive management of real estate investments with the aim of maximizing the long-term value and profitability of buildings. This discipline combines strategic, financial and operational measures to optimize the performance of real estate portfolios. The services provided as part of our Investment Management for Buildings business area are diverse.<br><br>
+                    
+                    Our services include the analysis and valuation of real estate portfolios in order to create a sound basis for purchase and sale decisions. Our team conducts due diligence reviews to identify risks and opportunities and develops strategies for portfolio optimization based on this. As part of letting management, strategies are developed to achieve maximum occupancy of the buildings, the negotiation of rental agreements and the continuous optimization of rental prices. Management also maintains relationships with tenants and deals with conflict resolution to ensure long-term tenant loyalty.
                 </p>
             </div>
 
             <div class="InvestmentManagement-subcontainer4">
                 <p>
-                    Operating cost optimization is another essential part of our services.
-                    The operating costs are analyzed in order to identify efficiency potential. Through
-                    Implementing measures to reduce operating costs will increase profitability
-                    Real estate improved. In order to increase the value of the buildings, the investment plans and
-                    coordinates
-                    Management of renovation and modernization measures. This includes the development of
-                    Strategies to increase value and the implementation of measures to improve attractiveness
-                    of real estate. <br>
+                    Optimizing operating costs is another key component of our services. This involves analyzing operating costs in order to identify efficiency potential. By implementing measures to reduce operating costs, the profitability of the properties is improved. In order to increase the value of the buildings, Investment Management plans and coordinates renovation and modernization measures. This includes the development of strategies to increase value and the implementation of measures to improve the attractiveness of the properties. <br><br>
 
-                    Another focus of our services in this business area is risk management,
-                    in which potential risks associated with real estate investments are identified and
-                    be rated. The team then implements appropriate strategies to address these risks
-                    to secure.<br><br>
+                    Another focus of our services in this business area is risk management, which involves identifying and assessing potential risks associated with real estate investments. The team then implements suitable strategies to hedge against these risks.<br><br>
 
-                    Financial management is a crucial area of ​​our business, budgeting
-                    financial planning and monitoring of financial indicators. The goal is to have a solid
-                    to create a financial basis for real estate investments and to achieve an optimal return
-                    guarantee. <br><br>
+                    Financial management is a key area of our business, which includes budgeting, financial planning and monitoring of key financial figures. The aim is to create a solid financial basis for real estate investments and ensure an optimal return. <br><br>
 
-                    With our Investment Management business area, we provide a range of:
-                    Services aimed at increasing the long-term value of real estate
-                    Maximize profitability and minimize risks.
+                    With our Investment Management business area, we thus provide a range of services aimed at increasing the long-term value of properties, maximizing profitability and minimizing risks.
                 </p>
             </div>
 
@@ -77,7 +43,7 @@
                 <h1>Overview of our services and process:</h1><br>
                 <div class="InvestmentManagement image-container5">
                     <button class="img-button" onclick="popup('/Bilder/Leistungen_Investment.png')">
-                        <img src="/Bilder/Leistungen_Investment.png" alt="InvestmentManagement Leistungen">
+                        <img src="{{ url_for('static', filename='/Bilder/Leistungen_Investment.png') }}" alt="InvestmentManagement Leistungen">
                     </button>
                 </div>
             </div>

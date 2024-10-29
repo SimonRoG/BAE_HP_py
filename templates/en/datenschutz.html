@@ -4,25 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/BAE.css">
-    <link rel="icon" href="/Logo/Rauten BAE.png" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename='BAE.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='Logo/Rauten BAE.png') }}" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>BAE GROUP</title>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script src="/BAE.js"></script>
+    <script src="{{ url_for('static', filename='BAE.js') }}"></script>
 </head>
 
 <body>
-    <copyright-bae></copyright-bae>
+
+    {% include menu_bar%}
 
     <!-- Hier ist die Hauptseite-->
     <div class="Hauptseite">
-
-
-
-        <menu-bar></menu-bar>
-
-
         <div id="datenschutz" class="ContainerDatenschutz">
             <div class="Datenschutz-container">
 
@@ -32,90 +27,57 @@
                     <div class="containerDatenschutz1">
 
                         <h2>1. Data protection at a glance</h2>
-                        <p>The following notes provide a simple overview of what is happening with your
-                            personal data happens when you visit this website. Personal Data
-                            is all data with which you can be personally identified. Detailed
-                            Information on the subject of data protection can be found in our website listed below this
-                            text
-                            Data protection.</p>
+                        <p>
+                            The following information provides a simple overview of what happens to your personal data when you visit this website. Personal data is any data that can be used to identify you personally. Detailed information on the subject of data protection can be found in our data protection declaration, listed below this text.
+                        </p>
 
                         <h3>Who is responsible for data collection on this website?</h3>
-                        <p>Data processing on this website is carried out by the website operator. Whose
-                            You can find contact details in the “Note on the responsible body” section in this
-                            See data protection declaration.</p>
+                        <p>
+                            Data processing on this website is carried out by the website operator. You can find the operator's contact details in the "Information on the controller" section of this privacy policy.
+                        </p>
 
                         <h3>How do we collect your data?</h3>
-                        <p>On the one hand, your data is collected when you provide it to us. Here it can
-                            e.g. This could, for example, be data that you enter into a contact form. Other data will be
-                            automatically or after your consent when you visit the website through our IT systems
-                            recorded. These are primarily technical data (e.g. Internet browser, operating system or
-                            Time of page views). The data is collected automatically as soon as you enter this website.
+                        <p>
+                            On the one hand, your data is collected when you provide it to us. This may, for example, be data that you enter in a contact form. Other data is collected automatically or with your consent by our IT systems when you visit the website. This is primarily technical data (e.g., internet browser, operating system or time of page view). This data is collected automatically as soon as you enter this website.
                         </p>
 
                         <h3>What do we use your data for?</h3>
-                        <p>Some of the data is collected to ensure that the website is provided error-free
-                            guarantee. Other data may be used to analyze your user behavior.</p>
+                        <p>
+                            Some data is collected to ensure that the website is provided without errors. Other data can be used to analyze your user behavior.
+                        </p>
 
-                        <h3>What rights do you have regarding your data?</h3>
-                        <p>You have the right to obtain information about the origin, recipient and purpose free of
-                            charge at any time
-                            to receive your stored personal data. You also have a right to
-                            to request correction or deletion of this data. If you give your consent to
-                            If you have given your consent to data processing, you can revoke this consent at any time
-                            in the future
-                            withdraw. You also have the right, under certain circumstances, to request restrictions
-                            to request processing of your personal data. Furthermore, you have one
-                            Right to lodge a complaint with the responsible supervisory authority. About this and other
-                            questions about
-                            You can contact us at any time regarding data protection issues.</p>
+                        <h3>What rights do you have with regard to your data?</h3>
+                        <p>
+                            You have the right to receive information about the origin, recipient, and purpose of your stored personal data free of charge at any time. You also have the right to request the correction or deletion of this data. If you have given your consent to data processing, you can revoke this consent at any time in the future. You also have the right to request the restriction of the processing of your personal data under certain circumstances. You also have the right to lodge a complaint with the competent supervisory authority.Furthermore, you can contact us at any time if you have any further questions on the subject of data protection.
+                        </p>
 
-                        <h3>Analytics and Third Party Tools</h3>
-                        <p>When you visit this website, your surfing behavior can be statistically evaluated. The
-                            This happens primarily with so-called analysis programs. Detailed information about these
-                            Analysis programs can be found in the following data protection declaration.</p><br>
+                        <h3>Analysis tools and tools from third-party providers</h3>
+                        <p>
+                            When you visit this website, your surfing behavior may be statistically evaluated. This is mainly done with so-called analysis programs. Detailed information on these analysis programs can be found in the following privacy policy.
+                        </p><br>
 
                         <h2>2. Hosting </h2>
 
                         <p>
-                            The personal data collected on this website is stored on the servers
-                            stored by a host/hosters. This can be v. a. about IP addresses,
-                            Contact requests, meta and communication data, contract data, contact details, names,
-                            Website access and other data generated via a website.<br><br>
-                            The hosting is carried out for the purpose of fulfilling the contract with our potential and
-                            existing customers (Art. 6 Para. 1 lit. b GDPR) and in the interest of secure, fast
-                            and efficient provision of our online offering by a professional provider
-                            (Art. 6 para. 1 lit. f GDPR). If appropriate consent has been requested,
-                            The processing takes place exclusively on the basis of Art. 6 Para. 1 lit. a GDPR and §
-                            25 Paragraph 1 TTDSG, insofar as consent requires the storage of cookies or access to them
-                            Information in the user's end device (e.g. device fingerprinting) within the meaning of the
-                            TTDSG
-                            includes. Consent can be revoked at any time.<br>
-                            Our host(s) will only process your data to the extent necessary for fulfillment
-                            is necessary for its performance obligations and our instructions regarding this data
-                            follow.<br>
+                            The personal data collected on this website is stored on the servers of a hoster(s). This may include IP addresses, contact requests, meta and communication data, contract data, contact details, names, website accesses and other data generated via a website.<br><br>
+                            Hosting is carried out for the purpose of fulfilling the contract with our potential and existing customers (Art. 6 para. 1 lit. f GDPR) and in the interest of a secure, fast and efficient provision of our online offer by a professional provider (Art. 6 para. 1 lit. f GDPR). If a corresponding consent has been requested, the processing is carried out exclusively on the basis of Art. 6 para. 1 lit. a GDPR and § 25 para. 1 TTDSG, insofar as the consent includes the storage of cookies or access to information in the user's terminal device (e.g., device fingerprinting) within the meaning of the TTDSG. Consent can be revoked at any time.<br>
+                            Our host(s) will only process your data to the extent necessary to fulfill its performance obligations and follow our instructions with regard to this data.<br>
 
                         </p>
 
-                        <h2>3. General information and mandatory information</h2>
+                        <h2>3. General notes and mandatory information</h2>
                         <h3>Data protection</h3>
 
                         <p>
-                            The operators of these sites take the protection of your personal data very seriously. We
-                            treat your personal data confidentially and in accordance with the law
-                            Data protection regulations and this data protection declaration.<br><br>
-                            When you use this website, various personal data is collected.
-                            Personal data is data that can be used to personally identify you. The
-                            This data protection declaration explains what data we collect and why we use it
-                            to use. It also explains how and for what purpose this happens.<br><br>
-                            We would like to point out that data transmission on the Internet (e.g. during communication
-                            via email) may have security gaps. Complete protection of data from this
-                            Access by third parties is not possible.
+                            The operators of these pages take the protection of your personal data very seriously. We treat your personal data confidentially and in accordance with the statutory data protection regulations and this privacy policy.<br><br>
+                            When you use this website, various personal data is collected. Personal data is data that can be used to identify you personally. This privacy policy explains what data we collect and what we use it for. It also explains how and for what purpose this is done.<br><br>
+                            We would like to point out that data transmission over the Internet (e.g., when communicating by email) may be subject to security vulnerabilities. Complete protection of data against access by third parties is not possible.
                         </p>
 
                         <h3>Note on the responsible body</h3>
 
                         <p>
-                            The responsible body for data processing on this website is: <br><br>
+                            The controller responsible for data processing on this website is: <br><br>
 
                             BAE GmbH<br>
                             Raststraße 20<br>
@@ -124,37 +86,18 @@
                             Telephone: 09561 / 9769983 <br>
                             E-Mail: office@b-a-e.eu <br><br>
 
-                            The responsible body is the natural or legal person, alone or jointly
-                            with others about the purposes and means of processing personal data (e.g.
-                            Names, email addresses, etc.) decides. <br></p>
+                            The controller is the natural or legal person who alone or jointly with others determines the purposes and means of the processing of personal data (e.g., names, email addresses, etc.). <br>
+                        </p>
 
-                        <h3>Storage period</h3>
-                        <p>Unless a specific storage period has been stated within this data protection declaration,
-                            Your personal data will remain with us until the purpose for data processing
-                            omitted. If you make a legitimate request for deletion or consent to
-                            If you revoke data processing, your data will be deleted unless we do otherwise legally
-                            have permissible reasons for storing your personal data (e.g. tax purposes
-                            or commercial law retention periods); in the latter case, deletion takes place
-                            after these reasons no longer apply.</p>
+                        <h3>Storage duration</h3>
+                        <p>
+                            Unless a more specific storage period has been specified in this privacy policy, your personal data will remain with us until the purpose for data processing no longer applies. If you assert a justified request for deletion or revoke your consent to data processing, your data will be deleted unless we have other legally permissible reasons for storing your personal data (e.g., retention periods under tax or commercial law); in the latter case, the deletion will take place after these reasons no longer apply.
+                        </p>
 
                         <h3>General information on the legal basis for data processing on this website</h3>
-                        <p>If you have consented to data processing, we will process your data
-                            personal data based on Art. 6 Para. 1 lit. a GDPR or Art. 9 Para. 2 lit.
-                            a GDPR, provided that special data categories are processed in accordance with Art. 9 Para.
-                            1 GDPR. In the
-                            In case of express consent to the transfer of personal data
-                            In third countries, data processing is also carried out on the basis of Article 49 Paragraph
-                            1 Letter a
-                            GDPR. If you are in the storage of Cookies oder in den Zugriff auf Informationen in
-                            Ihr Endgerät (z. B. via Device-Fingerprinting) eingewilligt haben, erfolgt die
-                            Datenverarbeitung zusätzlich auf Grundlage von § 25 Abs. 1 TTDSG. Die Einwilligung ist
-                            jederzeit widerrufbar. Sind Ihre Daten zur Vertragserfüllung oder zur Durchführung
-                            vorvertraglicher Maßnahmen erforderlich, verarbeiten wir Ihre Daten auf Grundlage des Art. 6
-                            Abs. 1 lit. b DSGVO. Des Weiteren verarbeiten wir Ihre Daten, sofern diese zur Erfüllung
-                            einer rechtlichen Verpflichtung erforderlich sind auf Grundlage von Art. 6 Abs. 1 lit. c
-                            DSGVO. Die Datenverarbeitung kann ferner auf Grundlage unseres berechtigten Interesses nach
-                            Art. 6 Abs. 1 lit. f DSGVO erfolgen. Über die jeweils im Einzelfall einschlägigen
-                            Rechtsgrundlagen wird in den folgenden Absätzen dieser Datenschutzerklärung informiert.</p>
+                        <p>
+                            If you have consented to data processing, we process your personal data on the basis of Art. 6 para. 1 lit. a GDPR or Art. 9 para. 2 lit. a GDPR, insofar as special categories of data are processed in accordance with Art. 9 para. 1 GDPR. In the event of express consent to the transfer of personal data to third countries, data processing is also carried out on the basis of Art. 49 para. 1 lit. a GDPR. If you have consented to the storage of cookies or access to information in your end device (e.g., via device fingerprinting), the data processing is also carried out on the basis of Section 25 (1) of the GDPR. Consent can be revoked at any time. If your data is required to fulfill the contract or to carry out pre-contractual measures, we process your data on the basis of Art. 6 para. 1 lit. b GDPR. Furthermore, we process your data if this is necessary to fulfill a legal obligation on the basis of Art. 6 para. 1 lit. c GDPR. Data processing may also be carried out on the basis of our legitimate interest in accordance with Art. 6 para. 1 lit. f GDPR. Information on the relevant legal bases in each individual case is provided in the following paragraphs of this privacy policy.
+                        </p>
 
                         <h3>Data Protection Officer</h3>
                         <p>
@@ -169,602 +112,256 @@
 
                         <h3>Recipients of personal data</h3>
                         <p>
-                            As part of our business activities, we work with various external bodies
-                            together. This sometimes involves the transmission of personal data to them
-                            external bodies required. We only pass on personal data to external parties
-                            further if this is necessary as part of the performance of a contract, if we are legally
-                            required to do so
-                            are obliged to do this (e.g. passing on data to tax authorities) if we are a
-                            have a legitimate interest in the disclosure pursuant to Art. 6 Para. 1 lit. f GDPR or if
-                            another legal basis allows the data to be passed on. When using
-                            We only provide data processors with our customers' personal data on the basis of one
-                            valid contract for order processing. In case of joint processing
-                            a contract for joint processing is concluded.<br>
-                            The company is certified according to the “EU-US Data Privacy Framework”
-                            (DPF). The DPF is an agreement between the European Union and the USA that...
-                            Compliance with European data protection standards when processing data in the USA
-                            should ensure. Every company certified according to the DPF undertakes to do so
-                            Comply with data protection standards. Please contact the provider for further information
-                            under the following link:
-                            https://www.dataprivacyframework.gov/s/participant-search/participant-detail?contact=true&id=a2zt0000000KzNaAAK&status=Active
+                            As part of our business activities, we work together with various external bodies. In some cases, it is also necessary to transfer personal data to these external bodies. We only pass on personal data to external bodies if this is necessary for the fulfillment of a contract, if we are legally obliged to do so (e.g., passing on data to tax authorities), if we have a legitimate interest in the transfer in accordance with Art. 6 para. 1 lit. f GDPR or if another legal basis permits the transfer of data. When using processors, we only pass on our customers' personal data on the basis of a valid contract for order processing. In the case of joint processing, a joint processing agreement is concluded.<br>
+                            The company is certified in accordance with the "EU-US Data Privacy Framework" (DPF). The DPF is an agreement between the European Union and the USA that is intended to ensure compliance with European data protection standards for data processing in the USA. Every company certified under the DPF undertakes to comply with these data protection standards. Further information on this can be obtained from the provider at the following link: https://www.dataprivacyframework.gov/s/participant-search/participant-detail?contact=true&id=a2zt0000000KzNaAAK&status=Active
                         </p>
 
                         <h3>Revocation of your consent to data processing</h3>
-                        <p>Many data processing operations are only possible with your express consent. She
-                            can revoke consent that has already been given at any time. The legality of the until
-                            The data processing carried out for the purpose of revocation remains unaffected by the
-                            revocation.</p>
-
-                        <h3>Right to object to data collection in special cases and to direct advertising
-                            (Art. 21 DSGVO)</h3>
                         <p>
-                            If the data processing is based on ART. 6 ABS. 1 LITER. E or F GDPR takes place,
-                            You have the right at any time, for reasons arising from your particular situation,
-                            to object to the processing of your personal data; this is also valid
-                            for profiling based on these provisions. The respective legal basis
-                            on which processing is based can be found in this data protection declaration. If you
-                            If you object, we will no longer use your affected personal data
-                            process unless we have compelling legitimate reasons for processing
-                            prove that your interests, rights and freedoms outweigh the processing
-                            serves to monetize, exercise or defend legal claims (objection according to
-                            Article 21 ABS. 1 GDPR).<br>
-                            If your personal data is processed to carry out direct advertising, you have
-                            the right to object at any time to the processing of personal data concerning you
-                            to insert data for the purpose of such advertising; This also applies to profiling, as far
-                            as it goes
-                            associated with such direct advertising. If you object, theirs will be
-                            You will no longer use personal data for direct advertising purposes
-                            (Widerspruch nach ART. 21 ABS. 2 DSGVO).
+                            Many data processing operations are only possible with your express consent. You can withdraw your consent at any time. The legality of the data processing carried out until the revocation remains unaffected by the revocation.
                         </p>
 
-                        <h3>Right to lodge a complaint with the responsible supervisory authority</h3>
-                        <p>In the event of violations of the GDPR, those affected have the right to lodge a complaint
-                            with one
-                            Supervisory authority, in particular in the Member State of your habitual residence
-                            workplace or the location of the alleged violation. The right to lodge a complaint exists
-                            without prejudice to any other administrative or judicial remedies.</p>
+                        <h3>Right to object to the collection of data in special cases and to direct marketing (Art. 21 GDPR)</h3>
+                        <p>
+                            If data processing is carried out on the basis of ART. 6 ABS. 1 LIT. E or F GDPR, you have the right to object to the processing of your personal data at any time for reasons arising from your particular situation; this also applies to profiling based on these provisions. The respective legal basis on which processing is based can be found in this privacy policy. If you object, we will no longer process your personal data concerned unless we can demonstrate compelling legitimate grounds for the processing which override your interests, rights, and freedoms or for the establishment, exercise, or defense of legal claims (objection pursuant to Art. 21 (1) GDPR). <br>
+                            If your personal data are processed for the purpose of direct marketing, you have the right to object at any time to the processing of personal data concerning you for the purpose of such marketing; this also applies to profiling insofar as it is associated with such direct marketing. If you object, your personal data will subsequently no longer be used for the purpose of direct marketing (objection pursuant to Art. 21 para. 2 GDPR).
+                        </p>
+
+                        <h3>Right to lodge a complaint with the competent supervisory authority</h3>
+                        <p>
+                            In the event of breaches of the GDPR, data subjects have the right to lodge a complaint with a supervisory authority, in particular in the Member State of their habitual residence, place of work or place of the alleged infringement. The right to lodge a complaint is without prejudice to other administrative or judicial remedies.
+                        </p>
 
                         <h3>Right to data portability</h3>
                         <p>
-                            You have the right to receive data that we collect based on your consent or in fulfillment
-                            of a request
-                            Process the contract automatically, to yourself or to a third party in a common,
-                            in machine-readable format. Unless you transfer the data directly
-                            If you request data to be sent to another person responsible, this will only be done to the
-                            extent that it is technically feasible
-                            is.
+                            You have the right to have data that we process automatically on the basis of your consent or in fulfillment of a contract handed over to you or to a third party in a common, machine-readable format. If you request the direct transfer of the data to another controller, this will only be done insofar as it is technically feasible.
                         </p>
 
-                        <h3>Information, correction and deletion</h3>
-                        <p>You have the right to do so at any time within the framework of the applicable legal
-                            provisions
-                            Free information about your stored personal data, their origin and
-                            Recipient and the purpose of data processing and, if applicable, a right to correction or
-                            Deletion of this data. This and other questions on the subject of personal data
-                            you can contact us at any time.</p>
+                        <h3>Information, correction, and deletion</h3>
+                        <p>
+                            Within the framework of the applicable legal provisions, you have the right to free information about your stored personal data, its origin and recipients and the purpose of the data processing and, if necessary, a right to correction or deletion of this data at any time. You can contact us at any time if you have further questions on the subject of personal data.
+                        </p>
 
                         <h3> Restriction of processing</h3>
 
-                        <p>You have the right to restrict the processing of your personal data
-                            demand. You can contact us at any time about this. The right to restrict the
-                            Processing exists in the following cases:<br><br>
+                        <p>
+                            You have the right to request the restriction of the processing of your personal data. You can contact us at any time to do this. The right to restriction of processing exists in the following cases: <br><br>
 
-                            If you dispute the accuracy of your personal data stored by us,
-                            We usually need time to check this. For the duration of the exam you have
-                            the right to restrict the processing of your personal data
-                            demand.<br>
-                            If the processing of your personal data was/is occurring unlawfully, you may
-                            You request the restriction of data processing instead of deletion.
-                            If we no longer need your personal data but you want to use it to exercise your personal
-                            data,
-                            If you need to defend or assert legal claims, you have the right instead
-                            deletion restricts the processing of your personal data
-                            demand.<br>
-                            If you have lodged an objection in accordance with Article 21 Para. 1 GDPR, a consideration
-                            must be made
-                            between your interests and ours. As long as it is not yet certain
-                            whose interests prevail, you have the right to restrict the processing of your data
-                            to request personal data.<br>
-
-                            If you have restricted the processing of your personal data, you may do so
-                            Data -apart from their storage -only with your consent or for
-                            Assertion, exercise or defense of legal claims or to protect rights
-                            another natural or legal person or for reasons of important importance
-                            processed in the public interest of the European Union or a Member State
-                            become.<br></p>
+                            If you dispute the accuracy of your personal data stored by us, we generally need time to check this. You have the right to request the restriction of the processing of your personal data for the duration of the review. <br>
+                            If the processing of your personal data was/is unlawful, you can request the restriction of data processing instead of erasure. If we no longer require your personal data, but you require it for the exercise, defense, or assertion of legal claims, you have the right to request the restriction of the processing of your personal data instead of its erasure. <br>
+                            If you have lodged an objection pursuant to Art. 21 (1) GDPR, a balance must be struck between your interests and ours. As long as it has not yet been determined whose interests prevail, you have the right to request the restriction of the processing of your personal data. <br>
+                            If you have restricted the processing of your personal data, this data - apart from its storage - may only be processed with your consent or for the establishment, exercise, or defense of legal claims or for the protection of the rights of another natural or legal person or for reasons of important public interest of the European Union or of a Member State.
+                        </p>
 
                         <h3>SSL or TLS encryption</h3>
-                        <p>This site uses confidential data for security reasons and to protect transmissions
-                            Content, such as orders or inquiries, that you send to us as the site operator
-                            send, SSL or TLS encryption. You can recognize an encrypted connection
-                            that the address bar of the browser changes from “http://” to “https://” and that
-                            Lock icon in your browser line.<br>
-                            If SSL or TLS encryption is activated, the data you send to us
-                            transmitted, cannot be read by third parties.</p>
+                        <p>
+                            This site uses SSL or TLS encryption for security reasons and to protect the transmission of confidential content, such as orders or inquiries that you send to us as the site operator. You can recognize an encrypted connection by the fact that the address line of the browser changes from "http://" to "https://" and by the lock symbol in your browser line. <br>
+                            If SSL or TLS encryption is activated, the data you transmit to us cannot be read by third parties.
+                        </p>
 
 
-                        <h2> 4.Data collection on this website</h2>
+                        <h2>4. Data collection on this website</h2>
                         <h3>Use of cookies</h3>
-                        <p>Cookies are text files that contain data from websites or domains visited and from
-                            stored in a browser on the user's computer. A cookie serves primarily
-                            Line to collect information about a user during or after their visit within
-                            of an online offer. The information stored can include, for example:
-                            Language settings on a website, the login status, a shopping cart or the location
-                            who watched a video. We also include others in the term “cookies”.
-                            Technologies that perform the same functions as cookies (e.g. when user information
-                            stored using pseudonymous online identifiers, also known as “user IDs”
-                            designated)</p>
+                        <p>
+                            Cookies are text files that contain data from websites or domains visited and are stored by a browser on the user's computer. A cookie is primarily used to store information about a user during or after their visit to an online service. The information stored may include, for example, the language settings on a website, the login status, a shopping cart or the location where a video was watched. The term "cookies" also includes other technologies that perform the same functions as cookies (e.g., when user information is stored using pseudonymous online identifiers, also known as "user IDs")
+                        </p>
 
-                        <p>The following cookie types and functions are distinguished:</p>
-                        <p><b>Temporary cookies (also: session or session cookies)</b> Temporary cookies are
-                            deleted at the latest after a user leaves an online offer and their browser
-                            has closed</p>
-                        <p><b>Permanente Cookies:</b> Permanent cookies remain even after the browser is closed
-                            saved. For example, the login status can be saved or preferred content
-                            be displayed directly when the user visits a website again. Likewise, they can
-                            Interests of users used to measure reach or for marketing purposes
-                            are stored in such a cookie.</p>
-                        <p><b>First party cookies</b> First-party cookies are set by us ourselves.</p>
-                        <p><b>Third-party cookies</b> Third-party cookies are
-                            mainly used by advertisers (so-called third parties) to collect user information
-                            process.</p>
-                        <p><b>Necessary (also: essential or absolutely necessary) cookies</b> Cookies can be used for
-                            one may be absolutely necessary for the operation of a website (e.g. for logins or other
-                            to store user input or for security reasons).</p>
-                        <p><b>Marketing and personalization cookies</b> Cookies are also usually used in...
-                            Used as part of reach measurement and when the interests of a user or
-                            his behavior (e.g. viewing certain content, using functions, etc.).
-                            individual websites are stored in a user profile. Such profiles serve to
-                            For example, to show users content that corresponds to their potential interests. This
-                            The process is also called "tracking", i.e. tracking the potential interests of the
-                            referred to as user. If we use cookies or “tracking” technologies, we will inform you
-                            We will inform you separately in our data protection declaration or when obtaining one
-                            consent.</p>
+                        <p>A distinction is made between the following cookie types and functions:</p>
+                        <p>
+                            <b>Temporary cookies (also: session cookies):</b> Temporary cookies are deleted at the latest after a user has left an online service and closed their browser
+                        </p>
+                        <p>
+                            <b>Permanent cookies:</b> Permanent cookies remain stored even after the browser is closed. For example, the login status can be saved or preferred content can be displayed directly when the user visits a website again. The interests of users that are used for reach measurement or marketing purposes can also be stored in such a cookie.
+                        </p>
+                        <p><b>First-party cookies:</b> First-party cookies are set by ourselves.</p>
+                        <p>
+                            <b>Third-party cookies (also: third-party cookies):</b> Third-party cookies are mainly used by advertisers (so-called third parties) to process user information.
+                        </p>
+                        <p>
+                            <b>Necessary (also: essential or absolutely necessary) cookies:</b> Cookies can be absolutely necessary for the operation of a website (e.g., to save logins or other user input or for security reasons).
+                        </p>
+                        <p>
+                            <b>Marketing and personalization cookies:</b> Cookies are also generally used to measure reach and when the interests of a user or their behavior (e.g., viewing certain content, using functions, etc.) on individual websites are stored in a user profile. Such profiles are used, for example, to show users content that matches their potential interests. This process is also referred to as "tracking", i.e.,tracking the potential interests of users. If we use cookies or "tracking" technologies, we will inform you separately in our privacy policy or when obtaining consent.
+                        </p>
 
-                        <p><b>Notes on legal bases:</b> On what legal basis do we process your personal data?
-                            Processing data using cookies depends on whether we ask you for your consent
-                            ask. If this applies and you agree to the use of cookies, this is the case
-                            Legal basis for processing your data is your declared consent. Otherwise will
-                            the data processed using cookies based on our legitimate interests
-                            (e.g. at a business operation of our online offering and its
-                            Improvement) processed or if the use of cookies is necessary to our
-                            to fulfill contractual obligations.</p>
-                        <p><b>Storage period:</b>
-                            Unless we provide you with explicit information about the storage period of permanent
-                            cookies
-                            (e.g. as part of a so-called cookie opt-in), please assume that
-                            the storage period can be up to two years.</p>
-                        <p><b>General information on revocation and objection (opt-out):</b> Depending on whether
-                            processing based on consent or legal permission
-                            takes place, you have the opportunity to revoke your consent at any time
-                            revoke your consent or allow your data to be processed using cookie technologies
-                            object (collectively referred to as “opt-out”). You can have yours
-                            First declare your objection using your browser settings, e.g. by
-                            You deactivate the use of cookies (which also includes the
-                            functionality of our online offering may be restricted). A
-                            You can also object to the use of cookies for online marketing purposes
-                            using a variety of services, especially in the case of tracking
-                            Websites https://optout.aboutads.info and https://www.youronlinechoices.com/
-                            be explained. You can also receive further objection information within the framework of the
-                            Receive information about the service providers and cookies used.</p>
-                        <p><b>Processing of cookie data based on consent:</b> We use
-                            Cookie consent management procedure, within the framework of which
-                            User consent to the use of cookies, or within the framework of the
-                            Processing and providers mentioned in the cookie consent management process
-                            can be obtained, managed and revoked by users. This will
-                            The declaration of consent is saved so that it is not requested again
-                            must and provide evidence of consent in accordance with the legal obligation
-                            to be able to. Storage can be done on the server side and/or in a cookie (so-called
-                            Opt-in cookies, or using comparable technologies) are carried out in order to do this
-                            Consent to be able to assign a user or their device. Subject to
-                            Individual information about the providers of cookie management services applies
-                            The following information: The duration of storage of the consent can be up to two
-                            years. A pseudonymous user identifier is created and included
-                            the time of consent, information about the scope of the consent (e.g.
-                            which categories of cookies and/or service providers) as well as the browser, system
-                            and the device used is stored.</p>
-                        <p><b>Types of data processed:</b> Usage data (e.g. websites visited, interest in
-                            content, access times), meta/communication data (e.g. device information,
-                            IP addresses).</p>
-                        <p><b>Affected persons:</b> Users (e.g. website visitors, users of
-                            online services).</p>
-                        <p><b>Legal basis:</b> Consent (Art. 6 Para. 1 S. 1 lit. a. GDPR), entitled persons
-                            Interests (Art. 6 para. 1 sentence 1 lit. f. GDPR).</p>
+                        <p>
+                            <b>Notes on legal bases:</b> The legal basis on which we process your personal data with the help of cookies depends on whether we ask for your consent. If this is the case, and you consent to the use of cookies, the legal basis for processing your data is the consent you have given. Otherwise, the data processed using cookies will be processed on the basis of our legitimate interests (e.g., in the business operation of our online offering and its improvement) or if the use of cookies is necessary to fulfill our contractual obligations.
+                        </p>
+                        <p>
+                            <b>Storage period:</b> If we do not provide you with explicit information on the storage period of permanent cookies (e.g., as part of a cookie opt-in), please assume that the storage period can be up to two years.
+                        </p>
+                        <p>
+                            <b>General information on revocation and objection (opt-out):</b> Depending on whether the processing is based on consent or legal permission, you have the option at any time to revoke your consent or to object to the processing of your data by cookie technologies (collectively referred to as "opt-out"). You can initially declare your objection using your browser settings, e.g., by deactivating the use of cookies (although this may also restrict the functionality of our online offering). An objection to the use of cookies for online marketing purposes can also be declared using a variety of services, especially in the case of tracking, via the websites https://optout.aboutads.info and https://www.youronlinechoices.com/. You can also obtain further information on how to object in the context of the information on the service providers and cookies used.
+                        </p>
+                        <p>
+                            <b>Processing of cookie data on the basis of consent:</b> We use a cookie consent management procedure in which the consent of users to the use of cookies or the processing and providers named in the cookie consent management procedure can be obtained and managed and revoked by users. The declaration of consent is stored so that it does not have to be requested again, and the consent can be proven in accordance with the legal obligation. Consent can be stored on the server and/or in a cookie (so-called opt-in cookie or with the help of comparable technologies) in order to be able to assign the consent to a user or their device. Subject to individual information on the providers of cookie management services, the following information applies: Consent may be stored for up to two years. A pseudonymous user identifier is created and stored with the time of consent, information on the scope of consent (e.g., which categories of cookies and/or service providers) as well as the browser, system, and end device used.
+                        </p>
+                        <p>
+                            <b>Types of data processed:</b> Usage data (e.g., websites visited, interest in content, access times), meta/communication data (e.g., device information, IP addresses).
+                        </p>
+                        <p>
+                            <b>Persons concerned:</b> Users (e.g., website visitors, users of online services).
+                        </p>
+                        <p>
+                            <b>Legal bases:</b> Consent (Art. 6 para. 1 sentence 1 lit. a. GDPR), legitimate interests (Art. 6 para. 1 sentence 1 lit. f. GDPR).
+                        </p>
 
                         <h3>Server log files</h3>
-                        <p>The provider of the pages automatically collects and stores information in this way
-                            mentioned server log files, which your browser automatically transmits to us. This
-                            are:<br><br>
-                            -Browser type and browser version<br>
-                            -Operating system used<br>
-                            -Referrer URL<br>
-                            -Host name of the accessing computer<br>
-                            -Time of server request<br>
-                            -IP address<br><br>
+                        <p>
+                            The provider of the pages automatically collects and stores information in so-called server log files, which your browser automatically transmits to us. These are:<br><br>
+                            - Browser type and browser version<br>
+                            - Operating system used<br>
+                            - referrer URL<br>
+                            - Host name of the accessing computer<br>
+                            - Time of the server request<br>
+                            - IP address<br><br>
 
-                            This data will not be merged with other data sources
-                            made.<br>
-                            This data is collected on the basis of Article 6 Paragraph 1 Letter f GDPR. The
-                            The website operator has a legitimate interest in ensuring that the website is technically
-                            error-free
-                            Presentation and optimization of your website – the server log files must be used for this
-                            be recorded.</p>
+                            This data is not merged with other data sources<br>.
+
+                            This data is collected on the basis of Art. 6 para. 1 lit. f GDPR. The website operator has a legitimate interest in the technically error-free presentation and optimization of its website - the server logs files must be recorded for this purpose.
+                        </p>
 
                         <h3>Contact form</h3>
                         <p>
-                            If you send us inquiries using the contact form, your details will be provided
-                            the inquiry form including the contact details you provided there
-                            Processing the request and storing it with us in case of follow-up questions.
-                            We will not pass on this data without your consent.<br>
-                            This data is processed on the basis of Article 6 Paragraph 1 Letter b GDPR,
-                            if your request is related to the fulfillment of a contract or for
-                            Implementation of pre-contractual measures is necessary. In all other cases
-                            the processing is based on our legitimate interest in the effective
-                            Processing of inquiries addressed to us (Art. 6 Para. 1 lit. f GDPR) or on
-                            your consent (Art. 6 Para. 1 lit. a GDPR) if this has been requested; the
-                            Consent can be revoked at any time.<br>
-                            The data you enter in the contact form will remain with us until you contact us
-                            request deletion, revoke your consent to storage or the purpose
-                            There is no need for data storage (e.g. after your processing has been completed
-                            Inquiry). Mandatory legal provisions – in particular retention periods –
-                            stay untouched.<br>
+                            If you send us inquiries via the contact form, your details from the inquiry form, including the contact details you provide there, will be stored by us for the purpose of processing the inquiry and in the event of follow-up questions. We do not pass on this data without your consent.<br> This data is processed on the basis of Art. 6 para. 1 lit. b GDPR if your request is related to the fulfillment of a contract or is necessary for the implementation of pre-contractual measures. In all other cases, the processing is based on our legitimate interest in the effective processing of the inquiries addressed to us (Art. 6 para. 1 lit. f GDPR) or on your consent (Art. 6 para. 1 lit. a GDPR) if this has been requested; the consent can be revoked at any time.<br> The data you enter in the contact form will remain with us until you request us to delete it, revoke your consent to store it or the purpose for storing the data no longer applies (e.g., after your inquiry has been processed). Mandatory statutory provisions - in particular retention periods - remain unaffected.<br
                         </p>
 
-                        <h3>Inquiries by email, telephone or fax</h3>
+                        <h3>Inquiry by email, telephone, or fax</h3>
                         <p>
-                            If you contact us by email, telephone or fax, your request will be
-                            including all resulting personal data (name, request).
-                            Stored and processed by us for the purpose of processing your request. This
-                            We will not pass on any data without your consent.<br>
-                            This data is processed on the basis of Article 6 Paragraph 1 Letter b GDPR,
-                            if your request is related to the fulfillment of a contract or for
-                            Implementation of pre-contractual measures is necessary. In all other cases
-                            the processing is based on our legitimate interest in the effective
-                            Processing of inquiries addressed to us (Art. 6 Para. 1 lit. f GDPR) or on
-                            your consent (Art. 6 Para. 1 lit. a GDPR) if this has been requested; the
-                            Consent can be revoked at any time.<br>
-                            The data you send to us via contact requests will remain with us until
-                            You ask us to delete it, revoke your consent to storage or
-                            the purpose for data storage no longer applies (e.g. after processing has been completed
-                            your request). Mandatory legal provisions – especially statutory ones
-                            Retention periods – remain unaffected.
+                            If you contact us by email, telephone or fax, we will store and process your request, including all resulting personal data (name, request) for the purpose of processing your request. We will not pass on this data without your consent.<br> This data is processed on the basis of Art. 6 para. 1 lit. b GDPR if your request is related to the fulfillment of a contract or is necessary for the implementation of pre-contractual measures. In all other cases, the processing is based on our legitimate interest in the effective processing of the requests addressed to us (Art. 6 para. 1 lit. f GDPR) or on your consent (Art. 6 para. 1 lit. a GDPR) if this has been requested; the consent can be revoked at any time.<br> The data you send to us via contact requests will remain with us until you request us to delete it, revoke your consent to store it or the purpose for storing the data no longer applies (e.g., after your request has been processed). Mandatory statutory provisions - in particular statutory retention periods - remain unaffected.
                         </p>
 
-                        <h2>5. Analytics tools and advertising</h2>
+                        <h2>5. Analysis tools and advertising</h2>
                         <h3>Google Analytics</h3>
                         <p>
-                            This website uses functions of the web analysis service Google Analytics. provider is
-                            Google Ireland Limited (“Google”), Gordon House, Barrow Street, Dublin 4,
-                            Ireland.<br>
-                            Google Analytics enables the website operator to monitor the behavior of the
-                            Analyze website visitors. The website operator receives various options
-                            Usage data, such as E.g. page views, length of stay, operating systems used and
-                            Origin of the user. This data is sent to the user’s respective device
-                            assigned. There is no assignment to a user ID.<br>
-                            Furthermore, we can use Google Analytics, among other things. Your mouse and scroll
-                            movements
-                            and record clicks. Furthermore, Google Analytics uses various methods
-                            Modeling approaches to supplement the collected data sets and sets
-                            Machine learning technologies in data analysis.<br>
-                            Google Analytics uses technologies that enable user recognition
-                            Enable purposes for analyzing user behavior (e.g. cookies or
-                            Device fingerprinting). The information collected by Google about usage
-                            This website is usually transferred to a Google server in the USA
-                            and saved there.<br>
-                            The use of this service is based on your consent in accordance with Art. 6
-                            Paragraph 1 lit. a GDPR and Section 25 Paragraph 1 TTDSG. Consent is available at any time
-                            revocable.<br>
-                            Data transfer to the USA is based on the standard contractual clauses
-                            Supported by the EU Commission. Details can be found here:
-                            https://privacy.google.com/businesses/controllerterms/mccs/.<br>
-                            The company is certified according to the “EU-US Data Privacy
-                            Framework” (DPF). The DPF is an agreement between the European Union and
-                            the USA, which ensures compliance with European data protection standards
-                            to ensure data processing in the USA. Each DPF certified
-                            Companies are committed to complying with these data protection standards. More
-                            You can obtain information about this from the provider using the following link:
-                            https://www.dataprivacyframework.gov/s/participant-search/participant-detail?contact=true&id=a2zt000000001L5AAI&status=Active
+                            This website uses functions of the web analysis service Google Analytics. The provider is Google Ireland Limited ("Google"), Gordon House, Barrow Street, Dublin 4, Ireland.<br> Google Analytics enables the website operator to analyze the behavior of website visitors. The website operator receives various usage data, such as page views, length of visit, operating systems used and origin of the user. This data is assigned to the user's end device. It is not assigned to a user ID.<br> Furthermore, we can use Google Analytics to record your mouse and scroll movements and clicks, among other things. Google Analytics also uses various modeling approaches to supplement the collected data sets and uses machine learning technologies for data analysis.<br> Google Analytics uses technologies that enable the recognition of the user for the purpose of analyzing user behavior (e.g., cookies or device fingerprinting). The information collected by Google about the use of this website is usually transmitted to a Google server in the USA and stored there.<br> The use of this service is based on your consent in accordance with Art. 6 para. 1 lit. a GDPR and § 25 para. 1 TTDSG. The consent can be revoked at any time.<br> The data transfer to the USA is based on the standard contractual clauses of the EU Commission. Details can be found here: https://privacy.google.com/businesses/controllerterms/mccs/.<br> The company is certified in accordance with the "EU-US Data Privacy Framework" (DPF). The DPF is an agreement between the European Union and the USA that is intended to ensure compliance with European data protection standards for data processing in the USA. Every company certified under the DPF undertakes to comply with these data protection standards. Further information on this can be obtained from the provider at the following link: https://www.dataprivacyframework.gov/s/participant-search/participant-detail?contact=true&id=a2zt000000001L5AAI&status=Active
                         </p>
-                        <h3>Browser Plugin</h3>
+                        <h3>Browser plugin</h3>
                         <p>
-                            SYou can prevent Google from collecting and processing your data by
-                            Download the browser plugin available at the following link and
-                            Install: https://tools.google.com/dlpage/gaoptout?hl=de.<br>
-                            You can find more information about how Google Analytics handles user data in the
-                            Google privacy policy:
-                            https://support.google.com/analytics/answer/6004245?hl=de.
+                            You can prevent the collection and processing of your data by Google by downloading and installing the browser plugin available at the following link: https://tools.google.com/dlpage/gaoptout?hl=de.<br> You can find more information on how Google Analytics handles user data in Google's privacy policy: https://support.google.com/analytics/answer/6004245?hl=de.
                         </p>
 
 
                         <h3>Order processing</h3>
-                        <p>We have concluded an order processing contract with Google and use this
-                            the strict requirements of the German data protection authorities when using Google
-                            Analytics completely.</p>
+                        <p>
+                            We have concluded an order processing contract with Google and fully implement the strict requirements of the German data protection authorities when using Google Analytics.
+                        </p>
 
-                        <h2>6. Plugins und Tools</h2>
-                        <p>This site uses so-called Google fonts for the uniform display of fonts
-                            Fonts provided by Google. Google Fonts are local
-                            Installed. There is no connection to Google servers.
-                            For more information about Google Fonts, see
-                            https://developers.google.com/fonts/faq and in Google's privacy policy:
-                            https://policies.google.com/privacy?hl=de.</p>
+                        <h2>6. Plugins and tools</h2>
+                        <p>
+                            This site uses so-called Google Fonts, which are provided by Google, for the uniform display of fonts. Google Fonts are installed locally. There is no connection to Google servers. Further information about Google Fonts can be found at https://developers.google.com/fonts/faq and in Google's privacy policy: https://policies.google.com/privacy?hl=de.
+                        </p>
 
-                        <h2>7. Audio and video conferences</h2>
+                        <h2>7. Audio and video conferencing</h2>
                         <h3>Data processing</h3>
                         <p>
-                            We rely on others to communicate with our customers
-                            Online conference tools. The specific tools we use are below
-                            listed. If you contact us via video or audio conference via the Internet
-                            communicate, your personal data will be shared between us and the provider
-                            recorded and processed using the respective conference tools.
-                            The conference tools collect all the data that you provide to use the tools
-                            provide/use (email address and/or your telephone number). Further
-                            The conference tools process the duration of the conference, start and end (time).
-                            Participation in the conference, number of participants and others
-                            “Contextual information” related to the communication process (metadata).
-                            Furthermore, the provider of the tool processes all technical data that is used for
-                            processing of online communication are required. This includes in particular
-                            IP addresses, MAC addresses, device IDs, device type, operating system type and version,
-                            Client version, camera type, microphone or speaker and the type of connection.
-                            If content is exchanged, uploaded or otherwise within the tool
-                            These are also provided on the tool provider's servers
-                            saved. Such content includes, in particular, cloud recordings, chat/
-                            Instant messages, voicemails, uploaded photos and videos, files, whiteboards
-                            and other information shared while using the Service.
-                            Please note that we do not have full control over the
-                            data processing operations of the tools used. Adjust our options
-                            depends largely on the corporate policy of the respective provider. More
-                            Information on data processing by the conference tools can be found here
-                            Data protection declarations of the tools used, which we provide below this text
-                            have listed.
+                            Among other things, we use online conferencing tools to communicate with our customers. The individual tools we use are listed below. If you communicate with us by video or audio conference via the internet, your personal data will be collected and processed by us and the provider of the respective conference tool. The conferencing tools collect all data that you provide/enter to use the tools (e-mail address and/or your telephone number). The conference tools also process the duration of the conference, the start, and end (time) of participation in the conference, the number of participants and other "context information" in connection with the communication process (metadata). Furthermore, the provider of the tool processes all technical data that is required to process the online communication. This includes, in particular, IP addresses, MAC addresses, device IDs, device type, operating system type and version, client version, camera type, microphone, or loudspeaker and the type of connection. If content is exchanged, uploaded or provided in any other way within the tool, this is also stored on the tool provider's servers. Such content includes, in particular, cloud recordings, chat/instant messages, voicemails, uploaded photos and videos, files, whiteboards and other information shared while using the service. Please note that we do not have full control over the data processing operations of the tools used. Our options are largely determined by the company policy of the respective provider. Further information on data processing by the conference tools can be found in the privacy policies of the tools used, which we have listed below this text.
                         </p>
                         <h3>Purpose and legal basis</h3>
-                        <p>The conference tools are used to communicate with prospective or existing participants
-                            to communicate with contractual partners or to provide certain services to our customers
-                            to offer (Art. 6 para. 1 lit. b GDPR). The use of the tools also serves
-                            the general simplification and acceleration of communication with us or
-                            our company (legitimate interest within the meaning of Art. 6 Para. 1 lit. f
-                            GDPR). If consent has been requested, this will be used
-                            relevant tools based on this consent; consent is available at any time
-                            revocable with effect for the future.</p>
-
-                        <h3>Storage period</h3>
-                        <p>The data we collect directly via the video and conference tools
-                            deleted from our systems as soon as you request us to delete your
-                            Revoke consent to storage or the purpose for data storage
-                            omitted. Saved cookies remain on your device until you delete them.
-                            Mandatory statutory retention periods remain unaffected.
-                            The storage period of your data is determined by the operators of the conference tools
-                            We have no influence if data is stored for our own purposes. For details on this
-                            Please find out more directly from the operators of the conference tools.</p>
-
-                        <h3>Eingesetzte Konferenz-Tools</h3>
                         <p>
-                            We use Microsoft Teams. The provider is Microsoft Ireland Operations Limited,
-                            One Microsoft Place, South County Business Park, Leopardstown, Dublin 18, Ireland.
-                            Details on data processing can be found in Microsoft's data protection declaration
-                            Teams: https://privacy.microsoft.com/de-de/privacystatement.<br>
-                            The company is certified according to the “EU-US Data Privacy
-                            Framework” (DPF). The DPF is an agreement between the European Union and
-                            the USA, which ensures compliance with European data protection standards
-                            to ensure data processing in the USA. Each DPF certified
-                            Companies are committed to complying with these data protection standards. More
-                            You can obtain information about this from the provider using the following link:
-                            https://www.dataprivacyframework.gov/s/participant-search/participant-detail?contact=true&id=a2zt0000000KzNaAAK&status=Active
+                            The conference tools are used to communicate with prospective or existing contractual partners or to offer certain services to our customers (Art. 6 para. 1 lit. b GDPR). Furthermore, the use of the tools serves to generally simplify and accelerate communication with us or our company (legitimate interest within the meaning of Art. 6 para. 1 lit. f GDPR). If consent has been requested, the tools in question are used on the basis of this consent; consent can be withdrawn at any time with effect for the future.
                         </p>
 
-                        <h2>8. Eigene Dienste</h2>
+                        <h3>Storage period</h3>
+                        <p>
+                            The data collected directly by us via the video and conference tools will be deleted from our systems as soon as you ask us to delete it, revoke your consent to storage or the purpose for data storage no longer applies. Stored cookies remain on your end device until you delete them. Mandatory statutory retention periods remain unaffected. We have no influence on the storage period of your data that is stored by the operators of the conference tools for their own purposes. For details, please contact the operators of the conference tools directly.
+                        </p>
 
-                        <h3>Handling applicant data</h3>
-                        <p>We offer you the opportunity to apply to us (e.g. by email,
-                            by post or via the online application form). Below we will inform you about
-                            Scope, purpose and use of your data collected as part of the application process
-                            personal data. We assure that the collection, processing and use
-                            Your data in accordance with applicable data protection law and all others
-                            Legal regulations are complied with and your data is treated as strictly confidential
-                            become.</p>
+                        <h3>Conferencing tools used</h3>
+                        <p>
+                            We use Microsoft Teams. The provider is Microsoft Ireland Operations Limited, One Microsoft Place, South County Business Park, Leopardstown, Dublin 18, Ireland. Details on data processing can be found in the Microsoft Teams privacy policy: https://privacy.microsoft.com/de-de/privacystatement.<br> The company is certified according to the "EU-US Data Privacy Framework" (DPF). The DPF is an agreement between the European Union and the USA, which is intended to ensure compliance with European data protection standards for data processing in the USA. Every company certified under the DPF undertakes to comply with these data protection standards. Further information on this can be obtained from the provider at the following link: https://www.dataprivacyframework.gov/s/participant-search/participant-detail?contact=true&id=a2zt0000000KzNaAAK&status=Active
+                        </p>
+
+                        <h2>8. Own services</h2>
+
+                        <h3>How to deal with applicant data</h3>
+                        <p>
+                            We offer you the opportunity to apply to us (e.g., by email, post or online application form). In the following, we inform you about the scope, purpose, and use of your personal data collected as part of the application process. We assure you that your data will be collected, processed and used in accordance with applicable data protection law and all other statutory provisions and that your data will be treated in strict confidence.
+                            
+                        </p>
 
                         <h3>Scope and purpose of data collection</h3>
-                        <p>If you send us an application, we will process your associated application
-                            personal data (e.g. contact and communication data,
-                            Application documents, notes from job interviews, etc.), as far as this
-                            required to decide on the establishment of an employment relationship
-                            is. The legal basis for this is Section 26 BDSG under German law (initiation of a
-                            employment relationship), Art. 6 Para. 1 lit. b GDPR (general
-                            Initiation of contract) and – if you have given your consent – ​​Art. 6 Para. 1
-                            lit. a GDPR. Consent can be revoked at any time. your personal data
-                            Data within our company is only sent to individuals
-                            passed on to those involved in processing your application.
-                            If the application is successful, the data you submitted will be saved
-                            Basis of Section 26 BDSG and Article 6 Paragraph 1 Letter b GDPR for the purpose of
-                            implementation
-                            of the employment relationship is stored in our data processing systems.
+                        <p>
+                            If you send us an application, we will process your associated personal data (e.g., contact and communication data, application documents, notes taken during interviews, etc.) to the extent that this is necessary to decide on the establishment of an employment relationship. The legal basis for this is § 26 BDSG under German law (initiation of an employment relationship), Art. 6 para. 1 lit. b GDPR (general contract initiation) and - if you have given your consent - Art. 6 para. 1 lit. a GDPR. Consent can be revoked at any time. Your personal data will only be passed on within our company to persons who are involved in processing your application. If the application is successful, the data submitted by you will be stored in our data processing systems on the basis of Section 26 BDSG and Art. 6 para. 1 lit. b GDPR for the purpose of implementing the employment relationship.
                         </p>
 
                         <h3>Data retention period</h3>
-                        <p>If we are unable to make you a job offer, you decline a job offer
-                            or withdraw your application, we reserve the right to do so
-                            transmitted data based on our legitimate interests (Art. 6 Para. 1
-                            lit. f GDPR) up to 6 months from the end of the application process (rejection
-                            or withdrawal of the application) to be kept with us. Then they will
-                            Data deleted and the physical application documents destroyed. The storage
-                            serves in particular for evidentiary purposes in the event of a legal dispute. If visible
-                            is that the data will be required after the 6 month period has expired (e.g.
-                            due to an impending or pending legal dispute), deletion only takes place
-                            instead if the purpose for further storage no longer applies.<br>
-                            Longer storage can also take place if you have an appropriate one
-                            You have given your consent (Art. 6 Para. 1 lit. a GDPR) or if legal
-                            Retention obligations conflict with deletion.</p>
+                        <p>
+                            If we are unable to make you a job offer, you reject a job offer or withdraw your application, we reserve the right to retain the data you have submitted on the basis of our legitimate interests (Art. 6 para. 1 lit. f GDPR) for up to 6 months from the end of the application process (rejection or withdrawal of the application). The data will then be deleted and the physical application documents destroyed. The retention serves in particular as evidence in the event of a legal dispute. If it is apparent that the data will be required after the 6-month period has expired (e.g., due to an impending or pending legal dispute), it will only be deleted when the purpose for further storage no longer applies.<br> Longer storage may also take place if you have given your consent (Art. 6 para. 1 lit. a GDPR) or if statutory retention obligations prevent deletion.
+                        </p>
 
                         <h3>Inclusion in the applicant pool</h3>
-                        <p>If we do not make you a job offer, it may be possible to place you in
-                            to add to our applicant pool. In the event of admission, all documents and
-                            Information from the application is transferred to the applicant pool to help you in the
-                            event of
-                            to contact suitable vacancies.<br>
-                            Admission to the applicant pool is based solely on you
-                            express consent (Art. 6 Para. 1 lit. a GDPR). The submission of the
-                            Consent is voluntary and has no connection to the ongoing
-                            Application process. The person concerned can revoke their consent at any time. In
-                            In this case, the data will be irrevocably deleted from the applicant pool, provided that
-                            There are no legal reasons for retention.<br>
-                            The data from the applicant pool will be sent no later than two years after the issuance of
-                            the application
-                            Consent irrevocably deleted.</p>
+                        <p>
+                            If we do not make you a job offer, it may be possible to include you in our applicant pool. If you are accepted, all documents and information from your application will be transferred to the applicant pool in order to contact you in the event of suitable vacancies.<br> Admission to the applicant pool is based exclusively on your express consent (Art. 6 para. 1 lit. a GDPR). Giving consent is voluntary and is not related to the current application process. The data subject can withdraw their consent at any time. In this case, the data from the applicant pool will be irrevocably deleted, provided there are no legal reasons for retention.<br> The data from the applicant pool will be irrevocably deleted no later than two years after consent has been given.
+                        </p>
 
                         <h3>Our social media presence</h3>
                         <p>
-                            This data protection declaration applies to the following social media sites<br><br>
+                            This privacy policy applies to the following social media sites<br><br>
                             - https://www.facebook.com/baegroup/<br>
                             - https://www.instagram.com/baegroup/<br>
                             - https://www.linkedin.com/baegroup/
                         </p>
 
-                        <h2>Data processing through social networks</h2>
+                        <h2>Data processing by social networks</h2>
                         <p>
-                            We maintain publicly accessible social network profiles. The in
-                            You can find individual social networks we use below.<br>
-                            Social networks such as Facebook, X etc. can usually track your user behavior
-                            analyze comprehensively when you use their website or a website with integrated
-                            Visit social media content (e.g. like buttons or advertising banners). Through the
-                            Visiting our social media presences will reveal numerous data protection-related issues
-                            Processing operations triggered. In detail:<br>
-                            If you are logged into your social media account and our
-                            If you visit a social media presence, the operator of the social media portal can do so
-                            Assign a visit to your user account. Your personal data can be found at
-                            However, under certain circumstances, it can also be recorded if you are not logged in or
-                            have no login
-                            Have an account on the respective social media portal. This data collection takes place
-                            in this case, for example, via cookies that are stored on your device
-                            or by recording your IP address.<br>
-                            With the help of the data collected in this way, the operators of the social media portals
-                            can
-                            Create user profiles in which your preferences and interests are stored.
-                            In this way, you can receive interest-based advertising both inside and outside the website
-                            respective social media presence. If you have an account with
-                            respective social network, interest-based advertising can be carried out on all of them
-                            devices on which you are logged in or were logged in.<br>
-                            Please also note that we do not carry out all processing processes on the
-                            social media portals. Depending on the provider, it may be possible
-                            further processing operations by the operators of the social media portals
-                            be performed. Details can be found in the terms of use and
-                            Data protection regulations of the respective social media portals.
+                            We maintain publicly accessible profiles on social networks. The individual social networks we use can be found below.<br> Social networks such as Facebook, X etc. can generally analyze your user behavior comprehensively when you visit their website or a website with integrated social media content (e.g., like buttons or advertising banners). Visiting our social media presences triggers numerous data protection-relevant processing operations. In detail:<br> If you are logged into your social media account and visit our social media presence, the operator of the social media portal can assign this visit to your user account. However, your personal data may also be collected if you are not logged in or do not have an account with the respective social media portal. In this case, this data collection takes place, for example, via cookies that are stored on your end device or by recording your IP address.<br> With the help of the data collected in this way, the operators of the social media portals can create user profiles in which your preferences and interests are stored. In this way, interest-based advertising can be displayed to you inside and outside the respective social media presence. If you have an account with the respective social network, the interest-based advertising can be displayed on all devices on which you are logged in or were logged in.<br> Please also note that we cannot track all processing operations on the social media portals. Depending on the provider, further processing operations may therefore be carried out by the operators of the social media portals. For details, please refer to the terms of use and privacy policies of the respective social media portals.
                         </p>
 
                         <h3>Legal basis</h3>
-                        <p>Our social media presence should have as comprehensive a presence as possible on the Internet
-                            guarantee. This is a legitimate interest in the sense of
-                            Art. 6 Paragraph 1 Letter f GDPR. Those initiated by social networks
-                            Analysis processes may be based on different legal bases that vary from the
-                            The operators of the social networks must be provided (e.g. consent in the sense of
-                            Art. 6 Paragraph 1 Letter a GDPR).</p>
-
-                        <h3>Responsible person and assertion of rights</h3>
-                        <p>If you visit one of our social media sites (e.g. Facebook), we are
-                            together with the operator of the social media platform for this visit
-                            responsible for the data processing operations triggered. You can exercise your rights
-                            (information, correction, deletion, restriction of processing,
-                            Data portability and complaints) basically both vs. us as well as against dem
-                            The operator of the respective social media portal (e.g. compared to Facebook) applies
-                            do.<br>
-                            Please note that despite the shared responsibility with the
-                            Social media portal operators do not have full influence on the
-                            data processing operations of the social media portals. Our possibilities
-                            are largely based on the corporate policy of the respective provider.
+                        <p>
+                            Our social media presences are intended to ensure the widest possible presence on the internet. This is a legitimate interest within the meaning of Art. 6 para. 1 lit. f GDPR. The analysis processes initiated by the social networks may be based on different legal bases, which must be specified by the operators of the social networks (e.g., consent within the meaning of Art. 6 para. 1 lit. a GDPR).
                         </p>
 
-                        <h3>Storage period</h3>
-                        <p>The data we collect directly via our social media presence is used by
-                            deleted from our systems as soon as you request us to delete it, your consent
-                            for storage can be revoked or the purpose for data storage no longer applies.
-                            Saved cookies remain on your device until you delete them. Compelling
-                            Legal provisions – especially retention periods – remain unaffected.
-                            The storage period of your data is determined by the operators of the social networks
-                            We have no influence if data is stored for our own purposes. For details on this
-                            Please find out more directly from the operators of the social networks (e.g.
-                            in their data protection declaration, see below).</p>
+                        <h3>Controller and assertion of rights</h3>
+                        <p>
+                            If you visit one of our social media sites (e.g., Facebook), we are jointly responsible with the operator of the social media platform for the data processing operations triggered during this visit. You can generally assert your rights (information, rectification, erasure, restriction of processing, data portability and complaint) both against us and against the operator of the respective social media portal (e.g., against Facebook).<br> Please note that despite the joint responsibility with the social media portal operators, we do not have full influence on the data processing operations of the social media portals. Our options are largely determined by the company policy of the respective provider.
+                        </p>
+
+                        <h3>Storage duration</h3>
+                        <p>
+                            The data collected directly by us via the social media presence will be deleted from our systems as soon as you ask us to delete it, revoke your consent to storage or the purpose for data storage no longer applies. Stored cookies remain on your end device until you delete them. Mandatory statutory provisions - in particular retention periods - remain unaffected. We have no influence on the storage period of your data that is stored by the operators of social networks for their own purposes. For details, please contact the operators of the social networks directly (e.g., in their privacy policy, see below).
+                        </p>
 
                         <h3>Your rights</h3>
-                        <p>You have the right to obtain information about the origin, recipient and information free of
-                            charge at any time
-                            Purpose to obtain your personal data stored. It also suits you
-                            a right to object, to data portability and a right to complain to the
-                            responsible supervisory authority. You can also request correction, blocking,
-                            Deletion and, in certain circumstances, restriction of processing of your data
-                            request personal data.</p>
+                        <p>
+                            You have the right to receive information about the origin, recipient, and purpose of your stored personal data free of charge at any time. You also have the right to object, the right to data portability and the right to lodge a complaint with the competent supervisory authority. Furthermore, you can request the rectification, blocking, erasure and, under certain circumstances, the restriction of the processing of your personal data.
+                        </p>
 
                         <h2>Social networks in detail</h2>
                         <h3>Facebook</h3>
                         <p>
-                            We have a profile on Facebook. The provider of this service is Meta
-                            Platforms Ireland Limited, 4 Grand Canal Square, Grand Canal Harbour, Dublin 2,
-                            Ireland (hereinafter Meta). According to Meta, the data collected is also used in...
-                            the USA and other third countries.
+                            We have a profile on Facebook. The provider of this service is Meta Platforms Ireland Limited, 4 Grand Canal Square, Grand Canal Harbor, Dublin 2, Ireland (hereinafter referred to as Meta). According to Meta, the data collected is also transferred to the USA and other third countries.
 
-                            We have a shared processing agreement with Meta (Controller
-                            Addendum) closed. This agreement specifies for which
-                            We or Meta are responsible for data processing operations if you use ours
-                            Visit Facebook page. You can view this agreement at the following link:
-                            https://www.facebook.com/legal/terms/page_controller_addendum.<br>
-                            You can adjust your advertising settings independently in your user account.
-                            To do this, click on the following link and log in:
-                            https://www.facebook.com/settings?tab=ads.<br>
+                            We have concluded an agreement with Meta on joint processing (Controller Addendum). This agreement specifies which data processing operations we or Meta are responsible for when you visit our Facebook page. You can view this agreement at the following link: https://www.facebook.com/legal/terms/page_controller_addendum.<br> You can adjust your advertising settings yourself in your user account. To do this, click on the following link and log in: https://www.facebook.com/settings?tab=ads.<br>
 
-                            Data transfer to the USA is based on the standard contractual clauses
-                            Supported by the EU Commission. Details can be found here:
-                            https://www.facebook.com/legal/EU_data_transfer_addendum and
-                            https://de-de.facebook.com/help/566994660333381.<br>
+                            Data transfer to the USA is based on the standard contractual clauses of the EU Commission. You can find details here: https://www.facebook.com/legal/EU_data_transfer_addendum and https://de-de.facebook.com/help/566994660333381.<br>
 
-                            Details can be found in Facebook's privacy policy:
-                            https://www.facebook.com/about/privacy/.<br>
+                            Details can be found in Facebook's privacy policy: https://www.facebook.com/about/privacy/.<br>
 
-                            The company is certified according to the “EU-US Data Privacy
-                            Framework” (DPF). The DPF is an agreement between the European Union and
-                            the USA, which ensures compliance with European data protection standards
-                            to ensure data processing in the USA. Each DPF certified
-                            Companies are committed to complying with these data protection standards. More
-                            You can obtain information about this from the provider using the following link:
-                            https://www.dataprivacyframework.gov/s/participant-search/participant-detail?contact=true&id=a2zt0000000GnywAAC&status=Active
+                            The company is certified in accordance with the EU-US Data Privacy Framework (DPF). The DPF is an agreement between the European Union and the USA, which is intended to ensure compliance with European data protection standards for data processing in the USA. Every company certified under the DPF undertakes to comply with these data protection standards. Further information on this can be obtained from the provider at the following link: https://www.dataprivacyframework.gov/s/participant-search/participant-detail?contact=true&id=a2zt0000000GnywAAC&status=Active
                         </p>
 
                         <h3>Instagram</h3>
                         <p>
-                            We have a profile on Instagram. The provider of this service is Meta
-                            Platforms Ireland Limited, 4 Grand Canal Square, Grand Canal Harbour, Dublin 2,
-                            Ireland.
+                            We have a profile on Instagram. The provider of this service is Meta Platforms Ireland Limited, 4 Grand Canal Square, Grand Canal Harbor, Dublin 2, Ireland.
 
-                            Data transfer to the USA is based on the standard contractual clauses
-                            Supported by the EU Commission. Details can be found here:
-                            https://www.facebook.com/legal/EU_data_transfer_addendum,
-                            https://privacycenter.instagram.com/policy/and
-                            https://de-de.facebook.com/help/566994660333381.<br>
-                            Details on how they handle your personal data can be found here
-                            Instagram privacy policy: https://privacycenter.instagram.com/policy/.<br>
+                            Data transfer to the USA is based on the standard contractual clauses of the EU Commission. Details can be found here: https://www.facebook.com/legal/EU_data_transfer_addendum, https://privacycenter.instagram.com/policy/ and https://de-de.facebook.com/help/566994660333381.<br>
 
-                            The company is certified according to the “EU-US Data Privacy
-                            Framework” (DPF). The DPF is an agreement between the European Union and
-                            the USA, which ensures compliance with European data protection standards
-                            to ensure data processing in the USA. Each DPF certified
-                            Companies are committed to complying with these data protection standards. More
-                            You can obtain information about this from the provider using the following link:
-                            https://www.dataprivacyframework.gov/s/participant-search/participant-detail?contact=true&id=a2zt0000000GnywAAC&status=Active
+                            Details on how they handle your personal data can be found in Instagram's privacy policy: https://privacycenter.instagram.com/policy/.<br>
+
+                            The company is certified in accordance with the EU-US Data Privacy Framework (DPF). The DPF is an agreement between the European Union and the USA, which is intended to ensure compliance with European data protection standards for data processing in the USA. Every company certified under the DPF undertakes to comply with these data protection standards. Further information on this can be obtained from the provider at the following link: https://www.dataprivacyframework.gov/s/participant-search/participant-detail?contact=true&id=a2zt0000000GnywAAC&status=Active
                         </p>
 
-                        <h3>Linkedin</h3>
+                        <h3>LinkedIn</h3>
                         <p>
-                            We have a profile on LinkedIn. The provider is LinkedIn Ireland
-                            Unlimited Company, Wilton Plaza, Wilton Place, Dublin 2, Ireland. LinkedIn used
-                            Advertising cookies.
+                            We have a profile on LinkedIn. The provider is LinkedIn Ireland Unlimited Company, Wilton Plaza, Wilton Place, Dublin 2, Ireland. LinkedIn uses advertising cookies.
 
-                            If you would like to deactivate LinkedIn advertising cookies, please use the following
-                            Link: https://www.linkedin.com/psettings/guest-controls/retargeting-opt-out.<br>
-                            Data transfer to the USA is based on the standard contractual clauses
-                            Supported by the EU Commission. Details can be found here:
-                            https://www.linkedin.com/legal/l/dpa and
-                            https://www.linkedin.com/legal/l/eu-sccs.<br>
+                            If you wish to deactivate LinkedIn advertising cookies, please use the following link: https://www.linkedin.com/psettings/guest-controls/retargeting-opt-out.<br>
 
-                            Details on how they handle your personal data can be found here
-                            LinkedIn privacy policy:https://www.linkedin.com/legal/privacy-policy.
+                            Data transfer to the USA is based on the standard contractual clauses of the EU Commission. You can find details here: https://www.linkedin.com/legal/l/dpa and https://www.linkedin.com/legal/l/eu-sccs.<br>
+
+                            Details on how they handle your personal data can be found in LinkedIn's privacy policy: https://www.linkedin.com/legal/privacy-policy.
                         </p>
 
                     </div>

@@ -4,28 +4,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/BAE.css">
-    <link rel="icon" href="/Logo/Rauten BAE.png" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename='BAE.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='Logo/Rauten BAE.png') }}" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>BAE GROUP</title>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script src="/BAE.js"></script>
-
+    <script src="{{ url_for('static', filename='BAE.js') }}"></script>
 </head>
 
 <body>
-    <menu-bar></menu-bar>
-    <copyright-bae></copyright-bae>
+    {% include menu_bar %}
 
     <div class="referenzenbild">
+        <img src="{{ url_for('static', filename='Bilder/Projekte.jpg') }}">
         <h1>Our projects</h1>
     </div>
 
-    <div id="projekte" class="projekte"></div>
+    <div id="projekte" class="projekte">
+
+        {% set ns = namespace(counter=0) %}
+        {% for item in data %}
+        {% if item.Bild != '' %} 
+        {% set display = 'flex' if ns.counter < 10 else 'none' %}
+        <div class="projekt" id="projekt{{ns.counter}}" style="display: {{ display }};">
+            <div class="projektbild">
+                <a href="/en/Referenzen/{{item.Bild[:-4]}}">
+                    <img src="{{ url_for('static', filename='Bilder/'+item.Bild) }}" alt="{{item.Projekt}}">
+                </a>
+            </div>
+            <div class="projekttitel">
+                <a href="/en/Referenzen/{{item.Bild[:-4]}}">
+                    <h1>{{ item.Projekt }}</h1>
+                </a>
+                <p>{{ item.Gebaeude }}</p>
+                <p>{{ item.Projektart }}</p>
+            </div>
+        </div>
+        {% set ns.counter = ns.counter + 1 %}
+        {% endif %}
+        {% endfor %}
+    </div>
 
     <div class="navigate">
         <button class="prev" onclick="prev()"> ◄ </button>
-        <div id="seiten" class="seiten"></div>
+        <div id="seiten" class="seiten">
+            {% set maxIndex = (ns.counter - 1) // 10 %}
+            {% for index in range(maxIndex + 1) %}
+            <button id="seite{{ index }}" class="seite {% if index == 0 %}selected{% endif %}"
+                onclick="navigate( {{ index }} )">{{ index + 1 }}</button>
+            {% endfor %}
+
+        </div>
         <button class="next" onclick="next()"> ► </button>
     </div>
 
