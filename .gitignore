@@ -1,8 +1,9 @@
-static/Video/
+static/Video/LandingpageBAE1.mp4
 uploads/
 data/keys.json
 __pycache__/
 *.pyc
 test.py
-.vscode/settings.json
+.vscode/
 data/Referenzen_.json
+static/Bilder/textbilder/
