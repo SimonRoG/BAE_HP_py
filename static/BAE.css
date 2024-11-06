@@ -2941,17 +2941,25 @@ div.ContainerUeberuns {
   margin-top: 0.0vw;
 }
 
+.alert-message {
+  position: fixed;
+  transform: translate(-50%, 0);
+  top: 10%;
+  left: 50%;
+  z-index: 1;
 
-/* Ende Investmentmanagement */
+  div {
+    margin-bottom: .5rem;
+  }
+}
+
 .karriere-container {
   display: flex;
   padding: 0vw;
   box-sizing: border-box;
   justify-content: space-evenly;
-  /* Anpassung: Verteilt den verbleibenden Platz gleichmäßig */
   max-width: 100%;
   margin-top: 1vw;
-  /*Abstand */
   position: relative;
 }
 
@@ -3299,12 +3307,21 @@ div.stellenanzeigeBild {
   }
 
   input,
+  select,
   textarea {
     border: #017AC0 solid 1px;
     border-radius: 10px;
     padding: 10px;
     width: 50%;
     font-size: 1.5em;
+
+    option {
+      color: black;
+    }
+
+    option[disabled]{
+      color: grey;
+    }
   }
 
   #submit {
@@ -4288,6 +4305,7 @@ div.SperrbereichKarriere {
   .formular {
 
     input,
+    select,
     textarea {
       width: 100%;
       font-size: 1em;
@@ -4389,7 +4407,7 @@ div.SperrbereichKarriere {
     }
   }
 
-  .navigate{
+  .navigate {
     padding: 5% 0 10% 0;
   }
 }

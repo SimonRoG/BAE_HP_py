@@ -2,12 +2,14 @@ from flask import *
 import json
 import os
 from flask_wtf import FlaskForm, RecaptchaField
-from wtforms import StringField, EmailField, TextAreaField, SubmitField
-from wtforms.validators import DataRequired
 from flask_wtf.file import FileField, FileAllowed, FileRequired
+from wtforms import StringField, EmailField, TextAreaField, SelectField, SubmitField
+from wtforms.validators import DataRequired
+import smtplib
+from email.message import EmailMessage
 
 app = Flask(__name__)
-app.secret_key = os.urandom(24)
+app.config["SECRET_KEY"] = os.urandom(24)
 
 UPLOAD_FOLDER = "uploads/"
 app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
@@ -23,22 +25,59 @@ RECAPTCHA_SECRET_KEY = keys["RECAPTCHA_SECRET_KEY"]
 app.config["RECAPTCHA_PUBLIC_KEY"] = RECAPTCHA_SITE_KEY
 app.config["RECAPTCHA_PRIVATE_KEY"] = RECAPTCHA_SECRET_KEY
 
+smtp_email = "smtp1.bae@gmail.com"
+password = keys["password"]
+hr_email = "smtp1.bae@gmail.com"
+
 
 class Formular(FlaskForm):
     name = StringField("Name", validators=[DataRequired()])
     email = EmailField("Email", validators=[DataRequired()])
-    massage = TextAreaField("Massage")
+    ort = SelectField("Standort", choices=[("", "Standort*")], validators=[DataRequired()])
+    message = TextAreaField("Message")
     file = FileField(
         "File", validators=[FileRequired(), FileAllowed(["pdf"], "*.pdf only!")]
     )
-    recaptcha = RecaptchaField("reCAPTCHA", validators=[DataRequired()])
+    recaptcha = RecaptchaField("reCAPTCHA")
     submit = SubmitField("Senden")
+
+
+def send_email(form, Stelle):
+    Name = form.name.data
+    Email = form.email.data
+    Standort = form.ort.data
+    Message = form.message.data
+    File = form.file.data
+
+    body = f"Name: {Name}\nEmail: {Email}\nStandort: {Standort}\nMessage: \n{Message}\n"
+
+    message = EmailMessage()
+    message["From"] = smtp_email
+    message["To"] = hr_email
+    message["Subject"] = "Test Bewerbung " + Stelle
+    message.set_content(body)
+
+    file_data = File.read()
+    file_name = File.filename
+    message.add_attachment(
+        file_data, maintype="application", subtype="octet-stream", filename=file_name
+    )
+
+    with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
+        server.login(smtp_email, password)
+        server.send_message(message)
+
+    route = request.path
+
+    if "/en/" in route:
+        flash("Application has been sent and is being processed.", "success")
+    else:
+        flash("Bewerbung wurde geschickt und wird bearbeitet.", "success")
 
 
 def language(html):
     route = request.path
-    if "/en/" in route:
-        html = "en/" + html
+    html = "en/" + html if "/en/" in route else html
     return html
 
 
@@ -102,9 +141,7 @@ def format_number(value):
 @app.route("/en/Referenzen")
 def referenzen():
     route = request.path
-    data = Referenzen
-    if "/en/" in route:
-        data = Referenzen_en
+    data = Referenzen_en if "/en/" in route else Referenzen
 
     return render_template_("referenzen.html", data=data)
 
@@ -113,9 +150,7 @@ def referenzen():
 @app.route("/en/Referenzen/<Projekt>")
 def projekt(Projekt):
     route = request.path
-    data = Referenzen
-    if "/en/" in route:
-        data = Referenzen_en
+    data = Referenzen_en if "/en/" in route else Referenzen
 
     for item in data:
         if item["Bild"][:-4] == Projekt:
@@ -126,25 +161,38 @@ def projekt(Projekt):
 @app.route("/en/Karriere")
 def karriere():
     route = request.path
-    data = Stellenanzeigen
-    if "/en/" in route:
-        data = Stellenanzeigen_en
+    data = Stellenanzeigen_en if "/en/" in route else Stellenanzeigen
 
     return render_template_("karriere.html", data=data)
 
 
-@app.route("/Karriere/<Stelle>")
-@app.route("/en/Karriere/<Stelle>")
+@app.route("/Karriere/<Stelle>", methods=["GET", "POST"])
+@app.route("/en/Karriere/<Stelle>", methods=["GET", "POST"])
 def stelle(Stelle):
-    form = Formular()
-
     route = request.path
-    data = Stellenanzeigen
-    if "/en/" in route:
-        data = Stellenanzeigen_en
+    data = Stellenanzeigen_en if "/en/" in route else Stellenanzeigen
+
+    form = Formular()
 
     for item in data:
         if item["Name"][:-7] == Stelle:
+            for Standort in item["Standort"].split(", "):
+                form.ort.choices.append((Standort, Standort))
+
+            if form.validate_on_submit():
+                send_email(form, Stelle)
+                return redirect("/en/Karriere" if "/en/" in route else "/Karriere")
+            else:
+                if str(form.errors)[1:-1] != "":
+                    if "/en/" in route:
+                        flash("Errors occurred during transmission", "danger")
+                        flash("Send an e-mail to hr@b-a-e.eu", "danger")
+                    else:
+                        flash("Beim Senden sind Fehler aufgetreten", "danger")
+                        flash("Schicken Sie eine E-Mail auf hr@b-a-e.eu", "danger")
+                    print(form.errors)
+                    return redirect("/en/Karriere" if "/en/" in route else "/Karriere")
+
             return render_template_(
                 "stelle.html",
                 item=item,

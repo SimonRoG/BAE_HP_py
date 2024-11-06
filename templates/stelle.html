@@ -52,10 +52,12 @@
         </h2>
 
         <div class="formular">
-            <form>
+            <form method="POST" enctype="multipart/form-data">
+                {{ form.hidden_tag() }}
                 {{ form.name(placeholder="Name*") }} <br><br>
                 {{ form.email(placeholder="Email*") }} <br><br>
-                {{ form.massage(rows="5", placeholder="Massage") }} <br><br>
+                {{ form.ort() }} <br><br>
+                {{ form.message(rows="5", placeholder="Message") }} <br><br>
                 <div class="fileinput">
                     <label for="file">
                         <i><img src="{{ url_for('static', filename='/Icons/pdf.svg') }}" alt="pdf"></i>
@@ -73,7 +75,18 @@
         </div>
     </div>
 
-
-
-
+    <script>
+        const selectElement = document.querySelector('select[name="{{ form.ort.name }}"]');
+        selectElement.querySelector('option[value=""]').setAttribute('disabled', 'disabled');
+        if (selectElement.value === "") {
+            selectElement.style.color = "grey";
+        }
+        selectElement.addEventListener('change', function () {
+            if (this.value === '') {
+                this.style.color = "grey";
+            } else {
+                this.style.color = "black";
+            }
+        });
+    </script>
 </body>

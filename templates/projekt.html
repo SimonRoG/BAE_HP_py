@@ -10,7 +10,6 @@
     <title>BAE GROUP</title>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="{{ url_for('static', filename='BAE.js') }}"></script>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
 </head>
 
 <body>
@@ -51,16 +50,6 @@
                 </tr>
                 {% endif %}
             </table>
-            <p>Standort:</p>
-            <div id="map"></div>
-            <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
-            <script>
-                var coordinates = [50.2661, 10.96];
-                var map = L.map('map').setView(coordinates, 18);
-
-                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
-                L.marker(coordinates).addTo(map)
-            </script>
         </div>
         <div class="projektbild">
             <img src="{{ url_for('static', filename='Bilder/'+item.Bild) }}" alt="{{item.Projekt}}">
