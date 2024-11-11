@@ -152,3 +152,18 @@ function next() {
             return;
         }
 }
+
+function accept_cookie(value) {
+    fetch('/set_cookie_consent/' + value, {
+        method: 'POST'
+    }).then(function () {
+        document.getElementById('cookie-banner').style.display = 'none';
+    }).then(function () {
+        const lang = document.documentElement.lang;
+        fetch('/set_language/' + lang, { method: 'POST' });
+    });
+}
+
+function set_language(lang) {
+    fetch('/set_language/' + lang, { method: 'POST' });
+}

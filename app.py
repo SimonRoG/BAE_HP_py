@@ -1,6 +1,7 @@
 from flask import *
 import json
 import os
+from distutils.util import strtobool
 from flask_wtf import FlaskForm, RecaptchaField
 from flask_wtf.file import FileField, FileAllowed, FileRequired
 from wtforms import StringField, EmailField, TextAreaField, SelectField, SubmitField
@@ -33,7 +34,9 @@ hr_email = "smtp1.bae@gmail.com"
 class Formular(FlaskForm):
     name = StringField("Name", validators=[DataRequired()])
     email = EmailField("Email", validators=[DataRequired()])
-    ort = SelectField("Standort", choices=[("", "Standort*")], validators=[DataRequired()])
+    ort = SelectField(
+        "Standort", choices=[("", "Standort*")], validators=[DataRequired()]
+    )
     message = TextAreaField("Message")
     file = FileField(
         "File", validators=[FileRequired(), FileAllowed(["pdf"], "*.pdf only!")]
@@ -111,12 +114,23 @@ with open(
 
 
 def render_template_(html, **context):
-    return render_template(language(html), menu_bar=language("menuBar.html"), **context)
+    consent = request.cookies.get("cookie_consent")
+    return render_template(
+        language(html), menu_bar=language("menuBar.html"), consent=consent, **context
+    )
 
 
 @app.route("/")
 @app.route("/en/")
 def index():
+    route = request.path
+    if "/en/" in route:
+        if request.cookies.get("language") == "de":
+            return redirect("/")
+    else:
+        if request.cookies.get("language") == "en":
+            return redirect("/en/")
+        
     return render_template_("index.html")
 
 
@@ -211,3 +225,31 @@ def geschaeftsfelder(Geschaeftsfeld):
 @app.route("/en/Bilder/<Bild>")
 def bild(Bild):
     return send_from_directory("static/Bilder", Bild)
+
+
+@app.route("/set_cookie_consent/<value>", methods=["POST"])
+def set_cookie(value):
+    response = make_response(redirect("/"))
+    value = strtobool(value)
+    if value:
+        response.set_cookie("cookie_consent", str(value), max_age=60 * 60 * 24 * 365)
+    else:
+        response.set_cookie("cookie_consent", str(value))
+    
+    return response
+
+
+@app.route('/set_language/<lang>', methods=['POST'])
+def set_language(lang):
+    if lang == "en":
+        response = make_response(redirect("/en/"))
+    elif lang == "de":
+        response = make_response(redirect("/"))
+    else:
+        response = make_response(redirect("/"))
+        return response
+    
+    if strtobool(request.cookies.get("cookie_consent")):
+        response.set_cookie("language", lang, max_age=60 * 60 * 24 * 365)
+    return response
+

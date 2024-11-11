@@ -6,6 +6,14 @@
 </head>
 
 <body>
+    {% if not consent %}
+    <div id="cookie-banner">
+        cookies
+        <button id="accept-cookies" onclick="accept_cookie(true)">☺</button>
+        <button id="decline-cookies" onclick="accept_cookie(false)">☻</button>
+    </div>
+    {% endif %}
+
     <div id="copyright">
         BAE-GROUP 2024
         <a href="/en/Impressum" class="impressum">Imprint</a>
@@ -70,10 +78,10 @@
 
         <div id="language" class="desktop">
             <div id="off">
-                <a href="/">DE</a>
+                <a href="/" onclick="set_language('de')">DE</a>
             </div>
             <div id="on">
-                <a href="/en/">EN</a>
+                <a href="/en/" onclick="set_language('en')">EN</a>
             </div>
         </div>
         <!-- Mobile Navigation Menu -->
@@ -106,10 +114,10 @@
             </div>
             <div id="language" class="mobile">
                 <div id="off">
-                    <a href="/">DE</a>
+                    <a href="/" onclick="set_language('de')">DE</a>
                 </div>
                 <div id="on">
-                    <a href="/en/">EN</a>
+                    <a href="/en/" onclick="set_language('en')">EN</a>
                 </div>
             </div>
             <div id="copyright">
