@@ -221,10 +221,18 @@ def geschaeftsfelder(Geschaeftsfeld):
     return render_template_(f"Geschaeftsfelder/{Geschaeftsfeld}.html")
 
 
+@app.route("/Bilder/TextBilder/<Bild>")
+@app.route("/Bilder/TextBilder/en/<Bild>")
 @app.route("/Bilder/<Bild>")
-@app.route("/en/Bilder/<Bild>")
 def bild(Bild):
-    return send_from_directory("static/Bilder", Bild)
+    route = request.path
+    if "/TextBilder/" in route:
+        if "/en/" in route:
+            return send_from_directory("static/Bilder/TextBilder/en", Bild)
+        else:
+            return send_from_directory("static/Bilder/TextBilder", Bild)
+    else:
+        return send_from_directory("static/Bilder", Bild)
 
 
 @app.route("/set_cookie_consent/<value>", methods=["POST"])
