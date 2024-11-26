@@ -238,10 +238,8 @@
     <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2973.34 3012)" style="white-space: pre;">•</text>
     <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3035.22 3012)" style="white-space: pre;">Abschluss des Projektkommunikationssystem </text>
     <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2973.34 3075)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3035.22 3075)" style="white-space: pre;">Abschlussbericht mit „</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3449.67 3075)" style="white-space: pre;">leasson</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3607.56 3075)" style="white-space: pre;">learned</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3748.73 3075)" style="white-space: pre;">“</text>
+    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3035.22 3075)" style="white-space: pre;">Abschlussbericht mit</text>
+    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3449.67 3075)" style="white-space: pre;">"leasson learned"</text>
     <rect x="2846" y="3205" width="1349" height="119" fill="#FFFFFF"/>
     <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2969.57 3254)" style="white-space: pre;">•</text>
     <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3031.44 3254)" style="white-space: pre;">Analysieren und Bewertung der Auflistung der </text>
@@ -328,4 +326,6 @@
   <path d="M 864.03 912.432 L 906.03 950.432 L 948.03 912.432 L 864.03 912.432 Z" fill="#017AC0" fill-rule="evenodd"/>
   <path d="M 866.252 557.593 L 908.252 595.592 L 950.252 557.593 L 866.252 557.593 Z" fill="#017AC0" fill-rule="evenodd"/>
   <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 44px; white-space: pre;" transform="matrix(1, 0, 0, 1, -15.55662, 17.778994)"><tspan x="339.325" y="156.564">•    Mitwirkung bei der Klärung der projektspezifischen </tspan><tspan x="339.325" dy="1.2em">​</tspan><tspan>     Randbedingung</tspan><tspan x="339.325" dy="1.2em">​</tspan><tspan>•    Mitwirkung bei der Festlegung der Projektziele </tspan><tspan x="339.325" dy="1.2em">​</tspan><tspan>•    Entwickeln und Abstimmen der Projektstrukturplanung </tspan><tspan x="339.325" dy="1.2em">​</tspan><tspan>•    Entwicklung und Koordination der maßgeblichen </tspan><tspan x="339.325" dy="1.2em">​</tspan><tspan>     Projektstrukturdokumente (Projekthandbuch)</tspan><tspan x="339.325" dy="1.2em">​</tspan><tspan>•    Mitwirkung beim Risikomanagement </tspan><tspan x="339.325" dy="1.2em">​</tspan></text>
+  <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="700" font-size="14" transform="matrix(0, -1, 1, 0, 88.289482, 1081.385864)" style="white-space: pre; font-size: 44px;">Phase 1:</text>
+  <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="700" font-size="14" transform="matrix(0, -1, 1, 0, 144.942627, 1188.397461)" style="white-space: pre; font-size: 44px;">Projektvorbereitung</text>
 </svg>

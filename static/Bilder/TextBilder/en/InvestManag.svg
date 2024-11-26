@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="3976" height="1195" xmlns="http://www.w3.org/2000/svg" overflow="hidden">
+  <g transform="translate(-109 -562)">
+    <path d="M460.5 796.5 817 796.5 979.5 959 817 1121.5 460.5 1121.5Z" stroke="#017AC0" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
+    <path d="M1003.5 796.5 1360 796.5 1522.5 959 1360 1121.5 1003.5 1121.5Z" stroke="#017AC0" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
+    <path d="M1551.5 796.5 1909 796.5 2071.5 959 1909 1121.5 1551.5 1121.5Z" stroke="#017AC0" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
+    <path d="M2097.5 796.5 2455 796.5 2617.5 959 2455 1121.5 2097.5 1121.5Z" stroke="#017AC0" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
+    <path d="M2274.05 796 2274.05 658.5 2275.19 659.646 1181 659.646 1182.15 658.5 1182.15 773.616 1179.85 773.616 1179.85 657.354 2276.34 657.354 2276.34 796ZM1194.75 769.033 1181 796.533 1167.25 769.033Z" fill="#4472C4"/>
+    <path d="M2643.5 796.5 3000 796.5 3162.5 959 3000 1121.5 2643.5 1121.5Z" stroke="#017AC0" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
+    <path d="M979 958 1002.28 958.533" stroke="#017AC0" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
+    <path d="M1522 959 1550.78 959" stroke="#017AC0" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
+    <path d="M0 0 26.0449 0.532677" stroke="#017AC0" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd" transform="matrix(1 0 0 -1 2071 958.533)"/>
+    <path d="M2617 958 2643.04 958" stroke="#017AC0" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
+    <path d="M3162 958 3201.04 958" stroke="#017AC0" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
+    <path d="M3201.5 796.5 3559 796.5 3721.5 959 3559 1121.5 3201.5 1121.5Z" stroke="#017AC0" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
+    <path d="M0-1.14583 143.229-1.14583 143.229 559.869 27.5 559.869 27.5 557.578 142.083 557.578 140.938 558.724 140.938 0 142.083 1.14583 0 1.14583ZM32.0833 572.474 4.58333 558.724 32.0833 544.974Z" fill="#4472C4" transform="matrix(-1.83697e-16 -1 -1 1.83697e-16 3382.72 797.583)"/>
+    <path d="M225.5 959C225.5 941.051 240.051 926.5 258 926.5 275.949 926.5 290.5 941.051 290.5 959 290.5 976.949 275.949 991.5 258 991.5 240.051 991.5 225.5 976.949 225.5 959Z" stroke="#017AC0" stroke-width="4.58333" stroke-miterlimit="8" fill="#017AC0" fill-rule="evenodd"/>
+    <path d="M290 958 459.443 958" stroke="#4472C4" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
+    <path d="M375 1302 907.501 1302 925 1562 375 1516.34 375 1302Z" fill="#DAE3F3" fill-rule="evenodd"/>
+    <path d="M3909.5 959C3909.5 941.051 3924.05 926.5 3942 926.5 3959.95 926.5 3974.5 941.051 3974.5 959 3974.5 976.949 3959.95 991.5 3942 991.5 3924.05 991.5 3909.5 976.949 3909.5 959Z" stroke="#017AC0" stroke-width="4.58333" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
+    <path d="M3721 958 3909.44 958" stroke="#4472C4" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
+    <path d="M953 1212 1485.5 1212 1503 1471 953 1425.52 953 1212Z" fill="#DAE3F3" fill-rule="evenodd"/>
+    <path d="M1427 1497 2010.81 1497 2030 1757 1427 1711.34 1427 1497Z" fill="#DAE3F3" fill-rule="evenodd"/>
+    <path d="M638 1121 638 1302.98" stroke="#4472C4" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
+    <path d="M0 0 0.000360892 90.4873" stroke="#4472C4" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd" transform="matrix(-1 0 0 1 1181 1121)"/>
+    <path d="M1730 1121 1730 1497.35" stroke="#4472C4" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
+    <path d="M2071 1264 2542.51 1264 2558 1458 2071 1423.93 2071 1264Z" fill="#DAE3F3" fill-rule="evenodd"/>
+    <path d="M2608 1402 3111.46 1402 3128 1727 2608 1669.93 2608 1402Z" fill="#DAE3F3" fill-rule="evenodd"/>
+    <path d="M2292 1121 2292 1263.99" stroke="#4472C4" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
+    <path d="M3156 1238 3593.62 1238 3608 1432 3156 1397.93 3156 1238Z" fill="#DAE3F3" fill-rule="evenodd"/>
+    <path d="M2821 1121 2821 1401.56" stroke="#017AC0" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
+    <path d="M3380 1121 3380 1237.98" stroke="#017AC0" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
+    <text style="font-family: Arial; font-size: 44px; text-anchor: middle; white-space: pre;" x="675.337" y="968.192">Needs analysis</text>
+    <text style="font-family: Arial; font-size: 44px; text-anchor: middle; white-space: pre;" x="1233.41" y="970.36">Object search</text>
+    <text style="font-family: Arial; font-size: 44px; text-anchor: middle; white-space: pre;" x="1789.98" y="974.697">Analysis &amp; Evaluation</text>
+    <text style="font-family: Arial; font-size: 44px; text-anchor: middle; white-space: pre;" x="2327.23" y="970.359">Investment decision</text>
+    <text style="font-family: Arial; font-size: 44px; text-anchor: middle; white-space: pre;" x="2866.71" y="970.361">Operating phase</text>
+    <text style="font-family: Arial; font-size: 44px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 21.683607, 0)"><tspan x="3410.38" y="953.013">Search process </tspan><tspan x="3410.38" dy="1em">​</tspan><tspan>tenant/buyer</tspan></text>
+    <text style="font-family: Arial; font-size: 44px; text-anchor: middle; white-space: pre;" x="1725.39" y="636.432">Start of new search process if decision against investment</text>
+    <text style="font-family: Arial; font-size: 44px; text-anchor: middle; white-space: pre;" x="3099.84" y="638.601">Integration of tenant/buyer</text>
+    <text style="font-family: Arial; font-size: 37px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, -305.738861, -42.040035)"><tspan x="955.163" y="1430.05">Development of a concrete </tspan><tspan x="955.163" dy="1.3em">​</tspan><tspan>specification with target return, </tspan><tspan x="955.163" dy="1.3em">​</tspan><tspan>location and utilization structure</tspan></text>
+    <text style="font-family: Arial; font-size: 37px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, -259.886444, 14.287739)"><tspan x="1480.27" y="1293.45">Search for specific objects on </tspan><tspan x="1480.27" dy="1.3em">​</tspan><tspan>the basis of the specifications</tspan></text>
+    <text style="font-family: Arial; font-size: 37px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, -102.229805, -105.655411)"><tspan x="1833.14" y="1677.24">Carrying out due diligence for </tspan><tspan x="1833.15" dy="1.3em">​</tspan><tspan>properties found that meet </tspan><tspan x="1833.15" dy="1.3em">​</tspan><tspan>the investment criteria</tspan></text>
+    <text style="font-family: Arial; font-size: 37px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, -127.666039, 1.91128)"><tspan x="2427.03" y="1334.65">Decision for/against </tspan><tspan x="2427.02" dy="1.3em">​</tspan><tspan>investment</tspan></text>
+    <text style="font-family: Arial; font-size: 37px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, -85.199776, -63.822853)"><tspan x="2950.54" y="1549.31">Transfer of property to </tspan><tspan x="2950.54" dy="1.3em">​</tspan><tspan>operating phase with </tspan><tspan x="2950.54" dy="1.3em">​</tspan><tspan>operating cost optimization/ </tspan><tspan x="2950.54" dy="1.3em">​</tspan><tspan>financial management</tspan></text>
+    <text style="font-family: Arial; font-size: 37px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 14.911281, -20.455641)"><tspan x="3366.52" y="1333.05">Search for </tspan><tspan x="3366.52" dy="1.3em">​</tspan><tspan>tenants/buyers</tspan></text>
+    <text style="font-family: Arial; font-size: 44px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, -75.892624, -15.178525)"><tspan x="4018.43" y="1057.1">End of </tspan><tspan x="4018.43" dy="1em">​</tspan><tspan>investment </tspan><tspan x="4018.43" dy="1em">​</tspan><tspan>process</tspan></text>
+    <text style="font-family: Arial; font-size: 44px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 229.846237, -8.673443)"><tspan x="33.215" y="1041.92">Start of </tspan><tspan x="33.215" dy="1em">​</tspan><tspan>investment </tspan><tspan x="33.215" dy="1em">​</tspan><tspan>process</tspan></text>
+  </g>
+</svg>

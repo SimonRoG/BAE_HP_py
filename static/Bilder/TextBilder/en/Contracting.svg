@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" overflow="hidden" height="2000" width="4400">
+  <g transform="translate(-42 -344)">
+    <rect x="283" y="518" width="1196" height="59.0001" fill="#FFFFFF"/>
+    <text transform="matrix(1 0 0 1 875.51 567)" style="fill: rgb(1, 122, 192); font-family: Arial; font-size: 44px; white-space: pre;">)</text>
+    <path d="M1978.81 466 250 466 250 1062.97 1978.81 1062.97 1978.81 466Z" fill="#F2F2F2" fill-rule="evenodd"/>
+    <text transform="matrix(0, -1, 1, 0, 111.077278, 782.801208)" style="fill: rgb(1, 122, 192); font-family: Arial; font-size: 48px; font-weight: 700; text-anchor: middle; white-space: pre;"><tspan>Project preparation </tspan><tspan x="0" dy="1em">​</tspan><tspan>ca. 3 - 4 months</tspan></text>
+    <rect x="289" y="773" width="1196" height="240" fill="#FFFFFF"/>
+    <rect x="283" y="491" width="1196" height="189" fill="#FFFFFF"/>
+    <path d="M4099.81 491 2372 491 2372 2132.8 4099.81 2132.8 4099.81 491Z" fill="#F2F2F2" fill-rule="evenodd"/>
+    <text transform="matrix(0, -1, 1, 0, 2266.925781, 1257.925415)" style="fill: rgb(1, 122, 192); font-family: Arial; font-size: 48px; font-weight: 700; text-anchor: middle; white-space: pre;"><tspan>Invitation to tender and awarding </tspan><tspan x="0" dy="1em">​</tspan><tspan>approx. 7 - 9 months</tspan></text>
+    <rect x="2431" y="2004" width="1195" height="63.9999" fill="#FFFFFF"/>
+    <path d="M3197 1978 4090.78 1978" stroke="#004B9C" stroke-width="13.75" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd"/>
+    <path d="M4084 1957 4084 1997.89 4119.87 1977.44 4084 1957Z" fill="#004B9C" fill-rule="evenodd"/>
+    <path d="M3197 1458 4090.78 1458" stroke="#004B9C" stroke-width="13.75" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd"/>
+    <path d="M4084 1438 4084 1478.89 4119.87 1458.44 4084 1438Z" fill="#004B9C" fill-rule="evenodd"/>
+    <rect x="2422" y="506" width="1198" height="118" fill="#FFFFFF"/>
+    <rect x="2422" y="679" width="1195" height="260" fill="#FFFFFF"/>
+    <rect x="2422" y="983" width="1195" height="268" fill="#FFFFFF"/>
+    <rect x="2423" y="1301" width="1199" height="110" fill="#FFFFFF"/>
+    <rect x="2431" y="1490" width="1195" height="164" fill="#FFFFFF"/>
+    <rect x="2425" y="1702" width="1195" height="63.9999" fill="#FFFFFF"/>
+    <rect x="2431" y="1830" width="1195" height="63.9999" fill="#FFFFFF"/>
+    <path d="M1972.81 1715 245 1715 245 2311.97 1972.81 2311.97 1972.81 1715Z" fill="#F2F2F2" fill-rule="evenodd"/>
+    <text transform="matrix(0, -1, 1, 0, 154.687775, 2012.496826)" style="fill: rgb(1, 122, 192); font-family: Arial; font-size: 48px; font-weight: 700; text-anchor: middle; white-space: pre;"><tspan>Project implementation </tspan><tspan x="0" dy="1em">​</tspan><tspan>approx. 8 - 14 years</tspan></text>
+    <path d="M1061 1884 1953.78 1884" stroke="#004B9C" stroke-width="13.75" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd"/>
+    <path d="M1948 1863 1948 1903.89 1983.87 1883.44 1948 1863Z" fill="#004B9C" fill-rule="evenodd"/>
+    <rect x="291" y="1751" width="1196" height="63.9999" fill="#FFFFFF"/>
+    <rect x="295" y="1919" width="1198" height="110" fill="#FFFFFF"/>
+    <rect x="309" y="2143" width="1199" height="110" fill="#FFFFFF"/>
+    <path d="M888.146 1224.72 888.146 1307.22 887 1306.07 2066.52 1306.07 2065.38 1307.22 2065.38 422.353 3022.02 422.353 3022.02 483.084 3019.73 483.084 3019.73 423.499 3020.88 424.645 2066.52 424.645 2067.67 423.499 2067.67 1308.37 885.854 1308.37 885.854 1224.72ZM3034.63 478.5 3020.88 506 3007.13 478.5Z" fill="#017AC0"/>
+    <path d="M 0 1.146 L -82.499 1.146 L -81.353 0 L -81.353 708.131 L -82.499 706.985 L 534.134 706.985 L 534.134 2140.66 L 473.406 2140.66 L 473.406 2138.37 L 532.988 2138.37 L 531.842 2139.51 L 531.842 708.131 L 532.988 709.277 L -83.645 709.277 L -83.645 -1.146 L 0 -1.146 L 0 1.146 Z M 477.989 2153.26 L 450.489 2139.51 L 477.989 2125.76 L 477.989 2153.26 Z" fill="#017AC0" transform="matrix(-6.12323e-17 -1 -1 6.12323e-17 3028.51 2201.49)"/>
+    <path d="M60.5 466C60.5 430.378 89.6015 401.5 125.5 401.5 161.398 401.5 190.5 430.378 190.5 466 190.5 501.622 161.398 530.5 125.5 530.5 89.6015 530.5 60.5 501.622 60.5 466Z" stroke="#33CCFF" stroke-width="4.58333" stroke-miterlimit="8" fill="#017AC0" fill-rule="evenodd"/>
+    <text transform="matrix(1 0 0 1 101.931 496)" style="fill: rgb(255, 255, 255); font-family: Arial; font-size: 83px; white-space: pre;">1</text>
+    <path d="M3068.5 419.5C3068.5 383.601 3097.38 354.5 3133 354.5 3168.62 354.5 3197.5 383.601 3197.5 419.5 3197.5 455.398 3168.62 484.5 3133 484.5 3097.38 484.5 3068.5 455.398 3068.5 419.5Z" stroke="#33CCFF" stroke-width="4.58333" stroke-miterlimit="8" fill="#017AC0" fill-rule="evenodd"/>
+    <text transform="matrix(1 0 0 1 3109.59 449)" style="fill: rgb(255, 255, 255); font-family: Arial; font-size: 83px; white-space: pre;">2</text>
+    <path d="M711.5 1636.5C711.5 1600.6 740.378 1571.5 776 1571.5 811.622 1571.5 840.5 1600.6 840.5 1636.5 840.5 1672.4 811.622 1701.5 776 1701.5 740.378 1701.5 711.5 1672.4 711.5 1636.5Z" stroke="#33CCFF" stroke-width="4.58333" stroke-miterlimit="8" fill="#017AC0" fill-rule="evenodd"/>
+    <text transform="matrix(1 0 0 1 752.555 1667)" style="fill: rgb(255, 255, 255); font-family: Arial; font-size: 83px; white-space: pre;">3</text>
+    <path d="M0 0 0.000360892 112.461" stroke="#33CCFF" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd" transform="matrix(1 0 0 -1 887 1238.46)"/>
+    <path d="M0 37.9998 41.4999 0 82.9998 37.9998Z" fill="#017AC0" fill-rule="evenodd" transform="matrix(1 0 0 -1 850 747)"/>
+    <path d="M0 37.9998 42.0001 0 84.0002 37.9998Z" fill="#017AC0" fill-rule="evenodd" transform="matrix(1 0 0 -1 2976 679)"/>
+    <path d="M0 37.9998 42.0001 0 84.0002 37.9998Z" fill="#017AC0" fill-rule="evenodd" transform="matrix(1 0 0 -1 2976 986)"/>
+    <path d="M0 38.0002 41.9999 0 83.9999 38.0002Z" fill="#017AC0" fill-rule="evenodd" transform="matrix(1 0 0 -1 2973 1299)"/>
+    <path d="M0 37.9998 42.0001 0 84.0002 37.9998Z" fill="#017AC0" fill-rule="evenodd" transform="matrix(1 0 0 -1 2976 1469)"/>
+    <path d="M0 37.9998 41.9999 0 83.9999 37.9998Z" fill="#017AC0" fill-rule="evenodd" transform="matrix(1 0 0 -1 2973 1703)"/>
+    <path d="M0 38.0002 41.9999 0 83.9999 38.0002Z" fill="#017AC0" fill-rule="evenodd" transform="matrix(1 0 0 -1 2971 1827)"/>
+    <path d="M0 37.9998 41.9999 0 83.9999 37.9998Z" fill="#017AC0" fill-rule="evenodd" transform="matrix(1 0 0 -1 2971 1987)"/>
+    <path d="M0 37.9998 42.0001 0 84.0002 37.9998Z" fill="#017AC0" fill-rule="evenodd" transform="matrix(1 0 0 -1 2987 2186)"/>
+    <path d="M0 37.9998 42.0001 0 84.0002 37.9998Z" fill="#017AC0" fill-rule="evenodd" transform="matrix(1 0 0 -1 844 1901)"/>
+    <path d="M0 37.9998 42.0001 0 84.0002 37.9998Z" fill="#017AC0" fill-rule="evenodd" transform="matrix(1 0 0 -1 844 2131)"/>
+    <text style="font-family: Arial; font-size: 44px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, -367.304413, -21.465843)"><tspan x="1252" y="578.699">Building selection Definition of </tspan><tspan x="1252" dy="1em">​</tspan><tspan>responsibilities Assignment of </tspan><tspan x="1252" dy="1em">​</tspan><tspan>project management if necessary</tspan></text>
+    <text style="font-family: Arial; font-size: 44px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, -770.385254, -11.925468)"><tspan x="1658.64" y="848.215">Collection/evaluation of property data Determination </tspan><tspan x="1658.64" dy="1em">​</tspan><tspan>of energy cost baseline Determination </tspan><tspan x="1658.64" dy="1em">​</tspan><tspan>of Targets (Runtime, economic efficiency requirements,</tspan><tspan x="1658.64" dy="1em">​</tspan><tspan> if applicable mandatory measures)</tspan></text>
+    <text style="font-family: Arial; font-size: 44px; text-anchor: middle; white-space: pre;" x="3020.56" y="585.854">Compilation of the tender documents</text>
+    <text style="font-family: Arial; font-size: 44px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, -59.627342, 31.006218)"><tspan x="3073.21" y="767.12">Contract award notice Evaluation </tspan><tspan x="3073.21" dy="1em">​</tspan><tspan>of requests to participate Invitation to tender</tspan></text>
+    <text style="font-family: Arial; font-size: 44px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 691.677124, -100.173935)"><tspan x="2318.2" y="1170.2">Bid preparation by the bidders Inspection </tspan><tspan x="2318.2" dy="1em">​</tspan><tspan>of properties Validation of property data </tspan><tspan x="2318.2" dy="1em">​</tspan><tspan>Rough energy analysis Determination of energy </tspan><tspan x="2318.2" dy="1em">​</tspan><tspan>and cost saving potentials and cost saving potentials</tspan></text>
+    <text style="font-family: Arial; font-size: 44px; text-anchor: middle; white-space: pre;" x="3013.6" y="1370.55">Offer evaluation
+Offer presentation</text>
+    <text style="font-family: Arial; font-size: 44px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 841.938049, -26.236031)"><tspan x="2174.23" y="1587.59">Award negotiations (gradual consolidation </tspan><tspan x="2174.23" dy="1em">​</tspan><tspan>of competition in a maximum of 2 negotiation rounds)</tspan></text>
+    <text style="font-family: Arial; font-size: 44px; text-anchor: middle; white-space: pre;" x="3014.47" y="1756.94">Best bidder</text>
+    <text style="font-family: Arial; font-size: 44px; text-anchor: middle; white-space: pre;" x="3011.95" y="1880.96">Energy comparison</text>
+    <text style="font-family: Arial; font-size: 44px; text-anchor: middle; white-space: pre;" x="3013.94" y="2050.3">Conclusion of energy-saving guarantee contract</text>
+    <text style="font-family: Arial; font-size: 44px; text-anchor: middle; white-space: pre;" x="886.245" y="1807.02">Detailed analysis</text>
+    <text style="font-family: Arial; font-size: 44px; text-anchor: middle; white-space: pre;" x="887.314" y="1983.52">Investment phase iplementation of energy-saving measures</text>
+    <text style="font-family: Arial; font-size: 44px; text-anchor: middle; white-space: pre;" x="885.565" y="2205.33">Main performance phase guaranteed energy cost savings</text>
+    <text style="fill: rgb(1, 122, 192); font-family: Arial; font-size: 44px; font-weight: 700; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 21.465843, -4.770187)"><tspan x="2101.52" y="1878.58">Termination </tspan><tspan x="2101.52" dy="1em">​</tspan><tspan>of proceedings</tspan></text>
+    <text style="fill: rgb(1, 122, 192); font-family: Arial; font-size: 44px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, -314.832367, 16.695671)"><tspan x="2046.11" y="1792.71">none Confirmation </tspan><tspan x="2046.11" dy="1em">​</tspan><tspan>Rough analysis/</tspan><tspan x="2046.11" dy="1em">​</tspan><tspan x="2046.11" dy="1em">​</tspan><tspan>own procurement </tspan><tspan x="2046.11" dy="1em">​</tspan><tspan>more favorable?</tspan></text>
+    <text style="fill: rgb(1, 122, 192); font-family: Arial; font-size: 44px; white-space: pre;" x="3688.8" y="1423.02">No economic offer</text>
+    <text style="fill: rgb(1, 122, 192); font-family: Arial; font-size: 44px; white-space: pre;" x="3638.91" y="1945.36">Procurement cheaper</text>
+    <text style="fill: rgb(1, 122, 192); font-family: Arial; font-size: 44px; font-weight: 700; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 2180.595459, -428.663666)"><tspan x="2101.52" y="1878.58">Termination </tspan><tspan x="2101.52" dy="1em">​</tspan><tspan>of proceedings</tspan></text>
+    <text style="fill: rgb(1, 122, 192); font-family: Arial; font-size: 44px; font-weight: 700; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 2180.595703, 91.286758)"><tspan x="2101.52" y="1878.58">Termination </tspan><tspan x="2101.52" dy="1em">​</tspan><tspan>of proceedings</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="3195" height="2116" xmlns="http://www.w3.org/2000/svg" overflow="hidden">
+  <g transform="translate(-100 -362)">
+    <rect x="1933" y="605" width="1310" height="503" fill="#F2F2F2"/>
+    <rect x="208" y="1838" width="1309" height="502" fill="#F2F2F2"/>
+    <rect x="214" y="624" width="1310" height="511" fill="#F2F2F2"/>
+    <rect x="135.5" y="471.5" width="3157" height="2004" stroke="#017AC0" stroke-width="4.58333" stroke-miterlimit="8" fill="none"/>
+    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="700" font-size="69" transform="matrix(1 0 0 1 141.895 450)" style="white-space: pre;">Data as an asset of a building</text>
+    <rect x="257.5" y="963.5" width="1203" height="123" stroke="#017AC0" stroke-width="3.4375" stroke-linejoin="round" stroke-miterlimit="10" fill="#FFFFFF"/>
+    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" style="white-space: pre; font-size: 44px;" x="423.941" y="1039.036">Building data for technical building services</text>
+    <rect x="257.5" y="703.5" width="325" height="190" stroke="#017AC0" stroke-width="4.58333" stroke-miterlimit="8" fill="#FFFFFF"/>
+    <rect x="608.5" y="701.5" width="325" height="190" stroke="#017AC0" stroke-width="4.58333" stroke-miterlimit="8" fill="#FFFFFF"/>
+    <rect x="1136.5" y="701.5" width="324" height="190" stroke="#017AC0" stroke-width="4.58333" stroke-miterlimit="8" fill="#FFFFFF"/>
+    <path d="M426 892 426 962.195" stroke="#017AC0" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
+    <path d="M773 892 773 962.195" stroke="#017AC0" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
+    <rect x="963.5" y="701.5" width="141" height="190" stroke="#017AC0" stroke-width="4.58333" stroke-miterlimit="8" fill="#FFFFFF"/>
+    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1005.93 812)" style="white-space: pre;">….</text>
+    <path d="M1033 891 1033 961.195" stroke="#017AC0" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
+    <path d="M1306 891 1306 961.195" stroke="#017AC0" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
+    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="46" transform="matrix(1 0 0 1 247.122 587)" style="white-space: pre;">Digital service 1 Building</text>
+    <rect x="1958.5" y="934.5" width="1203" height="123" stroke="#7F7F7F" stroke-width="3.4375" stroke-linejoin="round" stroke-miterlimit="10" fill="#FFFFFF"/>
+    <text fill="#7F7F7F" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" style="white-space: pre; font-size: 44px;" x="2140.588" y="1007.783">Building data for technical building services</text>
+    <rect x="1958.5" y="674.5" width="325" height="190" stroke="#7F7F7F" stroke-width="4.58333" stroke-miterlimit="8" fill="#FFFFFF"/>
+    <rect x="2309.5" y="672.5" width="325" height="190" stroke="#7F7F7F" stroke-width="4.58333" stroke-miterlimit="8" fill="#FFFFFF"/>
+    <rect x="2836.5" y="672.5" width="325" height="190" stroke="#7F7F7F" stroke-width="4.58333" stroke-miterlimit="8" fill="#FFFFFF"/>
+    <path d="M2127 863 2127 933.196" stroke="#7F7F7F" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
+    <path d="M2474 863 2474 933.196" stroke="#7F7F7F" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
+    <rect x="2664.5" y="672.5" width="141" height="190" stroke="#7F7F7F" stroke-width="4.58333" stroke-miterlimit="8" fill="#FFFFFF"/>
+    <text fill="#7F7F7F" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2706.8 783)" style="white-space: pre;">….</text>
+    <path d="M2734 862 2734 932.195" stroke="#7F7F7F" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
+    <path d="M3006 862 3006 932.195" stroke="#7F7F7F" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
+    <text fill="#7F7F7F" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="46" transform="matrix(1 0 0 1 1948 558)" style="white-space: pre;">Digital service N Building</text>
+    <rect x="261.5" y="2169.5" width="1203" height="122" stroke="#017AC0" stroke-width="3.4375" stroke-linejoin="round" stroke-miterlimit="10" fill="#FFFFFF"/>
+    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" style="white-space: pre; font-size: 44px;" x="436.624" y="2244.036">Building data for technical building services</text>
+    <rect x="261.5" y="1908.5" width="324" height="190" stroke="#017AC0" stroke-width="4.58333" stroke-miterlimit="8" fill="#FFFFFF"/>
+    <rect x="612.5" y="1907.5" width="325" height="189" stroke="#017AC0" stroke-width="4.58333" stroke-miterlimit="8" fill="#FFFFFF"/>
+    <rect x="1139.5" y="1907.5" width="325" height="189" stroke="#017AC0" stroke-width="4.58333" stroke-miterlimit="8" fill="#FFFFFF"/>
+    <path d="M430 2098 430 2168.2" stroke="#017AC0" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
+    <path d="M777 2098 777 2168.2" stroke="#017AC0" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
+    <rect x="967.5" y="1907.5" width="141" height="189" stroke="#017AC0" stroke-width="4.58333" stroke-miterlimit="8" fill="#FFFFFF"/>
+    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1009.6 2017)" style="white-space: pre;">….</text>
+    <path d="M1036 2096 1036 2166.2" stroke="#017AC0" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
+    <path d="M1309 2096 1309 2166.2" stroke="#017AC0" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
+    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="46" transform="matrix(1 0 0 1 250.793 1793)" style="white-space: pre;">Digital service 2 Building</text>
+    <rect x="1919" y="1865" width="1309" height="502" fill="#F2F2F2"/>
+    <rect x="1972.5" y="2196.5" width="1203" height="123" stroke="#017AC0" stroke-width="3.4375" stroke-linejoin="round" stroke-miterlimit="10" fill="#FFFFFF"/>
+    <rect x="1972.5" y="1936.5" width="325" height="190" stroke="#017AC0" stroke-width="4.58333" stroke-miterlimit="8" fill="#FFFFFF"/>
+    <rect x="2323.5" y="1934.5" width="325" height="190" stroke="#017AC0" stroke-width="4.58333" stroke-miterlimit="8" fill="#FFFFFF"/>
+    <rect x="2850.5" y="1934.5" width="325" height="190" stroke="#017AC0" stroke-width="4.58333" stroke-miterlimit="8" fill="#FFFFFF"/>
+    <path d="M2141 2125 2141 2195.2" stroke="#017AC0" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
+    <path d="M2488 2125 2488 2195.2" stroke="#017AC0" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
+    <rect x="2678.5" y="1934.5" width="141" height="190" stroke="#017AC0" stroke-width="4.58333" stroke-miterlimit="8" fill="#FFFFFF"/>
+    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2720.74 2045)" style="white-space: pre;">….</text>
+    <path d="M2748 2124 2748 2194.2" stroke="#017AC0" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
+    <path d="M3020 2124 3020 2194.2" stroke="#017AC0" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
+    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="46" transform="matrix(1 0 0 1 1961.93 1820)" style="white-space: pre;">Digital service 3 Building</text>
+    <path d="M1430.03 1343.21C1421.32 1295.37 1466.14 1251.3 1530.13 1244.8 1556.06 1242.16 1582.42 1246.1 1605 1255.99 1628.92 1222.27 1684.82 1209.45 1729.86 1227.37 1737.74 1230.5 1744.97 1234.47 1751.32 1239.15 1769.95 1211.2 1815.34 1199.84 1852.69 1213.79 1863.03 1217.65 1872.05 1223.23 1879.05 1230.1 1909.08 1203.67 1962.15 1200.4 1997.58 1222.81 2012.47 1232.23 2022.51 1245.22 2025.97 1259.55 2075.18 1269.59 2104.21 1307.62 2090.81 1344.49 2089.68 1347.59 2088.27 1350.63 2086.58 1353.58 2126.04 1392 2116.38 1447.07 2065 1476.58 2049.01 1485.77 2030.11 1491.71 2010.15 1493.85 2009.71 1535.18 1964.5 1568.42 1909.18 1568.09 1890.7 1567.98 1872.62 1564.05 1856.94 1556.74 1838.23 1603.08 1772.97 1629.27 1711.17 1615.24 1685.27 1609.36 1662.9 1596.92 1647.86 1580.05 1584.58 1608.6 1502.46 1593.24 1464.42 1545.76 1463.95 1545.17 1463.47 1544.56 1463.01 1543.96 1421.6 1547.58 1384.09 1525.49 1379.23 1494.6 1376.64 1478.14 1383.91 1461.66 1399.1 1449.56 1363.24 1433.78 1351.2 1399.13 1372.19 1372.17 1384.31 1356.62 1405.55 1346.34 1429.4 1344.49Z" stroke="#017AC0" stroke-width="4.58333" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
+    <path d="M1443.76 1455.55C1428.45 1456.44 1413.15 1453.8 1399.9 1447.96M1482.46 1538.53C1476.3 1540.36 1469.85 1541.58 1463.27 1542.15M1647.81 1578.4C1643.18 1573.2 1639.31 1567.65 1636.25 1561.84M1861.63 1537.12C1860.95 1543.28 1859.41 1549.37 1857.02 1555.28M1953.44 1424.88C1988.14 1437.51 2010.04 1463.92 2009.74 1492.77M2086.22 1352.58C2080.6 1362.4 2072.02 1371.11 2061.16 1378.03M2026.07 1258.12C2027.03 1262.09 2027.47 1266.11 2027.4 1270.14M1865.98 1244.1C1869.25 1238.55 1873.57 1233.39 1878.82 1228.77M1745.87 1251.41C1747.2 1246.82 1749.29 1242.38 1752.09 1238.18M1604.91 1255.9C1613.08 1259.48 1620.63 1263.78 1627.41 1268.72M1433.96 1356.71C1432.18 1352.3 1430.86 1347.79 1430.03 1343.22" stroke="#017AC0" stroke-width="4.58333" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
+    <text fill="#017AC0" font-family="Open Sans,Open Sans_MSFontService,sans-serif" font-weight="400" font-size="69" style="white-space: pre; font-size: 69px;" x="1641.964" y="1384">Data</text>
+    <text fill="#017AC0" font-family="Open Sans,Open Sans_MSFontService,sans-serif" font-weight="400" font-size="69" style="white-space: pre; font-size: 69px;" x="1611.024" y="1466">storage</text>
+    <path d="M812.319 1184.36 1289.62 1366.95 1287.98 1371.23 810.681 1188.64ZM1289.43 1354.61 1310.21 1377.28 1279.61 1380.3Z" fill="#017AC0"/>
+    <path d="M1320.94 1318.54 948.106 1176.79 949.735 1172.5 1322.57 1314.26ZM948.318 1189.13 927.5 1166.5 958.091 1163.42Z" fill="#017AC0"/>
+    <path d="M0.873978-2.11847 438.801 178.549 437.053 182.786-0.873978 2.11847ZM438.934 166.209 459.112 189.408 428.446 191.631Z" fill="#7F7F7F" transform="matrix(-1 0 0 1 2626.61 1204.5)"/>
+    <path d="M0.89774-2.10851 391.428 164.168 389.632 168.385-0.89774 2.10851ZM391.7 151.83 411.615 175.254 380.927 177.132Z" fill="#7F7F7F" transform="matrix(1 0 0 -1 2127.5 1335.75)"/>
+    <path d="M0.94082-2.08964 352.897 156.372 351.016 160.551-0.94082 2.08964ZM353.422 144.042 372.853 167.87 342.132 169.118Z" fill="#017AC0" transform="matrix(-1 0 0 1 1409.35 1562.5)"/>
+    <path d="M0.947747-2.08651 350.177 156.543 348.281 160.716-0.947747 2.08651ZM350.742 144.215 370.094 168.107 339.369 169.253Z" fill="#017AC0" transform="matrix(1 0 0 -1 1083.5 1790.61)"/>
+    <path d="M2446.2 1691.22 2101.2 1563.6 2102.79 1559.3 2447.79 1686.92ZM2101.52 1575.94 2080.5 1553.5 2111.06 1550.14Z" fill="#017AC0"/>
+    <path d="M1993.34 1583.37 2352.72 1725.39 2351.03 1729.65 1991.66 1587.63ZM2352.67 1713.05 2373.19 1735.95 2342.56 1738.63Z" fill="#017AC0"/>
+    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" style="white-space: pre; font-size: 44px;" x="2132.239" y="2273.98">Building data for technical building services</text>
+    <text style="fill: rgb(1, 122, 192); font-family: Arial, sans-serif; font-size: 44px; text-anchor: middle; white-space: pre;" x="435.152" y="757.945" transform="matrix(1, 0, 0, 1, -13.518142, 31.542332)">Data <tspan x="435.1520080566406" dy="1em">​</tspan>subsystem 1</text>
+    <text style="fill: rgb(1, 122, 192); font-family: Arial, sans-serif; font-size: 44px; text-anchor: middle; white-space: pre;" x="435.152" y="757.945" transform="matrix(1, 0, 0, 1, 333.447693, 27.566603)">Data <tspan x="435.1520080566406" dy="1em">​</tspan>subsystem 2</text>
+    <text style="fill: rgb(1, 122, 192); font-family: Arial, sans-serif; font-size: 44px; text-anchor: middle; white-space: pre;" x="435.152" y="757.945" transform="matrix(1, 0, 0, 1, 869.667358, 32.072651)">Data <tspan x="435.1520080566406" dy="1em">​</tspan>subsystem n</text>
+    <text style="fill: rgb(1, 122, 192); font-family: Arial, sans-serif; font-size: 44px; text-anchor: middle; white-space: pre;" x="435.152" y="757.945" transform="matrix(1, 0, 0, 1, -15.770981, 1241.946289)">Data <tspan x="435.1520080566406" dy="1em">​</tspan>subsystem 1</text>
+    <text style="fill: rgb(1, 122, 192); font-family: Arial, sans-serif; font-size: 44px; text-anchor: middle; white-space: pre;" x="435.152" y="757.945" transform="matrix(1, 0, 0, 1, 340.206726, 1237.440186)">Data <tspan x="435.1520080566406" dy="1em">​</tspan>subsystem 2</text>
+    <text style="fill: rgb(1, 122, 192); font-family: Arial, sans-serif; font-size: 44px; text-anchor: middle; white-space: pre;" x="435.152" y="757.945" transform="matrix(1, 0, 0, 1, 869.667297, 1235.187256)">Data <tspan x="435.1520080566406" dy="1em">​</tspan>subsystem n</text>
+    <text style="fill: rgb(1, 122, 192); font-family: Arial, sans-serif; font-size: 44px; text-anchor: middle; white-space: pre;" x="435.152" y="757.945" transform="matrix(1, 0, 0, 1, 1705.539063, 1268.982544)">Data <tspan x="435.1520080566406" dy="1em">​</tspan>subsystem 1</text>
+    <text style="fill: rgb(1, 122, 192); font-family: Arial, sans-serif; font-size: 44px; text-anchor: middle; white-space: pre;" x="435.152" y="757.945" transform="matrix(1, 0, 0, 1, 2052.504639, 1266.729492)">Data <tspan x="435.1520080566406" dy="1em">​</tspan>subsystem 2</text>
+    <text style="fill: rgb(1, 122, 192); font-family: Arial, sans-serif; font-size: 44px; text-anchor: middle; white-space: pre;" x="435.152" y="757.945" transform="matrix(1, 0, 0, 1, 2584.218262, 1266.729492)">Data <tspan x="435.1520080566406" dy="1em">​</tspan>subsystem n</text>
+    <text style="fill: rgb(127, 127, 127); font-family: Arial, sans-serif; font-size: 44px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 1687.514893, 7.289391)"><tspan x="435.152" y="757.945">Data </tspan><tspan x="435.152" dy="1em">​</tspan><tspan>subsystem 1</tspan></text>
+    <text style="fill: rgb(127, 127, 127); font-family: Arial, sans-serif; font-size: 44px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 2036.733521, 2.783343)"><tspan x="435.152" y="757.945">Data </tspan><tspan x="435.1520080566406" dy="1em">​</tspan><tspan>subsystem 2</tspan></text>
+    <text style="fill: rgb(127, 127, 127); font-family: Arial, sans-serif; font-size: 44px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 2570.699951, 7.289391)"><tspan x="435.152" y="757.945">Data </tspan><tspan x="435.1520080566406" dy="1em">​</tspan><tspan>subsystem n</tspan></text>
+  </g>
+</svg>
