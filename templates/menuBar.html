@@ -8,9 +8,19 @@
 <body>
     {% if not consent %}
     <div id="cookie-banner">
-        cookies
-        <button id="accept-cookies" onclick="accept_cookie(true)">☺</button>
-        <button id="decline-cookies" onclick="accept_cookie(false)">☻</button>
+        <h2>🍪 Cookies</h2>
+    
+        <p>
+            Diese Website verwendet Cookies oder ähnliche Technologien, um Ihr Surferlebnis zu verbessern und Ihnen personalisierte Empfehlungen zu geben.
+        </p> 
+        <p>
+            Durch die weitere Nutzung unserer Website erklären Sie sich sich mit unserer <a href="/datenschutz">Datenschutz-Richtlinie</a> einverstanden. 
+        </p>
+        
+        <div>
+            <button id="accept-cookies" onclick="accept_cookie(true)"> Akzeptieren </button>
+            <button id="decline-cookies" onclick="accept_cookie(false)"> Ablehnen </button>
+        </div>
     </div>
     {% endif %}
 
@@ -26,14 +36,14 @@
                 <i class="fas fa-bars"></i>
             </button>
         </div>
-        <!-- BAEGroup Logo -->
+        
         <div id="logoLink">
             <a href="/" onclick="navigateToHomePage()">
                 <img id="logo" src="{{ url_for('static', filename='/Logo/BAE_Group_Logo.png') }}"  alt="Logo_BAE_Group">
             </a>
         </div>
 
-        <!-- Elemente in der Leiste  -->
+        
         <div class="menu-links">
             <div><a href="/#ContainerVideo">Startseite</a></div>
             <div><a href="/#ueberuns">Über uns</a></div>
@@ -62,7 +72,6 @@
             <div><a href="/#kontakte" class="buttonKontakte">Kontakt</a></div>
         </div>
 
-        <!-- Icons für LinkedIn, Facebook und Instagram -->
         <div class="social-icons">
             <a href="https://www.linkedin.com/company/baegroup/" target="_blank" title="LinkedIn">
                 <img src="{{ url_for('static', filename='/Icons/linkedin.svg') }}"  alt="LinkedIn">
@@ -83,7 +92,7 @@
                 <a href="/en/" onclick="set_language('en')">EN</a>
             </div>
         </div>
-        <!-- Mobile Navigation Menu -->
+        
         <div id="mobileMenu" class="mobile-menu">
             <div><button id="closeMobileMenu" type="button" onclick="closeMobileMenu()">
                     <i class="fas fa-times"></i></button></div>

@@ -23,12 +23,48 @@ body {
 
 #cookie-banner {
   position: fixed;
+  width: 450px;
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
   z-index: 100;
-  background-color: #ff9900cc;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  border: #3498db solid 1px;
+  border-radius: 8px;
+  padding: 10px;
+
+  p {
+    margin: 12px 0 0 0;
+    line-height: 1.1;
+  }
+
+  div {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 0 0;
+    width: 100%;
+
+    button {
+      width: calc(50% - 5px);
+      height: 40px;
+      background-color: #017AC0;
+      border: #017AC0 solid 1px;
+      border-radius: 5px;
+      color: white;
+    }
+
+    button:hover {
+      background-color: #01609C;
+    }
+
+    button:active {
+      background-color: #015080;
+    }
+  }
 }
+
+
 
 #menuBar {
   width: 100%;
@@ -3328,7 +3364,7 @@ div.stellenanzeigeBild {
       color: black;
     }
 
-    option[disabled]{
+    option[disabled] {
       color: grey;
     }
   }
