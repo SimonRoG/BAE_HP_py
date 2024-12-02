@@ -9,14 +9,16 @@
     {% if not consent %}
     <div id="cookie-banner">
         <h2>🍪 Cookies</h2>
-    
+
         <p>
-            Diese Website verwendet Cookies oder ähnliche Technologien, um Ihr Surferlebnis zu verbessern und Ihnen personalisierte Empfehlungen zu geben.
-        </p> 
-        <p>
-            Durch die weitere Nutzung unserer Website erklären Sie sich sich mit unserer <a href="/datenschutz">Datenschutz-Richtlinie</a> einverstanden. 
+            Diese Website verwendet Cookies oder ähnliche Technologien, um Ihr Surferlebnis zu verbessern und Ihnen
+            personalisierte Empfehlungen zu geben.
         </p>
-        
+        <p>
+            Durch die weitere Nutzung unserer Website erklären Sie sich sich mit unserer <a
+                href="/datenschutz">Datenschutz-Richtlinie</a> einverstanden.
+        </p>
+
         <div>
             <button id="accept-cookies" onclick="accept_cookie(true)"> Akzeptieren </button>
             <button id="decline-cookies" onclick="accept_cookie(false)"> Ablehnen </button>
@@ -36,14 +38,14 @@
                 <i class="fas fa-bars"></i>
             </button>
         </div>
-        
+
         <div id="logoLink">
             <a href="/" onclick="navigateToHomePage()">
-                <img id="logo" src="{{ url_for('static', filename='/Logo/BAE_Group_Logo.png') }}"  alt="Logo_BAE_Group">
+                <img id="logo" src="{{ url_for('static', filename='/Logo/BAE_Group_Logo.png') }}" alt="Logo_BAE_Group">
             </a>
         </div>
 
-        
+
         <div class="menu-links">
             <div><a href="/#ContainerVideo">Startseite</a></div>
             <div><a href="/#ueberuns">Über uns</a></div>
@@ -74,16 +76,19 @@
 
         <div class="social-icons">
             <a href="https://www.linkedin.com/company/baegroup/" target="_blank" title="LinkedIn">
-                <img src="{{ url_for('static', filename='/Icons/linkedin.svg') }}"  alt="LinkedIn">
+                <img src="{{ url_for('static', filename='/Icons/linkedin.svg') }}" alt="LinkedIn">
             </a>
             <a href="https://www.facebook.com/profile.php?id=61554842673825" target="_blank" title="Facebook">
-                <img src="{{ url_for('static', filename='/Icons/facebook.svg') }}"  alt="Facebook">
+                <img src="{{ url_for('static', filename='/Icons/facebook.svg') }}" alt="Facebook">
+            </a>
+            <a href="https://www.xing.com/pages/bae-group" target="_blank" title="xing">
+                <img src="{{ url_for('static', filename='/Icons/xing.svg') }}" alt="xing">
             </a>
             <a href="https://www.instagram.com/baegroup.eu/" target="_blank" title="linkedin">
-                <img src="{{ url_for('static', filename='/Icons/instagram.svg') }}"  alt="instagram">
+                <img src="{{ url_for('static', filename='/Icons/instagram.svg') }}" alt="instagram">
             </a>
         </div>
-
+        <!--
         <div id="language" class="desktop">
             <div id="on">
                 <a href="/" onclick="set_language('de')">DE</a>
@@ -92,7 +97,8 @@
                 <a href="/en/" onclick="set_language('en')">EN</a>
             </div>
         </div>
-        
+        -->
+
         <div id="mobileMenu" class="mobile-menu">
             <div><button id="closeMobileMenu" type="button" onclick="closeMobileMenu()">
                     <i class="fas fa-times"></i></button></div>
@@ -106,17 +112,22 @@
             <div class="social-icons">
                 <a href="https://www.linkedin.com/company/baegroup/" target="_blank" title="LinkedIn"
                     onclick="closeMobileMenu()">
-                    <img src="{{ url_for('static', filename='/Icons/linkedin.svg') }}"  alt="LinkedIn">
+                    <img src="{{ url_for('static', filename='/Icons/linkedin.svg') }}" alt="LinkedIn">
                 </a>
                 <a href="https://www.facebook.com/profile.php?id=61554842673825" target="_blank" title="Facebook"
                     onclick="closeMobileMenu()">
-                    <img src="{{ url_for('static', filename='/Icons/facebook.svg') }}"  alt="Facebook">
+                    <img src="{{ url_for('static', filename='/Icons/facebook.svg') }}" alt="Facebook">
+                </a>
+                <a href="https://www.xing.com/pages/bae-group" target="_blank" title="xing" onclick="closeMobileMenu()">
+                    <img src="{{ url_for('static', filename='/Icons/xing.svg') }}" alt="xing">
                 </a>
                 <a href="https://www.instagram.com/baegroup.eu/" target="_blank" title="instagram"
                     onclick="closeMobileMenu()">
-                    <img src="{{ url_for('static', filename='/Icons/instagram.svg') }}"  alt="instagram">
+                    <img src="{{ url_for('static', filename='/Icons/instagram.svg') }}" alt="instagram">
                 </a>
             </div>
+            
+        <!--
             <div id="language" class="mobile">
                 <div id="on">
                     <a href="/" onclick="set_language('de')">DE</a>
@@ -125,6 +136,7 @@
                     <a href="/en/" onclick="set_language('en')">EN</a>
                 </div>
             </div>
+        -->
             <div id="copyright">
                 BAE-GROUP 2024 <br>
                 <a href="/Impressum" class="impressum" onclick="closeMobileMenu()">Impressum</a>
