@@ -8,9 +8,19 @@
 <body>
     {% if not consent %}
     <div id="cookie-banner">
-        cookies
-        <button id="accept-cookies" onclick="accept_cookie(true)">☺</button>
-        <button id="decline-cookies" onclick="accept_cookie(false)">☻</button>
+        <h2>🍪 Cookies</h2>
+
+        <p>
+            This website uses cookies or similar technologies to improve your browsing experience and provide you with personalized recommendations.
+        </p>
+        <p>
+            By continuing to use our website, you agree to our <a href="/datenschutz">privacy policy</a>.
+        </p>
+
+        <div>
+            <button id="accept-cookies" onclick="accept_cookie(true)"> Accept </button>
+            <button id="decline-cookies" onclick="accept_cookie(false)"> Reject </button>
+        </div>
     </div>
     {% endif %}
 
@@ -65,6 +75,9 @@
             <a href="https://www.linkedin.com/company/baegroup/" target="_blank" title="LinkedIn">
                 <img src="{{ url_for('static', filename='/Icons/linkedin.svg') }}"  alt="LinkedIn">
             </a>
+            <a href="https://www.xing.com/pages/bae-group" target="_blank" title="xing">
+                <img src="{{ url_for('static', filename='/Icons/xing.svg') }}" alt="xing">
+            </a>
             <a href="https://www.facebook.com/profile.php?id=61554842673825" target="_blank" title="Facebook">
                 <img src="{{ url_for('static', filename='/Icons/facebook.svg') }}"  alt="Facebook">
             </a>
@@ -96,6 +109,9 @@
                 <a href="https://www.linkedin.com/company/baegroup/" target="_blank" title="LinkedIn"
                     onclick="closeMobileMenu()">
                     <img src="{{ url_for('static', filename='/Icons/linkedin.svg') }}"  alt="LinkedIn">
+                </a>
+                <a href="https://www.xing.com/pages/bae-group" target="_blank" title="xing" onclick="closeMobileMenu()">
+                    <img src="{{ url_for('static', filename='/Icons/xing.svg') }}" alt="xing">
                 </a>
                 <a href="https://www.facebook.com/profile.php?id=61554842673825" target="_blank" title="Facebook"
                     onclick="closeMobileMenu()">
