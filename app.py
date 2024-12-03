@@ -57,7 +57,7 @@ def send_email(form, Stelle):
     message = EmailMessage()
     message["From"] = smtp_email
     message["To"] = hr_email
-    message["Subject"] = "Test Bewerbung " + Stelle
+    message["Subject"] = "Bewerbung " + Stelle
     message.set_content(body)
 
     file_data = File.read()
