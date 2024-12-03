@@ -26,9 +26,9 @@ RECAPTCHA_SECRET_KEY = keys["RECAPTCHA_SECRET_KEY"]
 app.config["RECAPTCHA_PUBLIC_KEY"] = RECAPTCHA_SITE_KEY
 app.config["RECAPTCHA_PRIVATE_KEY"] = RECAPTCHA_SECRET_KEY
 
-smtp_email = "smtp1.bae@gmail.com"
+smtp_email = "it@b-a-e.eu"
 password = keys["password"]
-hr_email = "smtp1.bae@gmail.com"
+hr_email = "hr@b-a-e.eu"
 
 
 class Formular(FlaskForm):
@@ -66,7 +66,8 @@ def send_email(form, Stelle):
         file_data, maintype="application", subtype="octet-stream", filename=file_name
     )
 
-    with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
+    with smtplib.SMTP("smtp.office365.com", 587) as server:
+        server.starttls()
         server.login(smtp_email, password)
         server.send_message(message)
 
