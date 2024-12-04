@@ -167,3 +167,8 @@ function accept_cookie(value) {
 function set_language(lang) {
     fetch('/set_language/' + lang, { method: 'POST' });
 }
+
+function destroy(button) {
+    const div = button.parentElement;
+    div.remove();
+}

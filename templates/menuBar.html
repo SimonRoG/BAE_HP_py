@@ -35,7 +35,7 @@
     <div id="menuBar" class="desktop-menu">
         <div>
             <button id="hamburgerIcon" type="button" onclick="openMobileMenu()">
-                <i class="fas fa-bars"></i>
+                <img src="{{ url_for('static', filename='/Icons/menu.svg') }}" alt="menu">
             </button>
         </div>
 
@@ -101,7 +101,8 @@
 
         <div id="mobileMenu" class="mobile-menu">
             <div><button id="closeMobileMenu" type="button" onclick="closeMobileMenu()">
-                    <i class="fas fa-times"></i></button></div>
+                    <img src="{{ url_for('static', filename='/Icons/close.svg') }}" alt="close">
+                </button></div>
             <div><a href="/" onclick="closeMobileMenu()">Startseite</a></div>
             <div><a href="/#ueberuns" onclick="closeMobileMenu()">Über uns</a></div>
             <div><a href="/#leistungen" onclick="closeMobileMenu()">Geschäftsfelder</a></div>

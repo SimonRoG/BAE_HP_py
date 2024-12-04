@@ -820,7 +820,10 @@ div.kontakte {
   font-size: 0.9vw;
   margin: 15px 0px;
   /* Anpassung: Geringerer Abstand zwischen den Textelementen */
-  padding-left: 1vw;
+  padding-left: 0.5vw;
+  img {
+    height: 1vw;
+  }
 }
 
 
@@ -4247,6 +4250,9 @@ div.SperrbereichKarriere {
 
   .Kontakt-container div div p {
     font-size: 1em;
+    img {
+      height: 1em;
+    }
   }
 
   .Kontakt-subcontainer2.mobile,
