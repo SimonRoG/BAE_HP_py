@@ -161,6 +161,26 @@
             </div>
         </div>
 
+        <div id="referenzen">
+            <h3>Was wir gemacht haben</h3>
+            <h1>Referenzen</h1>
+            <div class="grid">
+                {% set ns = namespace(counter=0) %}
+                {% for item in data %}
+                    {% if item.Bild != '' and ns.counter < 5 %}
+                        <div class="projektbild">
+                            <img src="{{ url_for('static', filename='Bilder/Referenzen/' + item.Bild) }}"alt="{{ item.Projekt }}">
+                            <a href="/Referenzen/{{ item.Bild[:-4] }}">
+                                <h4>{{ item.Projekt }}</h4>
+                            </a>
+                        </div>
+                        {% set ns.counter = ns.counter + 1 %}
+                    {% endif %}
+                {% endfor %}
+            </div>
+            <div class="referenzenButton"><h2><a href="/Referenzen">Mehr Referenzen</a></h2></div>
+        </div>
+
         <div id="kontakte" class="ContainerKontakt">
             <div class="Kontakt-container">
 
