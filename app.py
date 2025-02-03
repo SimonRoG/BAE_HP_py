@@ -42,7 +42,7 @@ class Formular(FlaskForm):
         "File", validators=[FileRequired(), FileAllowed(["pdf"], "*.pdf only!")]
     )
     recaptcha = RecaptchaField("reCAPTCHA")
-    submit = SubmitField("Senden")
+    submit = SubmitField("Absenden")
 
 
 def send_email(form, Stelle):
@@ -117,7 +117,7 @@ with open(
 def render_template_(html, **context):
     consent = request.cookies.get("cookie_consent")
     return render_template(
-        language(html), menu_bar=language("menuBar.html"), consent=consent, **context
+        language(html), menu_bar=language("menuBar.html"), footer=language("footer.html"), consent=consent, **context
     )
 
 

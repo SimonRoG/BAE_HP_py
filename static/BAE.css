@@ -16,11 +16,6 @@ body {
   overflow-y: auto;
 }
 
-.footer {
-  width: 100%;
-  height: 30px;
-}
-
 #cookie-banner {
   position: fixed;
   max-width: 450px;
@@ -348,446 +343,74 @@ body {
   }
 }
 
-#kontakt {
-  background-color: white;
-  padding-left: 7vw;
-  /* Anpassung: Verwende 5% der Viewport-Breite als linken Innenabstand */
-  padding-right: 6.0vw;
-  /* Anpassung: Verwende 5% der Viewport-Breite als rechten Innenabstand */
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  /* Änderung: Ändere die Ausrichtung auf Spaltenrichtung */
-  padding-bottom: 5vw;
-  /*Abstandhalter nach unten */
-}
-
-div.ContainerKontakt {
-  background: white;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 0vw;
-  /*Abstand nach unten*/
-}
-
-.Kontakt-container h1 {
-  width: 90vw;
-  /* Anpassung: Verwende 90% der Viewport-Breite für die Überschrift */
-  font-size: 4vw;
-  /* Anpassung: Verwende 6% der Viewport-Breite für die Schriftgröße */
-  margin-bottom: 1.0vw;
-  /* Anpassung: Verwende 3% der Viewport-Breite als unteren Rand */
-  margin-top: 1.0vw;
-  /* Anpassung: Verwende -2% der Viewport-Breite als oberen Rand */
-  color: #017AC0;
-  box-sizing: border-box;
-  left: 7vw;
-  /* Hier den Wert anpassen, um die horizontale Position zu steuern */
-}
-
-.Kontakt-subcontainer1 h1 {
-  width: 70vw;
-  /* Anpassung: Verwende 90% der Viewport-Breite für die Überschrift */
-  font-size: 2vw;
-  /* Anpassung: Verwende 6% der Viewport-Breite für die Schriftgröße */
-
-  margin-top: 1.0vw;
-  /* Anpassung: Verwende -2% der Viewport-Breite als oberen Rand */
-  margin-left: 1vw;
-  color: #017AC0;
-  box-sizing: border-box;
-  left: 7vw;
-  /* Hier den Wert anpassen, um die horizontale Position zu steuern */
-}
-
-
-.Kontakt-container h2 {
+#footer {
   background-color: #017AC0;
-  /* Blaue Hintergrundfarbe */
-  color: white;
-  /* Weiße Schriftfarbe */
-  padding-top: 10px;
-  /* Innenabstand für den Text */
-  padding-bottom: 10px;
-  /* Innenabstand für den Text */
-  padding-left: 10px;
-  text-align: left;
-  /* Textausrichtung ganz links */
-  width: 100%;
-  /* Volle Breite des übergeordneten Containers */
-  box-sizing: border-box;
-  /* Beachte auch die Padding- und Border-Werte in der Berechnung der Breite */
-  font-size: 1.0vw;
-  /* Anpassung: Verwende 6% der Viewport-Breite für die Schriftgröße */
-  border-radius: 10px;
-  /* Runde Ecken mit 10px Radius */
-}
+  padding: 5% 30%;
 
-.Kontakt-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.0vw;
-  padding: 0vw;
-  max-width: 100%;
-  margin-left: 5vw;
-}
+  h3 {
+    font-size: 1.2em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 0 2% 0;
+  }
 
-.Kontakt-container .Kontakt-standorte {
-  height: 25vw;
-  /* Beispielhafte Höhe, bitte anpassen */
-  margin-bottom: 1.5vw;
-}
+  h1 {
+    font-size: 3em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 0 2% 0;
+  }
 
-.Kontakt-subcontainer1 {
-  width: 40.0%;
-  /* 50% Breite mit Platz zwischen den Subcontainern */
-  height: 100%;
-  margin-bottom: 2vw;
-  position: relative;
-  /* Sorgt dafür dass die überschrift einrückt innerhalb vom Container */
+  .links {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 0 3% 0;
 
-  display: flex;
-  flex-wrap: wrap
-}
+    a {
+      font-weight: bold;
+      color: #015080;
+      margin: 0 3%;
+    }
+  }
 
-.Kontakt-subcontainer2 {
-  width: 58.5%;
-  margin-bottom: 1vw;
-  position: relative;
-}
+  .form {
 
-.Kontakt.image-container {
-  width: 90%;
-  padding-top: 0vw;
-  margin-left: -8vw;
-}
+    input,
+    textarea {
+      width: 100%;
+      padding: 10px;
+    }
 
-.Kontakt-subcontainer3 {
-  width: 40.0%;
-  height: 100%;
-  margin-bottom: 2vw;
-  position: relative;
-  display: flex;
-  flex-wrap: wrap
-}
+    input::placeholder,
+    textarea::placeholder {
+      font-weight: bold;
+    }
 
-.Kontakt-subcontainer3 h1 {
-  width: 70vw;
-  font-size: 2vw;
-  margin-top: 1.0vw;
-  margin-left: 1vw;
-  color: #017AC0;
-  box-sizing: border-box;
-  left: 7vw;
-}
-
-
-.Kontakt-subcontainer4 {
-  width: 58.5%;
-  /* 50% Breite mit Platz zwischen den Subcontainern */
-  margin-bottom: 1vw;
-  position: relative;
-  /* Sorgt dafür dass die überschrift einrückt innerhalb vom Container */
-}
-
-
-div.kontakte {
-  height: 15vw;
-  width: 15.5vw;
-  margin-bottom: 1vw;
-  margin-top: 0vw;
-  margin-left: 1vw;
-}
-
-
-.kontakte p {
-  font-size: 0.9vw;
-  margin: 15px 0px;
-  /* Anpassung: Geringerer Abstand zwischen den Textelementen */
-  padding-left: 0.5vw;
-
-  img {
-    height: 1vw;
+    #submit {
+      background-color: #015080;
+      color: #fff;
+      font-weight: bold;
+      border: #017AC0 solid 1px;
+    }
   }
 }
 
-
-.icon-text {
-  margin-left: 19px;
-  /* Passen Sie diesen Wert nach Bedarf an */
-}
-
-#copyright:before {
-  content: "\00a9";
-  /* Das Copyright-Symbol (©) */
-  opacity: 0.5;
-  /* Transparenz für das Copyright-Symbol */
-  font-size: 1.0em;
-  /* Passen Sie die Schriftgröße nach Bedarf an */
-  margin-right: 1px;
-  /* Optional: Fügen Sie einen Abstand zwischen Symbol und Text hinzu */
-}
-
-/* Beginn Datenschutz */
-#Datenschutz {
-  background-color: white;
-}
-
-#links {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  background-color: rgba(255, 255, 255, 0.5);
-  padding: 10px;
-  border-top: 1px solid #ccc;
+#footerfooter {
   display: flex;
   align-items: center;
-  z-index: 1000;
-}
-
-#copyright {
-  position: fixed;
-  bottom: 0;
-  right: -13%;
-  width: 25%;
-  transition: ease-in-out 0.2s;
-  background-color: rgba(0, 0, 0, 0.44);
-  color: white;
-  padding: 10px;
+  justify-content: center;
   text-align: center;
-  font-size: 1.0vw;
-  z-index: 1000;
+  background-color: #015080;
+  color: #fff;
+  font-weight: bold;
+  padding: 1.5% 0;
+
+  a {
+    color: #fff;
+  }
 }
-
-#copyright:hover {
-  right: 0;
-}
-
-a.impressum,
-a.datenschutz {
-  text-decoration: none;
-  color: white;
-  transition: color 0.3s;
-  margin-left: 10px;
-}
-
-a.impressum:hover,
-a.datenschutz:hover {
-  color: #67c7ff;
-}
-
-
-/* Ende Datenschutz */
-
-/* Beginn Datenschutz */
-
-#impressum {
-  background-color: #A7A6A6;
-  padding-top: 7vw;
-}
-
-div.containerImpressum1 {
-  width: 100%;
-  /*background-color: yellow*/
-  ;
-}
-
-div.ContainerImpressum {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-
-.Impressum-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.0vw;
-  padding: 0vw;
-  box-sizing: border-box;
-  justify-content: space-evenly;
-  /* Anpassung: Verteilt den verbleibenden Platz gleichmäßig */
-  max-width: 100%;
-}
-
-.Impressum-container h1 {
-  width: 90vw;
-  /* Anpassung: Verwende 90% der Viewport-Breite für die Überschrift */
-  font-size: 4vw;
-  /* Anpassung: Verwende 6% der Viewport-Breite für die Schriftgröße */
-  margin-bottom: 0.0vw;
-  /* Anpassung: Verwende 3% der Viewport-Breite als unteren Rand */
-  margin-top: 0.0vw;
-  /* Anpassung: Verwende -2% der Viewport-Breite als oberen Rand */
-  color: white;
-  box-sizing: border-box;
-  top: 7vw;
-  /* Hier den Wert anpassen, um die vertikale Position zu steuern */
-  left: 7vw;
-  /* Hier den Wert anpassen, um die horizontale Position zu steuern */
-}
-
-.Impressum-container h2 {
-  background-color: #017AC0;
-  /* Blaue Hintergrundfarbe */
-  color: white;
-  /* Weiße Schriftfarbe */
-  padding: 15px;
-  /* Innenabstand für den Text */
-  text-align: left;
-  /* Textausrichtung ganz links */
-  width: 17%;
-  /* Volle Breite des übergeordneten Containers */
-  box-sizing: border-box;
-  /* Beachte auch die Padding- und Border-Werte in der Berechnung der Breite */
-  font-size: 1.0vw;
-  /* Anpassung: Verwende 6% der Viewport-Breite für die Schriftgröße */
-  margin-top: 1vw;
-}
-
-.Impressum-container h3 {
-  color: #017AC0;
-  /* Weiße Schriftfarbe */
-  text-align: left;
-  /* Textausrichtung ganz links */
-  width: 15vw;
-  /* Volle Breite des übergeordneten Containers */
-  box-sizing: border-box;
-  /* Beachte auch die Padding- und Border-Werte in der Berechnung der Breite */
-  font-size: 1.0vw;
-  /* Anpassung: Verwende 6% der Viewport-Breite für die Schriftgröße */
-  margin-top: 0vw;
-  padding-left: 15px;
-  margin-bottom: 1.5vw;
-}
-
-div.ContainerEinsImpressum {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  /*background-color: red;*/
-  padding-left: 5.0vw;
-  /* Anpassung: Verwende 5% der Viewport-Breite als linken Innenabstand */
-  padding-right: 5.0vw;
-  /* Anpassung: Verwende 5% der Viewport-Breite als rechten Innenabstand */
-}
-
-.ContainerEinsImpressum p {
-  padding-left: 15px;
-  font-size: 0.8vw;
-  margin-top: -1.5vw;
-  margin-bottom: 2vw;
-  /*background-color: green;*/
-}
-
-/* Ende Impressung */
-
-/* Beginn Datenschutz */
-#datenschutz {
-  background-color: white;
-  padding-top: 6vw;
-}
-
-div.ContainerDatenschutz {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.Datenschutz-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.0vw;
-  padding: 0vw;
-  box-sizing: border-box;
-  justify-content: space-evenly;
-  /* Anpassung: Verteilt den verbleibenden Platz gleichmäßig */
-  max-width: 100%;
-}
-
-div.ContainerEinsDatenschutz {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  /*background-color: red;*/
-  padding-left: 5.0vw;
-  /* Anpassung: Verwende 5% der Viewport-Breite als linken Innenabstand */
-  padding-right: 5.0vw;
-  /* Anpassung: Verwende 5% der Viewport-Breite als rechten Innenabstand */
-}
-
-.ContainerEinsDatenschutz p {
-  padding-left: 15px;
-  font-size: 0.8vw;
-  margin-top: 0.5vw;
-  margin-bottom: 0.5vw;
-  /*background-color: green;*/
-}
-
-div.containerDatenschutz1 {
-  width: 100%;
-  /*background-color: yellow*/
-  ;
-}
-
-.Datenschutz-container h1 {
-  width: 90vw;
-  /* Anpassung: Verwende 90% der Viewport-Breite für die Überschrift */
-  font-size: 4vw;
-  /* Anpassung: Verwende 6% der Viewport-Breite für die Schriftgröße */
-  margin-bottom: 0.0vw;
-  /* Anpassung: Verwende 3% der Viewport-Breite als unteren Rand */
-  margin-top: 1.0vw;
-  /* Anpassung: Verwende -2% der Viewport-Breite als oberen Rand */
-  color: #017AC0;
-  box-sizing: border-box;
-  top: 7vw;
-  /* Hier den Wert anpassen, um die vertikale Position zu steuern */
-  left: 7vw;
-  /* Hier den Wert anpassen, um die horizontale Position zu steuern */
-}
-
-.Datenschutz-container h2 {
-  background-color: #017AC0;
-  /* Blaue Hintergrundfarbe */
-  color: white;
-  /* Weiße Schriftfarbe */
-  text-align: left;
-  /* Textausrichtung ganz links */
-  width: 28%;
-  /* Volle Breite des übergeordneten Containers */
-  box-sizing: border-box;
-  /* Beachte auch die Padding- und Border-Werte in der Berechnung der Breite */
-  font-size: 1.0vw;
-  /* Anpassung: Verwende 6% der Viewport-Breite für die Schriftgröße */
-  margin-top: 1vw;
-  padding: 10px;
-}
-
-.Datenschutz-container h3 {
-  color: #017AC0;
-  /* Weiße Schriftfarbe */
-  text-align: left;
-  /* Textausrichtung ganz links */
-  width: 40vw;
-  /* Volle Breite des übergeordneten Containers */
-  box-sizing: border-box;
-  /* Beachte auch die Padding- und Border-Werte in der Berechnung der Breite */
-  font-size: 0.9vw;
-  /* Anpassung: Verwende 6% der Viewport-Breite für die Schriftgröße */
-  margin-top: 0vw;
-  margin-bottom: 0vw;
-  padding-left: 15px;
-}
-
-/* Ende Datenschutz */
-
 
 .Bild {
   min-height: 40vh;
