@@ -22,7 +22,7 @@
 
         {% set ns = namespace(counter=0) %}
         {% for item in data %}
-        {% if item.Bild != '' %} 
+        {% if item.Bild != '' %}
         {% set display = 'flex' if ns.counter < 10 else 'none' %}
         <div class="projekt" id="projekt{{ns.counter}}" style="display: {{ display }};">
             <div class="projektbild">
@@ -48,8 +48,7 @@
         <div id="seiten" class="seiten">
             {% set maxIndex = (ns.counter - 1) // 10 %}
             {% for index in range(maxIndex + 1) %}
-            <button id="seite{{ index }}" class="seite {% if index == 0 %}selected{% endif %}"
-                onclick="navigate( {{ index }} )">{{ index + 1 }}</button>
+            <button id="seite{{ index }}" class="seite {% if index == 0 %}selected{% endif %}" onclick="navigate( {{ index }} )">{{ index + 1 }}</button>
             {% endfor %}
 
         </div>
