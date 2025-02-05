@@ -12,58 +12,54 @@
 
 <body>
     {% include menu_bar %}
-
-    <div>
-        <img src="{{ url_for('static', filename='Bilder/Gebäudetechnik.jpg') }}" alt="Technische Gebäudeausrüstung">
-    </div>
-    <div>
-        <h2>Technische Gebäudeausrüstung.</h2>
-        <div>
-            <p>
-                Gebäude ohne Technik ist wie der menschliche Körper ohne seine Blutbahnen und Muskeln: Nicht überlebensfähig. <br>
-
-                Die Technik in Gebäuden sind die Blutbahnen und Muskeln einer jeden Immobilie. Sie gewährleistet, dass Immobilien nutzbar sind. Sie umfasst alle technische Systeme die für den Betrieb und das Wohlbefinden innerhalb eines Gebäudes unerlässlich sind. Diese Systeme gewährleisten nicht nur den reibungslosen Ablauf des täglichen Lebens, sondern tragen auch maßgeblich zur Effizienz, Sicherheit und Umweltfreundlichkeit von Gebäuden bei.<br><br>
-
-                Die Technische Gebäudeausrüstung nimmt heute eine zentrale Rolle bei der Entwicklung und Sanierung von Gebäuden ein. Während früher nur die Lage und das Design des Gebäudes entscheidend waren, ist heute die Gebäudetechnik im Kontext der Nachhaltigkeit eine weitere zentrale Säule bei der Gestaltung zeitgemäßer Gebäude. Eine nachhaltige Gebäudetechnik gewährleistet die Energieeffizienz von Gebäuden und damit geringe Nebenkosten. Denn Energie ist teuer geworden. <br><br>
-
-                Mit unserem Geschäftsfeld der Technischen Gebäudeausrüstung erbringen wir sämtliche Ingenieursdienstleistungen in Bezug auf die Technische Gebäudeausrüstung. Wir legen dabei hohen Wert auf die Energieeffizienz von Gebäuden, dass ein Teil unseres Selbstverständnisses und Anspruchs als Ingenieure ist.
-            </p>
+    <div id="Geschaeftsfeld">
+        <div class="GFBild">
+            <img src="{{ url_for('static', filename='Bilder/Gebäudetechnik.jpg') }}" alt="Technische Gebäudeausrüstung">
+            <h1>Technische Gebäudeausrüstung</h1>
         </div>
-        <div>
-            <h1>Überblick der Leistungen:</h1><br>
-            <ul>
-                <li>Planung und Überwachung sämtlicher Leistungsphasen und aller Anlagengruppen gemäß HOAI:
-                    <ul>
-                        <li>Sanitärtechnik</li>
-                        <li>Heizungstechnik</li>
-                        <li>Lüftungs- und Klimatechnik</li>
-                        <li>Starkstrom</li>
-                        <li>Schwachstrom</li>
-                        <li>Nutzungsspezifische Anlagen (Sprinklertechnik und ähnlich)</li>
-                        <li>Gebäudeautomation</li>
-                        <li>Sonstige Maßnahmen für technische Anlagen</li>
-                    </ul>
-                </li>
-            </ul>
-            <ul>
-                <li>Machbarkeitsstudien</li>
-                <li>Simulationen</li>
-                <li>Energetische Optimierungen</li>
-                <li>Bestandsaufnahme und -Analyse</li>
-                <li>Retro-Fit von Anlagentechnik</li>
-                <li>Technischen Due Diligence</li>
-                <li>ESG-Beratung</li>
-            </ul>
-        </div>
-        <div>
-            <div>
-                <button onclick="popup('/Bilder/3DModellTGA.png')">
-                    <img src="{{ url_for('static', filename='/Bilder/3DModellTGA.png') }}" alt="3D-Modell TGA">
-                </button>
+        <div class="GFText">
+            <div class="columns">
+                <p>
+                    Gebäude ohne Technik ist wie der menschliche Körper ohne seine Blutbahnen und Muskeln: Nicht überlebensfähig. Die Technik in Gebäuden sind die Blutbahnen und Muskeln einer jeden Immobilie. Sie gewährleistet, dass Immobilien nutzbar sind. Sie umfasst alle technische Systeme die für den Betrieb und das Wohlbefinden innerhalb eines Gebäudes unerlässlich sind. Diese Systeme gewährleisten nicht nur den reibungslosen Ablauf des täglichen Lebens, sondern tragen auch maßgeblich zur Effizienz, Sicherheit und Umweltfreundlichkeit von Gebäuden bei.<br><br>
+
+                    Die Technische Gebäudeausrüstung nimmt heute eine zentrale Rolle bei der Entwicklung und Sanierung von Gebäuden ein. Während früher nur die Lage und das Design des Gebäudes entscheidend waren, ist heute die Gebäudetechnik im Kontext der Nachhaltigkeit eine weitere zentrale Säule bei der Gestaltung zeitgemäßer Gebäude. Eine nachhaltige Gebäudetechnik gewährleistet die Energieeffizienz von Gebäuden und damit geringe Nebenkosten. Denn Energie ist teuer geworden. <br><br>
+
+                    Mit unserem Geschäftsfeld der Technischen Gebäudeausrüstung erbringen wir sämtliche Ingenieursdienstleistungen in Bezug auf die Technische Gebäudeausrüstung. Wir legen dabei hohen Wert auf die Energieeffizienz von Gebäuden, dass ein Teil unseres Selbstverständnisses und Anspruchs als Ingenieure ist.
+                </p>
             </div>
+            <h1>Überblick der Leistungen:</h1>
+            <div class="list">
+                <ul>
+                    <li>Planung und Überwachung sämtlicher Leistungsphasen und aller Anlagengruppen gemäß HOAI:
+                        <ul>
+                            <li>Sanitärtechnik</li>
+                            <li>Heizungstechnik</li>
+                            <li>Lüftungs- und Klimatechnik</li>
+                            <li>Starkstrom</li>
+                            <li>Schwachstrom</li>
+                            <li>Nutzungsspezifische Anlagen (Sprinklertechnik und ähnlich)</li>
+                            <li>Gebäudeautomation</li>
+                            <li>Sonstige Maßnahmen für technische Anlagen</li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li>Machbarkeitsstudien</li>
+                    <li>Simulationen</li>
+                    <li>Energetische Optimierungen</li>
+                    <li>Bestandsaufnahme und -Analyse</li>
+                    <li>Retro-Fit von Anlagentechnik</li>
+                    <li>Technischen Due Diligence</li>
+                    <li>ESG-Beratung</li>
+                </ul>
+            </div>
+
+            <button onclick="popup('/Bilder/3DModellTGA.png')">
+                <img src="{{ url_for('static', filename='/Bilder/3DModellTGA.png') }}" alt="3D-Modell TGA">
+            </button>
         </div>
     </div>
-
+    {% include footer %}
 </body>
 
 </html>
