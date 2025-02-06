@@ -103,54 +103,38 @@ function filterApply() {
     });
 }
 
-function displaySelected() {
-    const seiten = document.getElementsByClassName('seite');
-    const projekteArr = document.getElementsByClassName('projekt')
-    let index;
-    for (let i = 0; i < seiten.length; i++)
-        if (seiten[i].classList.contains('selected'))
-            index = i;
-
-    for (let i = 0; i < projekteArr.length; i++)
-        if (i >= index * 10 && i < (index + 1) * 10)
-            projekteArr[i].style.display = 'flex';
-        else
-            projekteArr[i].style.display = 'none';
-    window.scrollTo(0, 0);
-}
-
-function navigate(index) {
-    const seiten = document.getElementsByClassName('seite');
-    for (let i = 0; i < seiten.length; i++)
-        if (seiten[i].classList.contains('selected'))
-            seiten[i].classList.remove('selected');
-
-    const seite = document.getElementById('seite' + index);
-    seite.classList.add('selected');
-    displaySelected();
-
-}
-
-function prev() {
-    const seiten = document.getElementsByClassName('seite');
-    for (let i = 0; i < seiten.length; i++)
-        if (seiten[i].classList.contains('selected') && i != 0) {
-            seiten[i].classList.remove('selected');
-            seiten[i - 1].classList.add('selected');
-            displaySelected();
-            return;
+function show_more() {
+    const projekteArr = document.getElementsByClassName('projekt');
+    const showLessButton = document.getElementsByClassName('showless')[0];
+    const showMoreButton = document.getElementsByClassName('showmore')[0];
+    for (let i = 0; i < projekteArr.length; i++) {
+        if (projekteArr[i].style.display === "none") {
+            for (let j = i; j < i + 6; j++) {
+                projekteArr[j].style.display = "block";
+                if(j === projekteArr.length - 1)
+                    showMoreButton.style.display = "none";
+            }
+            showLessButton.style.display = "block";
+            break;
         }
+    }
 }
 
-function next() {
-    const seiten = document.getElementsByClassName('seite');
-    for (let i = 0; i < seiten.length; i++)
-        if (seiten[i].classList.contains('selected') && i != seiten.length - 1) {
-            seiten[i].classList.remove('selected');
-            seiten[i + 1].classList.add('selected');
-            displaySelected();
-            return;
+function show_less() {
+    const projekteArr = document.getElementsByClassName('projekt');
+    const showLessButton = document.getElementsByClassName('showless')[0];
+    const showMoreButton = document.getElementsByClassName('showmore')[0];
+    for (let i = projekteArr.length - 1; i >= 0; i--) {
+        if (projekteArr[i].style.display === "block") {
+            for (let j = i; j >= i - (i % 6); j--) {
+                projekteArr[j].style.display = "none";
+                if (j === 6)
+                    showLessButton.style.display = "none";
+            }
+            showMoreButton.style.display = "block";
+            break;
         }
+    }
 }
 
 function accept_cookie(value) {

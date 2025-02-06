@@ -12,49 +12,40 @@
 
 <body>
     {% include menu_bar %}
-
-    <div class="referenzenbild">
-        <img src="{{ url_for('static', filename='Bilder/Projekte.jpg') }}">
-        <h1>Unsere Projekte</h1>
-    </div>
-
-    <div id="projekte" class="projekte">
-
-        {% set ns = namespace(counter=0) %}
-        {% for item in data %}
-        {% if item.Bild != '' %}
-        {% set display = 'flex' if ns.counter < 10 else 'none' %}
-        <div class="projekt" id="projekt{{ns.counter}}" style="display: {{ display }};">
-            <div class="projektbild">
-                <a href="/Referenzen/{{item.Bild[:-4]}}">
-                    <img src="{{ url_for('static', filename='Bilder/Referenzen/'+item.Bild) }}" alt="{{item.Projekt}}">
-                </a>
-            </div>
-            <div class="projekttitel">
-                <a href="/Referenzen/{{item.Bild[:-4]}}">
-                    <h1>{{ item.Projekt }}</h1>
-                </a>
-                <p>{{ item.Gebaeude }}</p>
-                <p>{{ item.Projektart }}</p>
-            </div>
+    <div id="Referenzen">
+        <div class="RBild">
+            <img src="{{ url_for('static', filename='Bilder/Projekte.jpg') }}">
+            <h1>Unsere Projekte</h1>
         </div>
-        {% set ns.counter = ns.counter + 1 %}
-        {% endif %}
-        {% endfor %}
-    </div>
-
-    <div class="navigate">
-        <button class="prev" onclick="prev()"> ◄ </button>
-        <div id="seiten" class="seiten">
-            {% set maxIndex = (ns.counter - 1) // 10 %}
-            {% for index in range(maxIndex + 1) %}
-            <button id="seite{{ index }}" class="seite {% if index == 0 %}selected{% endif %}" onclick="navigate( {{ index }} )">{{ index + 1 }}</button>
+        <div class="RProjekte">
+            {% set ns = namespace(counter=0) %}
+            {% for item in data %}
+            {% if item.Bild != '' %}
+            <div id="projekt{{ns.counter}}" class="projekt" style="display: {{'none' if ns.counter >= 6}};">
+                <img src="{{ url_for('static', filename='Bilder/Referenzen/'+item.Bild) }}" alt="{{item.Projekt}}">
+                <a href="/Referenzen/{{item.Bild[:-4]}}">
+                    <div>
+                        <h1>{{ item.Projekt }}</h1>
+                        <p>{{ item.Gebaeude }}</p>
+                        <p>{{ item.Projektart }}</p>
+                    </div>
+                </a>
+            </div>
+            {% set ns.counter = ns.counter + 1 %}
+            {% endif %}
             {% endfor %}
-
         </div>
-        <button class="next" onclick="next()"> ► </button>
+        <div class="RButton">
+            <button class="showmore" onclick="show_more()">
+                Mehr Zeigen
+            </button>
+            <button class="showless" onclick="show_less()">
+                Weniger Zeigen
+            </button>
+        </div>
     </div>
 
+    {% include footer %}
 </body>
 
 </html>
