@@ -12,47 +12,48 @@
 
 <body>
     {% include menu_bar %}
-
-    <div class="referenzenbild parallax">
-        <img src="{{ url_for('static', filename='Bilder/Projekte.jpg') }}">
-        <h1>Unsere Projekte</h1>
-    </div>
-    <div class="projektseite">
-        <div class="projekttitel">
-            <h1>{{ item.Projekt }}</h1>
-            <table>
-                <tr>
-                    <td>Gebäudetyp:</td>
-                    <td>{{ item.Gebaeude }}</td>
-                </tr>
-                <tr>
-                    <td>Projektart:</td>
-                    <td>{{ item.Projektart }}</td>
-                </tr>
-                <tr>
-                    <td>Leitungsphasen:</td>
-                    <td>{{ item.LPH }}</td>
-                </tr>
-                <tr>
-                    <td>Anlagengruppe:</td>
-                    <td>{{ item.Anlagengruppe }}</td>
-                </tr>
-                <tr>
-                    <td>Fläche:</td>
-                    <td>{{ item.BGF|format_number }} m²</td>
-                </tr>
-                {% if item.Gesamtkosten != '' %}
-                <tr>
-                    <td>Gesamtkosten:</td>
-                    <td>{{ item.Gesamtkosten|format_number }} €</td>
-                </tr>
-                {% endif %}
-            </table>
+    <div id="Referenzen">
+        <div class="RBild">
+            <img src="{{ url_for('static', filename='Bilder/Projekte.jpg') }}">
+            <h1>Unsere Projekte</h1>
         </div>
-        <div class="projektbild">
-            <img src="{{ url_for('static', filename='Bilder/Referenzen/'+item.Bild) }}" alt="{{item.Projekt}}">
+        <div id="Projekt">
+            <div class="PBild">
+                <img src="{{ url_for('static', filename='Bilder/Referenzen/'+item.Bild) }}" alt="{{item.Projekt}}">
+            </div>
+            <div class="PText">
+                <h1>{{ item.Projekt }}</h1>
+                <table>
+                    <tr>
+                        <td class="feature">Gebäudetyp:</td>
+                        <td>{{ item.Gebaeude }}</td>
+                    </tr>
+                    <tr>
+                        <td class="feature">Projektart:</td>
+                        <td>{{ item.Projektart }}</td>
+                    </tr>
+                    <tr>
+                        <td class="feature">Leitungsphasen:</td>
+                        <td>{{ item.LPH }}</td>
+                    </tr>
+                    <tr>
+                        <td class="feature">Anlagengruppe:</td>
+                        <td>{{ item.Anlagengruppe }}</td>
+                    </tr>
+                    <tr>
+                        <td class="feature">Fläche:</td>
+                        <td>{{ item.BGF|format_number }} m²</td>
+                    </tr>
+                    {% if item.Gesamtkosten != '' %}
+                    <tr>
+                        <td class="feature">Gesamtkosten:</td>
+                        <td>{{ item.Gesamtkosten|format_number }} €</td>
+                    </tr>
+                    {% endif %}
+                </table>
+            </div>
         </div>
     </div>
 
-
+    {% include footer %}
 </body>
