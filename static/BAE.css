@@ -1043,3 +1043,63 @@ body {
     }
   }
 }
+
+#ImpressumDatenschutz {
+  .IDBild {
+    position: sticky;
+    top: 0;
+    height: 60vh;
+    z-index: -1;
+
+    img {
+      position: absolute;
+      width: 100%;
+      min-height: 60vh;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    h1 {
+      position: absolute;
+      font-size: 3em;
+      color: #fff;
+      background-color: #00000080;
+      padding: 50% 0;
+      text-align: center;
+      text-transform: uppercase;
+      width: 100%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  .IDText {
+    background-color: #fff;
+    padding: 5% 20%;
+
+    h2 {
+      font-size: 1.4em;
+      padding: 5px 0;
+      color: #017AC0;
+    }
+
+    h1 {
+      font-size: 3em;
+      text-align: center;
+      text-transform: uppercase;
+      margin: 0 0 5% 0;
+    }
+
+    p {
+      font-size: 1.3em;
+      padding: 0 0 20px;
+    }
+
+    h4 {
+      font-size: 1.4em;
+      padding: 0 0 5px 0;
+    }
+  }
+}
