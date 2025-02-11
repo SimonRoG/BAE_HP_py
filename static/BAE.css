@@ -14,46 +14,67 @@ body {
 
 #cookie-banner {
   position: fixed;
-  max-width: 450px;
+  max-width: 690px;
   width: calc(100% - 20px);
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
   z-index: 100;
   background-color: #fff;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
   border: #3498db solid 1px;
-  border-radius: 8px;
-  padding: 10px;
+  padding: 20px 60px 0 60px;
   hyphens: auto;
   word-wrap: break-word;
 
   p {
-    margin: 12px 0 0 0;
-    line-height: 1.1;
+    font-size: 1.5em;
+    padding: 0 0 20px 0;
+  }
+
+  .logo {
+    height: 69px;
+
+    img {
+      height: 100%;
+      padding: 0 0 20px 0;
+    }
   }
 
   div {
     display: flex;
-    justify-content: space-between;
-    margin: 10px 0 0 0;
-    width: 100%;
+    flex-direction: column;
+    align-items: center;
 
     button {
-      width: calc(50% - 5px);
-      height: 40px;
+      width: 100%;
+      font-size: 1.3em;
+      color: #fff;
       background-color: #017AC0;
-      border: #017AC0 solid 1px;
-      border-radius: 5px;
-      color: white;
+      margin: 0 0 20px 0;
+      padding: 20px;
+      border: none;
+      cursor: pointer;
     }
 
-    button:hover {
+    #accept-cookies:hover {
       background-color: #01609C;
     }
 
-    button:active {
+    #accept-cookies.active {
       background-color: #015080;
+    }
+
+    #decline-cookies {
+      color: #000;
+      background-color: #eee;
+    }
+
+    #decline-cookies:hover {
+      background-color: #ddd;
+    }
+
+    #decline-cookies:active {
+      background-color: #ccc;
     }
   }
 }

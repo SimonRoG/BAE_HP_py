@@ -8,17 +8,18 @@
 <body>
     {% if not consent %}
     <div id="cookie-banner">
-        <h2>🍪 Cookies</h2>
-
+        <div class="logo">
+            <img src="{{ url_for('static', filename='/Logo/BAE_Group_Logo.png') }}" alt="Logo_BAE_Group">
+        </div>
         <p>
-            Diese Website verwendet Cookies und ähnliche Technologien, Ihr Surferlebnis zu verbessern und Ihnen personalisierte Empfehlungen zu geben, einschließlich Google reCAPTCHA, um den Schutz gegen Spam zu gewährleisten.
+            Diese Website verwendet Cookies und ähnliche Technologien, Ihr Surferlebnis zu verbessern und Ihnen personalisierte Empfehlungen zu geben <!--, einschließlich Google reCAPTCHA, um den Schutz gegen Spam zu gewährleisten-->.
         </p>
         <p>
             Durch die weitere Nutzung unserer Website erklären Sie sich mit unserer <a href="/Datenschutz">Datenschutz-Richtlinie</a> und den oben genannten Richtlinien einverstanden.
         </p>
-        <p>
+        <!-- <p>
             Google reCAPTCHA sammelt Daten, die den <a href="https://policies.google.com/privacy" target="_blank">Datenschutzrichtlinien</a> und <a href="https://policies.google.com/terms" target="_blank">Nutzungsbedingungen</a> von Google unterliegen.
-        </p>
+        </p> -->
 
         <div> 
             <button id="accept-cookies" onclick="accept_cookie(true)"> Akzeptieren </button> 
@@ -28,7 +29,10 @@
     {% endif %}
 
     <div id="menuBar">
-        <div> <a href="/" onclick="navigateToHomePage()"> <img id="logo" src="{{ url_for('static', filename='/Logo/BAE_Group_Logo.png') }}" alt="Logo_BAE_Group"> </a>
+        <div> 
+            <a href="/" onclick="navigateToHomePage()"> 
+                <img id="logo" src="{{ url_for('static', filename='/Logo/BAE_Group_Logo.png') }}" alt="Logo_BAE_Group"> 
+            </a>
         </div>
         <div><a href="/#ueberuns">Über uns</a></div>
         <div><a href="/#geschaeftsfelder">Geschäftsfelder</a></div>
