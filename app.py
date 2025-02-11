@@ -28,7 +28,7 @@ app.config["RECAPTCHA_PRIVATE_KEY"] = RECAPTCHA_SECRET_KEY
 
 smtp_email = "it@b-a-e.eu"
 password = keys["password"]
-hr_email = "hr@b-a-e.eu"
+hr_email = "it@b-a-e.eu"
 
 
 class Formular(FlaskForm):

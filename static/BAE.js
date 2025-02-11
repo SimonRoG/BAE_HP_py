@@ -98,7 +98,7 @@ function filterApply() {
         if (stellenanzeige.classList.contains(ort) &&
             stellenanzeige.classList.contains(anstellung) &&
             stellenanzeige.classList.contains(taetigkeit)) {
-            stellenanzeige.style.display = 'block';
+            stellenanzeige.style.display = 'grid';
         }
     });
 }

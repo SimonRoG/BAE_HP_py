@@ -9,8 +9,7 @@
 }
 
 body {
-  overflow-x: hidden;
-  overflow-y: auto;
+  overflow-x: hidden !important;
 }
 
 #cookie-banner {
@@ -266,10 +265,11 @@ body {
   .grid {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
-    outline: 1px solid #eee;
+    gap: 2px;
+    background-color: #ccc;
 
     div {
-      outline: 1px solid #ccc;
+      background-color: #eee;
       padding: 20px;
 
       img {
@@ -671,549 +671,375 @@ body {
   }
 }
 
-.alert-message {
-  position: fixed;
-  transform: translate(-50%, 0);
-  top: 10%;
-  left: 50%;
-  z-index: 1;
-
-  div {
-    margin-bottom: .5rem;
-  }
-}
-
-.alert {
-  position: relative;
-  padding: .75rem 1.25rem;
-  margin-bottom: 1rem;
-  border: 1px solid transparent;
-  border-radius: .25rem;
-  line-height: 1.5;
-}
-
-.alert-success {
-  color: #155724;
-  background-color: #d4edda;
-  border-color: #c3e6cb;
-}
-
-.alert-danger {
-  color: #721c24;
-  background-color: #f8d7da;
-  border-color: #f5c6cb;
-}
-
-.alert-dismissible {
-  padding-right: 4rem;
-
-  .close {
-    position: absolute;
+#Karriere {
+  .KBild {
+    position: sticky;
     top: 0;
-    right: 0;
-    padding: .75rem 1.25rem;
-    color: inherit;
-    background-color: transparent;
-    border: 0;
-    float: right;
-    font-size: 1.5rem;
-    font-weight: 700;
-    line-height: 1;
-    color: #000;
-    text-shadow: 0 1px 0 #fff;
-    opacity: .5;
-  }
-}
+    height: 60vh;
+    z-index: -1;
 
-.karriere-container {
-  display: flex;
-  padding: 0vw;
-  box-sizing: border-box;
-  justify-content: space-evenly;
-  max-width: 100%;
-  margin-top: 1vw;
-  position: relative;
-}
-
-div.containerkarrierevorwort {
-  width: 90%;
-  height: 6vw;
-  margin-left: 5vw;
-  top: 0px;
-}
-
-div.TitleStellen {
-  width: 90%;
-  height: 4.5vw;
-  margin-left: 5vw;
-  margin-top: -1vw;
-  font-size: 2.0vw;
-  color: #017AC0;
-}
-
-.filter {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: flex-end;
-  margin: 3vw 5vw;
-
-  div {
-    display: flex;
-    flex-direction: column;
-    width: 20%;
-    color: #017AC0;
-  }
-
-  select,
-  input {
-    border: #017AC0 solid 1px;
-    border-radius: 10px;
-    padding: 10px;
-  }
-
-  button {
-    background-color: #017AC0;
-    border: #017AC0 solid 1px;
-    width: 15%;
-    border-radius: 10px;
-    padding: 10px;
-    color: white;
-  }
-
-  button:hover {
-    background-color: #01609C;
-  }
-
-  button:active {
-    background-color: #015080;
-  }
-}
-
-div.benefits {
-  margin-top: 2vw;
-  width: 80%;
-  height: 27vw;
-  margin-left: 5vw;
-  top: 0px;
-  font-size: 2.0vw;
-
-}
-
-.benefits ul {
-  margin-top: 0.0vw;
-  font-size: 1.2vw;
-  /* Anpassbare Schriftgröße */
-  line-height: 2.5;
-  /* Einstellbarer Abstand zwischen den Zeilen */
-  hyphens: auto;
-  /* Automatische Silbentrennung, falls unterstützt */
-  word-wrap: break-word;
-  /* Sicherstellen, dass Wörter umgebrochen werden, wenn notwendig */
-}
-
-li {
-  margin: 0 2vw;
-  list-style: disc;
-}
-
-li::marker {
-  color: #017AC0;
-}
-
-.benefits h2 {
-  margin-bottom: 0;
-  /* Anpassung: Verwende 0% der Viewport-Breite als unteren Rand */
-  margin-top: 0;
-  /* Anpassung: Verwende 0% der Viewport-Breite als oberen Rand */
-  color: #017AC0;
-  font-size: 1.5vw;
-  /* Anpassbare Schriftgröße */
-  line-height: 1.5;
-  /* Einstellbarer Abstand zwischen den Zeilen */
-  font-weight: normal;
-  /* Setzt das Schriftgewicht auf normal */
-}
-
-
-
-
-.containerkarrierevorwort p {
-  font-size: 1.2vw;
-  text-align: justify;
-  /* Blocksatz */
-  line-height: 1.5;
-  /* Einstellbarer Abstand zwischen den Zeilen */
-  margin-top: 1.0vw;
-}
-
-
-.karriere-container h1 {
-  width: 90vw;
-  /* Anpassung: Verwende 90% der Viewport-Breite für die Überschrift */
-  font-size: 3vw;
-  /* Anpassung: Verwende 6% der Viewport-Breite für die Schriftgröße */
-  margin-bottom: 0.0vw;
-  /* Anpassung: Verwende 3% der Viewport-Breite als unteren Rand */
-  margin-top: 0.0vw;
-  /* Anpassung: Verwende -2% der Viewport-Breite als oberen Rand */
-  color: #017AC0;
-  box-sizing: border-box;
-  top: 7vw;
-  /* Hier den Wert anpassen, um die vertikale Position zu steuern */
-  left: 7vw;
-  /* Hier den Wert anpassen, um die horizontale Position zu steuern */
-}
-
-
-div.containerbildkarriere {
-  width: 100%;
-  height: 50vh;
-  position: relative;
-  z-index: -1;
-
-  img {
-    position: fixed;
-    width: 100%;
-    height: 50vh;
-    object-fit: cover;
-  }
-}
-
-.containerbildkarriere h1 {
-  background-color: #017AC0;
-  width: 85%;
-  position: absolute;
-  bottom: 15%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 6vw;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-  border-radius: 10px;
-  text-align: center;
-  padding: 5px 15px;
-}
-
-.containerbildkarriere h2 {
-  background-color: #017AC0;
-  white-space: nowrap;
-  position: absolute;
-  bottom: 15%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 3vw;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-  border-radius: 10px;
-  text-align: center;
-  padding: 5px 15px;
-}
-
-#karriere {
-  background-color: white;
-  position: relative;
-}
-
-#karriere::before {
-  content: '';
-  position: absolute;
-  top: -2px;
-  left: 5vw;
-  width: 90vw;
-  height: 2px;
-  background-color: #017AC0;
-  z-index: 0;
-}
-
-.karriereBox {
-  display: grid;
-  align-items: center;
-  grid-template-areas:
-    'ueberschrift stellenanzeigeBild'
-    'unterueberschrift stellenanzeigeBild'
-    'stellenanzeigeRechts stellenanzeigeBild';
-  box-sizing: border-box;
-  width: 90%;
-  padding: 1% 0;
-  margin: 0 5vw;
-}
-
-.ueberschrift {
-  grid-area: ueberschrift;
-  align-self: end;
-  width: 90%;
-  height: 3.0vw;
-  margin: -2vw 0 0 0;
-  cursor: pointer;
-}
-
-.ueberschrift:hover {
-  box-shadow: 0 0 6px 0 #015080;
-  border-radius: 10px;
-}
-
-.ueberschrift h2 {
-  font-size: 2.5vw;
-  height: 3.0vw;
-  padding-left: 1vw;
-  color: #fff;
-  background-color: #017AC0;
-  border-radius: 10px;
-}
-
-.unterueberschrift {
-  grid-area: unterueberschrift;
-  width: 90%;
-  height: 1.3vw;
-  margin: -1vw 0;
-}
-
-.unterueberschrift p {
-  font-size: 1.2vw;
-  color: #017AC0;
-}
-
-.stellenanzeigeRechts {
-  grid-area: stellenanzeigeRechts;
-  align-self: start;
-  position: relative;
-  box-sizing: border-box;
-  overflow-wrap: break-word;
-  width: 90%;
-}
-
-.stellenanzeigeRechts h2 {
-  margin: 0;
-  font-size: 1.2vw;
-  line-height: 1.5;
-  font-weight: normal;
-}
-
-div.stellenanzeigeBild {
-  grid-area: stellenanzeigeBild;
-  cursor: pointer;
-  width: 15vw;
-  height: 15vw;
-  border-radius: 50%;
-  overflow: hidden;
-  border: 3px solid #017AC0;
-
-  img {
-    width: 15vw;
-    height: 15vw;
-  }
-}
-
-.stellenanzeigeBild:hover {
-  box-shadow: 0 0 6px 0 #015080;
-  border-radius: 50%;
-}
-
-.stellenanzeigeText {
-  width: 76%;
-}
-
-.stelle {
-  padding: 3% 8%;
-
-  h1 {
-    padding: 0.5% 1%;
-    margin: 0 0 1% 0;
-    font-size: 3.5em;
-    background-color: #017AC0;
-    color: #ffffff;
-    border-radius: 10px;
-  }
-}
-
-.ortetext {
-  margin: 0 0 3% 0;
-
-  h2 {
-    color: #017AC0;
-    font: caption;
-    font-size: 1.5em;
-    margin: 0 0 1% 0;
-  }
-
-  p {
-    font-size: 1.5em;
-    margin: 0 0 1% 0;
-  }
-}
-
-.aufgaben {
-  margin: 0 0 3% 0;
-
-  h2 {
-    font-size: 2.5em;
-    margin: 0 0 1% 0;
-  }
-
-  li {
-    font-size: 1.5em;
-    margin: 0 0 1% 2%;
-  }
-}
-
-.eigenschaften {
-  margin: 0 0 3% 0;
-
-  h2 {
-    font-size: 2.5em;
-    margin: 0 0 1% 0;
-  }
-
-  li {
-    font-size: 1.5em;
-    margin: 0 0 1% 2%;
-  }
-}
-
-
-.formular {
-  margin: 3% 0;
-
-  label {
-    font-size: 1.5em;
-  }
-
-  input,
-  select,
-  textarea {
-    border: #017AC0 solid 1px;
-    border-radius: 10px;
-    padding: 10px;
-    width: 50%;
-    font-size: 1.5em;
-
-    option {
-      color: black;
+    img {
+      position: absolute;
+      width: 100%;
+      min-height: 60vh;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
 
-    option[disabled] {
-      color: grey;
+    h1 {
+      position: absolute;
+      font-size: 3em;
+      color: #fff;
+      background-color: #00000080;
+      padding: 50% 0;
+      text-align: center;
+      text-transform: uppercase;
+      width: 100%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
   }
 
-  #submit {
-    background-color: #017AC0;
-    border: #017AC0 solid 1px;
-    width: 300px;
-    border-radius: 10px;
-    padding: 10px;
-    color: white;
+  .KText {
+    background-color: #fff;
+    padding: 5% 20%;
+
+    h3 {
+      font-size: 1.3em;
+      text-align: center;
+      text-transform: uppercase;
+      color: #017AC0;
+      margin: 0 0 2% 0;
+    }
+
+    h1 {
+      font-size: 3em;
+      text-align: center;
+      text-transform: uppercase;
+      margin: 0 0 5% 0;
+    }
+
+    p {
+      font-size: 1.3em;
+    }
+
+    .Vorwort {
+      margin: 0 0 10% 0;
+    }
+
+    .Benefits {
+      background-color: #017AC0;
+      padding: 5% 50%;
+      margin: 0 -50%;
+
+      h3,
+      h1,
+      h4,
+      p {
+        color: #fff;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 1px;
+        background-color: #fff;
+
+        div {
+          background-color: #017AC0;
+          padding: 20px;
+          text-align: center;
+
+          h4 {
+            font-size: 20px;
+            padding: 20px 0;
+          }
+
+          p {
+            font-size: 18px;
+          }
+        }
+      }
+    }
   }
 
-  #submit:hover {
-    background-color: #01609C;
-  }
+  .KStellen {
+    background-color: #fff;
+    padding: 0 20% 5% 20%;
 
-  #submit:active {
-    background-color: #015080;
-  }
+    h3 {
+      font-size: 1.3em;
+      text-align: center;
+      text-transform: uppercase;
+      color: #017AC0;
+      margin: 0 0 2% 0;
+    }
 
-  #g-recaptcha-response {
-    display: block !important;
-    position: absolute;
-    margin: -78px 0 0 0 !important;
-    width: 302px !important;
-    height: 76px !important;
-    z-index: -999999;
-    opacity: 0;
+    h1 {
+      font-size: 3em;
+      text-align: center;
+      text-transform: uppercase;
+      margin: 0 0 5% 0;
+    }
+
+    p {
+      font-size: 1.3em;
+    }
+
+    .filter {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 30px;
+      margin: 0 0 5% 0;
+
+      div {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+
+        label {
+          font-size: 20px;
+          margin: 0 0 15px 0;
+        }
+
+        select,
+        button {
+          padding: 10px;
+          font-size: 20px;
+          border: 1px solid #ccc;
+        }
+
+        button {
+          color: #fff;
+          background-color: #017AC0;
+        }
+
+        button:hover {
+          background-color: #01609C;
+        }
+
+        button:active {
+          background-color: #015080;
+        }
+      }
+    }
+
+    .Stellen {
+      display: grid;
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+      grid-auto-rows: 1fr;
+
+      .stellenanzeige {
+        display: grid;
+        align-items: center;
+        grid-template: "name standort link" / 2fr 1fr 1fr;
+        padding: 10px 0;
+        border-top: 1px solid #000;
+
+        .Stellenname {
+          grid-area: name;
+
+          a {
+            color: #000;
+          }
+        }
+
+        .Standorte {
+          grid-area: standort;
+          color: #017AC0;
+
+          p {
+            font-size: 20px;
+          }
+        }
+
+        .SButton {
+          grid-area: link;
+          text-align: center;
+
+          a {
+            padding: 10px;
+            font-size: 20px;
+            background-color: #017AC0;
+            color: #fff;
+            border: 1px solid #ccc;
+          }
+
+          a:hover {
+            background-color: #01609C;
+          }
+
+          a:active {
+            background-color: #015080;
+          }
+        }
+      }
+
+      .stellenanzeige:last-child {
+        border-bottom: 1px solid #000;
+      }
+    }
   }
 }
 
-.fileinput {
-  border: #017AC0 solid 1px;
-  border-radius: 10px;
-  padding: 10px 5px 5px 5px;
-  width: 50%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+#Stelle {
+  .SBild {
+    position: sticky;
+    top: 0;
+    height: 60vh;
+    z-index: -1;
 
-  input {
-    border: none;
-    padding: 0;
-    cursor: pointer;
-    width: 100%;
-    padding: 0 0 10px 0;
+    img {
+      position: absolute;
+      width: 100%;
+      min-height: 60vh;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    h1 {
+      position: absolute;
+      font-size: 3em;
+      color: #fff;
+      background-color: #00000080;
+      padding: 50% 0;
+      text-align: center;
+      text-transform: uppercase;
+      width: 100%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
   }
 
-  input::file-selector-button {
-    display: none;
+  .SText {
+    background-color: #fff;
+    padding: 5% 20% 0 20%;
+
+    h3 {
+      font-size: 1.3em;
+      text-align: center;
+      text-transform: uppercase;
+      color: #017AC0;
+      margin: 0 0 2% 0;
+    }
+
+    h2 {
+      font-size: 2em;
+      text-transform: uppercase;
+      color: #017AC0;
+      margin: 0 0 2% 0;
+    }
+
+    h1 {
+      font-size: 3em;
+      text-align: center;
+      text-transform: uppercase;
+      margin: 0 0 5% 0;
+    }
+
+    p {
+      font-size: 1.3em;
+    }
+
+    ul {
+      font-size: 1.4em;
+      line-height: 1.3;
+
+      li {
+        margin: 10px 2vw;
+      }
+    }
+
+    .Titel {
+      margin: 0 0 5% 0;
+
+      p {
+        text-align: center;
+        padding: 0 10%;
+      }
+    }
+
+    .Aufgaben,
+    .Anforderungen,
+    .Formular {
+      background-color: #eee;
+      padding: 5% 50%;
+      margin: 0 -50%;
+    }
+
+    .Formular {
+      h2 {
+        text-align: center;
+        padding: 0 0 2% 0
+      }
+
+      form {
+        padding: 0 20%;
+
+        input,
+        select,
+        textarea {
+          width: 100%;
+          padding: 10px;
+          border: none;
+        }
+
+        input::placeholder,
+        select::placeholder,
+        textarea::placeholder {
+          font-weight: bold;
+        }
+
+        #submit {
+          background-color: #015080;
+          color: #fff;
+          font-weight: bold;
+          border: none;
+          cursor: pointer;
+        }
+
+        #submit:hover {
+          background-color: #01446d;
+        }
+
+        #submit:active {
+          background-color: #013657;
+        }
+
+        .fileinput {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+
+          input {
+            cursor: pointer;
+            padding: 0 0 10px 0;
+            font-size: 1.2em;
+          }
+
+          input::file-selector-button {
+            display: none;
+          }
+
+          div {
+            padding: 0 10px;
+          }
+
+          label {
+            cursor: pointer;
+            font-size: 1.2em;
+          }
+
+          img {
+            cursor: pointer;
+            height: 3em;
+          }
+        }
+      }
+    }
   }
-
-  div {
-    padding: 0 10px;
-  }
-
-  label {
-    cursor: pointer;
-  }
-
-  img {
-    cursor: pointer;
-    height: 3em;
-  }
-}
-
-.fileinput:hover {
-  background-color: #f1f1f1;
-}
-
-.fileinput.dragover {
-  background-color: #007bff;
-  color: white;
-}
-
-
-.Ansprechpartner {
-  display: flex;
-  justify-content: space-between;
-  align-items: stretch;
-  width: 100%;
-  height: 150px;
-  position: fixed;
-  /* Fixiert den Container am unteren Bildschirmrand */
-  bottom: 0;
-  /* Stellt sicher, dass der Container am unteren Rand des Bildschirms bleibt */
-  background-color: rgba(1, 122, 192, 0.8);
-  /* Transparenz einstellbar über den letzten Wert (0 bis 1) */
-  z-index: 0;
-  /* Stellt sicher, dass der Container über anderen Elementen liegt */
-}
-
-
-.AnsprechpartnerBild {
-  width: 30%;
-  /* Jeder Container nimmt 50% der Breite ein */
-  display: flex;
-  align-items: center;
-  /* Zentriert das Bild vertikal */
-  justify-content: right;
-  /* Zentriert das Bild horizontal */
-  padding-right: 3vw;
-  width: 50%;
-  /* Jeder Container nimmt 50% der Breite ein */
-  font-size: 1.2vw;
-  line-height: 0.1;
-  color: white;
-
-  margin-bottom: 0.1vw;
-}
-
-
-div.AnsprechpartnerBild img {
-  max-width: 80%;
-  max-height: 80%;
-  object-fit: contain;
-  border-radius: 20%;
-  overflow: hidden;
-  border: 3px solid #017AC0;
-}
-
-div.SperrbereichKarriere {
-  padding: 100px;
 }

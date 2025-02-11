@@ -12,106 +12,153 @@
 
 <body>
     {% include menu_bar%}
-
-    <div>
-        <img src="{{ url_for('static', filename='Bilder/Karrierebereich.jpg') }}">
-        <h1>Karriere in der BAE GROUP.</h1>
-    </div>
-
-    {% with messages = get_flashed_messages(with_categories=true) %}
-    {% if messages %}
-    <div class="alert-message">
-        {% for category, message in messages %}
-        <div class="alert alert-{{ category }} alert-dismissible"> {{ message }} <button type="button" class="close" onclick="destroy(this)"> <span>&times;</span> </button>
-        </div>
-        {% endfor %}
-    </div>
-    {% endif %}
-    {% endwith %}
-
-    <div>
-        <h1> Bereit die Immobilien-Welt zu verändern?</h1>
-    </div>
-
-    <div>
-        <p> Wir gestalten das Heute und Morgen von Gebäuden – als BAE Group betrachten wir das Thema Immobilien ganzheitlich. Durch unsere Arbeit an zentralen Themen gegliedert in die acht strategischen Geschäftsfelder Technische Gebäudeausrüstung, Contracting, Projektmanagement, Digital Solutions, Asset Management, Property Management, Generalplanung und Investment Management, bringen wir alle gebäudebezogenen Lösungen unter ein Dach. Wir suchen dich!
-        </p>
-    </div>
-
-    <div>
-        <h2><b>Deshalb solltest du zu BAE kommen:</b></h2>
-        <ul>
-            <li> Deine Arbeitszeit innerhalb der 40-Stunden-Woche kannst du variabel gestalten, nach Absprache ist auch mobiles Arbeiten möglich.</li>
-            <li> Wir haben deine Zukunft im Blick. Bei uns hast du die Möglichkeit dich über interne und externe Schulungen oder Seminare weiterzuentwickeln und innerhalb der spannenden Geschäftsfelder zu wechseln. </li>
-            <li> Bei uns herrscht ein kollegiales Miteinander mit direkten Kommunikationswegen. </li>
-            <li> Neben einer attraktiven Vergütung bieten wir dir außerdem einen Zuschuss zur VWL, Direktversicherung und BAV und dein persönliches Verkehrsmittel, auch zur privaten Nutzung.</li>
-            <li> Diversität, Respekt, Akzeptanz und ein Arbeiten auf Augenhöhe sind für uns besonders wichtig.</li>
-            <li> Gemeinsame Teamevents machen uns auch abseits der Arbeit zu einem starken Team.</li>
-        </ul>
-
-    </div>
-
-    <div>
-        <h1>Offene Stellen:</h1>
-    </div>
-
-    <div class="filter">
-        <div> <label for="ort"><b>Standort:</b></label> <select id="ort" name="ort">
-                <option value="stellenanzeige">Alle</option>
-                <option value="frankfurt">Frankfurt am Main</option>
-                <option value="berlin">Berlin</option>
-                <option value="muenchen">München</option>
-                <option value="coburg">Coburg</option>
-                <option value="bamberg">Bamberg</option>
-                <option value="deggendorf">Deggendorf</option>
-                <option value="sofia">Sofia</option>
-                <option value="varna">Varna</option>
-                <option value="stuttgart">Stuttgart</option>
-            </select>
-        </div>
-        <div> <label for="anstellung"><b>Anstellung:</b></label> <select id="anstellung" name="anstellung">
-                <option value="stellenanzeige">Alle</option>
-                <option value="voll">Vollzeit</option>
-                <option value="teil">Teilzeit</option>
-                <option value="student">Werkstudent</option>
-                <option value="azubi">Auszubildende</option>
-            </select>
-        </div>
-        <div> <label for="taetigkeit"><b>Tätigkeit:</b></label> <select id="taetigkeit" name="taetigkeit">
-                <option value="stellenanzeige">Alle</option>
-                <option value="azubi">Auszubildende</option>
-                <option value="systemplaner">Systemplaner</option>
-                <option value="fachplaner">Fachplaner</option>
-                <option value="projektleiter">Projektleiter</option>
-                <option value="fuehrungspersonal">Führungspersonal</option>
-                <option value="assistenz">Assistenz</option>
-                <option value="hr">HR</option>
-                <option value="marketing">Marketing, Social media</option>
-            </select>
+    <div id="Karriere">
+        <div class="KBild">
+            <img src="{{ url_for('static', filename='Bilder/Karrierebereich.jpg') }}">
+            <h1>Starte jetzt <br>deine Karriere mit uns!</h1>
         </div>
 
-        <button onclick="filterApply()"><b>Filter anwenden</b></button>
-    </div>
+        {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+        <div class="alert-message">
+            {% for category, message in messages %}
+            <div class="alert alert-{{ category }} alert-dismissible">
+                {{ message }}
+                <button type="button" class="close" onclick="destroy(this)">
+                    <span>&times;</span>
+                </button>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+        {% endwith %}
 
-    <div id="stellen">
-        {% for item in data %}
-        <div id="karriere" class="stellenanzeige {{item.Tags}}">
-            <div class="karriereBox">
-                <div class="ueberschrift"> <a href="/Karriere/{{item.Name[:-7]}}">
-                        <h2>{{item.Name}}</h2>
-                    </a> </div>
-                <div class="unterueberschrift">
-                    <p>Standorte: {{item.Standort}}</p>
+        <div class="KText">
+            <div class="Vorwort">
+                <h3>Your partner for the building life cycle.</h3>
+                <h1> Bereit die Immobilien-Welt zu verändern?</h1>
+                <p>
+                    Wir gestalten das Heute und Morgen von Gebäuden – als BAE Group betrachten wir das Thema Immobilien ganzheitlich. Durch unsere Arbeit an zentralen Themen gegliedert in die acht strategischen Geschäftsfelder Technische Gebäudeausrüstung, Contracting, Projektmanagement, Digital Solutions, Asset Management, Property Management, Generalplanung und Investment Management, bringen wir alle gebäudebezogenen Lösungen unter ein Dach. Wir suchen dich!
+                </p>
+            </div>
+            <div class="Benefits">
+                <h3>Benefits</h3>
+                <h1>Deshalb solltest du zu BAE kommen:</h1>
+                <div class="grid">
+                    <div>
+                        <img src="{{ url_for('static', filename='Icons/karriere-homeoffice.svg') }}" alt="">
+                        <h4>Homeoffice & <br> flexible Arbeitszeiten</h4>
+                        <p>
+                            Deine Arbeitszeit innerhalb der 40-Stunden-Woche kannst du variabel gestalten, nach Absprache ist auch mobiles Arbeiten möglich.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="{{ url_for('static', filename='Icons/karriere-schulungen.svg') }}" alt="">
+                        <h4>Schulungen & <br> Seminare</h4>
+                        <p>
+                            Wir haben deine Zukunft im Blick. Bei uns hast du die Möglichkeit dich über interne und externe Schulungen oder Seminare weiterzuentwickeln und innerhalb der spannenden Geschäftsfelder zu wechseln.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="{{ url_for('static', filename='Icons/karriere-miteinander.svg') }}" alt="">
+                        <h4>Kollegiales Miteinander & <br> kurze Kommunikationswege</h4>
+                        <p>
+                            Bei uns herrscht ein kollegiales Miteinander mit direkten Kommunikationswegen.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="{{ url_for('static', filename='Icons/karriere-zuschuesse.svg') }}" alt="">
+                        <h4>Zuschüsse & <br> attraktive Vergütung</h4>
+                        <p>
+                            Neben einer attraktiven Vergütung bieten wir dir außerdem einen Zuschuss zur VWL, Direktversicherung und BAV und dein persönliches Verkehrsmittel, auch zur privaten Nutzung.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="{{ url_for('static', filename='Icons/karriere-augenhoehe.svg') }}" alt="">
+                        <h4>Arbeiten auf <br> Augenhöhe</h4>
+                        <p>
+                            Diversität, Respekt, Akzeptanz und ein Arbeiten auf Augenhöhe sind für uns besonders wichtig.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="{{ url_for('static', filename='Icons/karriere-teamevents.svg') }}" alt="">
+                        <h4>Regelmäßige <br> Teamevents</h4>
+                        <p>
+                            Gemeinsame Teamevents machen uns auch abseits der Arbeit zu einem starken Team.
+                        </p>
+                    </div>
                 </div>
-                <div class="stellenanzeigeRechts">
-                    <h2> {{item.Beschreibung}} </h2>
-                </div>
-                <div class="stellenanzeigeBild"> <a href="/Karriere/{{item.Name[:-7]}}"> <img src="{{ url_for('static', filename='Bilder/Karriere/'+item.Bild) }}" alt="{{item.Bild}}"> </a> </div>
             </div>
         </div>
-        {% endfor %}
-    </div>
 
+        <div class="KStellen">
+            <h3>Jetzt bewerben</h3>
+            <h1>Offene Stellen</h1>
+
+            <div class="filter">
+                <div>
+                    <label for="ort"><b>Standort:</b></label>
+                    <select id="ort" name="ort">
+                        <option value="stellenanzeige">Alle</option>
+                        <option value="frankfurt">Frankfurt am Main</option>
+                        <option value="berlin">Berlin</option>
+                        <option value="muenchen">München</option>
+                        <option value="coburg">Coburg</option>
+                        <option value="bamberg">Bamberg</option>
+                        <option value="deggendorf">Deggendorf</option>
+                        <option value="sofia">Sofia</option>
+                        <option value="varna">Varna</option>
+                        <option value="stuttgart">Stuttgart</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="anstellung"><b>Anstellung:</b></label>
+                    <select id="anstellung" name="anstellung">
+                        <option value="stellenanzeige">Alle</option>
+                        <option value="voll">Vollzeit</option>
+                        <option value="teil">Teilzeit</option>
+                        <option value="student">Werkstudent</option>
+                        <option value="azubi">Auszubildende</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="taetigkeit"><b>Tätigkeit:</b></label>
+                    <select id="taetigkeit" name="taetigkeit">
+                        <option value="stellenanzeige">Alle</option>
+                        <option value="azubi">Auszubildende</option>
+                        <option value="systemplaner">Systemplaner</option>
+                        <option value="fachplaner">Fachplaner</option>
+                        <option value="projektleiter">Projektleiter</option>
+                        <option value="fuehrungspersonal">Führungspersonal</option>
+                        <option value="assistenz">Assistenz</option>
+                        <option value="hr">HR</option>
+                        <option value="marketing">Marketing, Social media</option>
+                    </select>
+                </div>
+                <div>
+                    <button onclick="filterApply()"><b>Filter anwenden</b></button>
+                </div>
+            </div>
+            <div class="Stellen">
+                {% for item in data %}
+                <div class="stellenanzeige {{item.Tags}}">
+                    <div class="Stellenname">
+                        <a href="/Karriere/{{item.Name[:-7]}}">
+                            <h2>{{item.Name}}</h2>
+                        </a>
+                    </div>
+                    <div class="Standorte">
+                        <p>{{item.Standort}}</p>
+                    </div>
+                    <div class="SButton">
+                        <a href="/Karriere/{{item.Name[:-7]}}#KarriereFormular">Jetzt bewerben</a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    {% include footer %}
 </body>
 
 </html>

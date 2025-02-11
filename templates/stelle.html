@@ -13,77 +13,81 @@
 
 <body>
     {% include menu_bar%}
-
-    <div class="containerbildkarriere parallax">
-        <img src="{{ url_for('static', filename='Bilder/Karrierebereich.jpg') }}">
-        <h1>Karriere in der BAE GROUP.</h1>
-    </div>
-    <div class="stelle Hauptseite">
-        <h1>{{ item.Name }}</h1>
-        <div class="ortetext">
-            <h2>Standorte: {{item.Standort}}</h2>
-            <p>
-                {{item.Beschreibung}}
-            </p>
+    <div id="Stelle">
+        <div class="SBild">
+            <img src="{{ url_for('static', filename='Bilder/Karrierebereich.jpg') }}">
+            <h1>Starte jetzt <br>deine Karriere mit uns!</h1>
         </div>
-        <div class="aufgaben">
-            <h2>Deine Aufgaben:</h2>
-            <ul>
-                {% for Aufgabe in item.Aufgaben.split("\n") %}
-                <li>{{Aufgabe}}</li>
-                {% endfor %}
-            </ul>
-        </div>
+        <div class="SText">
+            <div class="Titel">
+                <h3>{{item.Standort}}</h3>
+                <h1>{{ item.Name }}</h1>
+                <p>
+                    {{item.Beschreibung}}
+                </p>
+            </div>
+            <div class="Aufgaben">
+                <h2>Deine Aufgaben:</h2>
+                <ul>
+                    {% for Aufgabe in item.Aufgaben.split("\n") %}
+                    <li>{{Aufgabe}}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="Anforderungen">
+                <h2>Das solltest du mitbringen:</h2>
+                <ul>
+                    {% for Eigenschaft in item.Eigenschaften.split("\n") %}
+                    <li>{{Eigenschaft}}</li>
+                    {% endfor %}
+                </ul>
+            </div>
 
-        <div class="eigenschaften">
-            <h2>Das solltest du mitbringen:</h2>
-            <ul>
-                {% for Eigenschaft in item.Eigenschaften.split("\n") %}
-                <li>{{Eigenschaft}}</li>
-                {% endfor %}
-            </ul>
-
-        </div>
-
-        <h2>Wir konnten dein Interesse wecken? Dann möchten wir Dich für uns gewinnen! Bewirb dich unter
-            <a href="mailto:hr@b-a-e.eu">hr@b-a-e.eu</a>!
-        </h2>
-
-        <div class="formular">
-            <form method="POST" enctype="multipart/form-data">
-                {{ form.hidden_tag() }}
-                {{ form.name(placeholder="Name*") }} <br><br>
-                {{ form.email(placeholder="Email*") }} <br><br>
-                {{ form.ort() }} <br><br>
-                {{ form.message(rows="5", placeholder="Message") }} <br><br>
-                <div class="fileinput">
-                    <label for="file">
-                        <i><img src="{{ url_for('static', filename='/Icons/pdf.svg') }}" alt="pdf"></i>
-                    </label>
-                    <div>
-                        {{ form.file(accept=".pdf") }}
+            <div id="KarriereFormular" class="Formular">
+                <h3>Wir konnten dein Interesse wecken?</h3>
+                <h2>Dann bewirb dich jetzt bei uns!</h2>
+                <form method="POST" enctype="multipart/form-data">
+                    {{ form.hidden_tag() }}
+                    {{ form.name(placeholder="Name*") }} <br><br>
+                    {{ form.email(placeholder="Email*") }} <br><br>
+                    {{ form.ort() }} <br><br>
+                    {{ form.message(rows="5", placeholder="Message") }} <br><br>
+                    <div class="fileinput">
                         <label for="file">
-                            <p>Lebenslauf hochladen*</p>
+                            <i><img src="{{ url_for('static', filename='/Icons/pdf.svg') }}" alt="pdf"></i>
                         </label>
-                    </div>
-                </div><br>
-                {{ form.recaptcha }} <br>
-                {{ form.submit() }} <br><br>
-            </form>
+                        <div>
+                            {{ form.file(accept=".pdf") }}
+                            <label for="file">
+                                Lebenslauf hochladen*
+                            </label>
+                        </div>
+                    </div><br>
+                    {{ form.submit() }} <br><br>
+                </form>
+            </div>
         </div>
     </div>
-
+    <div id="footerfooter">
+        <p>
+            <a href="/Impressum">Impressum</a> |
+            <a href="/Datenschutz">Datenschutz</a>
+        </p>
+    </div>
     <script>
         const selectElement = document.querySelector('select[name="{{ form.ort.name }}"]');
         selectElement.querySelector('option[value=""]').setAttribute('disabled', 'disabled');
         if (selectElement.value === "") {
             selectElement.style.color = "grey";
+            selectElement.style.fontWeight = "bold";
         }
         selectElement.addEventListener('change', function () {
             if (this.value === '') {
                 this.style.color = "grey";
+                selectElement.style.fontWeight = "bold";
             } else {
                 this.style.color = "black";
+                selectElement.style.fontWeight = "normal";
             }
         });
     </script>
