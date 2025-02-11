@@ -21,10 +21,10 @@ if not os.path.exists(UPLOAD_FOLDER):
 with open(os.path.join(app.root_path, "data", "keys.json"), "r") as file:
     keys = json.load(file)
 
-RECAPTCHA_SITE_KEY = keys["RECAPTCHA_SITE_KEY"]
-RECAPTCHA_SECRET_KEY = keys["RECAPTCHA_SECRET_KEY"]
-app.config["RECAPTCHA_PUBLIC_KEY"] = RECAPTCHA_SITE_KEY
-app.config["RECAPTCHA_PRIVATE_KEY"] = RECAPTCHA_SECRET_KEY
+# RECAPTCHA_SITE_KEY = keys["RECAPTCHA_SITE_KEY"]
+# RECAPTCHA_SECRET_KEY = keys["RECAPTCHA_SECRET_KEY"]
+# app.config["RECAPTCHA_PUBLIC_KEY"] = RECAPTCHA_SITE_KEY
+# app.config["RECAPTCHA_PRIVATE_KEY"] = RECAPTCHA_SECRET_KEY
 
 smtp_email = "it@b-a-e.eu"
 password = keys["password"]
@@ -41,7 +41,7 @@ class Formular(FlaskForm):
     file = FileField(
         "File", validators=[FileRequired(), FileAllowed(["pdf"], "*.pdf only!")]
     )
-    recaptcha = RecaptchaField("reCAPTCHA")
+    # recaptcha = RecaptchaField("reCAPTCHA")
     submit = SubmitField("Absenden")
 
 
@@ -212,7 +212,7 @@ def stelle(Stelle):
             return render_template_(
                 "stelle.html",
                 item=item,
-                recaptcha_site_key=RECAPTCHA_SITE_KEY,
+                # recaptcha_site_key=RECAPTCHA_SITE_KEY,
                 form=form,
             )
 
