@@ -25,9 +25,11 @@
                 <img src="{{ url_for('static', filename='Bilder/Referenzen/'+item.Bild) }}" alt="{{item.Projekt}}">
                 <a href="/Referenzen/{{item.Bild[:-4]}}">
                     <div>
-                        <h1>{{ item.Projekt }}</h1>
-                        <p>{{ item.Gebaeude }}</p>
-                        <p>{{ item.Projektart }}</p>
+                        <h2>{{ item.Projekt }}</h1>
+                        <p>
+                            {{ item.Gebaeude }} <br>
+                            {{ item.Projektart }}
+                        </p>
                     </div>
                 </a>
             </div>
