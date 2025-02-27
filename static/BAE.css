@@ -116,7 +116,7 @@ p {
 #menuBar {
   width: 100%;
   height: 80px;
-  background-color: #ffffffaa;
+  background-color: #ffffffdd;
   text-transform: uppercase;
   font-weight: 600;
   position: fixed;
@@ -215,6 +215,10 @@ p {
   font-weight: bold;
   padding: 1.5% 0;
 
+  p {
+    margin: 0;
+  }
+
   a {
     color: #fff;
   }
@@ -238,27 +242,37 @@ p {
   z-index: -1;
 }
 
-#socialmedia {
-  height: 60px;
-  background-color: #ffffffaa;
-  text-transform: uppercase;
-  font-weight: 600;
+#CPSM {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #ffffffdd;
   position: absolute;
   bottom: 0;
   left: 0;
-  display: flex;
-  align-items: center;
-  padding: 0 40px;
+  padding: 0.5% 5%;
 
-  div {
-    margin: 0 10px;
+  h2 {
+    color: black;
+    margin: 0;
+  }
 
-    a {
-      color: black;
-    }
+  .socialmedia {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
 
-    a:hover {
-      color: #017AC0;
+    div {
+      margin: 0 10px;
+
+      a {
+        color: black;
+      }
+
+      a:hover {
+        color: #017AC0;
+      }
     }
   }
 }
@@ -301,17 +315,33 @@ p {
   .grid {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 2px;
-    background-color: #ccc;
 
-    div {
-      background-color: #eee;
+    .geschaeftsfeld {
       padding: 20px;
 
-      img {
+      div {
+        position: relative;
+        height: 150px;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+
+      div::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
         width: 100%;
-        height: 200px;
-        object-fit: cover;
+        height: 100%;
+        background-color: #017AC055;
+      }
+
+      div:hover::after {
+        background-color: #ffffff55;
       }
 
       h4 {
@@ -344,26 +374,44 @@ p {
       div {
         display: flex;
         flex-direction: column;
-        justify-content: end;
-        padding: 10%;
-        opacity: 0;
+        justify-content: center;
+        padding: 0 10%;
         transition: all 0.25s ease;
         position: absolute;
-        top: 0;
+        top: 85%;
         left: 0;
         background: #017AC0aa;
         width: 100%;
-        height: 100%;
+        height: 15%;
         color: #fff;
 
         h2 {
           color: #fff;
+          margin: 0;
+        }
+
+        h4,
+        p {
+          display: none;
         }
       }
+
     }
 
     .standort:hover div {
-      opacity: 1;
+      justify-content: end;
+      padding: 10%;
+      top: 0;
+      height: 100%;
+
+      h2 {
+        margin: 0 0 2% 0;
+      }
+
+      h4,
+      p {
+        display: block;
+      }
     }
   }
 }
@@ -402,6 +450,11 @@ p {
         height: 100%;
         color: #fff;
         text-transform: uppercase;
+        padding: 5%;
+
+        h4 {
+          margin: 0;
+        }
       }
     }
 
