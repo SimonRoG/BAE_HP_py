@@ -866,11 +866,31 @@ p {
         gap: 1px;
         background-color: #fff;
 
-        div {
+        .benefit {
           background-color: #017AC0;
           padding: 20px;
           text-align: center;
 
+          div {
+            height: 200px;
+            position: relative;
+
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+            }
+          }
+
+          div::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #017AC030;
+          }
         }
       }
 
