@@ -491,13 +491,13 @@ p {
   .GFBild {
     position: sticky;
     top: 0;
-    height: 60vh;
+    height: 50vh;
     z-index: -1;
 
     img {
       position: absolute;
       width: 100%;
-      min-height: 60vh;
+      min-height: 50vh;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
@@ -569,13 +569,13 @@ p {
   .RBild {
     position: sticky;
     top: 0;
-    height: 60vh;
+    height: 50vh;
     z-index: -1;
 
     img {
       position: absolute;
       width: 100%;
-      min-height: 60vh;
+      min-height: 50vh;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
@@ -598,12 +598,12 @@ p {
     background-color: #fff;
     padding: 5% 20% 4% 20%;
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 20px;
 
     .projekt {
       position: relative;
-      height: 400px;
+      height: 300px;
 
       img {
         width: 100%;
@@ -629,6 +629,7 @@ p {
         }
 
         h2 {
+          font-size: 1.8em;
           color: #fff;
         }
       }
@@ -720,13 +721,13 @@ p {
   .KBild {
     position: sticky;
     top: 0;
-    height: 60vh;
+    height: 50vh;
     z-index: -1;
 
     img {
       position: absolute;
       width: 100%;
-      min-height: 60vh;
+      min-height: 50vh;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
@@ -945,13 +946,13 @@ p {
   .SBild {
     position: sticky;
     top: 0;
-    height: 60vh;
+    height: 50vh;
     z-index: -1;
 
     img {
       position: absolute;
       width: 100%;
-      min-height: 60vh;
+      min-height: 50vh;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
@@ -1076,13 +1077,13 @@ p {
   .IDBild {
     position: sticky;
     top: 0;
-    height: 60vh;
+    height: 50vh;
     z-index: -1;
 
     img {
       position: absolute;
       width: 100%;
-      min-height: 60vh;
+      min-height: 50vh;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);

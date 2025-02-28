@@ -21,7 +21,7 @@
             {% set ns = namespace(counter=0) %}
             {% for item in data %}
             {% if item.Bild != '' %}
-            <div id="projekt{{ns.counter}}" class="projekt" style="display: {{'none' if ns.counter >= 6}};">
+            <div id="projekt{{ns.counter}}" class="projekt" style="display: {{'none' if ns.counter >= 9}};">
                 <img src="{{ url_for('static', filename='Bilder/Referenzen/'+item.Bild) }}" alt="{{item.Projekt}}">
                 <a href="/Referenzen/{{item.Bild[:-4]}}">
                     <div>

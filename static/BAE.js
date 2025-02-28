@@ -109,7 +109,7 @@ function show_more() {
     const showMoreButton = document.getElementsByClassName('showmore')[0];
     for (let i = 0; i < projekteArr.length; i++) {
         if (projekteArr[i].style.display === "none") {
-            for (let j = i; j < i + 6; j++) {
+            for (let j = i; j < i + 9 && j < projekteArr.length; j++) {
                 projekteArr[j].style.display = "block";
                 if(j === projekteArr.length - 1)
                     showMoreButton.style.display = "none";
@@ -126,9 +126,9 @@ function show_less() {
     const showMoreButton = document.getElementsByClassName('showmore')[0];
     for (let i = projekteArr.length - 1; i >= 0; i--) {
         if (projekteArr[i].style.display === "block") {
-            for (let j = i; j >= i - (i % 6); j--) {
+            for (let j = i; j >= i - (i % 9); j--) {
                 projekteArr[j].style.display = "none";
-                if (j === 6)
+                if (j === 9)
                     showLessButton.style.display = "none";
             }
             showMoreButton.style.display = "block";
