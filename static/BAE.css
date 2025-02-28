@@ -281,6 +281,7 @@ p {
   background-color: #fff;
   padding: 5% 20%;
   display: flex;
+  position: relative;
 
   .UUBild {
     flex: 40%;
@@ -305,6 +306,30 @@ p {
     p:last-child {
       margin: 0;
     }
+  }
+
+  .raute1 {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    width: 71px;
+    height: 124px;
+  }
+
+  .raute2 {
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    width: 180px;
+    height: 314px;
+  }
+
+  .raute3 {
+    position: absolute;
+    top: 70%;
+    right: -15%;
+    width: 543px;
+    height: 946px;
   }
 }
 
@@ -519,6 +544,7 @@ p {
   .GFText {
     background-color: #fff;
     padding: 5% 20%;
+    position: relative;
 
     .columns {
       font-size: 1.3em;
@@ -562,6 +588,30 @@ p {
         width: 100%;
       }
     }
+
+    .raute1 {
+      position: absolute;
+      top: 90%;
+      left: 15%;
+      width: 71px;
+      height: 124px;
+    }
+
+    .raute2 {
+      position: absolute;
+      top: 60%;
+      left: 5%;
+      width: 180px;
+      height: 314px;
+    }
+
+    .raute3 {
+      position: absolute;
+      top: 10%;
+      right: -10%;
+      width: 543px;
+      height: 946px;
+    }
   }
 }
 
@@ -600,10 +650,12 @@ p {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 20px;
+    position: relative;
 
     .projekt {
       position: relative;
       height: 300px;
+      z-index: 10;
 
       img {
         width: 100%;
@@ -637,6 +689,30 @@ p {
 
     .projekt:hover a {
       opacity: 1;
+    }
+
+    .raute1 {
+      position: absolute;
+      top: 90%;
+      left: 15%;
+      width: 71px;
+      height: 124px;
+    }
+
+    .raute2 {
+      position: absolute;
+      top: 60%;
+      left: 5%;
+      width: 180px;
+      height: 314px;
+    }
+
+    .raute3 {
+      position: absolute;
+      top: 10%;
+      right: 0%;
+      width: 543px;
+      height: 946px;
     }
   }
 
@@ -691,6 +767,7 @@ p {
 
   .PText {
     height: 500px;
+    position: relative;
 
     h1 {
       text-align: start;
@@ -713,6 +790,22 @@ p {
           color: #017AC0;
         }
       }
+    }
+
+    .raute1 {
+      position: absolute;
+      top: 90%;
+      right: 25%;
+      width: 71px;
+      height: 124px;
+    }
+
+    .raute2 {
+      position: absolute;
+      top: 50%;
+      right: 0;
+      width: 180px;
+      height: 314px;
     }
   }
 }
@@ -758,6 +851,7 @@ p {
       background-color: #017AC0;
       padding: 5% 50%;
       margin: 0 -50%;
+      position: relative;
 
       h3,
       h1,
@@ -778,6 +872,30 @@ p {
           text-align: center;
 
         }
+      }
+
+      .raute1 {
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        width: 71px;
+        height: 124px;
+      }
+
+      .raute2 {
+        position: absolute;
+        top: 60%;
+        left: 10%;
+        width: 180px;
+        height: 314px;
+      }
+
+      .raute3 {
+        position: absolute;
+        top: 70%;
+        right: 0%;
+        width: 543px;
+        height: 946px;
       }
     }
   }
@@ -974,6 +1092,7 @@ p {
   .SText {
     background-color: #fff;
     padding: 5% 20% 0 20%;
+    position: relative;
 
     ul {
       font-size: 1.3em;
@@ -1070,6 +1189,30 @@ p {
         }
       }
     }
+
+    .raute1 {
+      position: absolute;
+      top: 25%;
+      left: 15%;
+      width: 71px;
+      height: 124px;
+    }
+
+    .raute2 {
+      position: absolute;
+      top: 40%;
+      left: 5%;
+      width: 180px;
+      height: 314px;
+    }
+
+    .raute3 {
+      position: absolute;
+      top: 50%;
+      right: 0;
+      width: 543px;
+      height: 946px;
+    }
   }
 }
 
@@ -1105,5 +1248,78 @@ p {
   .IDText {
     background-color: #fff;
     padding: 5% 20%;
+    position: relative;
+
+    .raute1 {
+      position: absolute;
+      top: 5%;
+      left: 15%;
+      width: 71px;
+      height: 124px;
+    }
+
+    .raute2 {
+      position: absolute;
+      top: 10%;
+      left: 5%;
+      width: 180px;
+      height: 314px;
+    }
+
+    .raute3 {
+      position: absolute;
+      top: 20%;
+      right: -10%;
+      width: 543px;
+      height: 946px;
+    }
+
+    .raute4 {
+      position: absolute;
+      top: 35%;
+      left: 15%;
+      width: 71px;
+      height: 124px;
+    }
+
+    .raute5 {
+      position: absolute;
+      top: 40%;
+      left: 5%;
+      width: 180px;
+      height: 314px;
+    }
+
+    .raute6 {
+      position: absolute;
+      top: 50%;
+      right: -10%;
+      width: 543px;
+      height: 946px;
+    }
+
+    .raute7 {
+      position: absolute;
+      top: 65%;
+      left: 15%;
+      width: 71px;
+      height: 124px;
+    }
+
+    .raute8 {
+      position: absolute;
+      top: 70%;
+      left: 5%;
+      width: 180px;
+      height: 314px;
+    }
+
+    .raute9 {
+      position: absolute;
+      top: 80%;
+      right: -10%;
+      width: 543px;
+      height: 946px;
+    }
   }
 }
