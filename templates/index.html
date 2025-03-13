@@ -136,122 +136,52 @@
     <div id="standorte">
         <h3>Wo wir sind</h3>
         <h1>Standorte</h1>
-
-        <div class="grid">
-            <div class="standort">
-                <img src="{{ url_for('static', filename='Bilder/Coburg.jpg') }}" alt="Coburg">
-                <div>
-                    <h2>Coburg</h2>
-                    <h4>BAE GmbH (Hauptsitz)</h4>
-                    <p>
-                        Raststraße 20 | 96450 Coburg <br>
-                        office@b-a-e.eu <br>
-                        +49 9561 97 69 983
-                    </p>
+        <div class="normal">
+            <div class="grid">
+                {% for item in standorte %}
+                <div class="standort">
+                    <img src="{{ url_for('static', filename='Bilder/'+item.Bild) }}" alt="Coburg">
+                    <div>
+                        <h2>{{item.Standort}}</h2>
+                        <h4>{{item.Firma}}</h4>
+                        <p>
+                            {{item.Adresse}} <br>
+                            {{item.Email}} <br>
+                            {{item.Telefonnummer}}
+                        </p>
+                    </div>
                 </div>
+                {% endfor %}
             </div>
-
-            <div class="standort">
-                <img src="{{ url_for('static', filename='Bilder/Bamberg.jpg')}}" alt="Bamberg">
-                <div>
-                    <h2>Bamberg</h2>
-                    <h4>BAE GmbH, Niederlassung Bamber</h4>
-                    <p>
-                        Kirschäckerstraße 27 | 96052 Bamberg <br>
-                        office@b-a-e.eu <br>
-                        +49 9561 97 69 983
-                    </p>
+        </div>
+        <div class="mobile">
+            <div class="grid">
+                {% for item in standorte %}
+                <button class="standortbtn" onclick="scrollToS('{{item.Standort}}', this)">{{item.Standort}}</button>
+                {% endfor %}
+            </div>
+            <div class="swipe">
+                <div class="arrow left">
+                    <button onclick="scrollPrev()">&#10094;</button>
                 </div>
-            </div>
-
-            <div class="standort">
-                <img src="{{ url_for('static', filename='Bilder/Deggendorf.jpg')}}" alt="Deggendorf">
-                <div>
-                    <h2>Deggendorf</h2>
-                    <h4>BAE GmbH, Niederlassung Deggendorf</h4>
-                    <p>
-                        Itzlinger Weg 2 | 94469 Deggendorf <br>
-                        office@b-a-e.eu <br>
-                        +49 991 40 22 9830
-                    </p>
+                <div class="scroll" id="scroll">
+                    {% for item in standorte %}
+                    <div class="standort" id="{{ item.Standort }}">
+                        <img src="{{ url_for('static', filename='Bilder/'+item.Bild) }}" alt="Coburg">
+                        <div>
+                            <h2>{{item.Standort}}</h2>
+                        </div>
+                        <h4>{{item.Firma}}</h4>
+                        <p>
+                            {{item.Adresse}} <br>
+                            {{item.Email}} <br>
+                            {{item.Telefonnummer}}
+                        </p>
+                    </div>
+                    {% endfor %}
                 </div>
-            </div>
-
-            <div class="standort">
-                <img src="{{ url_for('static', filename='Bilder/Muenchen.jpg') }}" alt="München">
-                <div>
-                    <h2>München</h2>
-                    <h4>BAE GmbH, Niederlassung München</h4>
-                    <p>
-                        Humboldtstraße 6 | 85609 München <br>
-                        office@b-a-e.eu <br>
-                        +49 89 24 41 85 960
-                    </p>
-                </div>
-            </div>
-
-            <div class="standort">
-                <img src="{{ url_for('static', filename='Bilder/Frankfurt.jpg') }}" alt="Frankfurt">
-                <div>
-                    <h2>Frankfurt am Main</h2>
-                    <h4>BAE Frankfurt GmbH (Hauptsitz)</h4>
-                    <p>
-                        Berner Straße 119 | 60437 Frankfurt am Main <br>
-                        frankfurt@b-a-e.eu <br>
-                        +49 69 945 99 117
-                    </p>
-                </div>
-            </div>
-
-            <div class="standort">
-                <img src="{{ url_for('static', filename='Bilder/Berlin.jpg') }}" alt="Berlin">
-                <div>
-                    <h2>Berlin</h2>
-                    <h4>BAE Frankfurt GmbH, Repräsentanz Berlin</h4>
-                    <p>
-                        10409 Berlin <br>
-                        berlin@b-a-e.eu <br>
-                        +49 69 945 99 117
-                    </p>
-                </div>
-            </div>
-
-            <div class="standort">
-                <img src="{{ url_for('static', filename='Bilder/Stuttgart.jpg') }}" alt="Stuttgart">
-                <div>
-                    <h2>Stuttgart</h2>
-                    <h4>BAE Frankfurt GmbH</h4>
-                    <p>
-                        Hafenbahnstraße 10 | 70327 Stuttgart <br>
-                        stuttgart@b-a-e.eu <br>
-                        +49 69 945 99 117
-                    </p>
-                </div>
-            </div>
-
-            <div class="standort">
-                <img src="{{ url_for('static', filename='Bilder/Sofia.jpg')}}" alt="Sofia">
-                <div>
-                    <h2>Sofia</h2>
-                    <h4>BAE OOD (Hauptsitz)</h4>
-                    <p>
-                        r.c. Mladost 2, bl. 254, ground floor, office 1 | 1799 Sofia <br>
-                        office@b-a-e.bg <br>
-                        +359 893 490 544
-                    </p>
-                </div>
-            </div>
-
-            <div class="standort">
-                <img src="{{ url_for('static', filename='Bilder/Varna.jpg')}}" alt="Varna">
-                <div>
-                    <h2>Varna</h2>
-                    <h4>BAE OOD, Niederlassung Varna</h4>
-                    <p>
-                        Mois Levi Str. 28, fl.4, Office 7 I 9000 Varna<br>
-                        office@b-a-e.bg <br>
-                        +359 893 490 544
-                    </p>
+                <div class="arrow right">
+                    <button onclick="scrollNext()">&#10095;</button>
                 </div>
             </div>
         </div>

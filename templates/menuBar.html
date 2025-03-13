@@ -21,25 +21,58 @@
             Google reCAPTCHA sammelt Daten, die den <a href="https://policies.google.com/privacy" target="_blank">Datenschutzrichtlinien</a> und <a href="https://policies.google.com/terms" target="_blank">Nutzungsbedingungen</a> von Google unterliegen.
         </p> -->
 
-        <div> 
-            <button id="accept-cookies" onclick="accept_cookie(true)"> Akzeptieren </button> 
+        <div>
+            <button id="accept-cookies" onclick="accept_cookie(true)"> Akzeptieren </button>
             <button id="decline-cookies" onclick="accept_cookie(false)"> Ablehnen </button>
         </div>
     </div>
     {% endif %}
 
     <div id="menuBar">
-        <div> 
-            <a href="/" onclick="navigateToHomePage()"> 
-                <img id="logo" src="{{ url_for('static', filename='/Logo/BAE_Group_Logo.png') }}" alt="Logo_BAE_Group"> 
-            </a>
+        <div class="normal">
+            <div>
+                <a href="/" onclick="navigateToHomePage()">
+                    <img id="logo" src="{{ url_for('static', filename='/Logo/BAE_Group_Logo.png') }}" alt="Logo_BAE_Group">
+                </a>
+            </div>
+            <div><a href="/#ueberuns">Über uns</a></div>
+            <div><a href="/#geschaeftsfelder">Geschäftsfelder</a></div>
+            <div><a href="/#standorte">Standorte</a></div>
+            <div><a href="/Referenzen">Referenzen</a></div>
+            <div><a href="/Karriere">Karriere</a></div>
+            <div><a href="/#footer">Kontakt</a></div>
         </div>
-        <div><a href="/#ueberuns">Über uns</a></div>
-        <div><a href="/#geschaeftsfelder">Geschäftsfelder</a></div>
-        <div><a href="/#standorte">Standorte</a></div>
-        <div><a href="/Referenzen">Referenzen</a></div>
-        <div><a href="/Karriere">Karriere</a></div>
-        <div><a href="/#footer">Kontakt</a></div>
+
+        <div class="mobile">
+            <div>
+                <a href="/" onclick="navigateToHomePage()">
+                    <img id="logo" src="{{ url_for('static', filename='/Logo/BAE_Group_Logo.png') }}" alt="Logo_BAE_Group">
+                </a>
+            </div>
+            <div class="menu">
+                <div class="menu-button" id="menu-button">
+                    <button onclick="openCloseMobileMenu()">
+                        <img id="menu-button-img" src="{{ url_for('static', filename='/Icons/menu.svg') }}" alt="">
+                    </button>
+                </div>
+                <div class="dropdown" id="dropdown">
+                    <div><a href="/#ueberuns" onclick="openCloseMobileMenu()">Über uns</a></div>
+                    <div><a href="/#geschaeftsfelder" onclick="openCloseMobileMenu()">Geschäftsfelder</a></div>
+                    <div><a href="/#standorte" onclick="openCloseMobileMenu()">Standorte</a></div>
+                    <div><a href="/Referenzen" onclick="openCloseMobileMenu()">Referenzen</a></div>
+                    <div><a href="/Karriere" onclick="openCloseMobileMenu()">Karriere</a></div>
+                    <div><a href="/#footer" onclick="openCloseMobileMenu()">Kontakt</a></div>
+
+                    <div class="socialmedia">
+                        <div><a href="https://www.linkedin.com/company/baegroup/" target="_blank">linkedin</a></div>
+                        <div><a href="https://www.xing.com/pages/bae-group" target="_blank">xing</a></div>
+                        <div><a href="https://www.facebook.com/profile.php?id=61554842673825" target="_blank">facebook</a></div>
+                        <div><a href="https://www.instagram.com/baegroup.eu/" target="_blank">instagram</a></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
 </body>
 

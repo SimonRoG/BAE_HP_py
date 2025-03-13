@@ -12,12 +12,6 @@ from email.message import EmailMessage
 app = Flask(__name__)
 app.config["SECRET_KEY"] = os.urandom(24)
 
-UPLOAD_FOLDER = "uploads/"
-app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
-
-if not os.path.exists(UPLOAD_FOLDER):
-    os.makedirs(UPLOAD_FOLDER)
-
 with open(os.path.join(app.root_path, "data", "keys.json"), "r") as file:
     keys = json.load(file)
 
@@ -86,6 +80,13 @@ def language(html):
 
 
 with open(
+    os.path.join(app.root_path, "data", "Standorte.json"),
+    "r",
+    encoding="utf-8-sig",
+) as file:
+    Standorte = json.load(file)
+
+with open(
     os.path.join(app.root_path, "data", "Referenzen.json"),
     "r",
     encoding="utf-8-sig",
@@ -117,7 +118,11 @@ with open(
 def render_template_(html, **context):
     consent = request.cookies.get("cookie_consent")
     return render_template(
-        language(html), menu_bar=language("menuBar.html"), footer=language("footer.html"), consent=consent, **context
+        language(html),
+        menu_bar=language("menuBar.html"),
+        footer=language("footer.html"),
+        consent=consent,
+        **context,
     )
 
 
@@ -126,14 +131,15 @@ def render_template_(html, **context):
 def index():
     route = request.path
     data = Referenzen_en if "/en/" in route else Referenzen
+    standorte = Standorte
     if "/en/" in route:
         if request.cookies.get("language") == "de":
             return redirect("/")
     else:
         if request.cookies.get("language") == "en":
             return redirect("/en/")
-        
-    return render_template_("index.html", data=data)
+
+    return render_template_("index.html", data=data, standorte=standorte)
 
 
 @app.route("/Impressum")
@@ -245,11 +251,11 @@ def set_cookie(value):
         response.set_cookie("cookie_consent", str(value), max_age=60 * 60 * 24 * 365)
     else:
         response.set_cookie("cookie_consent", str(value))
-    
+
     return response
 
 
-@app.route('/set_language/<lang>', methods=['POST'])
+@app.route("/set_language/<lang>", methods=["POST"])
 def set_language(lang):
     if lang == "en":
         response = make_response(redirect("/en/"))
@@ -258,8 +264,7 @@ def set_language(lang):
     else:
         response = make_response(redirect("/"))
         return response
-    
+
     if strtobool(request.cookies.get("cookie_consent")):
         response.set_cookie("language", lang, max_age=60 * 60 * 24 * 365)
     return response
-

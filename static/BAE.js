@@ -65,18 +65,20 @@ document.addEventListener("DOMContentLoaded", function () {
     })
 });
 
-function closeMobileMenu() {
-    document.getElementById("mobileMenu").classList.remove('down');
-    setTimeout(() => {
-        document.getElementById("mobileMenu").style.display = "none";
-    }, 700);
-}
-
-function openMobileMenu() {
-    document.getElementById("mobileMenu").style.display = "block";
-    setTimeout(() => {
-        document.getElementById("mobileMenu").classList.add('down');
-    }, 50);
+function openCloseMobileMenu() {
+    if (document.getElementById("dropdown").style.display === "none") {
+        document.getElementById("dropdown").style.display = "block";
+        setTimeout(() => { document.getElementById("dropdown").style.opacity = 1; }, 50);
+        var img = document.getElementById("menu-button-img");
+        img.src = "/static/Icons/close.svg";
+    } else {
+        document.getElementById("dropdown").style.opacity = 0;
+        setTimeout(() => {
+            document.getElementById("dropdown").style.display = "none";
+        }, 100);
+        var img = document.getElementById("menu-button-img");
+        img.src = "/static/Icons/menu.svg";
+    }
 }
 
 function popup(img) {
@@ -111,7 +113,7 @@ function show_more() {
         if (projekteArr[i].style.display === "none") {
             for (let j = i; j < i + 6 && j < projekteArr.length; j++) {
                 projekteArr[j].style.display = "block";
-                if(j === projekteArr.length - 1)
+                if (j === projekteArr.length - 1)
                     showMoreButton.style.display = "none";
             }
             showLessButton.style.display = "block";
@@ -155,4 +157,20 @@ function set_language(lang) {
 function destroy(button) {
     const div = button.parentElement;
     div.remove();
+}
+
+function scrollPrev() {
+    const scroll = document.getElementById("scroll");
+    scroll.scrollBy({ left: -50 });
+}
+
+function scrollNext() {
+    const scroll = document.getElementById("scroll");
+    scroll.scrollBy({ left: 50 });
+}
+
+function scrollToS(Standort, button) {
+    document.getElementById(Standort).scrollIntoView({ block: 'center' });
+    document.querySelectorAll('.standortbtn').forEach(btn => btn.classList.remove('selected'));
+    button.classList.add('selected');
 }
