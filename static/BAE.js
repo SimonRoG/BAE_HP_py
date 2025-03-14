@@ -161,12 +161,16 @@ function destroy(button) {
 
 function scrollPrev() {
     const scroll = document.getElementById("scroll");
-    scroll.scrollBy({ left: -50 });
+    let width = window.getComputedStyle(scroll).width;
+    console.log(width);
+    scroll.scrollBy({ left: -parseFloat(width) });
 }
 
 function scrollNext() {
     const scroll = document.getElementById("scroll");
-    scroll.scrollBy({ left: 50 });
+    let width = window.getComputedStyle(scroll).width;
+    console.log(width);
+    scroll.scrollBy({ left: parseFloat(width) });
 }
 
 function scrollToS(Standort, button) {

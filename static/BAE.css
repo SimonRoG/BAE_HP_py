@@ -59,6 +59,8 @@ p {
   margin: 0 0 1em 0;
   position: relative;
   z-index: 10;
+  word-break: break-word;
+  hyphens: auto;
 }
 
 #cookie-banner {
@@ -1710,17 +1712,20 @@ p {
   }
 
   #CPSM {
-    bottom: 50vh;
-
-    .socialmedia {
-      display: none;
-    }
+    display: none;
   }
 
   #ueberuns {
     flex-direction: column-reverse;
 
     .UUText {
+      padding: 0;
+
+      h3,
+      h1 {
+        text-align: center;
+      }
+
       p:last-child {
         margin: 0 0 1em 0;
       }
