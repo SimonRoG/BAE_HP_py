@@ -17,7 +17,7 @@
             <a href="https://www.instagram.com/baegroup.eu/" target="_blank">Instagram</a>
         </div>
         <div class="form">
-            <form method="GET" enctype="multipart/form-data">
+            <form method="POST" enctype="multipart/form-data">
                 {{ contactform.hidden_tag() }}
                 {{ contactform.name(placeholder="Name*") }} <br><br>
                 {{ contactform.email(placeholder="Email*") }} <br><br>
