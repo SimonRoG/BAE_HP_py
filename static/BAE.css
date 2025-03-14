@@ -1922,6 +1922,8 @@ p {
 
   #ImpressumDatenschutz {
     .IDText {
+      padding: 5%;
+
       h1 {
         font-size: 2em;
       }
