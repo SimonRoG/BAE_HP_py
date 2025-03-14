@@ -333,7 +333,7 @@ p {
   top: 0;
   left: 0;
   padding: 0.5% 5%;
-  transform: translateY(-100%);
+  transform: translateY(-99%);
 
   h2 {
     color: black;
