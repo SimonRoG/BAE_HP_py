@@ -198,7 +198,7 @@ p {
         top: 80px;
         left: 0;
         width: 100%;
-        background-color: #017AC0;
+        background-color: #017AC0dd;
         text-align: center;
         z-index: 10;
 
@@ -211,8 +211,12 @@ p {
         }
 
         .socialmedia {
-          background-color: #01609C;
+          background-color: #01609Caa;
           display: flex;
+
+          div {
+            padding: 1em 0;
+          }
         }
       }
     }
@@ -712,6 +716,7 @@ p {
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
+      object-fit: cover;
     }
 
     h1 {
@@ -745,8 +750,8 @@ p {
 
     .overview {
       background-color: #eee;
-      margin: -3% -50% -10% -50%;
-      padding: 5% 50% 10% 50%;
+      margin: -3% -12.5% -10% -12.5%;
+      padding: 5% 12.5% 10% 12.5%;
     }
 
     .list {
@@ -815,6 +820,7 @@ p {
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
+      object-fit: cover;
     }
 
     h1 {
@@ -1016,6 +1022,7 @@ p {
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
+      object-fit: cover;
     }
 
     h1 {
@@ -1041,8 +1048,8 @@ p {
 
     .Benefits {
       background-color: #017AC0;
-      padding: 5% 50%;
-      margin: 0 -50%;
+      padding: 5% 12.5%;
+      margin: 0 -12.5%;
       position: relative;
 
       h3,
@@ -1199,6 +1206,7 @@ p {
         .SButton {
           grid-area: link;
           text-align: center;
+          padding: 10px 0;
 
           a {
             padding: 10px;
@@ -1293,6 +1301,7 @@ p {
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
+      object-fit: cover;
     }
 
     h1 {
@@ -1334,8 +1343,8 @@ p {
     .Anforderungen,
     .Formular {
       background-color: #eee;
-      padding: 5% 50%;
-      margin: 0 -50%;
+      padding: 5% 12.5%;
+      margin: 0 -12.5%;
     }
 
     .Formular {
@@ -1451,6 +1460,7 @@ p {
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
+      object-fit: cover;
     }
 
     h1 {
@@ -1616,6 +1626,8 @@ p {
 
   #Geschaeftsfeld {
     .GFText {
+      padding: 5% 10%;
+
       .columns {
         column-count: 1;
       }
@@ -1764,6 +1776,164 @@ p {
 
       h2 {
         font-size: 1.5em;
+      }
+    }
+  }
+
+  #Geschaeftsfeld {
+    .GFBild {
+      h1 {
+        font-size: 2em;
+      }
+    }
+
+    .GFText {
+      .raute3 {
+        display: none;
+      }
+    }
+  }
+
+  #Referenzen {
+    .RBild {
+      h1 {
+        font-size: 2em;
+      }
+    }
+
+    .RProjekte {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+  }
+
+  #Projekt {
+    .PBild {
+      img {
+        height: 300px;
+      }
+    }
+
+    .PText {
+      h1 {
+        font-size: 2em;
+      }
+    }
+  }
+
+  #Karriere {
+    .KBild {
+      h1 {
+        font-size: 2em;
+      }
+    }
+
+    .KText {
+      h1 {
+        font-size: 2em;
+      }
+
+      .Benefits {
+        .grid {
+          grid-template-columns: repeat(1, minmax(0, 1fr));
+          background-color: transparent;
+
+          .benefit {
+            padding: 0.5em 0;
+            text-align: start;
+
+            div {
+              height: 160px;
+            }
+
+            h4 {
+              margin: 0.5em 0;
+            }
+
+            br {
+              display: none;
+            }
+          }
+        }
+
+        .raute1,
+        .raute2 {
+          display: none;
+        }
+      }
+    }
+
+    .KStellen {
+      h1 {
+        font-size: 2em;
+      }
+
+      .filter {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        gap: 15px;
+
+        div {
+          label {
+            margin: 0 0 0.3em 0;
+          }
+        }
+      }
+
+      .Stellen {
+        .stellenanzeige {
+          grid-template: "standort" "name" "link";
+
+          .SButton {
+            text-align: start;
+          }
+        }
+      }
+    }
+  }
+
+  #Stelle {
+    .SBild {
+      h1 {
+        font-size: 2em;
+      }
+    }
+
+    .SText {
+      .Titel {
+        h1 {
+          font-size: 2em;
+        }
+
+        p {
+          padding: 0;
+        }
+      }
+
+      .raute3 {
+        display: none;
+      }
+
+      .Formular {
+        form {
+          padding: 0;
+        }
+      }
+    }
+  }
+
+  #ImpressumDatenschutz {
+    .IDText {
+      h1 {
+        font-size: 2em;
+      }
+
+      h2 {
+        font-size: 1.5em;
+      }
+
+      .raute3,
+      .raute6,
+      .raute9 {
+        display: none;
       }
     }
   }

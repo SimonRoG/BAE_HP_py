@@ -1,42 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    var loadingPage = document.getElementById("loadingPage");
-    var loadingLogoContainer = document.getElementById("loadingLogoContainer");
-    var startPage = document.getElementById("startPage");
-    var videoContainer = document.querySelector(".Hauptseite");
     var videoBackground = document.getElementById("video-background");
-    var loadingSpinner = document.getElementById("loadingSpinner");
-
-    function showLogoAndText() {
-        if (loadingLogoContainer) {
-            loadingLogoContainer.style.opacity = 1;
-        }
-
-        setTimeout(function () {
-            if (loadingSpinner) {
-                loadingSpinner.style.display = "block";
-            }
-            if (document.body) {
-                document.body.classList.remove("loading");
-            }
-        }, 50);
-    }
-
-    showLogoAndText();
-
-    function setupPageTransition() {
-        if (loadingSpinner) {
-            loadingSpinner.style.display = "none";
-        }
-        if (loadingPage) {
-            loadingPage.style.display = "none";
-        }
-        if (startPage) {
-            startPage.style.display = "none";
-        }
-        if (videoContainer) {
-            videoContainer.style.display = "block";
-        }
-    }
 
     if (document.body.id === "home-page") {
         videoBackground.addEventListener('canplay', function () {
@@ -162,15 +125,13 @@ function destroy(button) {
 function scrollPrev() {
     const scroll = document.getElementById("scroll");
     let width = window.getComputedStyle(scroll).width;
-    console.log(width);
-    scroll.scrollBy({ left: -parseFloat(width) });
+    scroll.scrollBy({ left: -(parseFloat(width) + 20) });
 }
 
 function scrollNext() {
     const scroll = document.getElementById("scroll");
     let width = window.getComputedStyle(scroll).width;
-    console.log(width);
-    scroll.scrollBy({ left: parseFloat(width) });
+    scroll.scrollBy({ left: parseFloat(width) + 20 });
 }
 
 function scrollToS(Standort, button) {
