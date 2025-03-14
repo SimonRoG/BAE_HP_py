@@ -750,8 +750,8 @@ p {
 
     .overview {
       background-color: #eee;
-      margin: -3% -12.5% -10% -12.5%;
-      padding: 5% 12.5% 10% 12.5%;
+      margin: -3% -50% -10% -50%;
+      padding: 5% 50% 10% 50%;
     }
 
     .list {
@@ -1048,8 +1048,8 @@ p {
 
     .Benefits {
       background-color: #017AC0;
-      padding: 5% 12.5%;
-      margin: 0 -12.5%;
+      padding: 5% 50%;
+      margin: 0 -50%;
       position: relative;
 
       h3,
@@ -1343,8 +1343,8 @@ p {
     .Anforderungen,
     .Formular {
       background-color: #eee;
-      padding: 5% 12.5%;
-      margin: 0 -12.5%;
+      padding: 5% 50%;
+      margin: 0 -50%;
     }
 
     .Formular {
@@ -1628,6 +1628,11 @@ p {
     .GFText {
       padding: 5% 10%;
 
+      .overview {
+        margin: -3% -12.5% -10% -12.5%;
+        padding: 5% 12.5% 10% 12.5%;
+      }
+
       .columns {
         column-count: 1;
       }
@@ -1660,12 +1665,15 @@ p {
       padding: 5% 10%;
 
       .Benefits {
+        padding: 5% 12.5%;
+        margin: 0 -12.5%;
+
         .grid {
           grid-template-columns: repeat(2, minmax(0, 1fr));
         }
 
         .raute2 {
-          left: 6%;
+          display: none;
         }
 
         .raute3 {
@@ -1682,6 +1690,14 @@ p {
   #Stelle {
     .SText {
       padding: 5% 10% 0 10%;
+
+      .Aufgaben,
+      .Anforderungen,
+      .Formular {
+        background-color: #eee;
+        padding: 5% 12.5%;
+        margin: 0 -12.5%;
+      }
 
       .Formular {
         form {

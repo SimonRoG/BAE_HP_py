@@ -17,11 +17,12 @@
             <a href="https://www.instagram.com/baegroup.eu/" target="_blank">Instagram</a>
         </div>
         <div class="form">
-            <form method="POST">
-                <input id="name" name="name" placeholder="Name*" required="" type="text" value=""> <br><br>
-                <input id="email" name="email" placeholder="Email*" required="" type="email" value=""> <br><br>
-                <textarea id="message" name="message" placeholder="Message" rows="5"></textarea> <br><br>
-                <input id="submit" name="submit" type="submit" value="Absenden"> <br><br>
+            <form method="GET" enctype="multipart/form-data">
+                {{ contactform.hidden_tag() }}
+                {{ contactform.name(placeholder="Name*") }} <br><br>
+                {{ contactform.email(placeholder="Email*") }} <br><br>
+                {{ contactform.message(rows="5", placeholder="Message") }} <br><br>
+                {{ contactform.submit() }} <br><br>
             </form>
         </div>
     </div>

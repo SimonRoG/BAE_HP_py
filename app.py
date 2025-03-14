@@ -22,10 +22,9 @@ with open(os.path.join(app.root_path, "data", "keys.json"), "r") as file:
 
 smtp_email = "it@b-a-e.eu"
 password = keys["password"]
-hr_email = "it@b-a-e.eu"
 
 
-class Formular(FlaskForm):
+class KarriereFormular(FlaskForm):
     name = StringField("Name", validators=[DataRequired()])
     email = EmailField("Email", validators=[DataRequired()])
     ort = SelectField(
@@ -39,7 +38,14 @@ class Formular(FlaskForm):
     submit = SubmitField("Absenden")
 
 
-def send_email(form, Stelle):
+class KontaktFormular(FlaskForm):
+    name = StringField("Name", validators=[DataRequired()])
+    email = EmailField("Email", validators=[DataRequired()])
+    message = TextAreaField("Message")
+    submit = SubmitField("Absenden")
+
+
+def send_email_karriere(form, Stelle):
     Name = form.name.data
     Email = form.email.data
     Standort = form.ort.data
@@ -50,7 +56,7 @@ def send_email(form, Stelle):
 
     message = EmailMessage()
     message["From"] = smtp_email
-    message["To"] = hr_email
+    message["To"] = "hr@b-a-e.eu"
     message["Subject"] = "Bewerbung " + Stelle
     message.set_content(body)
 
@@ -71,6 +77,32 @@ def send_email(form, Stelle):
         flash("Application has been sent and is being processed.", "success")
     else:
         flash("Bewerbung wurde geschickt und wird bearbeitet.", "success")
+
+
+def send_email_kontakt(form):
+    Name = form.name.data
+    Email = form.email.data
+    Message = form.message.data
+
+    body = f"Name: {Name}\nEmail: {Email}\nMessage: \n{Message}\n"
+
+    message = EmailMessage()
+    message["From"] = smtp_email
+    message["To"] = "office@b-a-e.eu"
+    message["Subject"] = "Kontaktformular Webseite"
+    message.set_content(body)
+
+    with smtplib.SMTP("smtp.office365.com", 587) as server:
+        server.starttls()
+        server.login(smtp_email, password)
+        server.send_message(message)
+
+    route = request.path
+
+    if "/en/" in route:
+        flash("Contact form has been sent and is being processed.", "success")
+    else:
+        flash("Kontaktformular wurde geschickt und wird bearbeitet.", "success")
 
 
 def language(html):
@@ -117,17 +149,30 @@ with open(
 
 def render_template_(html, **context):
     consent = request.cookies.get("cookie_consent")
+    contactform = KontaktFormular()
+
+    if contactform.validate_on_submit():
+        send_email_kontakt(contactform)
+        return redirect("/")
+    else:
+        if str(contactform.errors)[1:-1] != "":
+            flash("Beim Senden sind Fehler aufgetreten", "danger")
+            flash("Schicken Sie eine E-Mail auf hr@b-a-e.eu", "danger")
+            print(contactform.errors)
+            return redirect("/")
+
     return render_template(
         language(html),
         menu_bar=language("menuBar.html"),
         footer=language("footer.html"),
         consent=consent,
+        contactform=contactform,
         **context,
     )
 
 
-@app.route("/")
-@app.route("/en/")
+@app.route("/", methods=["GET", "POST"])
+@app.route("/en/", methods=["GET", "POST"])
 def index():
     route = request.path
     data = Referenzen_en if "/en/" in route else Referenzen
@@ -142,14 +187,14 @@ def index():
     return render_template_("index.html", data=data, standorte=standorte)
 
 
-@app.route("/Impressum")
-@app.route("/en/Impressum")
+@app.route("/Impressum", methods=["GET", "POST"])
+@app.route("/en/Impressum", methods=["GET", "POST"])
 def impressum():
     return render_template_("impressum.html")
 
 
-@app.route("/Datenschutz")
-@app.route("/en/Datenschutz")
+@app.route("/Datenschutz", methods=["GET", "POST"])
+@app.route("/en/Datenschutz", methods=["GET", "POST"])
 def datenschutz():
     return render_template_("datenschutz.html")
 
@@ -159,8 +204,8 @@ def format_number(value):
     return f"{int(value):_}".replace("_", " ")
 
 
-@app.route("/Referenzen")
-@app.route("/en/Referenzen")
+@app.route("/Referenzen", methods=["GET", "POST"])
+@app.route("/en/Referenzen", methods=["GET", "POST"])
 def referenzen():
     route = request.path
     data = Referenzen_en if "/en/" in route else Referenzen
@@ -168,8 +213,8 @@ def referenzen():
     return render_template_("referenzen.html", data=data)
 
 
-@app.route("/Referenzen/<Projekt>")
-@app.route("/en/Referenzen/<Projekt>")
+@app.route("/Referenzen/<Projekt>", methods=["GET", "POST"])
+@app.route("/en/Referenzen/<Projekt>", methods=["GET", "POST"])
 def projekt(Projekt):
     route = request.path
     data = Referenzen_en if "/en/" in route else Referenzen
@@ -179,8 +224,8 @@ def projekt(Projekt):
             return render_template_("projekt.html", item=item)
 
 
-@app.route("/Karriere")
-@app.route("/en/Karriere")
+@app.route("/Karriere", methods=["GET", "POST"])
+@app.route("/en/Karriere", methods=["GET", "POST"])
 def karriere():
     route = request.path
     data = Stellenanzeigen_en if "/en/" in route else Stellenanzeigen
@@ -194,7 +239,7 @@ def stelle(Stelle):
     route = request.path
     data = Stellenanzeigen_en if "/en/" in route else Stellenanzeigen
 
-    form = Formular()
+    form = KarriereFormular()
 
     for item in data:
         if item["Name"][:-7] == Stelle:
@@ -202,7 +247,7 @@ def stelle(Stelle):
                 form.ort.choices.append((Standort, Standort))
 
             if form.validate_on_submit():
-                send_email(form, Stelle)
+                send_email_karriere(form, Stelle)
                 return redirect("/en/Karriere" if "/en/" in route else "/Karriere")
             else:
                 if str(form.errors)[1:-1] != "":
@@ -223,8 +268,8 @@ def stelle(Stelle):
             )
 
 
-@app.route("/Geschaeftsfelder/<Geschaeftsfeld>")
-@app.route("/en/Geschaeftsfelder/<Geschaeftsfeld>")
+@app.route("/Geschaeftsfelder/<Geschaeftsfeld>", methods=["GET", "POST"])
+@app.route("/en/Geschaeftsfelder/<Geschaeftsfeld>", methods=["GET", "POST"])
 def geschaeftsfelder(Geschaeftsfeld):
     return render_template_(f"Geschaeftsfelder/{Geschaeftsfeld}.html")
 

@@ -1,17 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     var videoBackground = document.getElementById("video-background");
 
-    if (document.body.id === "home-page") {
-        videoBackground.addEventListener('canplay', function () {
-            setupPageTransition();
-            videoBackground.addEventListener('canplaythrough', function () {
-                videoBackground.play();
-            });
-        });
-    } else {
-        setupPageTransition();
-    }
-
     window.addEventListener("scroll", function () {
         if (window.scrollY >= 800) {
             videoBackground.pause();
