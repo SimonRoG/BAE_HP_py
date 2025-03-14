@@ -330,9 +330,10 @@ p {
   width: 100%;
   background-color: #ffffffdd;
   position: absolute;
-  bottom: 0;
+  top: 0;
   left: 0;
   padding: 0.5% 5%;
+  transform: translateY(-100%);
 
   h2 {
     color: black;
@@ -1559,7 +1560,7 @@ p {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
   #menuBar {
     padding: 0 5%;
   }
@@ -1719,7 +1720,7 @@ p {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
   #menuBar {
     .normal {
       display: none;
