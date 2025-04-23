@@ -15,10 +15,10 @@ app.config["SECRET_KEY"] = os.urandom(24)
 with open(os.path.join(app.root_path, "data", "keys.json"), "r") as file:
     keys = json.load(file)
 
-# RECAPTCHA_SITE_KEY = keys["RECAPTCHA_SITE_KEY"]
-# RECAPTCHA_SECRET_KEY = keys["RECAPTCHA_SECRET_KEY"]
-# app.config["RECAPTCHA_PUBLIC_KEY"] = RECAPTCHA_SITE_KEY
-# app.config["RECAPTCHA_PRIVATE_KEY"] = RECAPTCHA_SECRET_KEY
+RECAPTCHA_SITE_KEY = keys["RECAPTCHA_SITE_KEY"]
+RECAPTCHA_SECRET_KEY = keys["RECAPTCHA_SECRET_KEY"]
+app.config["RECAPTCHA_PUBLIC_KEY"] = RECAPTCHA_SITE_KEY
+app.config["RECAPTCHA_PRIVATE_KEY"] = RECAPTCHA_SECRET_KEY
 
 smtp_email = "it@b-a-e.eu"
 password = keys["password"]
@@ -34,7 +34,7 @@ class KarriereFormular(FlaskForm):
     file = FileField(
         "File", validators=[FileRequired(), FileAllowed(["pdf"], "*.pdf only!")]
     )
-    # recaptcha = RecaptchaField("reCAPTCHA")
+    recaptcha = RecaptchaField("reCAPTCHA")
     submit = SubmitField("Absenden")
 
 
@@ -42,6 +42,7 @@ class KontaktFormular(FlaskForm):
     name = StringField("Name", validators=[DataRequired()])
     email = EmailField("Email", validators=[DataRequired()])
     message = TextAreaField("Message")
+    recaptcha = RecaptchaField("reCAPTCHA")
     submit = SubmitField("Absenden")
 
 

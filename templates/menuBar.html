@@ -3,31 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
+    <script id="usercentrics-cmp" src="https://web.cmp.usercentrics.eu/ui/loader.js" data-settings-id="x6pVsP54zrr0im" async></script>
 </head>
 
 <body>
-    {% if not consent %}
-    <div id="cookie-banner">
-        <div class="logo">
-            <img src="{{ url_for('static', filename='/Logo/BAE_Group_Logo.png') }}" alt="Logo_BAE_Group">
-        </div>
-        <p>
-            Diese Website verwendet Cookies und ähnliche Technologien, Ihr Surferlebnis zu verbessern und Ihnen personalisierte Empfehlungen zu geben <!--, einschließlich Google reCAPTCHA, um den Schutz gegen Spam zu gewährleisten-->.
-        </p>
-        <p>
-            Durch die weitere Nutzung unserer Website erklären Sie sich mit unserer <a href="/Datenschutz">Datenschutz-Richtlinie</a> und den oben genannten Richtlinien einverstanden.
-        </p>
-        <!-- <p>
-            Google reCAPTCHA sammelt Daten, die den <a href="https://policies.google.com/privacy" target="_blank">Datenschutzrichtlinien</a> und <a href="https://policies.google.com/terms" target="_blank">Nutzungsbedingungen</a> von Google unterliegen.
-        </p> -->
-
-        <div>
-            <button id="accept-cookies" onclick="accept_cookie(true)"> Akzeptieren </button>
-            <button id="decline-cookies" onclick="accept_cookie(false)"> Ablehnen </button>
-        </div>
-    </div>
-    {% endif %}
-
     <div id="menuBar">
         <div class="normal">
             <div>
