@@ -27,13 +27,38 @@ password = keys["password"]
 class KarriereFormular(FlaskForm):
     name = StringField("Name", validators=[DataRequired()])
     email = EmailField("Email", validators=[DataRequired()])
+    telephone = StringField("Telefonnummer", validators=[DataRequired()])
     ort = SelectField(
-        "Standort", choices=[("", "Standort*")], validators=[DataRequired()]
+        "Standort", 
+        choices=[("", "Standort*")], 
+        validators=[DataRequired()]
     )
+    erfahrungTyp = SelectField(
+        "Berufserfahrung",
+        choices=[
+            (
+                "Berufserfahrung*",
+                "Ja, innerhalb von Deutschland",
+                "Ja, außerhalb von Deutschland",
+                "Nein",
+            )
+        ],
+        validators=[DataRequired()]
+    )
+    erfahrung = SelectField(
+        "Berufserfahrung",
+        choices=[
+            (
+                "Berufserfahrung*",
+                "Weniger als 3 Jahre",
+                "Mehr als 3 Jahre",
+                "Über 10 Jahre",
+            )             
+        ],
+        validators=[DataRequired()]
+
     message = TextAreaField("Message")
-    file = FileField(
-        "File", validators=[FileRequired(), FileAllowed(["pdf"], "*.pdf only!")]
-    )
+    file = FileField("File", validators=[FileAllowed(["pdf"], "*.pdf only!")])
     recaptcha = RecaptchaField("reCAPTCHA")
     submit = SubmitField("Absenden")
 
