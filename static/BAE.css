@@ -1365,6 +1365,7 @@ p {
           width: 100%;
           padding: 10px;
           border: none;
+          background-color: #fff;
         }
 
         input::placeholder,
@@ -1395,6 +1396,7 @@ p {
           align-items: center;
 
           input {
+            background-color: transparent;
             cursor: pointer;
             padding: 0 0 10px 0;
             font-size: 1.2em;

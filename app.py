@@ -5,7 +5,7 @@ from distutils.util import strtobool
 from flask_wtf import FlaskForm, RecaptchaField
 from flask_wtf.file import FileField, FileAllowed, FileRequired
 from wtforms import StringField, EmailField, TextAreaField, SelectField, SubmitField
-from wtforms.validators import DataRequired
+from wtforms.validators import DataRequired, Regexp
 import smtplib
 from email.message import EmailMessage
 
@@ -27,36 +27,46 @@ password = keys["password"]
 class KarriereFormular(FlaskForm):
     name = StringField("Name", validators=[DataRequired()])
     email = EmailField("Email", validators=[DataRequired()])
-    telephone = StringField("Telefonnummer", validators=[DataRequired()])
+    telefon = StringField(
+        "Telefonnummer",
+        validators=[
+            DataRequired(),
+            Regexp(r"^\+?[0-9\s]{7,15}$", message="Invalid phone number."),
+        ],
+    )
     ort = SelectField(
-        "Standort", 
-        choices=[("", "Standort*")], 
-        validators=[DataRequired()]
+        "Standort", choices=[("", "Standort*")], validators=[DataRequired()]
     )
     erfahrungTyp = SelectField(
         "Berufserfahrung",
         choices=[
-            (
-                "Berufserfahrung*",
-                "Ja, innerhalb von Deutschland",
-                "Ja, außerhalb von Deutschland",
-                "Nein",
-            )
+            ("", "Berufserfahrung*"),
+            ("Ja, innerhalb von Deutschland", "Ja, innerhalb von Deutschland"),
+            ("Ja, außerhalb von Deutschland", "Ja, außerhalb von Deutschland"),
+            ("Nein", "Nein"),
         ],
-        validators=[DataRequired()]
+        validators=[DataRequired()],
     )
     erfahrung = SelectField(
         "Berufserfahrung",
         choices=[
-            (
-                "Berufserfahrung*",
-                "Weniger als 3 Jahre",
-                "Mehr als 3 Jahre",
-                "Über 10 Jahre",
-            )             
+            ("", "Berufserfahrung*"),
+            ("Weniger als 3 Jahre", "Weniger als 3 Jahre"),
+            ("Mehr als 3 Jahre", "Mehr als 3 Jahre"),
+            ("Über 10 Jahre", "Über 10 Jahre"),
         ],
-        validators=[DataRequired()]
-
+        validators=[DataRequired()],
+    )
+    deutsch = SelectField(
+        "Deutschkenntnisse",
+        choices=[
+            ("", "Deutschkenntnisse*"),
+            ("B1", "B1"),
+            ("B2 bis C1", "B2 bis C1"),
+            ("Muttersprache", "Muttersprache"),
+        ],
+        validators=[DataRequired()],
+    )
     message = TextAreaField("Message")
     file = FileField("File", validators=[FileAllowed(["pdf"], "*.pdf only!")])
     recaptcha = RecaptchaField("reCAPTCHA")

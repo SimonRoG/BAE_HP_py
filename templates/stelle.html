@@ -50,7 +50,11 @@
                     {{ form.hidden_tag() }}
                     {{ form.name(placeholder="Name*") }} <br><br>
                     {{ form.email(placeholder="Email*") }} <br><br>
+                    {{ form.telefon(placeholder="Telefonnummer*") }} <br><br>
                     {{ form.ort() }} <br><br>
+                    {{ form.erfahrungTyp() }} <br><br>
+                    {{ form.erfahrung() }} <br><br>
+                    {{ form.deutsch() }} <br><br>
                     {{ form.message(rows="5", placeholder="Message") }} <br><br>
                     <div class="fileinput">
                         <label for="file">
@@ -67,7 +71,7 @@
                     {{ form.submit() }} <br><br>
                 </form>
             </div>
-            
+
             <img class="raute1" src="{{ url_for('static', filename='Icons/Raute.svg') }}">
             <img class="raute2" src="{{ url_for('static', filename='Icons/Raute.svg') }}">
             <img class="raute3" src="{{ url_for('static', filename='Icons/Raute.svg') }}">
@@ -80,20 +84,25 @@
         </p>
     </div>
     <script>
-        const selectElement = document.querySelector('select[name="{{ form.ort.name }}"]');
-        selectElement.querySelector('option[value=""]').setAttribute('disabled', 'disabled');
-        if (selectElement.value === "") {
-            selectElement.style.color = "grey";
-            selectElement.style.fontWeight = "bold";
-        }
-        selectElement.addEventListener('change', function () {
-            if (this.value === '') {
-                this.style.color = "grey";
-                selectElement.style.fontWeight = "bold";
-            } else {
-                this.style.color = "black";
-                selectElement.style.fontWeight = "normal";
+        document.querySelectorAll('select').forEach(function (selectElement) {
+            const emptyOption = selectElement.querySelector('option[value=""]');
+            if (emptyOption) {
+                emptyOption.setAttribute('disabled', 'disabled');
             }
+
+            if (selectElement.value === "") {
+                selectElement.style.color = "grey";
+                selectElement.style.fontWeight = "bold";
+            }
+            selectElement.addEventListener('change', function () {
+                if (this.value === '') {
+                    this.style.color = "grey";
+                    this.style.fontWeight = "bold";
+                } else {
+                    this.style.color = "black";
+                    this.style.fontWeight = "normal";
+                }
+            });
         });
     </script>
 </body>
