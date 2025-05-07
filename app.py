@@ -84,11 +84,15 @@ class KontaktFormular(FlaskForm):
 def send_email_karriere(form, Stelle):
     Name = form.name.data
     Email = form.email.data
+    Telefon = form.telefon.data
     Standort = form.ort.data
+    ErfahrungTyp = form.erfahrungTyp.data
+    Erfahrung = form.erfahrung.data
+    Deutsch = form.deutsch.data
     Message = form.message.data
     File = form.file.data
 
-    body = f"Name: {Name}\nEmail: {Email}\nStandort: {Standort}\nMessage: \n{Message}\n"
+    body = f"Name: {Name}\nEmail: {Email}\nTelefonnummer: {Telefon}\nStandort: {Standort}\nErfarungstyp: {ErfahrungTyp}\nErfahrung: {Erfahrung}\nDeutsch: {Deutsch}\nMessage: \n{Message}\n"
 
     message = EmailMessage()
     message["From"] = smtp_email
