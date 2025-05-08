@@ -20,7 +20,7 @@ RECAPTCHA_SECRET_KEY = keys["RECAPTCHA_SECRET_KEY"]
 app.config["RECAPTCHA_PUBLIC_KEY"] = RECAPTCHA_SITE_KEY
 app.config["RECAPTCHA_PRIVATE_KEY"] = RECAPTCHA_SECRET_KEY
 
-smtp_email = "it@b-a-e.eu"
+smtp_email = "noreply@b-a-e.eu"
 password = keys["password"]
 
 
@@ -92,19 +92,41 @@ def send_email_karriere(form, Stelle):
     Message = form.message.data
     File = form.file.data
 
-    body = f"Name: {Name}\nEmail: {Email}\nTelefonnummer: {Telefon}\nStandort: {Standort}\nErfarungstyp: {ErfahrungTyp}\nErfahrung: {Erfahrung}\nDeutsch: {Deutsch}\nMessage: \n{Message}\n"
+    body = f"""
+    <html>
+        <body>
+            <p>
+                <b>Name:</b> {Name} <br>
+                <b>Email:</b> {Email} <br>
+                <b>Telefonnummer:</b> {Telefon} <br>
+                <b>Standort:</b> {Standort} <br>
+                <b>Erfahrungstyp:</b> {ErfahrungTyp} <br>
+                <b>Erfahrung:</b> {Erfahrung} <br>
+                <b>Deutsch:</b> {Deutsch}
+            </p>
+            <p>
+                <b>Message:</b> <br>
+                {Message}
+            </p>
+        </body>
+    </html>
+    """
 
     message = EmailMessage()
     message["From"] = smtp_email
     message["To"] = "hr@b-a-e.eu"
     message["Subject"] = "Bewerbung " + Stelle
-    message.set_content(body)
 
-    file_data = File.read()
-    file_name = File.filename
-    message.add_attachment(
-        file_data, maintype="application", subtype="octet-stream", filename=file_name
-    )
+    if File:
+        file_data = File.read()
+        file_name = File.filename
+        message.add_attachment(
+            file_data, maintype="application", subtype="octet-stream", filename=file_name
+        )
+    else:
+        body += "\nKeine Datei angehängt."
+        
+    message.add_alternative(body, subtype='html')
 
     with smtplib.SMTP("smtp.office365.com", 587) as server:
         server.starttls()
@@ -124,13 +146,26 @@ def send_email_kontakt(form):
     Email = form.email.data
     Message = form.message.data
 
-    body = f"Name: {Name}\nEmail: {Email}\nMessage: \n{Message}\n"
+    body = f"""
+    <html>
+        <body>
+            <p>
+                <b>Name:</b> {Name} <br>
+                <b>Email:</b> {Email}
+            </p>
+            <p>
+                <b>Message:</b> <br>
+                {Message}
+            </p>
+        </body>
+    </html>
+    """
 
     message = EmailMessage()
     message["From"] = smtp_email
     message["To"] = "office@b-a-e.eu"
     message["Subject"] = "Kontaktformular Webseite"
-    message.set_content(body)
+    message.add_alternative(body, subtype='html')
 
     with smtplib.SMTP("smtp.office365.com", 587) as server:
         server.starttls()
