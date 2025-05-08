@@ -1,5 +1,3 @@
-static/Video/LandingpageBAE1.mp4
-uploads/
 data/keys.json
 __pycache__/
 *.pyc
@@ -7,3 +5,4 @@ test.py
 .vscode/
 data/Referenzen_.json
 static/Video/LandingpageBAE0.mp4
+flask_app.log
