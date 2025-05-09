@@ -10,10 +10,13 @@ import smtplib
 from email.message import EmailMessage
 
 app = Flask(__name__)
-app.config["SECRET_KEY"] = os.urandom(24)
 
 with open(os.path.join(app.root_path, "data", "keys.json"), "r") as file:
     keys = json.load(file)
+
+app.config["SECRET_KEY"] = keys["SECRET_KEY"]
+app.config["SESSION_COOKIE_SECURE"] = True
+app.config["WTF_CSRF_SSL_STRICT"] = False
 
 RECAPTCHA_SITE_KEY = keys["RECAPTCHA_SITE_KEY"]
 RECAPTCHA_SECRET_KEY = keys["RECAPTCHA_SECRET_KEY"]
