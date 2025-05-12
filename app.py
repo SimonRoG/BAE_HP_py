@@ -378,16 +378,16 @@ def set_cookie(value):
     return response
 
 
-@app.route("/set_language/<lang>", methods=["POST"])
-def set_language(lang):
-    if lang == "en":
-        response = make_response(redirect("/en/"))
-    elif lang == "de":
-        response = make_response(redirect("/"))
-    else:
-        response = make_response(redirect("/"))
-        return response
+# @app.route("/set_language/<lang>", methods=["POST"])
+# def set_language(lang):
+#     if lang == "en":
+#         response = make_response(redirect("/en/"))
+#     elif lang == "de":
+#         response = make_response(redirect("/"))
+#     else:
+#         response = make_response(redirect("/"))
+#         return response
 
-    if strtobool(request.cookies.get("cookie_consent")):
-        response.set_cookie("language", lang, max_age=60 * 60 * 24 * 365)
-    return response
+#     if strtobool(request.cookies.get("cookie_consent")):
+#         response.set_cookie("language", lang, max_age=60 * 60 * 24 * 365)
+#     return response
