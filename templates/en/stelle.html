@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAE GROUP</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='BAE.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='Logo/Rauten BAE.png') }}" type="image/x-icon">
+    <script src="{{ url_for('static', filename='BAE.js')}}"></script>
+    <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
+</head>
+
+<body>
+    {% include menu_bar%}
+    <div id="Stelle">
+        <div class="SBild">
+            <img src="{{ url_for('static', filename='Bilder/Karriere.jpg') }}">
+            <h1>Starte jetzt <br>deine Karriere mit uns!</h1>
+        </div>
+        <div class="SText">
+            <div class="Titel">
+                <h3>{{item.Standort}}</h3>
+                <h1>{{ item.Name }}</h1>
+                <p>
+                    {{item.Beschreibung}}
+                </p>
+            </div>
+            <div class="Aufgaben">
+                <h2>Deine Aufgaben:</h2>
+                <ul>
+                    {% for Aufgabe in item.Aufgaben.split("\n") %}
+                    <li>{{Aufgabe}}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="Anforderungen">
+                <h2>Das solltest du mitbringen:</h2>
+                <ul>
+                    {% for Eigenschaft in item.Eigenschaften.split("\n") %}
+                    <li>{{Eigenschaft}}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div id="KarriereFormular" class="Formular">
+                <h3>Wir konnten dein Interesse wecken?</h3>
+                <h2>Dann bewirb dich jetzt bei uns!</h2>
+                <form method="POST" enctype="multipart/form-data">
+                    {{ form.hidden_tag() }}
+                    {{ form.name(placeholder="Name*") }} <br><br>
+                    {{ form.email(placeholder="Email*") }} <br><br>
+                    {{ form.telefon(placeholder="Telefonnummer*") }} <br><br>
+                    {{ form.ort() }} <br><br>
+                    {{ form.erfahrungTyp() }} <br><br>
+                    {{ form.erfahrung() }} <br><br>
+                    {{ form.deutsch() }} <br><br>
+                    {{ form.message(rows="5", placeholder="Message") }} <br><br>
+                    <div class="fileinput">
+                        <label for="file">
+                            <i><img src="{{ url_for('static', filename='/Icons/pdf.svg') }}" alt="pdf"></i>
+                        </label>
+                        <div>
+                            {{ form.file(accept=".pdf") }}
+                            <label for="file">
+                                Lebenslauf hochladen
+                            </label>
+                        </div>
+                    </div><br>
+                    {{ form.recaptcha }} <br>
+                    {{ form.submit() }} <br><br>
+                </form>
+            </div>
+
+            <img class="raute1" src="{{ url_for('static', filename='Icons/Raute.svg') }}">
+            <img class="raute2" src="{{ url_for('static', filename='Icons/Raute.svg') }}">
+            <img class="raute3" src="{{ url_for('static', filename='Icons/Raute.svg') }}">
+        </div>
+    </div>
+    <div id="footerfooter">
+        <p>
+            <a href="/Impressum">Impressum</a> |
+            <a href="/Datenschutz">Datenschutz</a>
+        </p>
+    </div>
+    <script>
+        document.querySelectorAll('select').forEach(function (selectElement) {
+            const emptyOption = selectElement.querySelector('option[value=""]');
+            if (emptyOption) {
+                emptyOption.setAttribute('disabled', 'disabled');
+            }
+
+            if (selectElement.value === "") {
+                selectElement.style.color = "grey";
+                selectElement.style.fontWeight = "bold";
+            }
+            selectElement.addEventListener('change', function () {
+                if (this.value === '') {
+                    this.style.color = "grey";
+                    this.style.fontWeight = "bold";
+                } else {
+                    this.style.color = "black";
+                    this.style.fontWeight = "normal";
+                }
+            });
+        });
+    </script>
+</body>

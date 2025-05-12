@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAE GROUP</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='BAE.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='Logo/Rauten BAE.png') }}" type="image/x-icon">
+    <script src="{{ url_for('static', filename='BAE.js')}}"></script>
+</head>
+
+<body>
+    {% include menu_bar %}
+
+    <div id="Geschaeftsfeld">
+        <div class="GFBild">
+            <img src="{{ url_for('static', filename='Bilder/Projektmanagement.jpg') }}" alt="Projektmanagement">
+            <h1>Projekt Management</h1>
+        </div>
+        <div class="GFText">
+            <div class="columns">
+                <p>
+                    Projektmanagement im Bauwesen spielt eine entscheidende Rolle, um komplexe Bauprojekte erfolgreich zu planen, koordinieren und abschließen. Es ist wie die Komposition eines Orchesters, bei dem verschiedene Fachleute zusammenkommen, um harmonisch an einem gemeinsamen Ziel zu arbeiten – in diesem Fall, das Errichten eines Gebäudes.
+                </p>
+                <p>
+                    Der Dirigent in einem Orchester ist vergleichbar mit dem Projektmanager im Bauwesen. Beide spielen eine zentrale Rolle bei der Koordination und Führung des Teams. Der Dirigent gibt den Takt an und sorgt dafür, dass jeder Musiker zur richtigen Zeit und im richtigen Tempo spielt. Ähnlich leitet der Projektmanager das Bauprojekt, indem er sicherstellt, dass alle Beteiligten aufeinander abgestimmt sind und ihre Aufgaben koordiniert ausführen. Die Musiker im Orchester repräsentieren die verschiedenen Bauexperten, darunter Architekten, Ingenieure, Handwerker und andere Spezialisten. Jeder Musiker bringt sein eigenes Können und Fachwissen ein, genau wie die Bauexperten ihre einzigartigen Fähigkeiten zur Umsetzung des Bauprojekts beitragen.
+                </p>
+                <p>
+                    Das Bauwesen erfordert eine reibungsloses Zusammenarbeiten der Beteiligten, um ein erfolgreiches Projekt zu gewährleisten. Das Projektmanagement spielt dabei die Rolle, sicherzustellen, dass die verschiedenen Fachleute effektiv zusammenarbeiten und ihre individuellen Fähigkeiten harmonisch integriert werden. In der Regel werden diese Aufgaben auf Bauherrenseite als Vertreter der Eigentümerinteressen angesiedelt. Unser Geschäftsfeld des Projektmanagement setzt hier an. Wir erbringen sämtliche Aufgaben rund um das bauherrenseitige Projektmanagement.
+                </p>
+            </div>
+            <h1>Überblick unserer Leistungen:</h1>
+            <div class="overview">
+                <button onclick="popup('/Bilder/TextBilder/ProjektManagment.svg')">
+                    <img src="{{ url_for('static', filename='/Bilder/TextBilder/ProjektManagment.svg') }}" alt="Projektmanagement Leistungen">
+                </button>
+            </div>
+            
+            <img class="raute1" src="{{ url_for('static', filename='Icons/Raute.svg') }}">
+            <img class="raute2" src="{{ url_for('static', filename='Icons/Raute.svg') }}">
+            <img class="raute3" src="{{ url_for('static', filename='Icons/Raute.svg') }}">
+        </div>
+    </div>
+    {% include footer %}
+</body>
+
+</html>

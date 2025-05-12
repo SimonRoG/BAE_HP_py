@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAE GROUP</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='BAE.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='Logo/Rauten BAE.png') }}" type="image/x-icon">
+    <script src="{{ url_for('static', filename='BAE.js')}}"></script>
+</head>
+
+<body>
+    {% include menu_bar %}
+    <div id="Geschaeftsfeld">
+        <div class="GFBild">
+            <img src="{{ url_for('static', filename='Bilder/Generalplanung.jpg') }}" alt="Generalplanung">
+            <h1>Generalplanung</h1>
+        </div>
+        <div class="GFText">
+            <div class="columns">
+                <p>
+                    Mit unserem Geschäftsfeld der Generalplanung verfolgen wir einen umfassenden Ansatz, der die Koordination und Integration aller planerischen und bautechnischen Aspekte eines Bauprojekts durch einen einzigen Generalplaner umfasst. Ziel ist es, den gesamten Planungs- und Bauprozess zu optimieren, indem eine zentrale Anlaufstelle für alle Belange geschaffen wird.
+                </p>
+                <p>
+                    Ein wesentlicher Vorteil der Beauftragung eines Generalplaners für Eigentümer und Investoren besteht in der Effizienz und der besseren Koordination des Bauprojekts. Da der Generalplaner als Verantwortlicher für sämtliche Planungs- und Bauprozesse fungiert, werden mögliche Schnittstellenprobleme zwischen verschiedenen Gewerken minimiert. Dies trägt dazu bei, Zeit- und Ressourcenverschwendung zu vermeiden.
+                </p>
+                <p>
+                    Des Weiteren ermöglicht die Generalplanung eine ganzheitliche Betrachtung des Projekts. Der Generalplaner koordiniert nicht nur die Architektur, sondern auch die technischen, bauphysikalischen, ökonomischen und zeitlichen Aspekte. Dadurch kann eine optimale Abstimmung zwischen den verschiedenen Anforderungen und Bedürfnissen sichergestellt werden.
+                </p>
+                <p>
+                    Eigentümer und Investoren profitieren außerdem von der Risikominimierung, da der Generalplaner für die Einhaltung von Vorschriften und Qualitätsstandards verantwortlich ist. Durch die zentrale Koordination kann er frühzeitig potenzielle Probleme erkennen und Gegenmaßnahmen ergreifen, was letztendlich zu einer höheren Bauqualität führt.Ein weiterer finanzieller Vorteil für Eigentümer und Investoren liegt darin, dass die Generalplanung oft zu Kostenersparnissen führen kann. Durch die Bündelung der verschiedenen Planungs- und Bauprozesse kann eine effizientere Nutzung von Ressourcen erreicht werden. Dies kann sich positiv auf das Budget des Projekts auswirken.
+                </p>
+                <p>
+                    Mit unseren Leistungen im Rahmen der Generalplanung bieten wir eine ganzheitliche und effiziente Herangehensweise an Bauprojekte. Eigentümer und Investoren profitieren von einer reduzierten Komplexität, einer höheren Bauqualität und einer besseren Kontrolle über den gesamten Bauprozess. Unser Team besteht aus den Fachdisziplinen Architektur, Technische Gebäudeausrüstung, Statik, Informatik und immobilienorientierte Betriebswirtschaftslehre. Die Integration dieser Fachdisziplinen in einem Generalplanungsteam erlaubt uns eine holistische Herangehensweise an Bauprojekte. Die Synergieeffekte zwischen Architektur, TGA, Statik, Informatik und immobilienorientierter Betriebswirtschaftslehre führen zu einer umfassenden Planung und Realisierung von Gebäuden, die sowohl funktional als auch wirtschaftlich optimiert sind. Dies trägt dazu bei, die Komplexität zu reduzieren, Risiken zu minimieren und die Qualität des Bauvorhabens zu steigern.
+                </p>
+
+            </div>
+            <h1>Überblick unserer Leistungen:</h1>
+            <div class="overview">
+                <button onclick="popup('/Bilder/TextBilder/GenPlan.svg')">
+                    <img src="{{ url_for('static', filename='/Bilder/TextBilder/GenPlan.svg') }}" alt="Projektmanagement Leistungen">
+                </button>
+            </div>
+            
+            <img class="raute1" src="{{ url_for('static', filename='Icons/Raute.svg') }}">
+            <img class="raute2" src="{{ url_for('static', filename='Icons/Raute.svg') }}">
+            <img class="raute3" src="{{ url_for('static', filename='Icons/Raute.svg') }}">
+        </div>
+    </div>
+    {% include footer %}
+</body>
+
+</html>

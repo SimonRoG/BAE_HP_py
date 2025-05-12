@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAE GROUP</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='BAE.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='Logo/Rauten BAE.png') }}" type="image/x-icon">
+    <script src="{{ url_for('static', filename='BAE.js')}}"></script>
+</head>
+
+<body>
+    {% include menu_bar %}
+
+    <div id="Geschaeftsfeld">
+        <div class="GFBild">
+            <img src="{{ url_for('static', filename='Bilder/Contracting.jpg') }}" alt="Contracting">
+            <h1>Contracting</h1>
+        </div>
+        <div class="GFText">
+            <div class="columns">
+                <p>
+                    Energiecontracting, auch als Energiedienstleistung oder Energieliefercontracting bekannt, ist ein effektives Instrument zur Steigerung der Energieeffizienz in Gebäuden. Bei diesem Ansatz übernimmt ein externer Dienstleister, der sogenannte Contractor, die Planung, Finanzierung, Umsetzung und den Betrieb von Energieeffizienzmaßnahmen. Im Gegenzug erhält der Contractor eine vertraglich festgelegte Vergütung, die sich häufig aus den eingesparten Energiekosten ergibt.
+                </p>
+                <p>
+                    Als erfahrener Partner im Bereich Energiecontracting bieten wir mit unserem Geschäftsfeld Energie-Contracting umfassende Dienstleistungen, von der Analyse der Energieeffizienzpotenziale bis zur langfristigen Betreuung der installierten Systeme. Wir entwickeln maßgeschneiderte Lösungen, die nicht nur wirtschaftlich, sondern auch ökologisch nachhaltig sind.
+                </p>
+            </div>
+            <h1>Überblick unserer Leistungen:</h1>
+            <div class="overview">
+                <div class="list">
+                    <ul>
+                        <li>
+                            Für Eigentümer, Bauherren und Verwalter ergeben sich zahlreiche Vorteile durch Energiecontracting:
+                        </li>
+                        <li>
+                            Der Gebäudeeigner/Auftraggeber muss keine eigenen Finanzmittel einsetzen, das eigene Investitionsrisiko wird damit ausgelagert.
+                        </li>
+                        <li>
+                            Durch die Modernisierung von Anlagen wird die Energieeffizienz und damit auch die Betriebs- und Versorgungssicherheit erhöht, Energiekosten und Umweltbelastung sinken. Institutionell gesteckte Klimaschutzziele werden durch das ESC unterstützt.
+                        </li>
+                        <li>
+                            Dazu wird das technische Know-how und das professionelle Energiemanagement der Contractoren genutzt.
+                        </li>
+                        <li>
+                            Der Gebäudeeigner/Auftraggeber wird von wesentlichen Planungs- und Betriebsaufgaben entlastet. Es bleibt mehr Zeit für die eigenen Kernaufgaben.
+                        </li>
+                        <li>
+                            Der Wert, die Produktivität und der Komfort eines Gebäudes (oder einer Anlage) werden gesteigert.
+                        </li>
+                        <li>
+                            Viele Einzelbereiche (Planung, Finanzierung, Bau, Betrieb, Instandhaltung) werden aus einer Hand abgedeckt. So ist eine deutliche Reduktion der Schnittstellen realisierbar
+                        </li>
+                        <li>
+                            Zusätzliche Leistungen wie z. B. Nutzermotivation, Schulungsmaßnahmen können vertraglich vereinbart werden.
+                        </li>
+                        <li>
+                            Das herausragende Qualitätsmerkmal des ESC ist insbesondere die Wertschätzung der Einspargarantie und ist herauszuheben. Sie bildet den wesentlichen Zusatznuten zu Lösungen in Eigenregie.
+                        </li>
+                    </ul>
+                </div>
+
+                <button onclick="popup('/Bilder/TextBilder/Contracting.svg')">
+                    <img src="{{ url_for('static', filename='/Bilder/TextBilder/Contracting.svg') }}" alt="Contracting Ablauf">
+                </button>
+            </div>
+            
+            <img class="raute1" src="{{ url_for('static', filename='Icons/Raute.svg') }}">
+            <img class="raute2" src="{{ url_for('static', filename='Icons/Raute.svg') }}">
+            <img class="raute3" src="{{ url_for('static', filename='Icons/Raute.svg') }}">
+        </div>
+    </div>
+    {% include footer %}
+</body>
+
+</html>

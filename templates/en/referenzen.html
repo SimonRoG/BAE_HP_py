@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAE GROUP</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='BAE.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='Logo/Rauten BAE.png') }}" type="image/x-icon">
+    <script src="{{ url_for('static', filename='BAE.js')}}"></script>
+</head>
+
+<body>
+    {% include menu_bar %}
+    <div id="Referenzen">
+        <div class="RBild">
+            <img src="{{ url_for('static', filename='Bilder/Projekte.jpg') }}">
+            <h1>Unsere Projekte</h1>
+        </div>
+        <div class="RProjekte">
+            {% set ns = namespace(counter=0) %}
+            {% for item in data %}
+            {% if item.Bild != '' %}
+            <div id="projekt{{ns.counter}}" class="projekt" style="display: {{'none' if ns.counter >= 6}};">
+                <img src="{{ url_for('static', filename='Bilder/Referenzen/'+item.Bild) }}" alt="{{item.Projekt}}">
+                <a href="/Referenzen/{{item.Bild[:-4]}}">
+                    <div>
+                        <h2>{{ item.Projekt }}</h1>
+                        <p>
+                            {{ item.Gebaeude }} <br>
+                            {{ item.Projektart }}
+                        </p>
+                    </div>
+                </a>
+            </div>
+            {% set ns.counter = ns.counter + 1 %}
+            {% endif %}
+            {% endfor %}
+            
+            <img class="raute1" src="{{ url_for('static', filename='Icons/Raute.svg') }}">
+            <img class="raute2" src="{{ url_for('static', filename='Icons/Raute.svg') }}">
+            <img class="raute3" src="{{ url_for('static', filename='Icons/Raute.svg') }}">
+        </div>
+        <div class="RButton">
+            <button class="showmore" onclick="show_more()">
+                Mehr Zeigen
+            </button>
+            <button class="showless" onclick="show_less()">
+                Weniger Zeigen
+            </button>
+        </div>
+    </div>
+
+    {% include footer %}
+</body>
+
+</html>
