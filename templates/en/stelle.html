@@ -16,7 +16,7 @@
     <div id="Stelle">
         <div class="SBild">
             <img src="{{ url_for('static', filename='Bilder/Karriere.jpg') }}">
-            <h1>Starte jetzt <br>deine Karriere mit uns!</h1>
+            <h1>Start your career <br>with us today!</h1>
         </div>
         <div class="SText">
             <div class="Titel">
@@ -27,7 +27,7 @@
                 </p>
             </div>
             <div class="Aufgaben">
-                <h2>Deine Aufgaben:</h2>
+                <h2>Your tasks:</h2>
                 <ul>
                     {% for Aufgabe in item.Aufgaben.split("\n") %}
                     <li>{{Aufgabe}}</li>
@@ -35,7 +35,7 @@
                 </ul>
             </div>
             <div class="Anforderungen">
-                <h2>Das solltest du mitbringen:</h2>
+                <h2>What you should bring along:</h2>
                 <ul>
                     {% for Eigenschaft in item.Eigenschaften.split("\n") %}
                     <li>{{Eigenschaft}}</li>
@@ -44,8 +44,8 @@
             </div>
 
             <div id="KarriereFormular" class="Formular">
-                <h3>Wir konnten dein Interesse wecken?</h3>
-                <h2>Dann bewirb dich jetzt bei uns!</h2>
+                <h3>Did we catch your interest?</h3>
+                <h2>Then apply now with us!</h2>
                 <form method="POST" enctype="multipart/form-data">
                     {{ form.hidden_tag() }}
                     {{ form.name(placeholder="Name*") }} <br><br>
@@ -79,8 +79,8 @@
     </div>
     <div id="footerfooter">
         <p>
-            <a href="/Impressum">Impressum</a> |
-            <a href="/Datenschutz">Datenschutz</a>
+            <a href="/Impressum">Legal Notice</a> |
+            <a href="/Datenschutz">Privacy Policy</a>
         </p>
     </div>
     <script>

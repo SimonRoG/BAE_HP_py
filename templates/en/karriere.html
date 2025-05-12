@@ -15,7 +15,7 @@
     <div id="Karriere">
         <div class="KBild">
             <img src="{{ url_for('static', filename='Bilder/Karriere.jpg') }}">
-            <h1>Starte jetzt <br>deine Karriere mit uns!</h1>
+            <h1>Start your career <br>with us today!</h1>
         </div>
 
         {% with messages = get_flashed_messages(with_categories=true) %}
@@ -36,68 +36,70 @@
         <div class="KText">
             <div class="Vorwort">
                 <h3>Your partner for the building life cycle.</h3>
-                <h1> Bereit die Immobilien-Welt zu verändern?</h1>
+                <h1>Ready to transform the real estate world?</h1>
                 <p>
-                    Wir gestalten das Heute und Morgen von Gebäuden – als BAE Group betrachten wir das Thema Immobilien ganzheitlich. Durch unsere Arbeit an zentralen Themen gegliedert in die acht strategischen Geschäftsfelder Technische Gebäudeausrüstung, Contracting, Projektmanagement, Digital Solutions, Asset Management, Property Management, Generalplanung und Investment Management, bringen wir alle gebäudebezogenen Lösungen unter ein Dach. Wir suchen dich!
+                    We shape the present and future of buildings – as the BAE Group, we take a holistic approach to real estate. Through our work on key topics, structured into eight strategic business units – Technical Building Equipment, Contracting, Project Management, Digital Solutions, Asset Management, Property Management, General Planning, and Investment Management – we unite all building-related solutions under one roof. We are looking for you!
                 </p>
             </div>
             <div class="Benefits">
                 <h3>Benefits</h3>
-                <h1>Deshalb solltest du zu BAE kommen:</h1>
+                <h1>That's why you should join BAE:</h1>
                 <div class="grid">
                     <div class="benefit">
                         <div>
                             <img src="{{ url_for('static', filename='Bilder/Homeoffice.jpg') }}" alt="">
                         </div>
-                        <h4>Homeoffice & <br> flexible Arbeitszeiten</h4>
+                        <h4>Home Office & <br> Flexible Working Hours</h4>
                         <p>
-                            Deine Arbeitszeit innerhalb der 40-Stunden-Woche kannst du variabel gestalten, nach Absprache ist auch mobiles Arbeiten möglich.
+                            You can adjust your working hours within the 40-hour week, and remote work is possible by arrangement.
                         </p>
                     </div>
                     <div class="benefit">
                         <div>
                             <img src="{{ url_for('static', filename='Bilder/Seminare.jpg') }}" alt="">
                         </div>
-                        <h4>Schulungen & <br> Seminare</h4>
+                        <h4>Training & <br> Seminars</h4>
                         <p>
-                            Wir haben deine Zukunft im Blick. Bei uns hast du die Möglichkeit dich über interne und externe Schulungen oder Seminare weiterzuentwickeln und innerhalb der spannenden Geschäftsfelder zu wechseln.
+                            We focus on your future. With us, you have the opportunity to develop further through internal and external training or seminars and to switch between exciting business fields.
                         </p>
                     </div>
                     <div class="benefit">
                         <div>
                             <img src="{{ url_for('static', filename='Bilder/Miteinander.jpg') }}" alt="">
                         </div>
-                        <h4>Kollegiales Miteinander & <br> kurze Kommunikationswege</h4>
+                        <h4>Collegial Cooperation & <br> Short Communication Channels</h4>
                         <p>
-                            Bei uns herrscht ein kollegiales Miteinander mit direkten Kommunikationswegen.
+                            With us, you'll experience a collegial atmosphere with direct communication channels.
                         </p>
                     </div>
                     <div class="benefit">
                         <div>
                             <img src="{{ url_for('static', filename='Bilder/Zuschuesse.jpg') }}" alt="">
                         </div>
-                        <h4>Zuschüsse & <br> attraktive Vergütung</h4>
+                        <h4>Subsidies & <br> Attractive Compensation</h4>
                         <p>
-                            Neben einer attraktiven Vergütung bieten wir dir außerdem einen Zuschuss zur VWL, Direktversicherung und BAV und dein persönliches Verkehrsmittel, auch zur privaten Nutzung.
+                            In addition to an attractive salary, we also offer a subsidy for the company pension scheme, direct insurance, and company benefits, as well as your personal means of transportation, which can also be used privately.
                         </p>
                     </div>
                     <div class="benefit">
                         <div>
                             <img src="{{ url_for('static', filename='Bilder/Augenhoehe.jpg') }}" alt="">
                         </div>
-                        <h4>Arbeiten auf <br> Augenhöhe</h4>
+                        <h4>Working on <br> Equal Terms</h4>
                         <p>
-                            Diversität, Respekt, Akzeptanz und ein Arbeiten auf Augenhöhe sind für uns besonders wichtig.
+                            Diversity, respect, acceptance, and working on equal terms are particularly important to us.
                         </p>
+
                     </div>
                     <div class="benefit">
                         <div>
                             <img src="{{ url_for('static', filename='Bilder/Teamevents.jpg') }}" alt="">
                         </div>
-                        <h4>Regelmäßige <br> Teamevents</h4>
+                        <h4>Regular <br> Team Events</h4>
                         <p>
-                            Gemeinsame Teamevents machen uns auch abseits der Arbeit zu einem starken Team.
+                            Shared team events make us a strong team even outside of work.
                         </p>
+
                     </div>
                 </div>
                 <img class="raute1" src="{{ url_for('static', filename='Icons/Raute1.svg') }}">
@@ -107,17 +109,17 @@
         </div>
 
         <div class="KStellen">
-            <h3>Jetzt bewerben</h3>
-            <h1>Offene Stellen</h1>
+            <h3>Apply Now</h3>
+            <h1>Open Positions</h1>
 
             <div class="filter">
                 <div>
-                    <label for="ort"><b>Standort:</b></label>
+                    <label for="ort"><b>Location:</b></label>
                     <select id="ort" name="ort">
-                        <option value="stellenanzeige">Alle</option>
+                        <option value="stellenanzeige">All</option>
                         <option value="frankfurt">Frankfurt am Main</option>
                         <option value="berlin">Berlin</option>
-                        <option value="muenchen">München</option>
+                        <option value="muenchen">Munich</option>
                         <option value="coburg">Coburg</option>
                         <option value="bamberg">Bamberg</option>
                         <option value="deggendorf">Deggendorf</option>
@@ -127,38 +129,38 @@
                     </select>
                 </div>
                 <div>
-                    <label for="anstellung"><b>Anstellung:</b></label>
+                    <label for="anstellung"><b>Employment Type:</b></label>
                     <select id="anstellung" name="anstellung">
-                        <option value="stellenanzeige">Alle</option>
-                        <option value="voll">Vollzeit</option>
-                        <option value="teil">Teilzeit</option>
-                        <option value="student">Werkstudent</option>
-                        <option value="azubi">Auszubildende</option>
+                        <option value="stellenanzeige">All</option>
+                        <option value="voll">Full-time</option>
+                        <option value="teil">Part-time</option>
+                        <option value="student">Working Student</option>
+                        <option value="azubi">Trainee</option>
                     </select>
                 </div>
                 <div>
-                    <label for="taetigkeit"><b>Tätigkeit:</b></label>
+                    <label for="taetigkeit"><b>Position:</b></label>
                     <select id="taetigkeit" name="taetigkeit">
-                        <option value="stellenanzeige">Alle</option>
-                        <option value="azubi">Auszubildende</option>
-                        <option value="systemplaner">Systemplaner</option>
-                        <option value="fachplaner">Fachplaner</option>
-                        <option value="projektleiter">Projektleiter</option>
-                        <option value="fuehrungspersonal">Führungspersonal</option>
-                        <option value="assistenz">Assistenz</option>
+                        <option value="stellenanzeige">All</option>
+                        <option value="azubi">Trainee</option>
+                        <option value="systemplaner">System Planner</option>
+                        <option value="fachplaner">Specialist Planner</option>
+                        <option value="projektleiter">Project Manager</option>
+                        <option value="fuehrungspersonal">Management</option>
+                        <option value="assistenz">Assistant</option>
                         <option value="hr">HR</option>
-                        <option value="marketing">Marketing, Social media</option>
+                        <option value="marketing">Marketing, Social Media</option>
                     </select>
                 </div>
                 <div>
-                    <button onclick="filterApply()"><b>Filter anwenden</b></button>
+                    <button onclick="filterApply()"><b>Apply filter</b></button>
                 </div>
             </div>
             <div class="Stellen">
                 {% for item in data %}
                 <div class="stellenanzeige {{item.Tags}}">
                     <div class="Stellenname">
-                        <a href="/Karriere/{{item.Name[:-7]}}">
+                        <a href="/en/Karriere/{{item.Name[:-7]}}">
                             <h3>{{item.Name}}</h3>
                         </a>
                     </div>
@@ -166,7 +168,7 @@
                         <p>{{item.Standort}}</p>
                     </div>
                     <div class="SButton">
-                        <a href="/Karriere/{{item.Name[:-7]}}#KarriereFormular">Jetzt bewerben</a>
+                        <a href="/en/Karriere/{{item.Name[:-7]}}#KarriereFormular">Jetzt bewerben</a>
                     </div>
                 </div>
                 {% endfor %}
