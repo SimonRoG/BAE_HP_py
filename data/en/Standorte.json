@@ -1,7 +1,7 @@
 [
     {
         "Standort": "Coburg",
-        "Firma": "BAE GmbH (Hauptsitz)",
+        "Firma": "BAE GmbH (Head office)",
         "Adresse": "Raststraße 20 | 96450 Coburg",
         "Email": "office@b-a-e.eu",
         "Telefonnummer": "+49 9561 97 69 983",
@@ -9,7 +9,7 @@
     },
     {
         "Standort": "Bamberg",
-        "Firma": "BAE GmbH, Niederlassung Bamberg",
+        "Firma": "BAE GmbH, Branch office Bamberg",
         "Adresse": "Kirschäckerstraße 27 | 96052 Bamberg",
         "Email": "office@b-a-e.eu",
         "Telefonnummer": "+49 9561 97 69 983",
@@ -17,15 +17,15 @@
     },
     {
         "Standort": "Deggendorf",
-        "Firma": "BAE GmbH, Niederlassung Deggendorf",
+        "Firma": "BAE GmbH, Branch office Deggendorf",
         "Adresse": "Itzlinger Weg 2 | 94469 Deggendorf",
         "Email": "office@b-a-e.eu",
         "Telefonnummer": "+49 991 40 22 9830",
         "Bild": "Deggendorf.jpg"
     },
     {
-        "Standort": "München",
-        "Firma": "BAE GmbH, Niederlassung München",
+        "Standort": "Munich",
+        "Firma": "BAE GmbH, Branch office Munich",
         "Adresse": "Einsteinring 41 | 85609 Aschheim",
         "Email": "office@b-a-e.eu",
         "Telefonnummer": "+49 89 24 41 85 960",
@@ -33,7 +33,7 @@
     },
     {
         "Standort": "Frankfurt",
-        "Firma": "BAE Frankfurt GmbH (Hauptsitz)",
+        "Firma": "BAE Frankfurt GmbH (Head office)",
         "Adresse": "Berner Straße 119 | 60437 Frankfurt am Main",
         "Email": "frankfurt@b-a-e.eu",
         "Telefonnummer": "+49 69 945 99 117",
@@ -41,7 +41,7 @@
     },
     {
         "Standort": "Berlin",
-        "Firma": "BAE Frankfurt GmbH, Repräsentanz Berlin",
+        "Firma": "BAE Frankfurt GmbH, Representative office Berlin",
         "Adresse": "10409 Berlin",
         "Email": "berlin@b-a-e.eu",
         "Telefonnummer": "+49 69 945 99 117",
@@ -57,7 +57,7 @@
     },
     {
         "Standort": "Sofia",
-        "Firma": "BAE OOD (Hauptsitz)",
+        "Firma": "BAE OOD (Head office)",
         "Adresse": "r.c. Mladost 2, bl. 254, ground floor, office 1 | 1799 Sofia",
         "Email": "office@b-a-e.bg",
         "Telefonnummer": "+359 893 490 544",
@@ -65,7 +65,7 @@
     },
     {
         "Standort": "Varna",
-        "Firma": "BAE OOD, Niederlassung Varna",
+        "Firma": "BAE OOD, Branch office Varna",
         "Adresse": "Mois Levi Str. 28, fl.4, Office 7 I 9000 Varna",
         "Email": "office@b-a-e.bg",
         "Telefonnummer": "+359 893 490 544",

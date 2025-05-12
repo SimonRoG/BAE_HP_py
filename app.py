@@ -197,6 +197,13 @@ with open(
     Standorte = json.load(file)
 
 with open(
+    os.path.join(app.root_path, "data", "en/Standorte.json"),
+    "r",
+    encoding="utf-8-sig",
+) as file:
+    Standorte_en = json.load(file)
+
+with open(
     os.path.join(app.root_path, "data", "Referenzen.json"),
     "r",
     encoding="utf-8-sig",
@@ -254,13 +261,13 @@ def render_template_(html, **context):
 def index():
     route = request.path
     data = Referenzen_en if "/en/" in route else Referenzen
-    standorte = Standorte
-    if "/en/" in route:
-        if request.cookies.get("language") == "de":
-            return redirect("/")
-    else:
-        if request.cookies.get("language") == "en":
-            return redirect("/en/")
+    standorte = Standorte_en if "/en/" in route else Standorte
+    # if "/en/" in route:
+    #     if request.cookies.get("language") == "de":
+    #         return redirect("/")
+    # else:
+    #     if request.cookies.get("language") == "en":
+    #         return redirect("/en/")
 
     return render_template_("index.html", data=data, standorte=standorte)
 

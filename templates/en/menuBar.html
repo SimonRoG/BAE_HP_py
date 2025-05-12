@@ -2,7 +2,7 @@
 <html lang="de">
 
 <head>
-    <meta charset="UTF-8">    
+    <meta charset="UTF-8">
 </head>
 
 <body>
@@ -12,18 +12,18 @@
             <img src="{{ url_for('static', filename='/Logo/BAE_Group_Logo.png') }}" alt="Logo_BAE_Group">
         </div>
         <p>
-            Diese Website verwendet Cookies und ähnliche Technologien, Ihr Surferlebnis zu verbessern und Ihnen personalisierte Empfehlungen zu geben , einschließlich Google reCAPTCHA, um den Schutz gegen Spam zu gewährleisten.
+            This website uses cookies and similar technologies to enhance your browsing experience and provide personalized recommendations, including Google reCAPTCHA to ensure protection against spam.
         </p>
         <p>
-            Durch die weitere Nutzung unserer Website erklären Sie sich mit unserer <a href="/Datenschutz">Datenschutz-Richtlinie</a> und den oben genannten Richtlinien einverstanden.
+            By continuing to use our website, you agree to our <a href="/en/Datenschutz">Privacy Policy</a> and the aforementioned guidelines.
         </p>
         <p>
-            Google reCAPTCHA sammelt Daten, die den <a href="https://policies.google.com/privacy" target="_blank">Datenschutzrichtlinien</a> und <a href="https://policies.google.com/terms" target="_blank">Nutzungsbedingungen</a> von Google unterliegen.
+            Google reCAPTCHA collects data that is subject to Google's <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a> and <a href="https://policies.google.com/terms" target="_blank">Terms of Use</a>.
         </p>
 
         <div>
-            <button id="accept-cookies" onclick="accept_cookie(true)"> Akzeptieren </button>
-            <button id="decline-cookies" onclick="accept_cookie(false)"> Nur Erforderlich </button>
+            <button id="accept-cookies" onclick="accept_cookie(true)"> Accept </button>
+            <button id="decline-cookies" onclick="accept_cookie(false)"> Essential Only </button>
         </div>
     </div>
     {% endif %}
@@ -31,21 +31,21 @@
     <div id="menuBar">
         <div class="normal">
             <div>
-                <a href="/" onclick="navigateToHomePage()">
+                <a href="/en/" onclick="navigateToHomePage()">
                     <img id="logo" src="{{ url_for('static', filename='/Logo/BAE_Group_Logo.png') }}" alt="Logo_BAE_Group">
                 </a>
             </div>
-            <div><a href="/#ueberuns">Über uns</a></div>
-            <div><a href="/#geschaeftsfelder">Geschäftsfelder</a></div>
-            <div><a href="/#standorte">Standorte</a></div>
-            <div><a href="/Referenzen">Referenzen</a></div>
-            <div><a href="/Karriere">Karriere</a></div>
-            <div><a href="/#footer">Kontakt</a></div>
+            <div><a href="/en/#ueberuns">About Us</a></div>
+            <div><a href="/en/#geschaeftsfelder">Business Areas</a></div>
+            <div><a href="/en/#standorte">Locations</a></div>
+            <div><a href="/en/Referenzen">References</a></div>
+            <div><a href="/en/Karriere">Careers</a></div>
+            <div><a href="/en/#footer">Contact</a></div>
         </div>
 
         <div class="mobile">
             <div>
-                <a href="/" onclick="navigateToHomePage()">
+                <a href="/en/" onclick="navigateToHomePage()">
                     <img id="logo" src="{{ url_for('static', filename='/Logo/BAE_Group_Logo.png') }}" alt="Logo_BAE_Group">
                 </a>
             </div>
@@ -56,12 +56,12 @@
                     </button>
                 </div>
                 <div class="dropdown" id="dropdown">
-                    <div><a href="/#ueberuns" onclick="openCloseMobileMenu()">Über uns</a></div>
-                    <div><a href="/#geschaeftsfelder" onclick="openCloseMobileMenu()">Geschäftsfelder</a></div>
-                    <div><a href="/#standorte" onclick="openCloseMobileMenu()">Standorte</a></div>
-                    <div><a href="/Referenzen" onclick="openCloseMobileMenu()">Referenzen</a></div>
-                    <div><a href="/Karriere" onclick="openCloseMobileMenu()">Karriere</a></div>
-                    <div><a href="/#footer" onclick="openCloseMobileMenu()">Kontakt</a></div>
+                    <div><a href="/en/#ueberuns" onclick="openCloseMobileMenu()">About Us</a></div>
+                    <div><a href="/en/#geschaeftsfelder" onclick="openCloseMobileMenu()">Business Areas</a></div>
+                    <div><a href="/en/#standorte" onclick="openCloseMobileMenu()">Locations</a></div>
+                    <div><a href="/en/Referenzen" onclick="openCloseMobileMenu()">References</a></div>
+                    <div><a href="/en/Karriere" onclick="openCloseMobileMenu()">Careers</a></div>
+                    <div><a href="/en/#footer" onclick="openCloseMobileMenu()">Contact</a></div>
 
                     <div class="socialmedia">
                         <div><a href="https://www.linkedin.com/company/baegroup/" target="_blank">linkedin</a></div>

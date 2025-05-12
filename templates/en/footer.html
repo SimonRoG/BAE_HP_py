@@ -7,8 +7,8 @@
 
 <body>
     <div id="footer">
-        <h3>Interesse?</h3>
-        <h1>Kontakt</h1>
+        <h3>Interested?</h3>
+        <h1>Contact</h1>
         <div class="links">
             <a href="mailto:office@b-a-e.eu">E-mail</a>
             <a href="https://www.linkedin.com/company/baegroup/" target="_blank">LinkedIn</a>
@@ -23,14 +23,14 @@
                 {{ contactform.email(placeholder="Email*") }} <br><br>
                 {{ contactform.message(rows="5", placeholder="Message") }} <br><br>
                 {{ contactform.recaptcha }} <br>
-                {{ contactform.submit() }} <br><br>
+                {{ contactform.submit(value="Send") }} <br><br>
             </form>
         </div>
     </div>
     <div id="footerfooter">
         <p>
-            <a href="/Impressum">Impressum</a> |
-            <a href="/Datenschutz">Datenschutz</a>
+            <a href="/Impressum">Legal Notice</a> |
+            <a href="/Datenschutz">Privacy Policy</a>
         </p>
     </div>
 </body>
