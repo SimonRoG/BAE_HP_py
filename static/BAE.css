@@ -1484,6 +1484,10 @@ p {
     padding: 5% 20%;
     position: relative;
 
+    h3 {
+      text-align: start;
+    }
+
     h4 {
       color: #000;
     }
