@@ -1,9 +1,9 @@
 [
     {
-        "Projekt": "Rechenzentrum, Offenbach",
-        "Projektart": "Neubau",
-        "Gebaeude": "Verwaltungsgebäude, Bürogebäude",
-        "Zeitraum": " 09/2022 -  02/2024",
+        "Projekt": "Data Center, Offenbach",
+        "Projektart": "New Construction",
+        "Gebaeude": "Administrative Building, Office Building",
+        "Zeitraum": "09/2022 - 02/2024",
         "Bild": "Rechenzentrum.jpg",
         "LPH": "3-5",
         "Anlagengruppe": "1-3",
@@ -11,10 +11,10 @@
         "Gesamtkosten": "1100000000"
     },
     {
-        "Projekt": "Kurparkterrasse",
-        "Projektart": "Neubau und Sanierung",
-        "Gebaeude": "Einkaufszentrum, Verwaltungsgebäude, Bürogebäude",
-        "Zeitraum": "06/2024 - voraussichtlich 12/2026",
+        "Projekt": "Kurpark Terrace",
+        "Projektart": "New Construction and Renovation",
+        "Gebaeude": "Shopping Center, Administrative Building, Office Building",
+        "Zeitraum": "06/2024 - expected 12/2026",
         "Bild": "",
         "LPH": "1-9",
         "Anlagengruppe": "1-3, 7-8",
@@ -22,10 +22,10 @@
         "Gesamtkosten": "970000000"
     },
     {
-        "Projekt": "ILF-Verdichterstation ",
-        "Projektart": "Erweiterung / Neubau",
-        "Gebaeude": "Verwaltungsgebäude, Bürogebäude",
-        "Zeitraum": "10/2023 -  voraussichtlich 10/2025",
+        "Projekt": "ILF Compressor Station",
+        "Projektart": "Extension / New Construction",
+        "Gebaeude": "Administrative Building, Office Building",
+        "Zeitraum": "10/2023 - expected 10/2025",
         "Bild": "",
         "LPH": "1-4, 6-8",
         "Anlagengruppe": "1-3, 8",
@@ -34,9 +34,9 @@
     },
     {
         "Projekt": "IGM, Pichelssee",
-        "Projektart": "Neubau ",
-        "Gebaeude": "Bildungseinrichtung",
-        "Zeitraum": "02/2023 - voraussichtlich 06/2025",
+        "Projektart": "New Construction",
+        "Gebaeude": "Educational Institution",
+        "Zeitraum": "02/2023 - expected 06/2025",
         "Bild": "IGM.jpg",
         "LPH": "1-4, 6-7",
         "Anlagengruppe": "1-8",
@@ -45,8 +45,8 @@
     },
     {
         "Projekt": "LEIQ, Offenbach",
-        "Projektart": "Neubau",
-        "Gebaeude": "Verwaltungsgebäude, Bürogebäude",
+        "Projektart": "New Construction",
+        "Gebaeude": "Administrative Building, Office Building",
         "Zeitraum": "03/2021 - 12/2022",
         "Bild": "Leiq.jpg",
         "LPH": "3-5",
@@ -56,8 +56,8 @@
     },
     {
         "Projekt": "EMB, Berlin",
-        "Projektart": "Neubau",
-        "Gebaeude": "Bürogebäude, Wohngebäude",
+        "Projektart": "New Construction",
+        "Gebaeude": "Office Building, Residential Building",
         "Zeitraum": "02/2020 - 12/2021",
         "Bild": "EMB.jpg",
         "LPH": "3-7",
@@ -67,8 +67,8 @@
     },
     {
         "Projekt": "Hamberger, Frankfurt",
-        "Projektart": "Neubau",
-        "Gebaeude": "Großmarkt",
+        "Projektart": "New Construction",
+        "Gebaeude": "Wholesale Market",
         "Zeitraum": "02/2020 - 06/2023",
         "Bild": "Hamberger.jpg",
         "LPH": "2-6",
@@ -78,9 +78,9 @@
     },
     {
         "Projekt": "Hirschaid",
-        "Projektart": "Neubau",
-        "Gebaeude": "Einkaufszentrum, Wohnungen",
-        "Zeitraum": "04/2024 - voraussichtlich 09/2024",
+        "Projektart": "New Construction",
+        "Gebaeude": "Shopping Center, Apartments",
+        "Zeitraum": "04/2024 - expected 09/2024",
         "Bild": "",
         "LPH": "1-5",
         "Anlagengruppe": "1-8",
@@ -89,9 +89,9 @@
     },
     {
         "Projekt": "Hotel GBI, Bielefeld",
-        "Projektart": "Umbau",
+        "Projektart": "Renovation",
         "Gebaeude": "Hotel",
-        "Zeitraum": "08/2023 - voraussichtlich 10/2025",
+        "Zeitraum": "08/2023 - expected 10/2025",
         "Bild": "GBI.jpg",
         "LPH": "5-8",
         "Anlagengruppe": "1-8",
@@ -99,10 +99,10 @@
         "Gesamtkosten": "23000000"
     },
     {
-        "Projekt": "Michael Poeschke Schule, Erlangen",
-        "Projektart": "Erweiterung / Neubau",
-        "Gebaeude": "Bildungseinrichtung",
-        "Zeitraum": "11/2023- voraussichtlich 10/2024",
+        "Projekt": "Michael Poeschke School, Erlangen",
+        "Projektart": "Extension / New Construction",
+        "Gebaeude": "Educational Institution",
+        "Zeitraum": "11/2023 - expected 10/2024",
         "Bild": "",
         "LPH": "1-9",
         "Anlagengruppe": "1-3, 8",
@@ -110,10 +110,10 @@
         "Gesamtkosten": "16200000"
     },
     {
-        "Projekt": "IGM Gewerkschaftshaus, Reutlingen",
-        "Projektart": "Neubau",
-        "Gebaeude": "Verwaltungsgebäude, Bürogebäude",
-        "Zeitraum": "09/2023 - voraussichtlich 04/2026",
+        "Projekt": "IGM Union House, Reutlingen",
+        "Projektart": "New Construction",
+        "Gebaeude": "Administrative Building, Office Building",
+        "Zeitraum": "09/2023 - expected 04/2026",
         "Bild": "IGM_G.jpg",
         "LPH": "1-7, 8",
         "Anlagengruppe": "1-8",
@@ -121,9 +121,9 @@
         "Gesamtkosten": "11700000"
     },
     {
-        "Projekt": "Lilientahlcenter, Regensburg",
-        "Projektart": "Neubau",
-        "Gebaeude": "Verwaltungsgebäude, Bürogebäude",
+        "Projekt": "Lilienthalcenter, Regensburg",
+        "Projektart": "New Construction",
+        "Gebaeude": "Administrative Building, Office Building",
         "Zeitraum": "08/2022 - 04/2024",
         "Bild": "LTC.jpg",
         "LPH": "3-6",
@@ -133,8 +133,8 @@
     },
     {
         "Projekt": "Uhlandstraße, Regensburg",
-        "Projektart": "Neubau",
-        "Gebaeude": "Wohngebäude",
+        "Projektart": "New Construction",
+        "Gebaeude": "Residential Building",
         "Zeitraum": "03/2021 - 12/2022",
         "Bild": "Uhlandstraße.jpg",
         "LPH": "1-6, 8",
@@ -143,9 +143,9 @@
         "Gesamtkosten": "8000000"
     },
     {
-        "Projekt": "Transitcenter Flughafen, München",
-        "Projektart": "Neubau",
-        "Gebaeude": "Verwaltungsgebäude, Bürogebäude",
+        "Projekt": "Transitcenter Airport, Munich",
+        "Projektart": "New Construction",
+        "Gebaeude": "Administrative Building, Office Building",
         "Zeitraum": "02/2022 - 06/2022",
         "Bild": "Transit.jpg",
         "LPH": "3-5, 8",
@@ -154,10 +154,10 @@
         "Gesamtkosten": "5000000"
     },
     {
-        "Projekt": "Rückert Schule, Coburg",
-        "Projektart": "Umbau",
-        "Gebaeude": "Bildungseinrichtung",
-        "Zeitraum": "10/2023 - voraussichtlich 09/2024",
+        "Projekt": "Rückert School, Coburg",
+        "Projektart": "Renovation",
+        "Gebaeude": "Educational Institution",
+        "Zeitraum": "10/2023 - expected 09/2024",
         "Bild": "Rueckertschule.jpg",
         "LPH": "3, 5-9",
         "Anlagengruppe": "1-5, 7",
@@ -166,9 +166,9 @@
     },
     {
         "Projekt": "Friedrichstraße, Fulda",
-        "Projektart": "Umbau & Sanierung",
-        "Gebaeude": "Wohngebäude, Geschäftsgebäude",
-        "Zeitraum": "07/2024 - voraussichtlich 04/2025",
+        "Projektart": "Renovation & Restoration",
+        "Gebaeude": "Residential Building, Commercial Building",
+        "Zeitraum": "07/2024 - expected 04/2025",
         "Bild": "",
         "LPH": "1-8",
         "Anlagengruppe": "1-3",
@@ -176,10 +176,10 @@
         "Gesamtkosten": "3650000"
     },
     {
-        "Projekt": "Produktionsgebäude, Windorf",
-        "Projektart": "Neubau",
-        "Gebaeude": "Verwaltungsgebäude, Bürogebäude",
-        "Zeitraum": "05/2021- 12/2021",
+        "Projekt": "Production Building, Windorf",
+        "Projektart": "New Construction",
+        "Gebaeude": "Administrative Building, Office Building",
+        "Zeitraum": "05/2021 - 12/2021",
         "Bild": "Windorf.jpg",
         "LPH": "1-8",
         "Anlagengruppe": "1-5, 8",
@@ -187,10 +187,10 @@
         "Gesamtkosten": "3500000"
     },
     {
-        "Projekt": "rbb, Berlin ",
-        "Projektart": "Sanierung",
-        "Gebaeude": "Verwaltungsgebäude, Bürogebäude",
-        "Zeitraum": "11/2023 - voraussichtlich 05/2028",
+        "Projekt": "rbb, Berlin",
+        "Projektart": "Renovation",
+        "Gebaeude": "Administrative Building, Office Building",
+        "Zeitraum": "11/2023 - expected 05/2028",
         "Bild": "rbb.jpg",
         "LPH": "3-8",
         "Anlagengruppe": "1-5",
@@ -198,10 +198,10 @@
         "Gesamtkosten": "3500000"
     },
     {
-        "Projekt": "Pfarrkirch, Burgebrach",
-        "Projektart": "Sanierung",
-        "Gebaeude": "Kirche",
-        "Zeitraum": "10/2023 - voraussichtlich 02/2025",
+        "Projekt": "Parish Church, Burgebrach",
+        "Projektart": "Renovation",
+        "Gebaeude": "Church",
+        "Zeitraum": "10/2023 - expected 02/2025",
         "Bild": "Pfarrkirche.jpg",
         "LPH": "5-8",
         "Anlagengruppe": "2, 4-5",
@@ -210,9 +210,9 @@
     },
     {
         "Projekt": "Bauhof Ruhla",
-        "Projektart": "Neustrukturierung",
-        "Gebaeude": "Verwaltungsgebäude, Bürogebäude",
-        "Zeitraum": "07/2024 - voraussichtlich 07/2027",
+        "Projektart": "Restructuring",
+        "Gebaeude": "Administrative Building, Office Building",
+        "Zeitraum": "07/2024 - expected 07/2027",
         "Bild": "",
         "LPH": "1-9",
         "Anlagengruppe": "1-6",
@@ -220,10 +220,10 @@
         "Gesamtkosten": "1500000"
     },
     {
-        "Projekt": "Turnhalle, Rattelsdorf",
-        "Projektart": "Sanierung",
-        "Gebaeude": "Bildungseinrichtung",
-        "Zeitraum": "02/2024-voraussichtlich 08/2025",
+        "Projekt": "Gymnasium, Rattelsdorf",
+        "Projektart": "Renovation",
+        "Gebaeude": "Educational Institution",
+        "Zeitraum": "02/2024 - expected 08/2025",
         "Bild": "",
         "LPH": "1-8",
         "Anlagengruppe": "1-4",
@@ -231,10 +231,10 @@
         "Gesamtkosten": "1200000"
     },
     {
-        "Projekt": "Sporthalle Uni, Bamberg",
-        "Projektart": "Umbau",
-        "Gebaeude": "Sporthalle",
-        "Zeitraum": "11/2023 - voraussichtlich 01/2026",
+        "Projekt": "Sports Hall Uni, Bamberg",
+        "Projektart": "Renovation",
+        "Gebaeude": "Sports Hall",
+        "Zeitraum": "11/2023 - expected 01/2026",
         "Bild": "SporthalleBamberg.jpg",
         "LPH": "5, 8",
         "Anlagengruppe": "4-6",
@@ -242,36 +242,14 @@
         "Gesamtkosten": "1100000"
     },
     {
-        "Projekt": "Produktionshalle Wavelight, Pressath",
-        "Projektart": "Umbau/Erweiterung",
-        "Gebaeude": "Verwaltungsgebäude, Bürogebäude",
-        "Zeitraum": "09/2022 -  05/2024",
-        "Bild": "Wavelight.jpg",
-        "LPH": "1-8",
-        "Anlagengruppe": "1-5, 7",
-        "BGF": "1927",
-        "Gesamtkosten": "1000000"
-    },
-    {
-        "Projekt": "KITA Spatzennest, Bad Schwalbach",
-        "Projektart": "Anbau, Umbau, Erweiterung",
-        "Gebaeude": "Bildungseinrichtung",
-        "Zeitraum": "03/2024 - voraussichtlich 12/2025",
+        "Projekt": "Production Hall Wavelight, Pressath",
+        "Projektart": "Renovation/Extension",
+        "Gebaeude": "Administrative Building, Office Building",
+        "Zeitraum": "09/2022 - expected 02/2026",
         "Bild": "",
         "LPH": "1-8",
-        "Anlagengruppe": "1-3",
-        "BGF": "",
-        "Gesamtkosten": "250000"
-    },
-    {
-        "Projekt": "Feuerwehr, Löbelstein",
-        "Projektart": "Neubau",
-        "Gebaeude": "Verwaltungsgebäude, Bürogebäude",
-        "Zeitraum": "09/2022 - 03/2024",
-        "Bild": "FF.jpg",
-        "LPH": "1,3",
-        "Anlagengruppe": "4-5",
-        "BGF": "220",
-        "Gesamtkosten": "145000"
+        "Anlagengruppe": "1-8",
+        "BGF": "6400",
+        "Gesamtkosten": "950000"
     }
 ]

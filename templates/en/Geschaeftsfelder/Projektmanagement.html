@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAE GROUP</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='BAE.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='Logo/Rauten BAE.png') }}" type="image/x-icon">
+    <script src="{{ url_for('static', filename='BAE.js')}}"></script>
+</head>
+
+<body>
+    {% include menu_bar %}
+
+    <div id="Geschaeftsfeld">
+        <div class="GFBild">
+            <img src="{{ url_for('static', filename='Bilder/Projektmanagement.jpg') }}" alt="Projektmanagement">
+            <h1>Projekt Management</h1>
+        </div>
+        <div class="GFText">
+            <div class="columns">
+                <p>
+                    Project management in construction plays a crucial role in successfully planning, coordinating, and completing complex construction projects. It is like composing an orchestra, where various professionals come together to work harmoniously toward a common goal – in this case, the construction of a building.
+                </p>
+                <p>
+                    The conductor in an orchestra is comparable to the project manager in construction. Both play a central role in coordinating and leading the team. The conductor sets the pace and ensures that each musician plays at the right time and tempo. Similarly, the project manager leads the construction project by ensuring that all parties are aligned and carry out their tasks in a coordinated manner. The musicians in the orchestra represent the various construction experts, including architects, engineers, craftsmen, and other specialists. Each musician brings their own skills and expertise, just as the construction experts contribute their unique abilities to the realization of the project.
+                </p>
+                <p>
+                    The construction sector requires seamless collaboration among the involved parties to ensure a successful project. Project management plays the role of ensuring that the various professionals work together effectively and that their individual skills are integrated harmoniously. These tasks are typically carried out on behalf of the building owner to represent the owner's interests. Our Project Management division addresses exactly this. We perform all tasks related to project management on the client's side.
+                </p>
+            </div>
+            <h1>Overview of our services:</h1>
+            <div class="overview">
+                <button onclick="popup('/Bilder/TextBilder/en/ProjektManagment.svg')">
+                    <img src="{{ url_for('static', filename='/Bilder/TextBilder/en/ProjektManagment.svg') }}" alt="Projektmanagement Leistungen">
+                </button>
+            </div>
+
+            <img class="raute1" src="{{ url_for('static', filename='Icons/Raute.svg') }}">
+            <img class="raute2" src="{{ url_for('static', filename='Icons/Raute.svg') }}">
+            <img class="raute3" src="{{ url_for('static', filename='Icons/Raute.svg') }}">
+        </div>
+    </div>
+    {% include footer %}
+</body>
+
+</html>

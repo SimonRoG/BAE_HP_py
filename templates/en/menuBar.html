@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    {% if not consent %}
+    <div id="cookie-banner">
+        <div class="logo">
+            <img src="{{ url_for('static', filename='/Logo/BAE_Group_Logo.png') }}" alt="Logo_BAE_Group">
+        </div>
+        <p>
+            This website uses cookies and similar technologies to enhance your browsing experience and provide personalized recommendations, including Google reCAPTCHA to ensure protection against spam.
+        </p>
+        <p>
+            By continuing to use our website, you agree to our <a href="/en/Datenschutz">Privacy Policy</a> and the aforementioned guidelines.
+        </p>
+        <p>
+            Google reCAPTCHA collects data that is subject to Google's <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a> and <a href="https://policies.google.com/terms" target="_blank">Terms of Use</a>.
+        </p>
+
+        <div>
+            <button id="accept-cookies" onclick="accept_cookie(true)"> Accept </button>
+            <button id="decline-cookies" onclick="accept_cookie(false)"> Essential Only </button>
+        </div>
+    </div>
+    {% endif %}
+
+    <div id="menuBar">
+        <div class="normal">
+            <div>
+                <a href="/en/" onclick="navigateToHomePage()">
+                    <img id="logo" src="{{ url_for('static', filename='/Logo/BAE_Group_Logo.png') }}" alt="Logo_BAE_Group">
+                </a>
+            </div>
+            <div><a href="/en/#ueberuns">About Us</a></div>
+            <div><a href="/en/#geschaeftsfelder">Business Areas</a></div>
+            <div><a href="/en/#standorte">Locations</a></div>
+            <div><a href="/en/Referenzen">References</a></div>
+            <div><a href="/en/Karriere">Careers</a></div>
+            <div><a href="/en/#footer">Contact</a></div>
+        </div>
+
+        <div class="mobile">
+            <div>
+                <a href="/en/" onclick="navigateToHomePage()">
+                    <img id="logo" src="{{ url_for('static', filename='/Logo/BAE_Group_Logo.png') }}" alt="Logo_BAE_Group">
+                </a>
+            </div>
+            <div class="menu">
+                <div class="menu-button" id="menu-button">
+                    <button onclick="openCloseMobileMenu()">
+                        <img id="menu-button-img" src="{{ url_for('static', filename='/Icons/menu.svg') }}" alt="">
+                    </button>
+                </div>
+                <div class="dropdown" id="dropdown">
+                    <div><a href="/en/#ueberuns" onclick="openCloseMobileMenu()">About Us</a></div>
+                    <div><a href="/en/#geschaeftsfelder" onclick="openCloseMobileMenu()">Business Areas</a></div>
+                    <div><a href="/en/#standorte" onclick="openCloseMobileMenu()">Locations</a></div>
+                    <div><a href="/en/Referenzen" onclick="openCloseMobileMenu()">References</a></div>
+                    <div><a href="/en/Karriere" onclick="openCloseMobileMenu()">Careers</a></div>
+                    <div><a href="/en/#footer" onclick="openCloseMobileMenu()">Contact</a></div>
+
+                    <div class="socialmedia">
+                        <div><a href="https://www.linkedin.com/company/baegroup/" target="_blank">linkedin</a></div>
+                        <div><a href="https://www.xing.com/pages/bae-group" target="_blank">xing</a></div>
+                        <div><a href="https://www.facebook.com/profile.php?id=61554842673825" target="_blank">facebook</a></div>
+                        <div><a href="https://www.instagram.com/baegroup.eu/" target="_blank">instagram</a></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

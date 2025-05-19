@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAE GROUP</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='BAE.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='Logo/Rauten BAE.png') }}" type="image/x-icon">
+    <script src="{{ url_for('static', filename='BAE.js')}}"></script>
+</head>
+
+<body>
+    {% include menu_bar%}
+    <div id="Karriere">
+        <div class="KBild">
+            <img src="{{ url_for('static', filename='Bilder/Karriere.jpg') }}">
+            <h1>Start your career <br>with us today!</h1>
+        </div>
+
+        {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+        <div class="alert-message">
+            {% for category, message in messages %}
+            <div class="alert alert-{{ category }} alert-dismissible">
+                {{ message }}
+                <button type="button" class="close" onclick="destroy(this)">
+                    <span>&times;</span>
+                </button>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+        {% endwith %}
+
+        <div class="KText">
+            <div class="Vorwort">
+                <h3>Your partner for the building life cycle.</h3>
+                <h1>Ready to transform the real estate world?</h1>
+                <p>
+                    We shape the present and future of buildings – as the BAE Group, we take a holistic approach to real estate. Through our work on key topics, structured into eight strategic business units – Technical Building Equipment, Contracting, Project Management, Digital Solutions, Asset Management, Property Management, General Planning, and Investment Management – we unite all building-related solutions under one roof. We are looking for you!
+                </p>
+            </div>
+            <div class="Benefits">
+                <h3>Benefits</h3>
+                <h1>That's why you should join BAE:</h1>
+                <div class="grid">
+                    <div class="benefit">
+                        <div>
+                            <img src="{{ url_for('static', filename='Bilder/Homeoffice.jpg') }}" alt="">
+                        </div>
+                        <h4>Home Office & <br> Flexible Working Hours</h4>
+                        <p>
+                            You can adjust your working hours within the 40-hour week, and remote work is possible by arrangement.
+                        </p>
+                    </div>
+                    <div class="benefit">
+                        <div>
+                            <img src="{{ url_for('static', filename='Bilder/Seminare.jpg') }}" alt="">
+                        </div>
+                        <h4>Training & <br> Seminars</h4>
+                        <p>
+                            We focus on your future. With us, you have the opportunity to develop further through internal and external training or seminars and to switch between exciting business fields.
+                        </p>
+                    </div>
+                    <div class="benefit">
+                        <div>
+                            <img src="{{ url_for('static', filename='Bilder/Miteinander.jpg') }}" alt="">
+                        </div>
+                        <h4>Collegial Cooperation & <br> Short Communication Channels</h4>
+                        <p>
+                            With us, you'll experience a collegial atmosphere with direct communication channels.
+                        </p>
+                    </div>
+                    <div class="benefit">
+                        <div>
+                            <img src="{{ url_for('static', filename='Bilder/Zuschuesse.jpg') }}" alt="">
+                        </div>
+                        <h4>Subsidies & <br> Attractive Compensation</h4>
+                        <p>
+                            In addition to an attractive salary, we also offer a subsidy for the company pension scheme, direct insurance, and company benefits, as well as your personal means of transportation, which can also be used privately.
+                        </p>
+                    </div>
+                    <div class="benefit">
+                        <div>
+                            <img src="{{ url_for('static', filename='Bilder/Augenhoehe.jpg') }}" alt="">
+                        </div>
+                        <h4>Working on <br> Equal Terms</h4>
+                        <p>
+                            Diversity, respect, acceptance, and working on equal terms are particularly important to us.
+                        </p>
+
+                    </div>
+                    <div class="benefit">
+                        <div>
+                            <img src="{{ url_for('static', filename='Bilder/Teamevents.jpg') }}" alt="">
+                        </div>
+                        <h4>Regular <br> Team Events</h4>
+                        <p>
+                            Shared team events make us a strong team even outside of work.
+                        </p>
+
+                    </div>
+                </div>
+                <img class="raute1" src="{{ url_for('static', filename='Icons/Raute1.svg') }}">
+                <img class="raute2" src="{{ url_for('static', filename='Icons/Raute1.svg') }}">
+                <img class="raute3" src="{{ url_for('static', filename='Icons/Raute1.svg') }}">
+            </div>
+        </div>
+
+        <div class="KStellen">
+            <h3>Apply Now</h3>
+            <h1>Open Positions</h1>
+
+            <div class="filter">
+                <div>
+                    <label for="ort"><b>Location:</b></label>
+                    <select id="ort" name="ort">
+                        <option value="stellenanzeige">All</option>
+                        <option value="frankfurt">Frankfurt am Main</option>
+                        <option value="berlin">Berlin</option>
+                        <option value="muenchen">Munich</option>
+                        <option value="coburg">Coburg</option>
+                        <option value="bamberg">Bamberg</option>
+                        <option value="deggendorf">Deggendorf</option>
+                        <option value="sofia">Sofia</option>
+                        <option value="varna">Varna</option>
+                        <option value="stuttgart">Stuttgart</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="anstellung"><b>Employment Type:</b></label>
+                    <select id="anstellung" name="anstellung">
+                        <option value="stellenanzeige">All</option>
+                        <option value="voll">Full-time</option>
+                        <option value="teil">Part-time</option>
+                        <option value="student">Working Student</option>
+                        <option value="azubi">Trainee</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="taetigkeit"><b>Position:</b></label>
+                    <select id="taetigkeit" name="taetigkeit">
+                        <option value="stellenanzeige">All</option>
+                        <option value="azubi">Trainee</option>
+                        <option value="systemplaner">System Planner</option>
+                        <option value="fachplaner">Specialist Planner</option>
+                        <option value="projektleiter">Project Manager</option>
+                        <option value="fuehrungspersonal">Management</option>
+                        <option value="assistenz">Assistant</option>
+                        <option value="hr">HR</option>
+                        <option value="marketing">Marketing, Social Media</option>
+                    </select>
+                </div>
+                <div>
+                    <button onclick="filterApply()"><b>Apply filter</b></button>
+                </div>
+            </div>
+            <div class="Stellen">
+                {% for item in data %}
+                <div class="stellenanzeige {{item.Tags}}">
+                    <div class="Stellenname">
+                        <a href="/en/Karriere/{{item.Name[:-7]}}">
+                            <h3>{{item.Name}}</h3>
+                        </a>
+                    </div>
+                    <div class="Standorte">
+                        <p>{{item.Standort}}</p>
+                    </div>
+                    <div class="SButton">
+                        <a href="/en/Karriere/{{item.Name[:-7]}}#KarriereFormular">Jetzt bewerben</a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    {% include footer %}
+</body>
+
+</html>
