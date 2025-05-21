@@ -124,12 +124,15 @@ def send_email_karriere(form, Stelle):
         file_data = File.read()
         file_name = File.filename
         message.add_attachment(
-            file_data, maintype="application", subtype="octet-stream", filename=file_name
+            file_data,
+            maintype="application",
+            subtype="octet-stream",
+            filename=file_name,
         )
     else:
         body += "\nKeine Datei angehängt."
-        
-    message.add_alternative(body, subtype='html')
+
+    message.add_alternative(body, subtype="html")
 
     with smtplib.SMTP("smtp.office365.com", 587) as server:
         server.starttls()
@@ -168,7 +171,7 @@ def send_email_kontakt(form):
     message["From"] = smtp_email
     message["To"] = "office@b-a-e.eu"
     message["Subject"] = "Kontaktformular Webseite"
-    message.add_alternative(body, subtype='html')
+    message.add_alternative(body, subtype="html")
 
     with smtplib.SMTP("smtp.office365.com", 587) as server:
         server.starttls()
