@@ -154,17 +154,6 @@
         "Gesamtkosten": "5000000"
     },
     {
-        "Projekt": "Rückert Schule, Coburg",
-        "Projektart": "Umbau",
-        "Gebaeude": "Bildungseinrichtung",
-        "Zeitraum": "10/2023 - voraussichtlich 09/2024",
-        "Bild": "Rueckertschule.jpg",
-        "LPH": "3, 5-9",
-        "Anlagengruppe": "1-5, 7",
-        "BGF": "3900",
-        "Gesamtkosten": "3960000"
-    },
-    {
         "Projekt": "Friedrichstraße, Fulda",
         "Projektart": "Umbau & Sanierung",
         "Gebaeude": "Wohngebäude, Geschäftsgebäude",
