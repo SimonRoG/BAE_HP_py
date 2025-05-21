@@ -220,17 +220,6 @@
         "Gesamtkosten": "1200000"
     },
     {
-        "Projekt": "Sporthalle Uni, Bamberg",
-        "Projektart": "Umbau",
-        "Gebaeude": "Sporthalle",
-        "Zeitraum": "11/2023 - voraussichtlich 01/2026",
-        "Bild": "SporthalleBamberg.jpg",
-        "LPH": "5, 8",
-        "Anlagengruppe": "4-6",
-        "BGF": "2000",
-        "Gesamtkosten": "1100000"
-    },
-    {
         "Projekt": "Produktionshalle Wavelight, Pressath",
         "Projektart": "Umbau/Erweiterung",
         "Gebaeude": "Verwaltungsgebäude, Bürogebäude",
@@ -251,16 +240,5 @@
         "Anlagengruppe": "1-3",
         "BGF": "",
         "Gesamtkosten": "250000"
-    },
-    {
-        "Projekt": "Feuerwehr, Löbelstein",
-        "Projektart": "Neubau",
-        "Gebaeude": "Verwaltungsgebäude, Bürogebäude",
-        "Zeitraum": "09/2022 - 03/2024",
-        "Bild": "FF.jpg",
-        "LPH": "1,3",
-        "Anlagengruppe": "4-5",
-        "BGF": "220",
-        "Gesamtkosten": "145000"
     }
 ]

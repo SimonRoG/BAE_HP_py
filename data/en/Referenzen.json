@@ -220,17 +220,6 @@
         "Gesamtkosten": "1200000"
     },
     {
-        "Projekt": "Sports Hall Uni, Bamberg",
-        "Projektart": "Renovation",
-        "Gebaeude": "Sports Hall",
-        "Zeitraum": "11/2023 - expected 01/2026",
-        "Bild": "SporthalleBamberg.jpg",
-        "LPH": "5, 8",
-        "Anlagengruppe": "4-6",
-        "BGF": "2000",
-        "Gesamtkosten": "1100000"
-    },
-    {
         "Projekt": "Production Hall Wavelight, Pressath",
         "Projektart": "Renovation/Extension",
         "Gebaeude": "Administrative Building, Office Building",
