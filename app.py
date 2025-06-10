@@ -124,6 +124,9 @@ def send_email_karriere(form, Stelle):
         File.stream.seek(0)
         file_data = File.stream.read()
         file_name = File.filename
+
+        message.add_alternative(body, subtype="html")
+
         message.add_attachment(
             file_data,
             maintype="application",
@@ -132,8 +135,7 @@ def send_email_karriere(form, Stelle):
         )
     else:
         body += "<br>Keine Datei angehängt."
-
-    message.add_alternative(body, subtype="html")
+        message.add_alternative(body, subtype="html")
 
     with smtplib.SMTP("smtp.office365.com", 587) as server:
         server.starttls()
