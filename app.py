@@ -120,7 +120,8 @@ def send_email_karriere(form, Stelle):
     message["To"] = "hr@b-a-e.eu"
     message["Subject"] = "Bewerbung " + Stelle
 
-    if File:
+    if File and getattr(File, "filename", None):
+        File.stream.seek(0)
         file_data = File.read()
         file_name = File.filename
         message.add_attachment(
