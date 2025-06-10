@@ -122,7 +122,7 @@ def send_email_karriere(form, Stelle):
 
     if File and getattr(File, "filename", None):
         File.stream.seek(0)
-        file_data = File.read()
+        file_data = File.stream.read()
         file_name = File.filename
         message.add_attachment(
             file_data,
@@ -131,7 +131,7 @@ def send_email_karriere(form, Stelle):
             filename=file_name,
         )
     else:
-        body += "\nKeine Datei angehängt."
+        body += "<br>Keine Datei angehängt."
 
     message.add_alternative(body, subtype="html")
 
