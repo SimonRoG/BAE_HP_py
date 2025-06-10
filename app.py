@@ -351,7 +351,7 @@ def stelle(Stelle):
             return render_template_(
                 "stelle.html",
                 item=item,
-                # recaptcha_site_key=RECAPTCHA_SITE_KEY,
+                recaptcha_site_key=RECAPTCHA_SITE_KEY,
                 form=form,
             )
 
