@@ -1,5 +1,37 @@
 [
     {
+        "Standort": "Frankfurt",
+        "Firma": "BAE GmbH, Niederlassung Frankfurt",
+        "Adresse": "Berner Straße 119 | 60437 Frankfurt am Main",
+        "Email": "office@b-a-e.eu",
+        "Telefonnummer": "+49 9561 97 69 983",
+        "Bild": "Frankfurt.jpg"
+    },
+    {
+        "Standort": "Berlin",
+        "Firma": "BAE GmbH, Niederlassung Berlin",
+        "Adresse": "10409 Berlin",
+        "Email": "office@b-a-e.eu",
+        "Telefonnummer": "+49 9561 97 69 983",
+        "Bild": "Berlin.jpg"
+    },
+    {
+        "Standort": "München",
+        "Firma": "BAE GmbH, Niederlassung München",
+        "Adresse": "Einsteinring 41 | 85609 Aschheim",
+        "Email": "office@b-a-e.eu",
+        "Telefonnummer": "+49 89 24 41 85 960",
+        "Bild": "Muenchen.jpg"
+    },
+    {
+        "Standort": "Stuttgart",
+        "Firma": "BAE GmbH, Niederlassung Stuttgart",
+        "Adresse": "Hafenbahnstraße 10 | 70327 Stuttgart",
+        "Email": "office@b-a-e.eu",
+        "Telefonnummer": "+49 9561 97 69 983",
+        "Bild": "Stuttgart.jpg"
+    },
+    {
         "Standort": "Coburg",
         "Firma": "BAE GmbH (Hauptsitz)",
         "Adresse": "Raststraße 20 | 96450 Coburg",
@@ -16,44 +48,28 @@
         "Bild": "Bamberg.jpg"
     },
     {
+        "Standort": "Regensburg",
+        "Firma": "BAE GmbH, Niederlassung Regensburg",
+        "Adresse": "Dr.-Gessler-Straße 12C | 93051 Regensburg",
+        "Email": "office@b-a-e.eu",
+        "Telefonnummer": "+49 9561 97 69 983",
+        "Bild": "Regensburg.jpg"
+    },
+    {
+        "Standort": "Haßfurt",
+        "Firma": "BAE GmbH, Niederlassung Haßfurt",
+        "Adresse": "Torgraben 3 | 97437 Haßfurt",
+        "Email": "office@b-a-e.eu",
+        "Telefonnummer": "+49 9561 97 69 983",
+        "Bild": "Hassfurt.jpg"
+    },
+    {
         "Standort": "Deggendorf",
         "Firma": "BAE GmbH, Niederlassung Deggendorf",
         "Adresse": "Itzlinger Weg 2 | 94469 Deggendorf",
         "Email": "office@b-a-e.eu",
         "Telefonnummer": "+49 991 40 22 9830",
         "Bild": "Deggendorf.jpg"
-    },
-    {
-        "Standort": "München",
-        "Firma": "BAE GmbH, Niederlassung München",
-        "Adresse": "Einsteinring 41 | 85609 Aschheim",
-        "Email": "office@b-a-e.eu",
-        "Telefonnummer": "+49 89 24 41 85 960",
-        "Bild": "Muenchen.jpg"
-    },
-    {
-        "Standort": "Frankfurt",
-        "Firma": "BAE Frankfurt GmbH (Hauptsitz)",
-        "Adresse": "Berner Straße 119 | 60437 Frankfurt am Main",
-        "Email": "frankfurt@b-a-e.eu",
-        "Telefonnummer": "+49 69 945 99 117",
-        "Bild": "Frankfurt.jpg"
-    },
-    {
-        "Standort": "Berlin",
-        "Firma": "BAE Frankfurt GmbH, Repräsentanz Berlin",
-        "Adresse": "10409 Berlin",
-        "Email": "berlin@b-a-e.eu",
-        "Telefonnummer": "+49 69 945 99 117",
-        "Bild": "Berlin.jpg"
-    },
-    {
-        "Standort": "Stuttgart",
-        "Firma": "BAE Frankfurt GmbH",
-        "Adresse": "Hafenbahnstraße 10 | 70327 Stuttgart",
-        "Email": "stuttgart@b-a-e.eu",
-        "Telefonnummer": "+49 69 945 99 117",
-        "Bild": "Stuttgart.jpg"
     },
     {
         "Standort": "Sofia",
