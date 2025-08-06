@@ -1,39 +1,441 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg width="3000" height="1900" xmlns="http://www.w3.org/2000/svg" overflow="hidden">
-  <g transform="matrix(1, 0, 0, 1, -702, -405)">
-    <path d="M1720.5 1411.5C1720.5 1232.01 1866.01 1086.5 2045.5 1086.5 2224.99 1086.5 2370.5 1232.01 2370.5 1411.5 2370.5 1590.99 2224.99 1736.5 2045.5 1736.5 1866.01 1736.5 1720.5 1590.99 1720.5 1411.5Z" stroke="#A7A6A6" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <text transform="matrix(1, 0, 0, 1, 2048.933594, 1406.909058)" style="fill: rgb(1, 122, 192); font-family: Arial; font-size: 44px; text-anchor: middle; white-space: pre;"><tspan>Digital </tspan><tspan x="0" dy="1.3em">​</tspan><tspan>Solutions</tspan></text>
-    <path d="M1420.5 964.5C1420.5 870.611 1496.39 794.5 1590 794.5 1683.61 794.5 1759.5 870.611 1759.5 964.5 1759.5 1058.39 1683.61 1134.5 1590 1134.5 1496.39 1134.5 1420.5 1058.39 1420.5 964.5Z" stroke="#44546A" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M 1252.47 1374.5 C 1252.47 1280.89 1328.58 1205 1422.47 1205 C 1516.36 1205 1592.47 1280.89 1592.47 1374.5 C 1592.47 1468.11 1516.36 1544 1422.47 1544 C 1328.58 1544 1252.47 1468.11 1252.47 1374.5 Z" stroke="#33CCFF" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M2315.5 1849.5C2315.5 1755.61 2391.61 1679.5 2485.5 1679.5 2579.39 1679.5 2655.5 1755.61 2655.5 1849.5 2655.5 1943.39 2579.39 2019.5 2485.5 2019.5 2391.61 2019.5 2315.5 1943.39 2315.5 1849.5Z" stroke="#4472C4" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M2474.5 1393C2474.5 1299.39 2550.39 1223.5 2644 1223.5 2737.61 1223.5 2813.5 1299.39 2813.5 1393 2813.5 1486.61 2737.61 1562.5 2644 1562.5 2550.39 1562.5 2474.5 1486.61 2474.5 1393Z" stroke="#BF9000" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M2279.5 938.5C2279.5 844.612 2355.39 768.5 2449 768.5 2542.61 768.5 2618.5 844.612 2618.5 938.5 2618.5 1032.39 2542.61 1108.5 2449 1108.5 2355.39 1108.5 2279.5 1032.39 2279.5 938.5Z" stroke="#F4B183" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M0 0 90.4797 95.1774" stroke="#017AC0" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd" transform="matrix(1 0 0 -1 2238.5 1153.68)"/>
-    <path d="M 0 15.566 L 104.021 18.385" stroke="#017AC0" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd" transform="matrix(1 0 0 -1 2370.5 1411.89)"/>
-    <path d="M1709.5 1084.5 1815.38 1181.95" stroke="#017AC0" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M 1592.859 1366.903 L 1725.49 1366.45" stroke="#017AC0" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M2365.84 1729.91 2275.5 1641.5" stroke="#017AC0" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M1855.5 1996C1855.5 1893 1939.22 1809.5 2042.5 1809.5 2145.78 1809.5 2229.5 1893 2229.5 1996 2229.5 2099 2145.78 2182.5 2042.5 2182.5 1939.22 2182.5 1855.5 2099 1855.5 1996Z" stroke="#7030A0" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M0 0 3.0232 72.7913" stroke="#017AC0" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd" transform="matrix(1 0 0 -1 2042.5 1809.29)"/>
-    <path d="M1368.5 1774C1368.5 1680.39 1444.61 1604.5 1538.5 1604.5 1632.39 1604.5 1708.5 1680.39 1708.5 1774 1708.5 1867.61 1632.39 1943.5 1538.5 1943.5 1444.61 1943.5 1368.5 1867.61 1368.5 1774Z" stroke="#C00000" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M0 0 103.823 78.1538" stroke="#017AC0" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd" transform="matrix(1 0 0 -1 1663.5 1653.65)"/>
-    <path d="M2009.47 1086.75 1999.5 991.5" stroke="#017AC0" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M1829.5 821.5C1829.5 727.611 1905.61 651.5 1999.5 651.5 2093.39 651.5 2169.5 727.611 2169.5 821.5 2169.5 915.388 2093.39 991.5 1999.5 991.5 1905.61 991.5 1829.5 915.388 1829.5 821.5Z" stroke="#70AD47" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <text style="font-family: Arial; font-size: 44px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 163.514099, -12.909008)"><tspan x="1830.59" y="830.713">Artificial </tspan><tspan x="1830.59" dy="1.3em">​</tspan><tspan>intelligence</tspan></text>
-    <text style="font-family: Arial; font-size: 44px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 36.575523, -21.515013)"><tspan x="2405.05" y="957.651">Monitoring </tspan><tspan x="2405.04" dy="1.3em">​</tspan><tspan>systems</tspan></text>
-    <text style="font-family: Arial; font-size: 44px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 177.751724, -62.993561)"><tspan x="2472.54" y="1413.77">Digital </tspan><tspan x="2472.54" dy="1.3em">​</tspan><tspan>buildings </tspan><tspan x="2472.54" dy="1.3em">​</tspan><tspan>twins</tspan></text>
-    <text style="font-family: Arial; font-size: 44px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 8.606006, -21.515013)"><tspan x="2477.16" y="1865.58">Building </tspan><tspan x="2477.16" dy="1.3em">​</tspan><tspan>apps</tspan></text>
-    <text style="font-family: Arial; font-size: 44px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 10.757506, -27.969517)"><tspan x="2037.29" y="2014.04">Web </tspan><tspan x="2037.29" dy="1.3em">​</tspan><tspan>development</tspan></text>
-    <text style="font-family: Arial; font-size: 44px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 174.271606, -23.666515)"><tspan x="1356.62" y="1790.28">Customized </tspan><tspan x="1356.62" dy="1.3em">​</tspan><tspan>software</tspan></text>
-    <text style="font-family: Arial; font-size: 44px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 173.928787, -6.94933)"><tspan x="1239.57" y="1366.44">Digital </tspan><tspan x="1239.57" dy="1.3em">​</tspan><tspan>services</tspan></text>
-    <text style="font-family: Arial; font-size: 44px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 144.150589, -25.818016)"><tspan x="1444.91" y="972.712">Operator </tspan><tspan x="1444.91" dy="1.3em">​</tspan><tspan>software</tspan></text>
-    <text style="font-family: Arial; font-size: 44px; white-space: pre;" x="1366.72" y="578.27" transform="matrix(1, 0, 0, 1, 216.942947, -8.247998)">Development of customized and <tspan x="1366.719970703125" dy="1.3em">​</tspan>individual artificial intelligence for buildings</text>
-    <text style="font-family: Arial; font-size: 44px; white-space: pre;" x="2527.68" y="797.723" transform="matrix(1, 0, 0, 1, 120.484077, 98.969063)">Development of systems <tspan x="2527.679931640625" dy="1.3em">​</tspan>for monitoring, control and <tspan x="2527.679931640625" dy="1.3em">​</tspan>analysis in buildings.</text>
-    <text style="font-family: Arial; font-size: 44px; white-space: pre;" x="2094.63" y="1260.3" transform="matrix(1, 0, 0, 1, 739.399719, 22.947041)">Creation of comprehensive, <tspan x="2094.6298828125" dy="1.3em">​</tspan>digitized models that provide <tspan x="2094.6298828125" dy="1.3em">​</tspan>real-time information on the condition, <tspan x="2094.6298828125" dy="1.3em">​</tspan>performance and other relevant <tspan x="2094.6298828125" dy="1.3em">​</tspan>data of a building or its parts</text>
-    <text style="font-family: Arial; font-size: 44px; white-space: pre;" x="2699.99" y="1772.357" transform="matrix(1, 0, 0, 1, -24.383913, -19.365589)">Programming of apps for various <tspan x="2699.989990234375" dy="1.3em">​</tspan>use cases inside and outside <tspan x="2699.989990234375" dy="1.3em">​</tspan>the building, for example energy <tspan x="2699.989990234375" dy="1.3em">​</tspan>monitoring apps, building management <tspan x="2699.989990234375" dy="1.3em">​</tspan>apps, security and access control <tspan x="2699.989990234375" dy="1.3em">​</tspan>apps or room reservation apps.</text>
-    <text style="font-family: Arial; font-size: 44px; white-space: pre;" x="1516.15" y="2224.17" transform="matrix(1, 0, 0, 1, 189.332123, 16.495306)">Development of websites and <tspan x="1516.1500244140625" dy="1.3em">​</tspan>social media content for buildings.</text>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1480"
+   height="920"
+   overflow="hidden"
+   version="1.1"
+   id="svg62"
+   sodipodi:docname="DigitalSolutions.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs62" />
+  <sodipodi:namedview
+     id="namedview62"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.6006686"
+     inkscape:cx="1028.0211"
+     inkscape:cy="368.75575"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g56" />
+  <g
+     transform="matrix(0.51437533,0,0,0.51437533,-364.08204,-271.72818)"
+     id="g56"
+     style="stroke-width:1.94411">
+    <path
+       d="m 1720.5,1411.5 c 0,-179.49 145.51,-325 325,-325 179.49,0 325,145.51 325,325 0,179.49 -145.51,325 -325,325 -179.49,0 -325,-145.51 -325,-325 z"
+       stroke="#a7a6a6"
+       stroke-width="2.22761"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path1" />
+    <text
+       transform="translate(2048.9336,1406.9091)"
+       style="font-size:44px;font-family:Arial;text-anchor:middle;white-space:pre;fill:#017ac0;stroke-width:1.94411"
+       id="text3"><tspan
+         id="tspan1"
+         style="stroke-width:1.94411">Digital </tspan><tspan
+         x="0"
+         dy="1.3em"
+         id="tspan2"
+         style="stroke-width:1.94411">​</tspan><tspan
+         id="tspan3"
+         style="stroke-width:1.94411">Solutions</tspan></text>
+    <path
+       d="m 1420.5,964.5 c 0,-93.889 75.89,-170 169.5,-170 93.61,0 169.5,76.111 169.5,170 0,93.89 -75.89,170 -169.5,170 -93.61,0 -169.5,-76.11 -169.5,-170 z"
+       stroke="#44546a"
+       stroke-width="2.22761"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path3" />
+    <path
+       d="m 1252.47,1374.5 c 0,-93.61 76.11,-169.5 170,-169.5 93.89,0 170,75.89 170,169.5 0,93.61 -76.11,169.5 -170,169.5 -93.89,0 -170,-75.89 -170,-169.5 z"
+       stroke="#33ccff"
+       stroke-width="2.22761"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path4" />
+    <path
+       d="m 2315.5,1849.5 c 0,-93.89 76.11,-170 170,-170 93.89,0 170,76.11 170,170 0,93.89 -76.11,170 -170,170 -93.89,0 -170,-76.11 -170,-170 z"
+       stroke="#4472c4"
+       stroke-width="2.22761"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path5" />
+    <path
+       d="m 2474.5,1393 c 0,-93.61 75.89,-169.5 169.5,-169.5 93.61,0 169.5,75.89 169.5,169.5 0,93.61 -75.89,169.5 -169.5,169.5 -93.61,0 -169.5,-75.89 -169.5,-169.5 z"
+       stroke="#bf9000"
+       stroke-width="2.22761"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path6" />
+    <path
+       d="m 2279.5,938.5 c 0,-93.888 75.89,-170 169.5,-170 93.61,0 169.5,76.112 169.5,170 0,93.89 -75.89,170 -169.5,170 -93.61,0 -169.5,-76.11 -169.5,-170 z"
+       stroke="#f4b183"
+       stroke-width="2.22761"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path7" />
+    <path
+       d="M 0,0 90.4797,95.1774"
+       stroke="#017ac0"
+       stroke-width="2.22761"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       transform="matrix(1,0,0,-1,2238.5,1153.68)"
+       id="path8" />
+    <path
+       d="m 0,15.566 104.021,2.819"
+       stroke="#017ac0"
+       stroke-width="2.22761"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       transform="matrix(1,0,0,-1,2370.5,1411.89)"
+       id="path9" />
+    <path
+       d="m 1709.5,1084.5 105.88,97.45"
+       stroke="#017ac0"
+       stroke-width="2.22761"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path10" />
+    <path
+       d="m 1592.859,1366.903 132.631,-0.453"
+       stroke="#017ac0"
+       stroke-width="2.22761"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path11" />
+    <path
+       d="M 2365.84,1729.91 2275.5,1641.5"
+       stroke="#017ac0"
+       stroke-width="2.22761"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path12" />
+    <path
+       d="m 1855.5,1996 c 0,-103 83.72,-186.5 187,-186.5 103.28,0 187,83.5 187,186.5 0,103 -83.72,186.5 -187,186.5 -103.28,0 -187,-83.5 -187,-186.5 z"
+       stroke="#7030a0"
+       stroke-width="2.22761"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path13" />
+    <path
+       d="M 0,0 3.0232,72.7913"
+       stroke="#017ac0"
+       stroke-width="2.22761"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       transform="matrix(1,0,0,-1,2042.5,1809.29)"
+       id="path14" />
+    <path
+       d="m 1368.5,1774 c 0,-93.61 76.11,-169.5 170,-169.5 93.89,0 170,75.89 170,169.5 0,93.61 -76.11,169.5 -170,169.5 -93.89,0 -170,-75.89 -170,-169.5 z"
+       stroke="#c00000"
+       stroke-width="2.22761"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path15" />
+    <path
+       d="M 0,0 103.823,78.1538"
+       stroke="#017ac0"
+       stroke-width="2.22761"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       transform="matrix(1,0,0,-1,1663.5,1653.65)"
+       id="path16" />
+    <path
+       d="M 2009.47,1086.75 1999.5,991.5"
+       stroke="#017ac0"
+       stroke-width="2.22761"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path17" />
+    <path
+       d="m 1829.5,821.5 c 0,-93.889 76.11,-170 170,-170 93.89,0 170,76.111 170,170 0,93.888 -76.11,170 -170,170 -93.89,0 -170,-76.112 -170,-170 z"
+       stroke="#70ad47"
+       stroke-width="2.22761"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path18" />
+    <text
+       style="font-size:44px;font-family:Arial;text-anchor:middle;white-space:pre;stroke-width:1.94411"
+       transform="translate(163.5141,-12.909008)"
+       id="text20"><tspan
+         x="1830.59"
+         y="830.71301"
+         id="tspan18"
+         style="stroke-width:1.94411">Artificial </tspan><tspan
+         x="1830.59"
+         dy="1.3em"
+         id="tspan19"
+         style="stroke-width:1.94411">​</tspan><tspan
+         id="tspan20"
+         style="stroke-width:1.94411">intelligence</tspan></text>
+    <text
+       style="font-size:44px;font-family:Arial;text-anchor:middle;white-space:pre;stroke-width:1.94411"
+       transform="translate(36.575523,-21.515013)"
+       id="text23"><tspan
+         x="2405.05"
+         y="957.651"
+         id="tspan21"
+         style="stroke-width:1.94411">Monitoring </tspan><tspan
+         x="2405.04"
+         dy="1.3em"
+         id="tspan22"
+         style="stroke-width:1.94411">​</tspan><tspan
+         id="tspan23"
+         style="stroke-width:1.94411">systems</tspan></text>
+    <text
+       style="font-size:44px;font-family:Arial;text-anchor:middle;white-space:pre;stroke-width:1.94411"
+       transform="translate(177.75172,-62.993561)"
+       id="text28"><tspan
+         x="2472.54"
+         y="1413.77"
+         id="tspan24"
+         style="stroke-width:1.94411">Digital </tspan><tspan
+         x="2472.54"
+         dy="1.3em"
+         id="tspan25"
+         style="stroke-width:1.94411">​</tspan><tspan
+         id="tspan26"
+         style="stroke-width:1.94411">buildings </tspan><tspan
+         x="2472.54"
+         dy="1.3em"
+         id="tspan27"
+         style="stroke-width:1.94411">​</tspan><tspan
+         id="tspan28"
+         style="stroke-width:1.94411">twins</tspan></text>
+    <text
+       style="font-size:44px;font-family:Arial;text-anchor:middle;white-space:pre;stroke-width:1.94411"
+       transform="translate(8.606006,-21.515013)"
+       id="text31"><tspan
+         x="2477.1599"
+         y="1865.58"
+         id="tspan29"
+         style="stroke-width:1.94411">Building </tspan><tspan
+         x="2477.1599"
+         dy="1.3em"
+         id="tspan30"
+         style="stroke-width:1.94411">​</tspan><tspan
+         id="tspan31"
+         style="stroke-width:1.94411">apps</tspan></text>
+    <text
+       style="font-size:44px;font-family:Arial;text-anchor:middle;white-space:pre;stroke-width:1.94411"
+       transform="translate(10.757506,-27.969517)"
+       id="text34"><tspan
+         x="2037.29"
+         y="2014.04"
+         id="tspan32"
+         style="stroke-width:1.94411">Web </tspan><tspan
+         x="2037.29"
+         dy="1.3em"
+         id="tspan33"
+         style="stroke-width:1.94411">​</tspan><tspan
+         id="tspan34"
+         style="stroke-width:1.94411">development</tspan></text>
+    <text
+       style="font-size:44px;font-family:Arial;text-anchor:middle;white-space:pre;stroke-width:1.94411"
+       transform="translate(174.27161,-23.666515)"
+       id="text37"><tspan
+         x="1356.62"
+         y="1790.28"
+         id="tspan35"
+         style="stroke-width:1.94411">Customized </tspan><tspan
+         x="1356.62"
+         dy="1.3em"
+         id="tspan36"
+         style="stroke-width:1.94411">​</tspan><tspan
+         id="tspan37"
+         style="stroke-width:1.94411">software</tspan></text>
+    <text
+       style="font-size:44px;font-family:Arial;text-anchor:middle;white-space:pre;stroke-width:1.94411"
+       transform="translate(173.92879,-6.94933)"
+       id="text40"><tspan
+         x="1239.5699"
+         y="1366.4399"
+         id="tspan38"
+         style="stroke-width:1.94411">Digital </tspan><tspan
+         x="1239.5699"
+         dy="1.3em"
+         id="tspan39"
+         style="stroke-width:1.94411">​</tspan><tspan
+         id="tspan40"
+         style="stroke-width:1.94411">services</tspan></text>
+    <text
+       style="font-size:44px;font-family:Arial;text-anchor:middle;white-space:pre;stroke-width:1.94411"
+       transform="translate(144.15059,-25.818016)"
+       id="text43"><tspan
+         x="1444.91"
+         y="972.71198"
+         id="tspan41"
+         style="stroke-width:1.94411">Operator </tspan><tspan
+         x="1444.91"
+         dy="1.3em"
+         id="tspan42"
+         style="stroke-width:1.94411">​</tspan><tspan
+         id="tspan43"
+         style="stroke-width:1.94411">software</tspan></text>
+    <text
+       style="font-size:44px;font-family:Arial;white-space:pre;stroke-width:1.94411"
+       x="1366.72"
+       y="578.27002"
+       transform="translate(216.94295,-8.247998)"
+       id="text44">Development of customized and <tspan
+   x="1366.72"
+   dy="1.3em"
+   id="tspan44"
+   style="stroke-width:1.94411">​</tspan>individual artificial intelligence for buildings</text>
+    <text
+       style="font-size:44px;font-family:Arial;white-space:pre;stroke-width:1.94411"
+       x="2527.6799"
+       y="797.72302"
+       transform="translate(120.48408,98.969063)"
+       id="text46">Development of systems <tspan
+   x="2527.6799"
+   dy="1.3em"
+   id="tspan45"
+   style="stroke-width:1.94411">​</tspan>for monitoring, control and <tspan
+   x="2527.6799"
+   dy="1.3em"
+   id="tspan46"
+   style="stroke-width:1.94411">​</tspan>analysis in buildings.</text>
+    <text
+       style="font-size:44px;font-family:Arial;white-space:pre;stroke-width:1.94411"
+       x="2094.6299"
+       y="1260.3"
+       transform="translate(739.39972,22.947041)"
+       id="text50"><tspan
+         sodipodi:role="line"
+         id="tspan70"
+         x="2094.6299"
+         y="1260.3">Creation of comprehensive, </tspan><tspan
+         sodipodi:role="line"
+         x="2094.6299"
+         y="1315.3"
+         id="tspan72">digitized models that provide </tspan><tspan
+         sodipodi:role="line"
+         x="2094.6299"
+         y="1370.3"
+         id="tspan73">real-time information on the condition, </tspan><tspan
+         sodipodi:role="line"
+         x="2094.6299"
+         y="1425.3"
+         id="tspan75">performance and other relevant </tspan><tspan
+         sodipodi:role="line"
+         x="2094.6299"
+         y="1480.3"
+         id="tspan76">data of a building or its parts</tspan></text>
+    <text
+       style="font-size:44px;font-family:Arial;white-space:pre;stroke-width:1.94411"
+       x="2699.99"
+       y="1772.3571"
+       transform="translate(-24.383913,-19.365589)"
+       id="text55"><tspan
+         sodipodi:role="line"
+         id="tspan64"
+         x="2699.99"
+         y="1772.3571">Programming of apps for various use cases </tspan><tspan
+         sodipodi:role="line"
+         x="2699.99"
+         y="1827.3571"
+         id="tspan69">inside and outside the building, </tspan><tspan
+         sodipodi:role="line"
+         x="2699.99"
+         y="1882.3571"
+         id="tspan65">for example energy monitoring apps, </tspan><tspan
+         sodipodi:role="line"
+         x="2699.99"
+         y="1937.3571"
+         id="tspan66">building management apps, </tspan><tspan
+         sodipodi:role="line"
+         x="2699.99"
+         y="1992.3571"
+         id="tspan67">security and access control apps or </tspan><tspan
+         sodipodi:role="line"
+         x="2699.99"
+         y="2047.3571"
+         id="tspan68">room reservation apps.</tspan></text>
+    <text
+       style="font-size:44px;font-family:Arial;white-space:pre;stroke-width:1.94411"
+       x="1516.15"
+       y="2224.1699"
+       transform="translate(189.33212,16.495306)"
+       id="text56">Development of websites and <tspan
+   x="1516.15"
+   dy="1.3em"
+   id="tspan56"
+   style="stroke-width:1.94411">​</tspan>social media content for buildings.</text>
+    <text
+       style="font-size:44px;font-family:Arial;white-space:pre;stroke-width:1.94411"
+       x="92.069"
+       y="1507.2"
+       transform="translate(888.2111,260.84941)"
+       id="text57">Programming <tspan
+   x="92.069"
+   dy="1.3em"
+   id="tspan57"
+   style="stroke-width:1.94411">​</tspan>individual software.</text>
+    <text
+       style="font-size:44px;font-family:Arial;white-space:pre;stroke-width:1.94411"
+       x="-648.03101"
+       y="1102.72"
+       transform="translate(1365.5655,194.01296)"
+       id="text60">Modeling and programming <tspan
+   x="-648.03101"
+   dy="1.3em"
+   id="tspan58"
+   style="stroke-width:1.94411">​</tspan>implementation of digital <tspan
+   x="-648.03101"
+   dy="1.3em"
+   id="tspan59"
+   style="stroke-width:1.94411">​</tspan>services to enhance the <tspan
+   x="-648.03101"
+   dy="1.3em"
+   id="tspan60"
+   style="stroke-width:1.94411">​</tspan>user experience in buildings.</text>
+    <text
+       style="font-size:44px;font-family:Arial;white-space:pre;stroke-width:1.94411"
+       x="-366.73901"
+       y="545.479"
+       transform="translate(1165.7541,353.00665)"
+       id="text62">Programming of operator <tspan
+   x="-366.73901"
+   id="tspan61"
+   style="stroke-width:1.94411"
+   dy="1.3em">​</tspan>software, tailored to the needs <tspan
+   x="-366.73901"
+   id="tspan62"
+   style="stroke-width:1.94411"
+   dy="1.3em">​</tspan>of the operator of a building.</text>
   </g>
-  <text style="font-family: Arial; font-size: 44px; white-space: pre;" x="92.069" y="1507.2" transform="matrix(1, 0, 0, 1, 186.211105, -144.150589)">Programming <tspan x="92.06900024414062" dy="1.3em">​</tspan>individual software.</text>
-  <text style="font-family: Arial; font-size: 44px; white-space: pre;" x="-648.031" y="1102.72" transform="matrix(1, 0, 0, 1, 663.565491, -210.987045)">Modeling and programming <tspan x="-648.031005859375" dy="1.3em">​</tspan>implementation of digital <tspan x="-648.031005859375" dy="1.3em">​</tspan>services to enhance the <tspan x="-648.031005859375" dy="1.3em">​</tspan>user experience in buildings.</text>
-  <text style="font-family: Arial; font-size: 44px; white-space: pre;" x="-366.739" y="545.479" transform="matrix(1, 0, 0, 1, 463.754089, -51.993351)">Programming of operator <tspan x="-366.739013671875" dy="1.3em">​</tspan>software, tailored to the needs <tspan x="-366.739013671875" dy="1.3em">​</tspan>of the operator of a building.</text>
 </svg>

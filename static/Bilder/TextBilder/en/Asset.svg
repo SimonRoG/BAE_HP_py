@@ -1,83 +1,731 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg width="3195" height="2116" xmlns="http://www.w3.org/2000/svg" overflow="hidden">
-  <g transform="translate(-100 -362)">
-    <rect x="1933" y="605" width="1310" height="503" fill="#F2F2F2"/>
-    <rect x="208" y="1838" width="1309" height="502" fill="#F2F2F2"/>
-    <rect x="214" y="624" width="1310" height="511" fill="#F2F2F2"/>
-    <rect x="135.5" y="471.5" width="3157" height="2004" stroke="#017AC0" stroke-width="4.58333" stroke-miterlimit="8" fill="none"/>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="700" font-size="69" transform="matrix(1 0 0 1 141.895 450)" style="white-space: pre;">Data as an asset of a building</text>
-    <rect x="257.5" y="963.5" width="1203" height="123" stroke="#017AC0" stroke-width="3.4375" stroke-linejoin="round" stroke-miterlimit="10" fill="#FFFFFF"/>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" style="white-space: pre; font-size: 44px;" x="423.941" y="1039.036">Building data for technical building services</text>
-    <rect x="257.5" y="703.5" width="325" height="190" stroke="#017AC0" stroke-width="4.58333" stroke-miterlimit="8" fill="#FFFFFF"/>
-    <rect x="608.5" y="701.5" width="325" height="190" stroke="#017AC0" stroke-width="4.58333" stroke-miterlimit="8" fill="#FFFFFF"/>
-    <rect x="1136.5" y="701.5" width="324" height="190" stroke="#017AC0" stroke-width="4.58333" stroke-miterlimit="8" fill="#FFFFFF"/>
-    <path d="M426 892 426 962.195" stroke="#017AC0" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M773 892 773 962.195" stroke="#017AC0" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <rect x="963.5" y="701.5" width="141" height="190" stroke="#017AC0" stroke-width="4.58333" stroke-miterlimit="8" fill="#FFFFFF"/>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1005.93 812)" style="white-space: pre;">….</text>
-    <path d="M1033 891 1033 961.195" stroke="#017AC0" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M1306 891 1306 961.195" stroke="#017AC0" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="46" transform="matrix(1 0 0 1 247.122 587)" style="white-space: pre;">Digital service 1 Building</text>
-    <rect x="1958.5" y="934.5" width="1203" height="123" stroke="#7F7F7F" stroke-width="3.4375" stroke-linejoin="round" stroke-miterlimit="10" fill="#FFFFFF"/>
-    <text fill="#7F7F7F" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" style="white-space: pre; font-size: 44px;" x="2140.588" y="1007.783">Building data for technical building services</text>
-    <rect x="1958.5" y="674.5" width="325" height="190" stroke="#7F7F7F" stroke-width="4.58333" stroke-miterlimit="8" fill="#FFFFFF"/>
-    <rect x="2309.5" y="672.5" width="325" height="190" stroke="#7F7F7F" stroke-width="4.58333" stroke-miterlimit="8" fill="#FFFFFF"/>
-    <rect x="2836.5" y="672.5" width="325" height="190" stroke="#7F7F7F" stroke-width="4.58333" stroke-miterlimit="8" fill="#FFFFFF"/>
-    <path d="M2127 863 2127 933.196" stroke="#7F7F7F" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M2474 863 2474 933.196" stroke="#7F7F7F" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <rect x="2664.5" y="672.5" width="141" height="190" stroke="#7F7F7F" stroke-width="4.58333" stroke-miterlimit="8" fill="#FFFFFF"/>
-    <text fill="#7F7F7F" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2706.8 783)" style="white-space: pre;">….</text>
-    <path d="M2734 862 2734 932.195" stroke="#7F7F7F" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M3006 862 3006 932.195" stroke="#7F7F7F" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <text fill="#7F7F7F" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="46" transform="matrix(1 0 0 1 1948 558)" style="white-space: pre;">Digital service N Building</text>
-    <rect x="261.5" y="2169.5" width="1203" height="122" stroke="#017AC0" stroke-width="3.4375" stroke-linejoin="round" stroke-miterlimit="10" fill="#FFFFFF"/>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" style="white-space: pre; font-size: 44px;" x="436.624" y="2244.036">Building data for technical building services</text>
-    <rect x="261.5" y="1908.5" width="324" height="190" stroke="#017AC0" stroke-width="4.58333" stroke-miterlimit="8" fill="#FFFFFF"/>
-    <rect x="612.5" y="1907.5" width="325" height="189" stroke="#017AC0" stroke-width="4.58333" stroke-miterlimit="8" fill="#FFFFFF"/>
-    <rect x="1139.5" y="1907.5" width="325" height="189" stroke="#017AC0" stroke-width="4.58333" stroke-miterlimit="8" fill="#FFFFFF"/>
-    <path d="M430 2098 430 2168.2" stroke="#017AC0" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M777 2098 777 2168.2" stroke="#017AC0" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <rect x="967.5" y="1907.5" width="141" height="189" stroke="#017AC0" stroke-width="4.58333" stroke-miterlimit="8" fill="#FFFFFF"/>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1009.6 2017)" style="white-space: pre;">….</text>
-    <path d="M1036 2096 1036 2166.2" stroke="#017AC0" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M1309 2096 1309 2166.2" stroke="#017AC0" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="46" transform="matrix(1 0 0 1 250.793 1793)" style="white-space: pre;">Digital service 2 Building</text>
-    <rect x="1919" y="1865" width="1309" height="502" fill="#F2F2F2"/>
-    <rect x="1972.5" y="2196.5" width="1203" height="123" stroke="#017AC0" stroke-width="3.4375" stroke-linejoin="round" stroke-miterlimit="10" fill="#FFFFFF"/>
-    <rect x="1972.5" y="1936.5" width="325" height="190" stroke="#017AC0" stroke-width="4.58333" stroke-miterlimit="8" fill="#FFFFFF"/>
-    <rect x="2323.5" y="1934.5" width="325" height="190" stroke="#017AC0" stroke-width="4.58333" stroke-miterlimit="8" fill="#FFFFFF"/>
-    <rect x="2850.5" y="1934.5" width="325" height="190" stroke="#017AC0" stroke-width="4.58333" stroke-miterlimit="8" fill="#FFFFFF"/>
-    <path d="M2141 2125 2141 2195.2" stroke="#017AC0" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M2488 2125 2488 2195.2" stroke="#017AC0" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <rect x="2678.5" y="1934.5" width="141" height="190" stroke="#017AC0" stroke-width="4.58333" stroke-miterlimit="8" fill="#FFFFFF"/>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2720.74 2045)" style="white-space: pre;">….</text>
-    <path d="M2748 2124 2748 2194.2" stroke="#017AC0" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M3020 2124 3020 2194.2" stroke="#017AC0" stroke-width="2.29167" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="46" transform="matrix(1 0 0 1 1961.93 1820)" style="white-space: pre;">Digital service 3 Building</text>
-    <path d="M1430.03 1343.21C1421.32 1295.37 1466.14 1251.3 1530.13 1244.8 1556.06 1242.16 1582.42 1246.1 1605 1255.99 1628.92 1222.27 1684.82 1209.45 1729.86 1227.37 1737.74 1230.5 1744.97 1234.47 1751.32 1239.15 1769.95 1211.2 1815.34 1199.84 1852.69 1213.79 1863.03 1217.65 1872.05 1223.23 1879.05 1230.1 1909.08 1203.67 1962.15 1200.4 1997.58 1222.81 2012.47 1232.23 2022.51 1245.22 2025.97 1259.55 2075.18 1269.59 2104.21 1307.62 2090.81 1344.49 2089.68 1347.59 2088.27 1350.63 2086.58 1353.58 2126.04 1392 2116.38 1447.07 2065 1476.58 2049.01 1485.77 2030.11 1491.71 2010.15 1493.85 2009.71 1535.18 1964.5 1568.42 1909.18 1568.09 1890.7 1567.98 1872.62 1564.05 1856.94 1556.74 1838.23 1603.08 1772.97 1629.27 1711.17 1615.24 1685.27 1609.36 1662.9 1596.92 1647.86 1580.05 1584.58 1608.6 1502.46 1593.24 1464.42 1545.76 1463.95 1545.17 1463.47 1544.56 1463.01 1543.96 1421.6 1547.58 1384.09 1525.49 1379.23 1494.6 1376.64 1478.14 1383.91 1461.66 1399.1 1449.56 1363.24 1433.78 1351.2 1399.13 1372.19 1372.17 1384.31 1356.62 1405.55 1346.34 1429.4 1344.49Z" stroke="#017AC0" stroke-width="4.58333" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M1443.76 1455.55C1428.45 1456.44 1413.15 1453.8 1399.9 1447.96M1482.46 1538.53C1476.3 1540.36 1469.85 1541.58 1463.27 1542.15M1647.81 1578.4C1643.18 1573.2 1639.31 1567.65 1636.25 1561.84M1861.63 1537.12C1860.95 1543.28 1859.41 1549.37 1857.02 1555.28M1953.44 1424.88C1988.14 1437.51 2010.04 1463.92 2009.74 1492.77M2086.22 1352.58C2080.6 1362.4 2072.02 1371.11 2061.16 1378.03M2026.07 1258.12C2027.03 1262.09 2027.47 1266.11 2027.4 1270.14M1865.98 1244.1C1869.25 1238.55 1873.57 1233.39 1878.82 1228.77M1745.87 1251.41C1747.2 1246.82 1749.29 1242.38 1752.09 1238.18M1604.91 1255.9C1613.08 1259.48 1620.63 1263.78 1627.41 1268.72M1433.96 1356.71C1432.18 1352.3 1430.86 1347.79 1430.03 1343.22" stroke="#017AC0" stroke-width="4.58333" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <text fill="#017AC0" font-family="Open Sans,Open Sans_MSFontService,sans-serif" font-weight="400" font-size="69" style="white-space: pre; font-size: 69px;" x="1641.964" y="1384">Data</text>
-    <text fill="#017AC0" font-family="Open Sans,Open Sans_MSFontService,sans-serif" font-weight="400" font-size="69" style="white-space: pre; font-size: 69px;" x="1611.024" y="1466">storage</text>
-    <path d="M812.319 1184.36 1289.62 1366.95 1287.98 1371.23 810.681 1188.64ZM1289.43 1354.61 1310.21 1377.28 1279.61 1380.3Z" fill="#017AC0"/>
-    <path d="M1320.94 1318.54 948.106 1176.79 949.735 1172.5 1322.57 1314.26ZM948.318 1189.13 927.5 1166.5 958.091 1163.42Z" fill="#017AC0"/>
-    <path d="M0.873978-2.11847 438.801 178.549 437.053 182.786-0.873978 2.11847ZM438.934 166.209 459.112 189.408 428.446 191.631Z" fill="#7F7F7F" transform="matrix(-1 0 0 1 2626.61 1204.5)"/>
-    <path d="M0.89774-2.10851 391.428 164.168 389.632 168.385-0.89774 2.10851ZM391.7 151.83 411.615 175.254 380.927 177.132Z" fill="#7F7F7F" transform="matrix(1 0 0 -1 2127.5 1335.75)"/>
-    <path d="M0.94082-2.08964 352.897 156.372 351.016 160.551-0.94082 2.08964ZM353.422 144.042 372.853 167.87 342.132 169.118Z" fill="#017AC0" transform="matrix(-1 0 0 1 1409.35 1562.5)"/>
-    <path d="M0.947747-2.08651 350.177 156.543 348.281 160.716-0.947747 2.08651ZM350.742 144.215 370.094 168.107 339.369 169.253Z" fill="#017AC0" transform="matrix(1 0 0 -1 1083.5 1790.61)"/>
-    <path d="M2446.2 1691.22 2101.2 1563.6 2102.79 1559.3 2447.79 1686.92ZM2101.52 1575.94 2080.5 1553.5 2111.06 1550.14Z" fill="#017AC0"/>
-    <path d="M1993.34 1583.37 2352.72 1725.39 2351.03 1729.65 1991.66 1587.63ZM2352.67 1713.05 2373.19 1735.95 2342.56 1738.63Z" fill="#017AC0"/>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" style="white-space: pre; font-size: 44px;" x="2132.239" y="2273.98">Building data for technical building services</text>
-    <text style="fill: rgb(1, 122, 192); font-family: Arial, sans-serif; font-size: 44px; text-anchor: middle; white-space: pre;" x="435.152" y="757.945" transform="matrix(1, 0, 0, 1, -13.518142, 31.542332)">Data <tspan x="435.1520080566406" dy="1em">​</tspan>subsystem 1</text>
-    <text style="fill: rgb(1, 122, 192); font-family: Arial, sans-serif; font-size: 44px; text-anchor: middle; white-space: pre;" x="435.152" y="757.945" transform="matrix(1, 0, 0, 1, 333.447693, 27.566603)">Data <tspan x="435.1520080566406" dy="1em">​</tspan>subsystem 2</text>
-    <text style="fill: rgb(1, 122, 192); font-family: Arial, sans-serif; font-size: 44px; text-anchor: middle; white-space: pre;" x="435.152" y="757.945" transform="matrix(1, 0, 0, 1, 869.667358, 32.072651)">Data <tspan x="435.1520080566406" dy="1em">​</tspan>subsystem n</text>
-    <text style="fill: rgb(1, 122, 192); font-family: Arial, sans-serif; font-size: 44px; text-anchor: middle; white-space: pre;" x="435.152" y="757.945" transform="matrix(1, 0, 0, 1, -15.770981, 1241.946289)">Data <tspan x="435.1520080566406" dy="1em">​</tspan>subsystem 1</text>
-    <text style="fill: rgb(1, 122, 192); font-family: Arial, sans-serif; font-size: 44px; text-anchor: middle; white-space: pre;" x="435.152" y="757.945" transform="matrix(1, 0, 0, 1, 340.206726, 1237.440186)">Data <tspan x="435.1520080566406" dy="1em">​</tspan>subsystem 2</text>
-    <text style="fill: rgb(1, 122, 192); font-family: Arial, sans-serif; font-size: 44px; text-anchor: middle; white-space: pre;" x="435.152" y="757.945" transform="matrix(1, 0, 0, 1, 869.667297, 1235.187256)">Data <tspan x="435.1520080566406" dy="1em">​</tspan>subsystem n</text>
-    <text style="fill: rgb(1, 122, 192); font-family: Arial, sans-serif; font-size: 44px; text-anchor: middle; white-space: pre;" x="435.152" y="757.945" transform="matrix(1, 0, 0, 1, 1705.539063, 1268.982544)">Data <tspan x="435.1520080566406" dy="1em">​</tspan>subsystem 1</text>
-    <text style="fill: rgb(1, 122, 192); font-family: Arial, sans-serif; font-size: 44px; text-anchor: middle; white-space: pre;" x="435.152" y="757.945" transform="matrix(1, 0, 0, 1, 2052.504639, 1266.729492)">Data <tspan x="435.1520080566406" dy="1em">​</tspan>subsystem 2</text>
-    <text style="fill: rgb(1, 122, 192); font-family: Arial, sans-serif; font-size: 44px; text-anchor: middle; white-space: pre;" x="435.152" y="757.945" transform="matrix(1, 0, 0, 1, 2584.218262, 1266.729492)">Data <tspan x="435.1520080566406" dy="1em">​</tspan>subsystem n</text>
-    <text style="fill: rgb(127, 127, 127); font-family: Arial, sans-serif; font-size: 44px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 1687.514893, 7.289391)"><tspan x="435.152" y="757.945">Data </tspan><tspan x="435.152" dy="1em">​</tspan><tspan>subsystem 1</tspan></text>
-    <text style="fill: rgb(127, 127, 127); font-family: Arial, sans-serif; font-size: 44px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 2036.733521, 2.783343)"><tspan x="435.152" y="757.945">Data </tspan><tspan x="435.1520080566406" dy="1em">​</tspan><tspan>subsystem 2</tspan></text>
-    <text style="fill: rgb(127, 127, 127); font-family: Arial, sans-serif; font-size: 44px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 2570.699951, 7.289391)"><tspan x="435.152" y="757.945">Data </tspan><tspan x="435.1520080566406" dy="1em">​</tspan><tspan>subsystem n</tspan></text>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1395"
+   height="920"
+   overflow="hidden"
+   version="1.1"
+   id="svg57"
+   sodipodi:docname="Asset.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs57" />
+  <sodipodi:namedview
+     id="namedview57"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.38137996"
+     inkscape:cx="1598.1437"
+     inkscape:cy="1058"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg57" />
+  <g
+     transform="matrix(0.43709942,0,0,0.43729489,-51.935806,-169.81568)"
+     id="g57"
+     style="stroke-width:2.2873">
+    <rect
+       x="1933"
+       y="605"
+       width="1310"
+       height="503"
+       fill="#f2f2f2"
+       id="rect1"
+       style="stroke-width:2.2873" />
+    <rect
+       x="208"
+       y="1838"
+       width="1309"
+       height="502"
+       fill="#f2f2f2"
+       id="rect2"
+       style="stroke-width:2.2873" />
+    <rect
+       x="214"
+       y="624"
+       width="1310"
+       height="511"
+       fill="#f2f2f2"
+       id="rect3"
+       style="stroke-width:2.2873" />
+    <rect
+       x="135.5"
+       y="471.5"
+       width="3157"
+       height="2004"
+       stroke="#017ac0"
+       stroke-width="10.4835"
+       stroke-miterlimit="8"
+       fill="none"
+       id="rect4" />
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="700"
+       font-size="69px"
+       transform="translate(141.895,450)"
+       style="white-space:pre;stroke-width:2.2873"
+       id="text4">Data as an asset of a building</text>
+    <rect
+       x="257.5"
+       y="963.5"
+       width="1203"
+       height="123"
+       stroke="#017ac0"
+       stroke-width="7.86258"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#ffffff"
+       id="rect5" />
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44"
+       style="font-size:44px;white-space:pre;stroke-width:2.2873"
+       x="423.94101"
+       y="1039.036"
+       id="text5">Building data for technical building services</text>
+    <rect
+       x="257.5"
+       y="703.5"
+       width="325"
+       height="190"
+       stroke="#017ac0"
+       stroke-width="10.4835"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       id="rect6" />
+    <rect
+       x="608.5"
+       y="701.5"
+       width="325"
+       height="190"
+       stroke="#017ac0"
+       stroke-width="10.4835"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       id="rect7" />
+    <rect
+       x="1136.5"
+       y="701.5"
+       width="324"
+       height="190"
+       stroke="#017ac0"
+       stroke-width="10.4835"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       id="rect8" />
+    <path
+       d="m 426,892 v 70.195"
+       stroke="#017ac0"
+       stroke-width="5.24173"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path8" />
+    <path
+       d="m 773,892 v 70.195"
+       stroke="#017ac0"
+       stroke-width="5.24173"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path9" />
+    <rect
+       x="963.5"
+       y="701.5"
+       width="141"
+       height="190"
+       stroke="#017ac0"
+       stroke-width="10.4835"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       id="rect9" />
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1005.93,812)"
+       style="white-space:pre;stroke-width:2.2873"
+       id="text9">….</text>
+    <path
+       d="m 1033,891 v 70.195"
+       stroke="#017ac0"
+       stroke-width="5.24173"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path10" />
+    <path
+       d="m 1306,891 v 70.195"
+       stroke="#017ac0"
+       stroke-width="5.24173"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path11" />
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="46px"
+       transform="translate(247.122,587)"
+       style="white-space:pre;stroke-width:2.2873"
+       id="text11">Digital service 1 Building</text>
+    <rect
+       x="1958.5"
+       y="934.5"
+       width="1203"
+       height="123"
+       stroke="#7f7f7f"
+       stroke-width="7.86258"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#ffffff"
+       id="rect11" />
+    <text
+       fill="#7f7f7f"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44"
+       style="font-size:44px;white-space:pre;stroke-width:2.2873"
+       x="2140.5879"
+       y="1007.783"
+       id="text12">Building data for technical building services</text>
+    <rect
+       x="1958.5"
+       y="674.5"
+       width="325"
+       height="190"
+       stroke="#7f7f7f"
+       stroke-width="10.4835"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       id="rect12" />
+    <rect
+       x="2309.5"
+       y="672.5"
+       width="325"
+       height="190"
+       stroke="#7f7f7f"
+       stroke-width="10.4835"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       id="rect13" />
+    <rect
+       x="2836.5"
+       y="672.5"
+       width="325"
+       height="190"
+       stroke="#7f7f7f"
+       stroke-width="10.4835"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       id="rect14" />
+    <path
+       d="m 2127,863 v 70.196"
+       stroke="#7f7f7f"
+       stroke-width="5.24173"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path14" />
+    <path
+       d="m 2474,863 v 70.196"
+       stroke="#7f7f7f"
+       stroke-width="5.24173"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path15" />
+    <rect
+       x="2664.5"
+       y="672.5"
+       width="141"
+       height="190"
+       stroke="#7f7f7f"
+       stroke-width="10.4835"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       id="rect15" />
+    <text
+       fill="#7f7f7f"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2706.8,783)"
+       style="white-space:pre;stroke-width:2.2873"
+       id="text15">….</text>
+    <path
+       d="m 2734,862 v 70.195"
+       stroke="#7f7f7f"
+       stroke-width="5.24173"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path16" />
+    <path
+       d="m 3006,862 v 70.195"
+       stroke="#7f7f7f"
+       stroke-width="5.24173"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path17" />
+    <text
+       fill="#7f7f7f"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="46px"
+       transform="translate(1948,558)"
+       style="white-space:pre;stroke-width:2.2873"
+       id="text17">Digital service N Building</text>
+    <rect
+       x="261.5"
+       y="2169.5"
+       width="1203"
+       height="122"
+       stroke="#017ac0"
+       stroke-width="7.86258"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#ffffff"
+       id="rect17" />
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44"
+       style="font-size:44px;white-space:pre;stroke-width:2.2873"
+       x="436.62399"
+       y="2244.0359"
+       id="text18">Building data for technical building services</text>
+    <rect
+       x="261.5"
+       y="1908.5"
+       width="324"
+       height="190"
+       stroke="#017ac0"
+       stroke-width="10.4835"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       id="rect18" />
+    <rect
+       x="612.5"
+       y="1907.5"
+       width="325"
+       height="189"
+       stroke="#017ac0"
+       stroke-width="10.4835"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       id="rect19" />
+    <rect
+       x="1139.5"
+       y="1907.5"
+       width="325"
+       height="189"
+       stroke="#017ac0"
+       stroke-width="10.4835"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       id="rect20" />
+    <path
+       d="m 430,2098 v 70.2"
+       stroke="#017ac0"
+       stroke-width="5.24173"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path20" />
+    <path
+       d="m 777,2098 v 70.2"
+       stroke="#017ac0"
+       stroke-width="5.24173"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path21" />
+    <rect
+       x="967.5"
+       y="1907.5"
+       width="141"
+       height="189"
+       stroke="#017ac0"
+       stroke-width="10.4835"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       id="rect21" />
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1009.6,2017)"
+       style="white-space:pre;stroke-width:2.2873"
+       id="text21">….</text>
+    <path
+       d="m 1036,2096 v 70.2"
+       stroke="#017ac0"
+       stroke-width="5.24173"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path22" />
+    <path
+       d="m 1309,2096 v 70.2"
+       stroke="#017ac0"
+       stroke-width="5.24173"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path23" />
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="46px"
+       transform="translate(250.793,1793)"
+       style="white-space:pre;stroke-width:2.2873"
+       id="text23">Digital service 2 Building</text>
+    <rect
+       x="1919"
+       y="1865"
+       width="1309"
+       height="502"
+       fill="#f2f2f2"
+       id="rect23"
+       style="stroke-width:2.2873" />
+    <rect
+       x="1972.5"
+       y="2196.5"
+       width="1203"
+       height="123"
+       stroke="#017ac0"
+       stroke-width="7.86258"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="#ffffff"
+       id="rect24" />
+    <rect
+       x="1972.5"
+       y="1936.5"
+       width="325"
+       height="190"
+       stroke="#017ac0"
+       stroke-width="10.4835"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       id="rect25" />
+    <rect
+       x="2323.5"
+       y="1934.5"
+       width="325"
+       height="190"
+       stroke="#017ac0"
+       stroke-width="10.4835"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       id="rect26" />
+    <rect
+       x="2850.5"
+       y="1934.5"
+       width="325"
+       height="190"
+       stroke="#017ac0"
+       stroke-width="10.4835"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       id="rect27" />
+    <path
+       d="m 2141,2125 v 70.2"
+       stroke="#017ac0"
+       stroke-width="5.24173"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path27" />
+    <path
+       d="m 2488,2125 v 70.2"
+       stroke="#017ac0"
+       stroke-width="5.24173"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path28" />
+    <rect
+       x="2678.5"
+       y="1934.5"
+       width="141"
+       height="190"
+       stroke="#017ac0"
+       stroke-width="10.4835"
+       stroke-miterlimit="8"
+       fill="#ffffff"
+       id="rect28" />
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2720.74,2045)"
+       style="white-space:pre;stroke-width:2.2873"
+       id="text28">….</text>
+    <path
+       d="m 2748,2124 v 70.2"
+       stroke="#017ac0"
+       stroke-width="5.24173"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path29" />
+    <path
+       d="m 3020,2124 v 70.2"
+       stroke="#017ac0"
+       stroke-width="5.24173"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path30" />
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="46px"
+       transform="translate(1961.93,1820)"
+       style="white-space:pre;stroke-width:2.2873"
+       id="text30">Digital service 3 Building</text>
+    <path
+       d="m 1430.03,1343.21 c -8.71,-47.84 36.11,-91.91 100.1,-98.41 25.93,-2.64 52.29,1.3 74.87,11.19 23.92,-33.72 79.82,-46.54 124.86,-28.62 7.88,3.13 15.11,7.1 21.46,11.78 18.63,-27.95 64.02,-39.31 101.37,-25.36 10.34,3.86 19.36,9.44 26.36,16.31 30.03,-26.43 83.1,-29.7 118.53,-7.29 14.89,9.42 24.93,22.41 28.39,36.74 49.21,10.04 78.24,48.07 64.84,84.94 -1.13,3.1 -2.54,6.14 -4.23,9.09 39.46,38.42 29.8,93.49 -21.58,123 -15.99,9.19 -34.89,15.13 -54.85,17.27 -0.44,41.33 -45.65,74.57 -100.97,74.24 -18.48,-0.11 -36.56,-4.04 -52.24,-11.35 -18.71,46.34 -83.97,72.53 -145.77,58.5 -25.9,-5.88 -48.27,-18.32 -63.31,-35.19 -63.28,28.55 -145.4,13.19 -183.44,-34.29 -0.47,-0.59 -0.95,-1.2 -1.41,-1.8 -41.41,3.62 -78.92,-18.47 -83.78,-49.36 -2.59,-16.46 4.68,-32.94 19.87,-45.04 -35.86,-15.78 -47.9,-50.43 -26.91,-77.39 12.12,-15.55 33.36,-25.83 57.21,-27.68 z"
+       stroke="#017ac0"
+       stroke-width="10.4835"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path31" />
+    <path
+       d="m 1443.76,1455.55 c -15.31,0.89 -30.61,-1.75 -43.86,-7.59 m 82.56,90.57 c -6.16,1.83 -12.61,3.05 -19.19,3.62 m 184.54,36.25 c -4.63,-5.2 -8.5,-10.75 -11.56,-16.56 m 225.38,-24.72 c -0.68,6.16 -2.22,12.25 -4.61,18.16 m 96.42,-130.4 c 34.7,12.63 56.6,39.04 56.3,67.89 m 76.48,-140.19 c -5.62,9.82 -14.2,18.53 -25.06,25.45 m -35.09,-119.91 c 0.96,3.97 1.4,7.99 1.33,12.02 m -161.42,-26.04 c 3.27,-5.55 7.59,-10.71 12.84,-15.33 m -132.95,22.64 c 1.33,-4.59 3.42,-9.03 6.22,-13.23 m -147.18,17.72 c 8.17,3.58 15.72,7.88 22.5,12.82 m -193.45,87.99 c -1.78,-4.41 -3.1,-8.92 -3.93,-13.49"
+       stroke="#017ac0"
+       stroke-width="10.4835"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path32" />
+    <text
+       fill="#017ac0"
+       font-family="'Open Sans', 'Open Sans_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="69"
+       style="font-size:69px;white-space:pre;stroke-width:2.2873"
+       x="1641.964"
+       y="1384"
+       id="text32">Data</text>
+    <text
+       fill="#017ac0"
+       font-family="'Open Sans', 'Open Sans_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="69"
+       style="font-size:69px;white-space:pre;stroke-width:2.2873"
+       x="1611.024"
+       y="1466"
+       id="text33">storage</text>
+    <path
+       d="m 812.319,1184.36 477.301,182.59 -1.64,4.28 -477.299,-182.59 z m 477.111,170.25 20.78,22.67 -30.6,3.02 z"
+       fill="#017ac0"
+       id="path33"
+       style="stroke-width:2.2873" />
+    <path
+       d="m 1320.94,1318.54 -372.834,-141.75 1.629,-4.29 372.835,141.76 z M 948.318,1189.13 927.5,1166.5 l 30.591,-3.08 z"
+       fill="#017ac0"
+       id="path34"
+       style="stroke-width:2.2873" />
+    <path
+       d="M 0.873978,-2.11847 438.801,178.549 437.053,182.786 -0.873978,2.11847 Z M 438.934,166.209 l 20.178,23.199 -30.666,2.223 z"
+       fill="#7f7f7f"
+       transform="matrix(-1,0,0,1,2626.61,1204.5)"
+       id="path35"
+       style="stroke-width:2.2873" />
+    <path
+       d="M 0.89774,-2.10851 391.428,164.168 389.632,168.385 -0.89774,2.10851 Z M 391.7,151.83 l 19.915,23.424 -30.688,1.878 z"
+       fill="#7f7f7f"
+       transform="matrix(1,0,0,-1,2127.5,1335.75)"
+       id="path36"
+       style="stroke-width:2.2873" />
+    <path
+       d="M 0.94082,-2.08964 352.897,156.372 351.016,160.551 -0.94082,2.08964 Z M 353.422,144.042 l 19.431,23.828 -30.721,1.248 z"
+       fill="#017ac0"
+       transform="matrix(-1,0,0,1,1409.35,1562.5)"
+       id="path37"
+       style="stroke-width:2.2873" />
+    <path
+       d="M 0.947747,-2.08651 350.177,156.543 348.281,160.716 -0.947747,2.08651 Z M 350.742,144.215 l 19.352,23.892 -30.725,1.146 z"
+       fill="#017ac0"
+       transform="matrix(1,0,0,-1,1083.5,1790.61)"
+       id="path38"
+       style="stroke-width:2.2873" />
+    <path
+       d="m 2446.2,1691.22 -345,-127.62 1.59,-4.3 345,127.62 z m -344.68,-115.28 -21.02,-22.44 30.56,-3.36 z"
+       fill="#017ac0"
+       id="path39"
+       style="stroke-width:2.2873" />
+    <path
+       d="m 1993.34,1583.37 359.38,142.02 -1.69,4.26 -359.37,-142.02 z m 359.33,129.68 20.52,22.9 -30.63,2.68 z"
+       fill="#017ac0"
+       id="path40"
+       style="stroke-width:2.2873" />
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44"
+       style="font-size:44px;white-space:pre;stroke-width:2.2873"
+       x="2132.239"
+       y="2273.98"
+       id="text40">Building data for technical building services</text>
+    <text
+       style="font-size:44px;font-family:Arial, sans-serif;text-anchor:middle;white-space:pre;fill:#017ac0;stroke-width:2.2873"
+       x="435.15201"
+       y="757.94501"
+       transform="translate(-13.518142,31.542332)"
+       id="text41">Data <tspan
+   x="435.15201"
+   dy="1em"
+   id="tspan40"
+   style="stroke-width:2.2873">​</tspan>subsystem 1</text>
+    <text
+       style="font-size:44px;font-family:Arial, sans-serif;text-anchor:middle;white-space:pre;fill:#017ac0;stroke-width:2.2873"
+       x="435.15201"
+       y="757.94501"
+       transform="translate(333.44769,27.566603)"
+       id="text42">Data <tspan
+   x="435.15201"
+   dy="1em"
+   id="tspan41"
+   style="stroke-width:2.2873">​</tspan>subsystem 2</text>
+    <text
+       style="font-size:44px;font-family:Arial, sans-serif;text-anchor:middle;white-space:pre;fill:#017ac0;stroke-width:2.2873"
+       x="435.15201"
+       y="757.94501"
+       transform="translate(869.66736,32.072651)"
+       id="text43">Data <tspan
+   x="435.15201"
+   dy="1em"
+   id="tspan42"
+   style="stroke-width:2.2873">​</tspan>subsystem n</text>
+    <text
+       style="font-size:44px;font-family:Arial, sans-serif;text-anchor:middle;white-space:pre;fill:#017ac0;stroke-width:2.2873"
+       x="435.15201"
+       y="757.94501"
+       transform="translate(-15.770981,1241.9463)"
+       id="text44">Data <tspan
+   x="435.15201"
+   dy="1em"
+   id="tspan43"
+   style="stroke-width:2.2873">​</tspan>subsystem 1</text>
+    <text
+       style="font-size:44px;font-family:Arial, sans-serif;text-anchor:middle;white-space:pre;fill:#017ac0;stroke-width:2.2873"
+       x="435.15201"
+       y="757.94501"
+       transform="translate(340.20673,1237.4402)"
+       id="text45">Data <tspan
+   x="435.15201"
+   dy="1em"
+   id="tspan44"
+   style="stroke-width:2.2873">​</tspan>subsystem 2</text>
+    <text
+       style="font-size:44px;font-family:Arial, sans-serif;text-anchor:middle;white-space:pre;fill:#017ac0;stroke-width:2.2873"
+       x="435.15201"
+       y="757.94501"
+       transform="translate(869.6673,1235.1873)"
+       id="text46">Data <tspan
+   x="435.15201"
+   dy="1em"
+   id="tspan45"
+   style="stroke-width:2.2873">​</tspan>subsystem n</text>
+    <text
+       style="font-size:44px;font-family:Arial, sans-serif;text-anchor:middle;white-space:pre;fill:#017ac0;stroke-width:2.2873"
+       x="435.15201"
+       y="757.94501"
+       transform="translate(1705.5391,1268.9825)"
+       id="text47">Data <tspan
+   x="435.15201"
+   dy="1em"
+   id="tspan46"
+   style="stroke-width:2.2873">​</tspan>subsystem 1</text>
+    <text
+       style="font-size:44px;font-family:Arial, sans-serif;text-anchor:middle;white-space:pre;fill:#017ac0;stroke-width:2.2873"
+       x="435.15201"
+       y="757.94501"
+       transform="translate(2052.5046,1266.7295)"
+       id="text48">Data <tspan
+   x="435.15201"
+   dy="1em"
+   id="tspan47"
+   style="stroke-width:2.2873">​</tspan>subsystem 2</text>
+    <text
+       style="font-size:44px;font-family:Arial, sans-serif;text-anchor:middle;white-space:pre;fill:#017ac0;stroke-width:2.2873"
+       x="435.15201"
+       y="757.94501"
+       transform="translate(2584.2183,1266.7295)"
+       id="text49">Data <tspan
+   x="435.15201"
+   dy="1em"
+   id="tspan48"
+   style="stroke-width:2.2873">​</tspan>subsystem n</text>
+    <text
+       style="font-size:44px;font-family:Arial, sans-serif;text-anchor:middle;white-space:pre;fill:#7f7f7f;stroke-width:2.2873"
+       transform="translate(1687.5149,7.289391)"
+       id="text51"><tspan
+         x="435.15201"
+         y="757.94501"
+         id="tspan49"
+         style="stroke-width:2.2873">Data </tspan><tspan
+         x="435.15201"
+         dy="1em"
+         id="tspan50"
+         style="stroke-width:2.2873">​</tspan><tspan
+         id="tspan51"
+         style="stroke-width:2.2873">subsystem 1</tspan></text>
+    <text
+       style="font-size:44px;font-family:Arial, sans-serif;text-anchor:middle;white-space:pre;fill:#7f7f7f;stroke-width:2.2873"
+       transform="translate(2036.7335,2.783343)"
+       id="text54"><tspan
+         x="435.15201"
+         y="757.94501"
+         id="tspan52"
+         style="stroke-width:2.2873">Data </tspan><tspan
+         x="435.15201"
+         dy="1em"
+         id="tspan53"
+         style="stroke-width:2.2873">​</tspan><tspan
+         id="tspan54"
+         style="stroke-width:2.2873">subsystem 2</tspan></text>
+    <text
+       style="font-size:44px;font-family:Arial, sans-serif;text-anchor:middle;white-space:pre;fill:#7f7f7f;stroke-width:2.2873"
+       transform="translate(2570.7,7.289391)"
+       id="text57"><tspan
+         x="435.15201"
+         y="757.94501"
+         id="tspan55"
+         style="stroke-width:2.2873">Data </tspan><tspan
+         x="435.15201"
+         dy="1em"
+         id="tspan56"
+         style="stroke-width:2.2873">​</tspan><tspan
+         id="tspan57"
+         style="stroke-width:2.2873">subsystem n</tspan></text>
   </g>
 </svg>

@@ -1,76 +1,739 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg width="2169" height="1472" xmlns="http://www.w3.org/2000/svg" overflow="hidden">
-  <g transform="translate(-940 -554)">
-    <path d="M941.5 983.334C941.5 951.393 967.393 925.5 999.335 925.5L1285.67 925.5C1317.61 925.5 1343.5 951.393 1343.5 983.334L1343.5 1214.67C1343.5 1246.61 1317.61 1272.5 1285.67 1272.5L999.335 1272.5C967.393 1272.5 941.5 1246.61 941.5 1214.67Z" stroke="#017AC0" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M2266.5 984.334C2266.5 952.393 2292.39 926.5 2324.33 926.5L2611.67 926.5C2643.61 926.5 2669.5 952.393 2669.5 984.334L2669.5 1215.67C2669.5 1247.61 2643.61 1273.5 2611.67 1273.5L2324.33 1273.5C2292.39 1273.5 2266.5 1247.61 2266.5 1215.67Z" stroke="#017AC0" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M1383.5 984.168C1383.5 952.319 1409.32 926.5 1441.17 926.5L1728.83 926.5C1760.68 926.5 1786.5 952.319 1786.5 984.168L1786.5 1214.83C1786.5 1246.68 1760.68 1272.5 1728.83 1272.5L1441.17 1272.5C1409.32 1272.5 1383.5 1246.68 1383.5 1214.83Z" stroke="#017AC0" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M1383.5 1737.17C1383.5 1705.32 1409.32 1679.5 1441.17 1679.5L1727.83 1679.5C1759.68 1679.5 1785.5 1705.32 1785.5 1737.17L1785.5 1967.83C1785.5 1999.68 1759.68 2025.5 1727.83 2025.5L1441.17 2025.5C1409.32 2025.5 1383.5 1999.68 1383.5 1967.83Z" stroke="#017AC0" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M2705.5 1736.33C2705.5 1704.39 2731.39 1678.5 2763.33 1678.5L3050.67 1678.5C3082.61 1678.5 3108.5 1704.39 3108.5 1736.33L3108.5 1967.67C3108.5 1999.61 3082.61 2025.5 3050.67 2025.5L2763.33 2025.5C2731.39 2025.5 2705.5 1999.61 2705.5 1967.67Z" stroke="#017AC0" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M1825.5 1360.33C1825.5 1328.39 1851.39 1302.5 1883.33 1302.5L2169.67 1302.5C2201.61 1302.5 2227.5 1328.39 2227.5 1360.33L2227.5 1591.67C2227.5 1623.61 2201.61 1649.5 2169.67 1649.5L1883.33 1649.5C1851.39 1649.5 1825.5 1623.61 1825.5 1591.67Z" stroke="#017AC0" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M940.5 1737.17C940.5 1705.32 966.319 1679.5 998.168 1679.5L1285.83 1679.5C1317.68 1679.5 1343.5 1705.32 1343.5 1737.17L1343.5 1967.83C1343.5 1999.68 1317.68 2025.5 1285.83 2025.5L998.168 2025.5C966.319 2025.5 940.5 1999.68 940.5 1967.83Z" stroke="#017AC0" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M2705.5 612.168C2705.5 580.319 2731.32 554.5 2763.17 554.5L3050.83 554.5C3082.68 554.5 3108.5 580.319 3108.5 612.168L3108.5 842.832C3108.5 874.681 3082.68 900.5 3050.83 900.5L2763.17 900.5C2731.32 900.5 2705.5 874.681 2705.5 842.832Z" stroke="#017AC0" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M2267.5 612.335C2267.5 580.393 2293.39 554.5 2325.33 554.5L2611.67 554.5C2643.61 554.5 2669.5 580.393 2669.5 612.335L2669.5 843.666C2669.5 875.607 2643.61 901.501 2611.67 901.501L2325.33 901.501C2293.39 901.501 2267.5 875.607 2267.5 843.666Z" stroke="#017AC0" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M940.5 612.334C940.5 580.393 966.393 554.5 998.334 554.5L1285.67 554.5C1317.61 554.5 1343.5 580.393 1343.5 612.334L1343.5 843.666C1343.5 875.607 1317.61 901.5 1285.67 901.5L998.334 901.5C966.393 901.5 940.5 875.607 940.5 843.666Z" stroke="#017AC0" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M2705.5 984.168C2705.5 952.319 2731.32 926.5 2763.17 926.5L3050.83 926.5C3082.68 926.5 3108.5 952.319 3108.5 984.168L3108.5 1214.83C3108.5 1246.68 3082.68 1272.5 3050.83 1272.5L2763.17 1272.5C2731.32 1272.5 2705.5 1246.68 2705.5 1214.83Z" stroke="#017AC0" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M1383.5 612.168C1383.5 580.319 1409.32 554.5 1441.17 554.5L1728.83 554.5C1760.68 554.5 1786.5 580.319 1786.5 612.168L1786.5 842.832C1786.5 874.681 1760.68 900.5 1728.83 900.5L1441.17 900.5C1409.32 900.5 1383.5 874.681 1383.5 842.832Z" stroke="#017AC0" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M1825.5 984.168C1825.5 952.319 1851.32 926.5 1883.17 926.5L2170.83 926.5C2202.68 926.5 2228.5 952.319 2228.5 984.168L2228.5 1214.83C2228.5 1246.68 2202.68 1272.5 2170.83 1272.5L1883.17 1272.5C1851.32 1272.5 1825.5 1246.68 1825.5 1214.83Z" stroke="#017AC0" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M940.5 1360.33C940.5 1328.39 966.393 1302.5 998.334 1302.5L1285.67 1302.5C1317.61 1302.5 1343.5 1328.39 1343.5 1360.33L1343.5 1591.67C1343.5 1623.61 1317.61 1649.5 1285.67 1649.5L998.334 1649.5C966.393 1649.5 940.5 1623.61 940.5 1591.67Z" stroke="#017AC0" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M1383.5 1360.33C1383.5 1328.39 1409.39 1302.5 1441.33 1302.5L1728.67 1302.5C1760.61 1302.5 1786.5 1328.39 1786.5 1360.33L1786.5 1591.67C1786.5 1623.61 1760.61 1649.5 1728.67 1649.5L1441.33 1649.5C1409.39 1649.5 1383.5 1623.61 1383.5 1591.67Z" stroke="#017AC0" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M2266.5 1360.33C2266.5 1328.39 2292.39 1302.5 2324.33 1302.5L2611.67 1302.5C2643.61 1302.5 2669.5 1328.39 2669.5 1360.33L2669.5 1591.67C2669.5 1623.61 2643.61 1649.5 2611.67 1649.5L2324.33 1649.5C2292.39 1649.5 2266.5 1623.61 2266.5 1591.67Z" stroke="#017AC0" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M2267.5 1737.17C2267.5 1705.32 2293.32 1679.5 2325.17 1679.5L2611.83 1679.5C2643.68 1679.5 2669.5 1705.32 2669.5 1737.17L2669.5 1967.83C2669.5 1999.68 2643.68 2025.5 2611.83 2025.5L2325.17 2025.5C2293.32 2025.5 2267.5 1999.68 2267.5 1967.83Z" stroke="#017AC0" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M1825.5 612.334C1825.5 580.393 1851.39 554.5 1883.33 554.5L2169.67 554.5C2201.61 554.5 2227.5 580.393 2227.5 612.334L2227.5 843.666C2227.5 875.607 2201.61 901.5 2169.67 901.5L1883.33 901.5C1851.39 901.5 1825.5 875.607 1825.5 843.666Z" stroke="#017AC0" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M2705.5 1360.33C2705.5 1328.39 2731.39 1302.5 2763.33 1302.5L3050.67 1302.5C3082.61 1302.5 3108.5 1328.39 3108.5 1360.33L3108.5 1591.67C3108.5 1623.61 3082.61 1649.5 3050.67 1649.5L2763.33 1649.5C2731.39 1649.5 2705.5 1623.61 2705.5 1591.67Z" stroke="#017AC0" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M1825.5 1737.17C1825.5 1705.32 1851.32 1679.5 1883.17 1679.5L2169.83 1679.5C2201.68 1679.5 2227.5 1705.32 2227.5 1737.17L2227.5 1967.83C2227.5 1999.68 2201.68 2025.5 2169.83 2025.5L1883.17 2025.5C1851.32 2025.5 1825.5 1999.68 1825.5 1967.83Z" stroke="#017AC0" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M0 0 40.0829 0.574541" stroke="#4472C4" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd" transform="matrix(1 0 0 -1 1343.5 728.074)"/>
-    <path d="M1786.5 727.5 1825.02 728.074" stroke="#4472C4" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M2227.5 728.5 2266.58 728.5" stroke="#4472C4" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M0 0 35.7554 0.574541" stroke="#4472C4" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd" transform="matrix(1 0 0 -1 2669.5 728.074)"/>
-    <path d="M1142.52 926.03 1142.5 901.5" stroke="#4472C4" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M0 0 0.122343 25.291" stroke="#4472C4" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd" transform="matrix(1 0 0 -1 1585.5 925.791)"/>
-    <path d="M2026.59 926.214 2026.5 901.5" stroke="#4472C4" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M0 0 0.237467 25.5418" stroke="#4472C4" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd" transform="matrix(1 0 0 -1 2468.5 927.042)"/>
-    <path d="M0 0 0.000360892 25.291" stroke="#4472C4" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd" transform="matrix(1 0 0 -1 2907.5 925.791)"/>
-    <path d="M0 0 0.202461 29.687" stroke="#4472C4" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd" transform="matrix(1 0 0 -1 1142.5 1302.19)"/>
-    <path d="M1142.68 1679.19 1142.5 1649.5" stroke="#4472C4" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M0 0 0.475656 29.9959" stroke="#4472C4" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd" transform="matrix(1 0 0 -1 1584.5 1679.5)"/>
-    <path d="M0 0 0.000360892 29.9959" stroke="#4472C4" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd" transform="matrix(1 0 0 -1 2026.5 1679.5)"/>
-    <path d="M2468.74 1678.76 2468.5 1649.5" stroke="#4472C4" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M0 0 0.112238 29.0717" stroke="#4472C4" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd" transform="matrix(1 0 0 -1 2906.5 1678.57)"/>
-    <path d="M0 0 0.000360892 30.1078" stroke="#4472C4" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd" transform="matrix(1 0 0 -1 2907.5 1302.61)"/>
-    <path d="M0 0 0.000360892 29.2824" stroke="#4472C4" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd" transform="matrix(1 0 0 -1 2468.5 1302.78)"/>
-    <path d="M0 0 0.087336 29.3781" stroke="#4472C4" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd" transform="matrix(1 0 0 -1 2026.5 1301.88)"/>
-    <path d="M0 0 0.253346 29.3759" stroke="#4472C4" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd" transform="matrix(1 0 0 -1 1584.5 1301.88)"/>
-    <path d="M1786.5 1475.5 1825.4 1475.5" stroke="#4472C4" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M2227.5 1475.5 2266.34 1476.23" stroke="#4472C4" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M0 0 35.9929 0.0920276" stroke="#4472C4" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd" transform="matrix(1 0 0 -1 2669.5 1476.59)"/>
-    <path d="M0 0 39.8873 0.308924" stroke="#4472C4" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd" transform="matrix(1 0 0 -1 1343.5 1475.81)"/>
-    <path d="M0 0 38.7313 0.00216535" stroke="#4472C4" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd" transform="matrix(1 0 0 -1 1786.5 1099.5)"/>
-    <path d="M2228.5 1099.5 2267.26 1100.33" stroke="#4472C4" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M0 0 35.9929 0.825361" stroke="#4472C4" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd" transform="matrix(1 0 0 -1 2669.5 1100.33)"/>
-    <path d="M1343.5 1099.5 1383.46 1099.59" stroke="#4472C4" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M1343.5 1852.5 1382.73 1852.5" stroke="#4472C4" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M1785.5 1852.5 1824.87 1852.5" stroke="#4472C4" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M2227.5 1852.5 2266.58 1852.5" stroke="#4472C4" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/>
-    <path d="M0 0 35.6432 0.376411" stroke="#4472C4" stroke-width="1.14583" stroke-miterlimit="8" fill="none" fill-rule="evenodd" transform="matrix(1 0 0 -1 2669.5 1852.88)"/>
-    <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 44px; white-space: pre; text-anchor: middle;" transform="matrix(1, 0, 0, 1, 120.599792, 49.19202)"><tspan x="1016.67" y="649.71">Identification /</tspan><tspan x="1016.67" dy="1em">​</tspan><tspan>management of </tspan><tspan x="1016.67" dy="1em">​</tspan><tspan>due diligence</tspan></text>
-    <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 44px; white-space: pre; text-anchor: middle;" transform="matrix(1, 0, 0, 1, 88.863014, 26.976271)"><tspan x="1499.07" y="694.671">Valuation</tspan><tspan x="1499.07" dy="1em">​</tspan><tspan>of real estate</tspan></text>
-    <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 44px; white-space: pre; text-anchor: middle;" x="2017.966" y="816.857" transform="matrix(1, 0, 0, 1, 9.521036, -117.426125)">Real estate <tspan x="2017.9659423828125" dy="1em">​</tspan>controlling and risk <tspan x="2017.9659423828125" dy="1em">​</tspan>management</text>
-    <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 44px; white-space: pre; text-anchor: middle;" x="2455.927" y="653.413" transform="matrix(1, 0, 0, 1, 7.934197, 66.647263)">Transaction <tspan x="2455.927001953125" dy="1em">​</tspan>management</text>
-    <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 44px; white-space: pre; text-anchor: middle;" x="2901.836" y="789.881" transform="matrix(1, 0, 0, 1, 4.760519, -112.665604)">Value-oriented <tspan x="2901.8359375" dy="1em">​</tspan>planning, <tspan x="2901.8359375" dy="1em">​</tspan>management <tspan x="2901.8359375" dy="1em">​</tspan>and control</text>
-    <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 44px; white-space: pre; text-anchor: middle;" x="1137.269" y="1140.568" transform="matrix(1, 0, 0, 1, 3.17368, -50.778866)">Fiduciary owner <tspan x="1137.26904296875" dy="1em">​</tspan>representation</text>
-    <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 44px; white-space: pre; text-anchor: middle;" x="1581.582" y="1078.69" transform="matrix(1, 0, 0, 1, 0, -9.521037)">Creation of <tspan x="1581.58203125" dy="1em">​</tspan>real estate-specific<tspan x="1581.58203125" dy="1em">​</tspan> business plans</text>
-    <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 44px; white-space: pre; text-anchor: middle;" x="2032.246" y="1150.097" transform="matrix(1, 0, 0, 1, -7.934197, -53.952541)">Project <tspan x="2032.2459716796875" dy="1em">​</tspan>management</text>
-    <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 44px; white-space: pre; text-anchor: middle;" x="2470.212" y="1083.447" transform="matrix(1, 0, 0, 1, -4.760519, 6.347358)">Market and <tspan x="2470.2119140625" dy="1em">​</tspan>location analysis</text>
-    <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 44px; white-space: pre; text-anchor: middle;" x="2912.946" y="1180.244" transform="matrix(1, 0, 0, 1, -4.760519, -131.707672)">Identification /<tspan x="2912.946044921875" dy="1em">​</tspan>management <tspan x="2912.946044921875" dy="1em">​</tspan>and implementation <tspan x="2912.946044921875" dy="1em">​</tspan>of due diligence</text>
-    <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 44px; white-space: pre; text-anchor: middle;" x="1137.268" y="1490.561" transform="matrix(1, 0, 0, 1, 0.000001, -68.2341)">Strategic guidelines <tspan x="1137.2679443359375" dy="1em">​</tspan>and control of <tspan x="1137.2679443359375" dy="1em">​</tspan>building/property <tspan x="1137.2679443359375" dy="1em">​</tspan>management</text>
-    <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 44px; white-space: pre; text-anchor: middle;" x="1581.587" y="1490.56" transform="matrix(1, 0, 0, 1, 1.58684, -66.647263)">Selection, control <tspan x="1581.5870361328125" dy="1em">​</tspan>and control of <tspan x="1581.5870361328125" dy="1em">​</tspan>the property <tspan x="1581.5870361328125" dy="1em">​</tspan>management</text>
-    <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 44px; white-space: pre; text-anchor: middle;" x="2027.484" y="1488.968" transform="matrix(1, 0, 0, 1, -4.760519, -44.431503)">Identification <tspan x="2027.4840087890625" dy="1em">​</tspan>and utilization <tspan x="2027.4840087890625" dy="1em">​</tspan>of potentials</text>
-    <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 44px; white-space: pre; text-anchor: middle;" x="2308.36" y="1511.19" transform="matrix(1, 0, 0, 1, 155.510284, -41.257828)">Real estate <tspan x="2308.360107421875" dy="1em">​</tspan>marketing</text>
-    <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 44px; white-space: pre; text-anchor: middle;" x="2730.45" y="1527.06" transform="matrix(1, 0, 0, 1, 171.378662, -55.539379)">Research <tspan x="2730.449951171875" dy="1em">​</tspan>at object level</text>
-    <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 44px; white-space: pre; text-anchor: middle;" x="1145.202" y="1865.058" transform="matrix(1, 0, 0, 1, -1.586839, -17.455235)">Performance <tspan x="1145.2020263671875" dy="1em">​</tspan>management</text>
-    <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 44px; white-space: pre; text-anchor: middle;" x="1584.757" y="1868.221" transform="matrix(1, 0, 0, 1, 0, -46.018345)">Value <tspan x="1584.7569580078125" dy="1em">​</tspan>management <tspan x="1584.7569580078125" dy="1em">​</tspan>and development</text>
-    <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 44px; white-space: pre; text-anchor: middle;" x="2325.815" y="1799.996" transform="matrix(1, 0, 0, 1, -301.499512, 23.802591)">Reporting activities <tspan x="2325.81494140625" dy="1em">​</tspan>on object and/or <tspan x="2325.81494140625" dy="1em">​</tspan>portfolio level</text>
-    <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 44px; white-space: pre; text-anchor: middle;" x="2294.07" y="1844.42" transform="matrix(1, 0, 0, 1, 177.726013, 0.000001)">Real estate <tspan x="2294.070068359375" dy="1em">​</tspan>controlling</text>
-    <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 44px; white-space: pre; text-anchor: middle;" x="3147.791" y="1792.057" transform="matrix(1, 0, 0, 1, -238.025925, 28.56311)">Real estate <tspan x="3147.791015625" dy="1em">​</tspan>investment and <tspan x="3147.791015625" dy="1em">​</tspan>financing</text>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1350"
+   height="920"
+   overflow="hidden"
+   version="1.1"
+   id="svg90"
+   sodipodi:docname="AssetManagement.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs90" />
+  <sodipodi:namedview
+     id="namedview90"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.77531953"
+     inkscape:cx="601.68741"
+     inkscape:cy="448.2023"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g90" />
+  <g
+     transform="matrix(0.61794347,0,0,0.61784785,-575.60292,-337.02372)"
+     id="g90"
+     style="stroke-width:1.6184">
+    <path
+       d="m 941.5,983.334 c 0,-31.941 25.893,-57.834 57.835,-57.834 h 286.335 c 31.94,0 57.83,25.893 57.83,57.834 v 231.336 c 0,31.94 -25.89,57.83 -57.83,57.83 H 999.335 c -31.942,0 -57.835,-25.89 -57.835,-57.83 z"
+       stroke="#017ac0"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path1" />
+    <path
+       d="m 2266.5,984.334 c 0,-31.941 25.89,-57.834 57.83,-57.834 h 287.34 c 31.94,0 57.83,25.893 57.83,57.834 v 231.336 c 0,31.94 -25.89,57.83 -57.83,57.83 h -287.34 c -31.94,0 -57.83,-25.89 -57.83,-57.83 z"
+       stroke="#017ac0"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path2" />
+    <path
+       d="m 1383.5,984.168 c 0,-31.849 25.82,-57.668 57.67,-57.668 h 287.66 c 31.85,0 57.67,25.819 57.67,57.668 v 230.662 c 0,31.85 -25.82,57.67 -57.67,57.67 h -287.66 c -31.85,0 -57.67,-25.82 -57.67,-57.67 z"
+       stroke="#017ac0"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path3" />
+    <path
+       d="m 1383.5,1737.17 c 0,-31.85 25.82,-57.67 57.67,-57.67 h 286.66 c 31.85,0 57.67,25.82 57.67,57.67 v 230.66 c 0,31.85 -25.82,57.67 -57.67,57.67 h -286.66 c -31.85,0 -57.67,-25.82 -57.67,-57.67 z"
+       stroke="#017ac0"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path4" />
+    <path
+       d="m 2705.5,1736.33 c 0,-31.94 25.89,-57.83 57.83,-57.83 h 287.34 c 31.94,0 57.83,25.89 57.83,57.83 v 231.34 c 0,31.94 -25.89,57.83 -57.83,57.83 h -287.34 c -31.94,0 -57.83,-25.89 -57.83,-57.83 z"
+       stroke="#017ac0"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path5" />
+    <path
+       d="m 1825.5,1360.33 c 0,-31.94 25.89,-57.83 57.83,-57.83 h 286.34 c 31.94,0 57.83,25.89 57.83,57.83 v 231.34 c 0,31.94 -25.89,57.83 -57.83,57.83 h -286.34 c -31.94,0 -57.83,-25.89 -57.83,-57.83 z"
+       stroke="#017ac0"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path6" />
+    <path
+       d="m 940.5,1737.17 c 0,-31.85 25.819,-57.67 57.668,-57.67 h 287.662 c 31.85,0 57.67,25.82 57.67,57.67 v 230.66 c 0,31.85 -25.82,57.67 -57.67,57.67 H 998.168 c -31.849,0 -57.668,-25.82 -57.668,-57.67 z"
+       stroke="#017ac0"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path7" />
+    <path
+       d="m 2705.5,612.168 c 0,-31.849 25.82,-57.668 57.67,-57.668 h 287.66 c 31.85,0 57.67,25.819 57.67,57.668 v 230.664 c 0,31.849 -25.82,57.668 -57.67,57.668 h -287.66 c -31.85,0 -57.67,-25.819 -57.67,-57.668 z"
+       stroke="#017ac0"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path8" />
+    <path
+       d="m 2267.5,612.335 c 0,-31.942 25.89,-57.835 57.83,-57.835 h 286.34 c 31.94,0 57.83,25.893 57.83,57.835 v 231.331 c 0,31.941 -25.89,57.835 -57.83,57.835 h -286.34 c -31.94,0 -57.83,-25.894 -57.83,-57.835 z"
+       stroke="#017ac0"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path9" />
+    <path
+       d="m 940.5,612.334 c 0,-31.941 25.893,-57.834 57.834,-57.834 h 287.336 c 31.94,0 57.83,25.893 57.83,57.834 v 231.332 c 0,31.941 -25.89,57.834 -57.83,57.834 H 998.334 c -31.941,0 -57.834,-25.893 -57.834,-57.834 z"
+       stroke="#017ac0"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path10" />
+    <path
+       d="m 2705.5,984.168 c 0,-31.849 25.82,-57.668 57.67,-57.668 h 287.66 c 31.85,0 57.67,25.819 57.67,57.668 v 230.662 c 0,31.85 -25.82,57.67 -57.67,57.67 h -287.66 c -31.85,0 -57.67,-25.82 -57.67,-57.67 z"
+       stroke="#017ac0"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path11" />
+    <path
+       d="m 1383.5,612.168 c 0,-31.849 25.82,-57.668 57.67,-57.668 h 287.66 c 31.85,0 57.67,25.819 57.67,57.668 v 230.664 c 0,31.849 -25.82,57.668 -57.67,57.668 h -287.66 c -31.85,0 -57.67,-25.819 -57.67,-57.668 z"
+       stroke="#017ac0"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path12" />
+    <path
+       d="m 1825.5,984.168 c 0,-31.849 25.82,-57.668 57.67,-57.668 h 287.66 c 31.85,0 57.67,25.819 57.67,57.668 v 230.662 c 0,31.85 -25.82,57.67 -57.67,57.67 h -287.66 c -31.85,0 -57.67,-25.82 -57.67,-57.67 z"
+       stroke="#017ac0"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path13" />
+    <path
+       d="m 940.5,1360.33 c 0,-31.94 25.893,-57.83 57.834,-57.83 h 287.336 c 31.94,0 57.83,25.89 57.83,57.83 v 231.34 c 0,31.94 -25.89,57.83 -57.83,57.83 H 998.334 c -31.941,0 -57.834,-25.89 -57.834,-57.83 z"
+       stroke="#017ac0"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path14" />
+    <path
+       d="m 1383.5,1360.33 c 0,-31.94 25.89,-57.83 57.83,-57.83 h 287.34 c 31.94,0 57.83,25.89 57.83,57.83 v 231.34 c 0,31.94 -25.89,57.83 -57.83,57.83 h -287.34 c -31.94,0 -57.83,-25.89 -57.83,-57.83 z"
+       stroke="#017ac0"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path15" />
+    <path
+       d="m 2266.5,1360.33 c 0,-31.94 25.89,-57.83 57.83,-57.83 h 287.34 c 31.94,0 57.83,25.89 57.83,57.83 v 231.34 c 0,31.94 -25.89,57.83 -57.83,57.83 h -287.34 c -31.94,0 -57.83,-25.89 -57.83,-57.83 z"
+       stroke="#017ac0"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path16" />
+    <path
+       d="m 2267.5,1737.17 c 0,-31.85 25.82,-57.67 57.67,-57.67 h 286.66 c 31.85,0 57.67,25.82 57.67,57.67 v 230.66 c 0,31.85 -25.82,57.67 -57.67,57.67 h -286.66 c -31.85,0 -57.67,-25.82 -57.67,-57.67 z"
+       stroke="#017ac0"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path17" />
+    <path
+       d="m 1825.5,612.334 c 0,-31.941 25.89,-57.834 57.83,-57.834 h 286.34 c 31.94,0 57.83,25.893 57.83,57.834 v 231.332 c 0,31.941 -25.89,57.834 -57.83,57.834 h -286.34 c -31.94,0 -57.83,-25.893 -57.83,-57.834 z"
+       stroke="#017ac0"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path18" />
+    <path
+       d="m 2705.5,1360.33 c 0,-31.94 25.89,-57.83 57.83,-57.83 h 287.34 c 31.94,0 57.83,25.89 57.83,57.83 v 231.34 c 0,31.94 -25.89,57.83 -57.83,57.83 h -287.34 c -31.94,0 -57.83,-25.89 -57.83,-57.83 z"
+       stroke="#017ac0"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path19" />
+    <path
+       d="m 1825.5,1737.17 c 0,-31.85 25.82,-57.67 57.67,-57.67 h 286.66 c 31.85,0 57.67,25.82 57.67,57.67 v 230.66 c 0,31.85 -25.82,57.67 -57.67,57.67 h -286.66 c -31.85,0 -57.67,-25.82 -57.67,-57.67 z"
+       stroke="#017ac0"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path20" />
+    <path
+       d="M 0,0 40.0829,0.574541"
+       stroke="#4472c4"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       transform="matrix(1,0,0,-1,1343.5,728.074)"
+       id="path21" />
+    <path
+       d="m 1786.5,727.5 38.52,0.574"
+       stroke="#4472c4"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path22" />
+    <path
+       d="m 2227.5,728.5 h 39.08"
+       stroke="#4472c4"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path23" />
+    <path
+       d="M 0,0 35.7554,0.574541"
+       stroke="#4472c4"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       transform="matrix(1,0,0,-1,2669.5,728.074)"
+       id="path24" />
+    <path
+       d="M 1142.52,926.03 1142.5,901.5"
+       stroke="#4472c4"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path25" />
+    <path
+       d="M 0,0 0.122343,25.291"
+       stroke="#4472c4"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       transform="matrix(1,0,0,-1,1585.5,925.791)"
+       id="path26" />
+    <path
+       d="M 2026.59,926.214 2026.5,901.5"
+       stroke="#4472c4"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path27" />
+    <path
+       d="M 0,0 0.237467,25.5418"
+       stroke="#4472c4"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       transform="matrix(1,0,0,-1,2468.5,927.042)"
+       id="path28" />
+    <path
+       d="M 0,0 3.60892e-4,25.291"
+       stroke="#4472c4"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       transform="matrix(1,0,0,-1,2907.5,925.791)"
+       id="path29" />
+    <path
+       d="M 0,0 0.202461,29.687"
+       stroke="#4472c4"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       transform="matrix(1,0,0,-1,1142.5,1302.19)"
+       id="path30" />
+    <path
+       d="m 1142.68,1679.19 -0.18,-29.69"
+       stroke="#4472c4"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path31" />
+    <path
+       d="M 0,0 0.475656,29.9959"
+       stroke="#4472c4"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       transform="matrix(1,0,0,-1,1584.5,1679.5)"
+       id="path32" />
+    <path
+       d="M 0,0 3.60892e-4,29.9959"
+       stroke="#4472c4"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       transform="matrix(1,0,0,-1,2026.5,1679.5)"
+       id="path33" />
+    <path
+       d="m 2468.74,1678.76 -0.24,-29.26"
+       stroke="#4472c4"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path34" />
+    <path
+       d="M 0,0 0.112238,29.0717"
+       stroke="#4472c4"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       transform="matrix(1,0,0,-1,2906.5,1678.57)"
+       id="path35" />
+    <path
+       d="M 0,0 3.60892e-4,30.1078"
+       stroke="#4472c4"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       transform="matrix(1,0,0,-1,2907.5,1302.61)"
+       id="path36" />
+    <path
+       d="M 0,0 3.60892e-4,29.2824"
+       stroke="#4472c4"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       transform="matrix(1,0,0,-1,2468.5,1302.78)"
+       id="path37" />
+    <path
+       d="M 0,0 0.087336,29.3781"
+       stroke="#4472c4"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       transform="matrix(1,0,0,-1,2026.5,1301.88)"
+       id="path38" />
+    <path
+       d="M 0,0 0.253346,29.3759"
+       stroke="#4472c4"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       transform="matrix(1,0,0,-1,1584.5,1301.88)"
+       id="path39" />
+    <path
+       d="m 1786.5,1475.5 h 38.9"
+       stroke="#4472c4"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path40" />
+    <path
+       d="m 2227.5,1475.5 38.84,0.73"
+       stroke="#4472c4"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path41" />
+    <path
+       d="M 0,0 35.9929,0.0920276"
+       stroke="#4472c4"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       transform="matrix(1,0,0,-1,2669.5,1476.59)"
+       id="path42" />
+    <path
+       d="M 0,0 39.8873,0.308924"
+       stroke="#4472c4"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       transform="matrix(1,0,0,-1,1343.5,1475.81)"
+       id="path43" />
+    <path
+       d="M 0,0 38.7313,0.00216535"
+       stroke="#4472c4"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       transform="matrix(1,0,0,-1,1786.5,1099.5)"
+       id="path44" />
+    <path
+       d="m 2228.5,1099.5 38.76,0.83"
+       stroke="#4472c4"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path45" />
+    <path
+       d="M 0,0 35.9929,0.825361"
+       stroke="#4472c4"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       transform="matrix(1,0,0,-1,2669.5,1100.33)"
+       id="path46" />
+    <path
+       d="m 1343.5,1099.5 39.96,0.09"
+       stroke="#4472c4"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path47" />
+    <path
+       d="m 1343.5,1852.5 h 39.23"
+       stroke="#4472c4"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path48" />
+    <path
+       d="m 1785.5,1852.5 h 39.37"
+       stroke="#4472c4"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path49" />
+    <path
+       d="m 2227.5,1852.5 h 39.08"
+       stroke="#4472c4"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path50" />
+    <path
+       d="M 0,0 35.6432,0.376411"
+       stroke="#4472c4"
+       stroke-width="1.85441"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       transform="matrix(1,0,0,-1,2669.5,1852.88)"
+       id="path51" />
+    <text
+       style="font-size:44px;font-family:Arial, sans-serif;text-anchor:middle;white-space:pre;fill:#333333;stroke-width:1.6184"
+       transform="translate(120.59979,49.19202)"
+       id="text55"><tspan
+         x="1016.67"
+         y="649.71002"
+         id="tspan51"
+         style="stroke-width:1.6184">Identification /</tspan><tspan
+         x="1016.67"
+         id="tspan52"
+         style="stroke-width:1.6184"
+         dy="1em">​</tspan><tspan
+         id="tspan53"
+         style="stroke-width:1.6184">management of </tspan><tspan
+         x="1016.67"
+         id="tspan54"
+         style="stroke-width:1.6184"
+         dy="1em">​</tspan><tspan
+         id="tspan55"
+         style="stroke-width:1.6184">due diligence</tspan></text>
+    <text
+       style="font-size:44px;font-family:Arial, sans-serif;text-anchor:middle;white-space:pre;fill:#333333;stroke-width:1.6184"
+       transform="translate(88.863014,26.976271)"
+       id="text58"><tspan
+         x="1499.0699"
+         y="694.67102"
+         id="tspan56"
+         style="stroke-width:1.6184">Valuation</tspan><tspan
+         x="1499.0699"
+         dy="1em"
+         id="tspan57"
+         style="stroke-width:1.6184">​</tspan><tspan
+         id="tspan58"
+         style="stroke-width:1.6184">of real estate</tspan></text>
+    <text
+       style="font-size:44px;font-family:Arial, sans-serif;text-anchor:middle;white-space:pre;fill:#333333;stroke-width:1.6184"
+       x="2017.9659"
+       y="816.85699"
+       transform="translate(9.521036,-117.42613)"
+       id="text60">Real estate <tspan
+   x="2017.9659"
+   dy="1em"
+   id="tspan59"
+   style="stroke-width:1.6184">​</tspan>controlling and risk <tspan
+   x="2017.9659"
+   dy="1em"
+   id="tspan60"
+   style="stroke-width:1.6184">​</tspan>management</text>
+    <text
+       style="font-size:44px;font-family:Arial, sans-serif;text-anchor:middle;white-space:pre;fill:#333333;stroke-width:1.6184"
+       x="2455.927"
+       y="653.41302"
+       transform="translate(7.934197,66.647263)"
+       id="text61">Transaction <tspan
+   x="2455.927"
+   dy="1em"
+   id="tspan61"
+   style="stroke-width:1.6184">​</tspan>management</text>
+    <text
+       style="font-size:44px;font-family:Arial, sans-serif;text-anchor:middle;white-space:pre;fill:#333333;stroke-width:1.6184"
+       x="2901.8359"
+       y="789.88098"
+       transform="translate(4.760519,-112.6656)"
+       id="text64">Value-oriented <tspan
+   x="2901.8359"
+   dy="1em"
+   id="tspan62"
+   style="stroke-width:1.6184">​</tspan>planning, <tspan
+   x="2901.8359"
+   dy="1em"
+   id="tspan63"
+   style="stroke-width:1.6184">​</tspan>management <tspan
+   x="2901.8359"
+   dy="1em"
+   id="tspan64"
+   style="stroke-width:1.6184">​</tspan>and control</text>
+    <text
+       style="font-size:44px;font-family:Arial, sans-serif;text-anchor:middle;white-space:pre;fill:#333333;stroke-width:1.6184"
+       x="1137.269"
+       y="1140.568"
+       transform="translate(3.17368,-50.778866)"
+       id="text65">Fiduciary owner <tspan
+   x="1137.269"
+   dy="1em"
+   id="tspan65"
+   style="stroke-width:1.6184">​</tspan>representation</text>
+    <text
+       style="font-size:44px;font-family:Arial, sans-serif;text-anchor:middle;white-space:pre;fill:#333333;stroke-width:1.6184"
+       x="1581.582"
+       y="1078.6899"
+       transform="translate(0,-9.521037)"
+       id="text67">Creation of <tspan
+   x="1581.582"
+   dy="1em"
+   id="tspan66"
+   style="stroke-width:1.6184">​</tspan>real estate-specific<tspan
+   x="1581.582"
+   dy="1em"
+   id="tspan67"
+   style="stroke-width:1.6184">​</tspan> business plans</text>
+    <text
+       style="font-size:44px;font-family:Arial, sans-serif;text-anchor:middle;white-space:pre;fill:#333333;stroke-width:1.6184"
+       x="2032.246"
+       y="1150.097"
+       transform="translate(-7.934197,-53.952541)"
+       id="text68">Project <tspan
+   x="2032.246"
+   dy="1em"
+   id="tspan68"
+   style="stroke-width:1.6184">​</tspan>management</text>
+    <text
+       style="font-size:44px;font-family:Arial, sans-serif;text-anchor:middle;white-space:pre;fill:#333333;stroke-width:1.6184"
+       x="2470.2119"
+       y="1083.447"
+       transform="translate(-4.760519,6.347358)"
+       id="text69">Market and <tspan
+   x="2470.2119"
+   dy="1em"
+   id="tspan69"
+   style="stroke-width:1.6184">​</tspan>location analysis</text>
+    <text
+       style="font-size:44px;font-family:Arial, sans-serif;text-anchor:middle;white-space:pre;fill:#333333;stroke-width:1.6184"
+       x="2912.946"
+       y="1180.244"
+       transform="translate(-4.760519,-131.70767)"
+       id="text72">Identification /<tspan
+   x="2912.946"
+   dy="1em"
+   id="tspan70"
+   style="stroke-width:1.6184">​</tspan>management <tspan
+   x="2912.946"
+   dy="1em"
+   id="tspan71"
+   style="stroke-width:1.6184">​</tspan>and implementation <tspan
+   x="2912.946"
+   dy="1em"
+   id="tspan72"
+   style="stroke-width:1.6184">​</tspan>of due diligence</text>
+    <text
+       style="font-size:44px;font-family:Arial, sans-serif;text-anchor:middle;white-space:pre;fill:#333333;stroke-width:1.6184"
+       x="1137.2679"
+       y="1490.561"
+       transform="translate(1e-6,-68.2341)"
+       id="text75">Strategic guidelines <tspan
+   x="1137.2679"
+   dy="1em"
+   id="tspan73"
+   style="stroke-width:1.6184">​</tspan>and control of <tspan
+   x="1137.2679"
+   dy="1em"
+   id="tspan74"
+   style="stroke-width:1.6184">​</tspan>building/property <tspan
+   x="1137.2679"
+   dy="1em"
+   id="tspan75"
+   style="stroke-width:1.6184">​</tspan>management</text>
+    <text
+       style="font-size:44px;line-height:1;font-family:Arial, sans-serif;text-anchor:middle;white-space:pre;fill:#333333;stroke-width:1.6184"
+       x="1581.587"
+       y="1490.5601"
+       transform="translate(1.58684,-66.647263)"
+       id="text78"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         x="1581.587"
+         y="1490.5601">Selection and </tspan><tspan
+         sodipodi:role="line"
+         x="1581.587"
+         y="1534.5601"
+         id="tspan3">control of </tspan><tspan
+         sodipodi:role="line"
+         x="1581.587"
+         y="1578.5601"
+         id="tspan4">the property </tspan><tspan
+         sodipodi:role="line"
+         x="1581.587"
+         y="1622.5601"
+         id="tspan5">management</tspan></text>
+    <text
+       style="font-size:44px;font-family:Arial, sans-serif;text-anchor:middle;white-space:pre;fill:#333333;stroke-width:1.6184"
+       x="2027.484"
+       y="1488.968"
+       transform="translate(-4.760519,-44.431503)"
+       id="text80">Identification <tspan
+   x="2027.484"
+   dy="1em"
+   id="tspan79"
+   style="stroke-width:1.6184">​</tspan>and utilization <tspan
+   x="2027.484"
+   dy="1em"
+   id="tspan80"
+   style="stroke-width:1.6184">​</tspan>of potentials</text>
+    <text
+       style="font-size:44px;font-family:Arial, sans-serif;text-anchor:middle;white-space:pre;fill:#333333;stroke-width:1.6184"
+       x="2308.3601"
+       y="1511.1899"
+       transform="translate(155.51028,-41.257828)"
+       id="text81">Real estate <tspan
+   x="2308.3601"
+   dy="1em"
+   id="tspan81"
+   style="stroke-width:1.6184">​</tspan>marketing</text>
+    <text
+       style="font-size:44px;font-family:Arial, sans-serif;text-anchor:middle;white-space:pre;fill:#333333;stroke-width:1.6184"
+       x="2730.45"
+       y="1527.0601"
+       transform="translate(171.37866,-55.539379)"
+       id="text82">Research <tspan
+   x="2730.45"
+   dy="1em"
+   id="tspan82"
+   style="stroke-width:1.6184">​</tspan>at object level</text>
+    <text
+       style="font-size:44px;font-family:Arial, sans-serif;text-anchor:middle;white-space:pre;fill:#333333;stroke-width:1.6184"
+       x="1145.202"
+       y="1865.058"
+       transform="translate(-1.586839,-17.455235)"
+       id="text83">Performance <tspan
+   x="1145.202"
+   dy="1em"
+   id="tspan83"
+   style="stroke-width:1.6184">​</tspan>management</text>
+    <text
+       style="font-size:44px;font-family:Arial, sans-serif;text-anchor:middle;white-space:pre;fill:#333333;stroke-width:1.6184"
+       x="1584.757"
+       y="1868.2209"
+       transform="translate(0,-46.018345)"
+       id="text85">Value <tspan
+   x="1584.757"
+   dy="1em"
+   id="tspan84"
+   style="stroke-width:1.6184">​</tspan>management <tspan
+   x="1584.757"
+   dy="1em"
+   id="tspan85"
+   style="stroke-width:1.6184">​</tspan>and development</text>
+    <text
+       style="font-size:44px;font-family:Arial, sans-serif;text-anchor:middle;white-space:pre;fill:#333333;stroke-width:1.6184"
+       x="2325.8149"
+       y="1799.996"
+       transform="translate(-301.49951,23.802591)"
+       id="text87">Reporting activities <tspan
+   x="2325.8149"
+   dy="1em"
+   id="tspan86"
+   style="stroke-width:1.6184">​</tspan>on object and/or <tspan
+   x="2325.8149"
+   dy="1em"
+   id="tspan87"
+   style="stroke-width:1.6184">​</tspan>portfolio level</text>
+    <text
+       style="font-size:44px;font-family:Arial, sans-serif;text-anchor:middle;white-space:pre;fill:#333333;stroke-width:1.6184"
+       x="2294.0701"
+       y="1844.42"
+       transform="translate(177.72601)"
+       id="text88">Real estate <tspan
+   x="2294.0701"
+   dy="1em"
+   id="tspan88"
+   style="stroke-width:1.6184">​</tspan>controlling</text>
+    <text
+       style="font-size:44px;font-family:Arial, sans-serif;text-anchor:middle;white-space:pre;fill:#333333;stroke-width:1.6184"
+       x="3147.791"
+       y="1792.057"
+       transform="translate(-238.02592,28.56311)"
+       id="text90">Real estate <tspan
+   x="3147.791"
+   dy="1em"
+   id="tspan89"
+   style="stroke-width:1.6184">​</tspan>investment and <tspan
+   x="3147.791"
+   dy="1em"
+   id="tspan90"
+   style="stroke-width:1.6184">​</tspan>financing</text>
   </g>
 </svg>
