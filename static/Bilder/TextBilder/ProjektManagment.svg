@@ -1,331 +1,2372 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg width="5268" height="4532" xmlns="http://www.w3.org/2000/svg" overflow="hidden">
-  <path d="M 3485.1 -24.095 L 2052.26 -24.095 L 2052.26 2041.795 L 3485.1 2041.795 L 3485.1 -24.095 Z" fill="#F2F2F2" fill-rule="evenodd"/>
-  <path d="M 5244.353 -18.088 L 3811.513 -18.088 L 3811.513 2047.802 L 5244.353 2047.802 L 5244.353 -18.088 Z" fill="#F2F2F2" fill-rule="evenodd"/>
-  <g transform="matrix(1, 0, 0, 1, -41, -368)">
-    <path d="M 1673.715 341.322 L 240.875 341.322 L 240.875 2407.212 L 1673.715 2407.212 L 1673.715 341.322 Z" fill="#F2F2F2" fill-rule="evenodd"/>
-    <path d="M60.5 466C60.5 430.378 89.6015 401.5 125.5 401.5 161.398 401.5 190.5 430.378 190.5 466 190.5 501.622 161.398 530.5 125.5 530.5 89.6015 530.5 60.5 501.622 60.5 466Z" stroke="#33CCFF" stroke-width="4.58333" stroke-miterlimit="8" fill="#017AC0" fill-rule="evenodd"/>
-    <text fill="#FFFFFF" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="83" transform="matrix(1 0 0 1 101.931 496)" style="white-space: pre;">1</text>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="50" transform="matrix(1 0 0 1 336.11 433)" style="white-space: pre;">Organisation, Information, Koordination, Dokumentation</text>
-    <rect x="280" y="1022" width="1349" height="241" fill="#FFFFFF"/>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 403.373 1071)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" style="white-space: pre;" transform="matrix(1 0 0 1 465.248 1071)">Überprüfung der Bedarfsplanung auf Vollständigkeit </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 465.248 1129)" style="white-space: pre;">und Plausibilität</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 403.373 1193)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 465.248 1193)" style="white-space: pre;">Mitwirkung bei der Klärung von Grundstück und </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 465.248 1251)" style="white-space: pre;">Standortfragen</text>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="50" transform="matrix(1 0 0 1 633.104 1006)" style="white-space: pre;">Qualitäten und Quantitäten</text>
-    <rect x="335" y="1393" width="1294" height="246" fill="#FFFFFF"/>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 458.373 1442)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 520.248 1442)" style="white-space: pre;">Mitwirkung bei der Erstellung des Kostenrahmens </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 458.373 1505)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 520.248 1505)" style="white-space: pre;">Abstimmung und Einrichtung der Kostenverfolgung </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 458.373 1568)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 520.248 1568)" style="white-space: pre;">Mitwirkung bei der Ermittlung und Beantragung von </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 520.248 1627)" style="white-space: pre;">Investitions</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 731.883 1627)" style="white-space: pre;">-</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 757.321 1627)" style="white-space: pre;">und Fördermittel</text>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="50" transform="matrix(1 0 0 1 687.174 1371)" style="white-space: pre;">Kosten und Finanzierung</text>
-    <rect x="293" y="1770" width="1336" height="300" fill="#FFFFFF"/>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 416.367 1819)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 478.242 1819)" style="white-space: pre;">Aufstellung und Abstimmen des Terminrahmens, </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 478.242 1877)" style="white-space: pre;">Steuerungsterminplans und Ableiten des </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 478.242 1936)" style="white-space: pre;">Kapazitätsrahmens </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 416.367 1999)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 478.242 1999)" style="white-space: pre;">Erfassung logistisch relevanter Standort</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1226.47 1999)" style="white-space: pre;">-</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1251.91 1999)" style="white-space: pre;">und </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 478.242 2058)" style="white-space: pre;">Rahmenbedingungen</text>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="50" transform="matrix(1 0 0 1 590.466 1759)" style="white-space: pre;">Termine Kapazität und Logistik</text>
-    <rect x="306" y="2198" width="1294" height="118" fill="#FFFFFF"/>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 429.36 2246)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 491.235 2246)" style="white-space: pre;">Mitwirkung bei der Durchsetzung von </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 491.235 2304)" style="white-space: pre;">Vertragspflichten gegenüber den Beteiligten </text>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="50" transform="matrix(1 0 0 1 620.191 2177)" style="white-space: pre;">Verträge und Versicherungen</text>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="700" font-size="48" transform="matrix(6.12323e-17 -1 1 6.12323e-17 2001.87 1448)" style="white-space: pre;">Phase 2: </text>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="700" font-size="48" transform="matrix(6.12323e-17 -1 1 6.12323e-17 2063.85 1443)" style="white-space: pre;">Planung</text>
-    <path d="M1941.5 453C1941.5 417.378 1970.6 388.5 2006.5 388.5 2042.4 388.5 2071.5 417.378 2071.5 453 2071.5 488.622 2042.4 517.5 2006.5 517.5 1970.6 517.5 1941.5 488.622 1941.5 453Z" stroke="#33CCFF" stroke-width="4.58333" stroke-miterlimit="8" fill="#017AC0" fill-rule="evenodd"/>
-    <text fill="#FFFFFF" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="83" transform="matrix(1 0 0 1 1983.05 483)" style="white-space: pre;">2</text>
-    <rect x="2142" y="491" width="1196" height="59.0001" fill="#FFFFFF"/>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2734.4 540)" style="white-space: pre;">)</text>
-    <rect x="2142" y="464" width="1350" height="428" fill="#FFFFFF"/>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2266.04 513)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2327.92 513)" style="white-space: pre;">Mitwirkung bei der Fortschreitung der Fortschreibung </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2327.92 571)" style="white-space: pre;">der Projektziele</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2266.04 635)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2327.92 635)" style="white-space: pre;">Mitwirkung beim Risikomanagement</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2266.04 698)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2327.92 698)" style="white-space: pre;">Mitwirkung bei der Herbeiführung der behördlichen </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2327.92 756)" style="white-space: pre;">Genehmigungen</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2266.04 819)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2327.92 819)" style="white-space: pre;">Regelmäßige Kontrolle der Einhaltung der Projektziele, </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2327.92 878)" style="white-space: pre;">der Organisationsvorgaben und Planung der Planung  </text>
-    <rect x="2139" y="1022" width="1349" height="241" fill="#FFFFFF"/>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2262.26 1071)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2324.14 1071)" style="white-space: pre;">Analysieren, Bewerten und Steuern der Leistungen der </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2324.14 1129)" style="white-space: pre;">Planungsbeteiligten, insbesondere der Koordinations</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3315.4 1129)" style="white-space: pre;">-</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2324.14 1188)" style="white-space: pre;">und Integrationsleistung des Objektplaners </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2262.26 1251)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2324.14 1251)" style="white-space: pre;">Überprüfung der Ergebnisdokumentationen </text>
-    <rect x="2194" y="1393" width="1294" height="242" fill="#FFFFFF"/>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2317.26 1442)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2379.14 1442)" style="white-space: pre;">Überprüfung der Kostenschätzung und </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3118.89 1442)" style="white-space: pre;">–</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3142.49 1442)" style="white-space: pre;">berechnung</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2379.14 1500)" style="white-space: pre;">der Objekt</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2574.5 1500)" style="white-space: pre;">-</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2599.94 1500)" style="white-space: pre;">und Fachplaner sowie Veranlassen </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2379.14 1559)" style="white-space: pre;">erforderlicher Anpassungsmaßnahmen </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2317.26 1622)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2379.14 1622)" style="white-space: pre;">Planen von Mittelbedarf und Mittelabfluss</text>
-    <rect x="2152" y="1770" width="1336" height="246" fill="#FFFFFF"/>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2275.26 1819)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2337.13 1819)" style="white-space: pre;">Fortschreiben des Terminrahmens </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2275.26 1882)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2337.13 1882)" style="white-space: pre;">Fortschreiten der Termin</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2799.94 1882)" style="white-space: pre;">-</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2825.37 1882)" style="white-space: pre;">und Steuerungsterminpläne </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2275.26 1945)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2337.13 1945)" style="white-space: pre;">Mitwirkung bei der Aktualisierung der logistisch </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2337.13 2004)" style="white-space: pre;">relevanten Standort</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2706.55 2004)" style="white-space: pre;">-</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2731.99 2004)" style="white-space: pre;">und Rahmenbedingungen</text>
-    <rect x="2165" y="2198" width="1294" height="118" fill="#FFFFFF"/>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2288.25 2246)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2350.13 2246)" style="white-space: pre;">Mitwirkung bei der Durchsetzung von </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2350.13 2304)" style="white-space: pre;">Vertragspflichten gegenüber den Beteiligten </text>
-    <path d="M955.146 2359.35 955.146 2441.86 954 2440.71 1786.07 2440.71 1784.93 2441.86 1784.93 676.854 2119.49 676.854 2119.49 679.146 1786.07 679.146 1787.22 678 1787.22 2443 952.854 2443 952.854 2359.35ZM2114.9 664.25 2142.4 678 2114.9 691.75Z" fill="#017AC0"/>
-    <path d="M946.5 2350.5C946.5 2345.53 950.082 2341.5 954.5 2341.5 958.918 2341.5 962.5 2345.53 962.5 2350.5 962.5 2355.47 958.918 2359.5 954.5 2359.5 950.082 2359.5 946.5 2355.47 946.5 2350.5Z" stroke="#017AC0" stroke-width="4.58333" stroke-miterlimit="8" fill="#017AC0" fill-rule="evenodd"/>
-    <rect x="3909" y="491" width="1195" height="59.0001" fill="#FFFFFF"/>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4500.72 540)" style="white-space: pre;">)</text>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="700" font-size="48" transform="matrix(6.12323e-17 -1 1 6.12323e-17 3759.87 1448)" style="white-space: pre;">Phase 3: </text>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="700" font-size="48" transform="matrix(6.12323e-17 -1 1 6.12323e-17 3821.86 1641)" style="white-space: pre;">Ausführungsvorbereitung</text>
-    <rect x="3909" y="464" width="1349" height="428" fill="#FFFFFF"/>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4032.36 513)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4094.23 513)" style="white-space: pre;">Mitwirkung beim Fortschreiten der Projektziele</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4032.36 576)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4094.23 576)" style="white-space: pre;">Umsetzen des Entscheidungs</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4656.38 576)" style="white-space: pre;">-</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4681.82 576)" style="white-space: pre;">und </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4094.23 635)" style="white-space: pre;">Änderungsmanagement </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4032.36 698)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4094.23 698)" style="white-space: pre;">Fortschreibung der projektspezifischen </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4094.23 756)" style="white-space: pre;">Organisationsvorgaben (Projekthandbuch) und der </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4094.23 815)" style="white-space: pre;">Projektstrukturplanung</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4032.36 878)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4094.23 878)" style="white-space: pre;">Empfehlungen und/oder Entscheidungsvorschläge</text>
-    <path d="M3685.5 466C3685.5 430.378 3714.6 401.5 3750.5 401.5 3786.4 401.5 3815.5 430.378 3815.5 466 3815.5 501.622 3786.4 530.5 3750.5 530.5 3714.6 530.5 3685.5 501.622 3685.5 466Z" stroke="#33CCFF" stroke-width="4.58333" stroke-miterlimit="8" fill="#017AC0" fill-rule="evenodd"/>
-    <text fill="#FFFFFF" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="83" transform="matrix(1 0 0 1 3727.14 496)" style="white-space: pre;">3</text>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="50" transform="matrix(1 0 0 1 3912.01 436)" style="white-space: pre;">Organisation, Information, Koordination, Dokumentation</text>
-    <rect x="3905" y="1022" width="1349" height="246" fill="#FFFFFF"/>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4028.58 1071)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4090.45 1071)" style="white-space: pre;">Entscheidungsvorschläge zu den </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4090.45 1129)" style="white-space: pre;">Anpassungsmaßnahmen </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4028.58 1193)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4090.45 1193)" style="white-space: pre;">Dokumentierte Bemusterungen </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4028.58 1256)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4090.45 1256)" style="white-space: pre;">Ergebnisberichte mit Entscheidungsvorschlägen</text>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="50" transform="matrix(1 0 0 1 4222.36 1005)" style="white-space: pre;">Qualitäten und Quantitäten</text>
-    <rect x="3960" y="1393" width="1294" height="246" fill="#FFFFFF"/>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4083.58 1442)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4145.45 1442)" style="white-space: pre;">Soll</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4216.38 1442)" style="white-space: pre;">-</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4230.25 1442)" style="white-space: pre;">Ist</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4274.7 1442)" style="white-space: pre;">-</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4288.57 1442)" style="white-space: pre;">Analysieren und Entscheidungsvorschläge </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4083.58 1505)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4145.45 1505)" style="white-space: pre;">Prüfvermerke mit Freigabevorschläge zu den </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4145.45 1564)" style="white-space: pre;">Rechnungen der Planungsbeteiligte </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4083.58 1627)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4145.45 1627)" style="white-space: pre;">Fortgeschrittene Mittelbedarfs</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4704.62 1627)" style="white-space: pre;">-</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4730.06 1627)" style="white-space: pre;">und Abflussplan</text>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="50" transform="matrix(1 0 0 1 4297.02 1371)" style="white-space: pre;">Kosten und Finanzierung</text>
-    <rect x="3918" y="1770" width="1336" height="310" fill="#FFFFFF"/>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4041.57 1819)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4103.45 1819)" style="white-space: pre;">Fortgeschriebener Terminrahmen </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4041.57 1882)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4103.45 1882)" style="white-space: pre;">Prüfberichte mit Entscheidungsvorschlägen </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4041.57 1945)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4103.45 1945)" style="white-space: pre;">Abgestimmter Steuerungsterminplan für Abnahme und </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4103.45 2004)" style="white-space: pre;">Inbetriebnahmen </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4041.57 2067)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4103.45 2067)" style="white-space: pre;">Empfehlungen bei geänderten logistischen Einflüssen</text>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="50" transform="matrix(1 0 0 1 4191.01 1748)" style="white-space: pre;">Termine Kapazität und Logistik</text>
-    <rect x="3931" y="2198" width="1294" height="123" fill="#FFFFFF"/>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4054.57 2246)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4116.44 2246)" style="white-space: pre;">Entscheidungsvorschläge </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4054.57 2309)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4116.44 2309)" style="white-space: pre;">Empfehlungen zu Einsatzformen und Vergabearten</text>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="50" transform="matrix(1 0 0 1 4220.22 2177)" style="white-space: pre;">Verträge und Versicherungen</text>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="700" font-size="48" transform="matrix(6.12323e-17 -1 1 6.12323e-17 797.702 3929)" style="white-space: pre;">Phase 4: </text>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="700" font-size="48" transform="matrix(6.12323e-17 -1 1 6.12323e-17 859.689 3965)" style="white-space: pre;">Ausführung</text>
-    <path d="M746.5 2878.5C746.5 2842.6 775.602 2813.5 811.5 2813.5 847.399 2813.5 876.5 2842.6 876.5 2878.5 876.5 2914.4 847.399 2943.5 811.5 2943.5 775.602 2943.5 746.5 2914.4 746.5 2878.5Z" stroke="#33CCFF" stroke-width="4.58333" stroke-miterlimit="8" fill="#017AC0" fill-rule="evenodd"/>
-    <text fill="#FFFFFF" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="83" transform="matrix(1 0 0 1 787.623 2908)" style="white-space: pre;">4</text>
-    <rect x="991" y="2916" width="1195" height="59.0002" fill="#FFFFFF"/>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1582.81 2965)" style="white-space: pre;">)</text>
-    <path d="M2387.84 2792 954 2792 954 4857.89 2387.84 4857.89 2387.84 2792Z" fill="#F2F2F2" fill-rule="evenodd"/>
-    <rect x="991" y="2889" width="1349" height="433" fill="#FFFFFF"/>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1114.45 2938)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1176.33 2938)" style="white-space: pre;">Fortgeschriebene Projektziele </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1114.45 3001)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1176.33 3001)" style="white-space: pre;">Empfehlungen und/oder Entscheidungsvorschläge </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1114.45 3064)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1176.33 3064)" style="white-space: pre;">Fortgeschriebene Risikoliste mit Bewertung und </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1176.33 3123)" style="white-space: pre;">Empfehlungen </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1114.45 3186)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1176.33 3186)" style="white-space: pre;">Empfehlungen und Dokumentation </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1114.45 3249)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1176.33 3249)" style="white-space: pre;">Fortgeschriebene Organisationsvorgaben </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1176.33 3307)" style="white-space: pre;">(Projekthandbuch) mit aktualisierten Projektstrukturplan</text>
-    <rect x="987" y="3448" width="1349" height="182" fill="#FFFFFF"/>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1110.67 3496)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1172.55 3496)" style="white-space: pre;">Entscheidungsvorschläge zu Anpassungsmaßnahmen </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1110.67 3559)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1172.55 3559)" style="white-space: pre;">Anlassbezogene örtliche Analysiere und Bewerten der </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1172.55 3618)" style="white-space: pre;">Leistung der Objektüberwachung</text>
-    <rect x="1042" y="3758" width="1294" height="310" fill="#FFFFFF"/>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1165.67 3807)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1227.55 3807)" style="white-space: pre;">Kostensteuerung zur Einhaltung der Kostenziele </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1165.67 3870)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1227.55 3870)" style="white-space: pre;">Prüfvermerk mit Freigabevorschlag zu den </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1227.55 3929)" style="white-space: pre;">Rechnungen der Planungsbeteiligten </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1165.67 3992)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1227.55 3992)" style="white-space: pre;">Fortgeschriebene Mittel</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1669.61 3992)" style="white-space: pre;">-</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1695.05 3992)" style="white-space: pre;">und Abflussplanung </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1165.67 4055)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1227.55 4055)" style="white-space: pre;">Kostenbericht</text>
-    <rect x="1000" y="4195" width="1336" height="310" fill="#FFFFFF"/>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1123.67 4244)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1185.54 4244)" style="white-space: pre;">Fortgeschriebener Terminrahmen </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1123.67 4307)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1185.54 4307)" style="white-space: pre;">Ergebnisbericht zur Steuerungstermin</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1896.65 4307)" style="white-space: pre;">-</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1922.08 4307)" style="white-space: pre;">und </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1185.54 4366)" style="white-space: pre;">Terminplan </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1123.67 4429)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1185.54 4429)" style="white-space: pre;">Soll</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1256.47 4429)" style="white-space: pre;">-</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1270.33 4429)" style="white-space: pre;">Ist</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1314.79 4429)" style="white-space: pre;">-</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1328.66 4429)" style="white-space: pre;">Analysen und Entscheidungsvorschläge </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1123.67 4492)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1185.54 4492)" style="white-space: pre;">Empfehlungen bei geänderten logistischen Einflüssen</text>
-    <rect x="1013" y="4623" width="1323" height="118" fill="#FFFFFF"/>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1136.66 4672)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1198.54 4672)" style="white-space: pre;">Prüfvermerk zu den durch die Objekt</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1888.33 4672)" style="white-space: pre;">-</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1902.19 4672)" style="white-space: pre;">überwachungen </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 1198.54 4730)" style="white-space: pre;">geprüften Nachträgen der ausführenden Firmen </text>
-    <path d="M4580.54 2359 4580.54 2625.13 908.503 2625.13 909.649 2623.99 909.649 3105.15 908.503 3104 968.083 3104 968.083 3106.29 907.357 3106.29 907.357 2622.84 4579.39 2622.84 4578.25 2623.99 4578.25 2359ZM963.5 3091.4 991 3105.15 963.5 3118.9Z" fill="#017AC0"/>
-    <path d="M4571.5 2350.5C4571.5 2345.53 4575.08 2341.5 4579.5 2341.5 4583.92 2341.5 4587.5 2345.53 4587.5 2350.5 4587.5 2355.47 4583.92 2359.5 4579.5 2359.5 4575.08 2359.5 4571.5 2355.47 4571.5 2350.5Z" stroke="#017AC0" stroke-width="4.58333" stroke-miterlimit="8" fill="#017AC0" fill-rule="evenodd"/>
-    <path d="M2813.15 2347.78 2813.15 2430.29 2812 2429.14 3364.01 2429.14 3362.87 2430.29 3362.87 676.854 3885.61 676.854 3885.61 679.146 3364.01 679.146 3365.16 678 3365.16 2431.44 2810.85 2431.44 2810.85 2347.78ZM3881.03 664.25 3908.53 678 3881.03 691.75Z" fill="#017AC0"/>
-    <path d="M2805.5 2339.5C2805.5 2334.53 2808.86 2330.5 2813 2330.5 2817.14 2330.5 2820.5 2334.53 2820.5 2339.5 2820.5 2344.47 2817.14 2348.5 2813 2348.5 2808.86 2348.5 2805.5 2344.47 2805.5 2339.5Z" stroke="#017AC0" stroke-width="4.58333" stroke-miterlimit="8" fill="#017AC0" fill-rule="evenodd"/>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="700" font-size="48" transform="matrix(6.12323e-17 -1 1 6.12323e-17 2678.75 3892)" style="white-space: pre;">Phase 5: </text>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="700" font-size="48" transform="matrix(6.12323e-17 -1 1 6.12323e-17 2740.74 3991)" style="white-space: pre;">Projektabschluss</text>
-    <path d="M2648.5 2826.5C2648.5 2790.6 2677.6 2761.5 2713.5 2761.5 2749.4 2761.5 2778.5 2790.6 2778.5 2826.5 2778.5 2862.4 2749.4 2891.5 2713.5 2891.5 2677.6 2891.5 2648.5 2862.4 2648.5 2826.5Z" stroke="#33CCFF" stroke-width="4.58333" stroke-miterlimit="8" fill="#017AC0" fill-rule="evenodd"/>
-    <text fill="#FFFFFF" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="83" transform="matrix(1 0 0 1 2690.35 2856)" style="white-space: pre;">5</text>
-    <rect x="2850" y="2864" width="1195" height="59.9998" fill="#FFFFFF"/>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3441.7 2913)" style="white-space: pre;">)</text>
-    <path d="M4245.84 2740 2813 2740 2813 4805.89 4245.84 4805.89 4245.84 2740Z" fill="#F2F2F2" fill-rule="evenodd"/>
-    <rect x="2850" y="2837" width="1349" height="251" fill="#FFFFFF"/>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2973.34 2886)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3035.22 2886)" style="white-space: pre;">Ergebnisbericht, ggf. Entscheidungsvorschläge </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2973.34 2949)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3035.22 2949)" style="white-space: pre;">Ergebnisbericht </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2973.34 3012)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3035.22 3012)" style="white-space: pre;">Abschluss des Projektkommunikationssystem </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2973.34 3075)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3035.22 3075)" style="white-space: pre;">Abschlussbericht mit</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3449.67 3075)" style="white-space: pre;">"leasson learned"</text>
-    <rect x="2846" y="3205" width="1349" height="119" fill="#FFFFFF"/>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2969.57 3254)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3031.44 3254)" style="white-space: pre;">Analysieren und Bewertung der Auflistung der </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3031.44 3312)" style="white-space: pre;">Verjährungsfristen für Mittelansprüche </text>
-    <rect x="2901" y="3450" width="1294" height="368" fill="#FFFFFF"/>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3024.57 3498)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3086.44 3498)" style="white-space: pre;">Überprüfung der Kostenfeststellungen der Objekt</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 4006.77 3498)" style="white-space: pre;">-</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3086.44 3556)" style="white-space: pre;">und Fachplaner</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3024.57 3621)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3086.44 3621)" style="white-space: pre;">Ergebnisbericht </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3024.57 3683)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3086.44 3683)" style="white-space: pre;">Prüfvermerk mit Freigabevorschlag zu den </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3086.44 3741)" style="white-space: pre;">(Schluss</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3249.49 3741)" style="white-space: pre;">-</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3263.36 3741)" style="white-space: pre;">) Rechnungen der Planungsbeteiligte </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3024.57 3804)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3086.44 3804)" style="white-space: pre;">Kostenbericht</text>
-    <rect x="2859" y="3930" width="1294" height="187" fill="#FFFFFF"/>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2982.56 3979)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3044.44 3979)" style="white-space: pre;">Steuern der Inbetriebnahme </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2982.56 4042)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3044.44 4042)" style="white-space: pre;">Soll</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3115.36 4042)" style="white-space: pre;">-</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3129.23 4042)" style="white-space: pre;">Ist</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3173.69 4042)" style="white-space: pre;">-</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3187.55 4042)" style="white-space: pre;">Analyse und Entscheidungsvorschläge </text>
-    <rect x="2872" y="4254" width="1294" height="491" fill="#FFFFFF"/>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2995.55 4303)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3057.43 4303)" style="white-space: pre;">Entscheidungsvorschläge </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2995.55 4366)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3057.43 4366)" style="white-space: pre;">Prüfberichte, Empfehlungen, Vorbereitungen </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3057.43 4425)" style="white-space: pre;">Bautragungen </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2995.55 4488)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3057.43 4488)" style="white-space: pre;">Mitwirken bei der Durchsetzung von </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3057.43 4546)" style="white-space: pre;">Vertragspflichten gegenüber den Beteiligten </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2995.55 4609)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3057.43 4609)" style="white-space: pre;">Unterstützen des Auftraggebers bei der Einleitung </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3057.43 4668)" style="white-space: pre;">von selbständigen Beweisverfahren </text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 2995.55 4731)" style="white-space: pre;">•</text>
-    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="44" transform="matrix(1 0 0 1 3057.43 4731)" style="white-space: pre;">Informationsbeschaffung und Empfehlungen</text>
-    <path d="M1662.15 4784.29 1662.15 4866.79 1661 4865.64 2259.23 4865.64 2258.08 4866.79 2258.08 2960.85 2827.05 2960.85 2827.05 2963.15 2259.23 2963.15 2260.38 2962 2260.38 4867.94 1659.85 4867.94 1659.85 4784.29ZM2822.47 2948.25 2849.97 2962 2822.47 2975.75Z" fill="#017AC0"/>
-    <path d="M1661.5 4766.5C1661.5 4761.53 1664.86 4757.5 1669 4757.5 1673.14 4757.5 1676.5 4761.53 1676.5 4766.5 1676.5 4771.47 1673.14 4775.5 1669 4775.5 1664.86 4775.5 1661.5 4771.47 1661.5 4766.5Z" stroke="#017AC0" stroke-width="4.58333" stroke-miterlimit="8" fill="#017AC0" fill-rule="evenodd"/>
-    <path d="M1653.5 4776.5C1653.5 4771.53 1656.86 4767.5 1661 4767.5 1665.14 4767.5 1668.5 4771.53 1668.5 4776.5 1668.5 4781.47 1665.14 4785.5 1661 4785.5 1656.86 4785.5 1653.5 4781.47 1653.5 4776.5Z" stroke="#017AC0" stroke-width="4.58333" stroke-miterlimit="8" fill="#017AC0" fill-rule="evenodd"/>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="50" transform="matrix(1 0 0 1 2465.21 1014)" style="white-space: pre;">Qualitäten und Quantitäten</text>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="50" transform="matrix(1 0 0 1 2539.86 1380)" style="white-space: pre;">Kosten und Finanzierung</text>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="50" transform="matrix(1 0 0 1 2433.86 1757)" style="white-space: pre;">Termine Kapazität und Logistik</text>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="50" transform="matrix(1 0 0 1 2463.06 2186)" style="white-space: pre;">Verträge und Versicherungen</text>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="50" transform="matrix(1 0 0 1 1341.26 3432)" style="white-space: pre;">Qualitäten und Quantitäten</text>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="50" transform="matrix(1 0 0 1 1415.91 3736)" style="white-space: pre;">Kosten und Finanzierung</text>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="50" transform="matrix(1 0 0 1 1309.91 4175)" style="white-space: pre;">Termine Kapazität und Logistik</text>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="50" transform="matrix(1 0 0 1 1339.12 4604)" style="white-space: pre;">Verträge und Versicherungen</text>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="50" transform="matrix(1 0 0 1 3214.53 3190)" style="white-space: pre;">Qualitäten und Quantitäten</text>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="50" transform="matrix(1 0 0 1 3289.18 3429)" style="white-space: pre;">Kosten und Finanzierung</text>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="50" transform="matrix(1 0 0 1 3183.18 3910)" style="white-space: pre;">Termine Kapazität und Logistik</text>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="50" transform="matrix(1 0 0 1 3212.39 4235)" style="white-space: pre;">Verträge und Versicherungen</text>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="50" transform="matrix(1 0 0 1 2196.25 433)" style="white-space: pre;">Organisation, Information, Koordination, Dokumentation</text>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="50" transform="matrix(1 0 0 1 1062.64 2866)" style="white-space: pre;">Organisation, Information, Koordination, Dokumentation</text>
-    <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="50" transform="matrix(1 0 0 1 2909.83 2811)" style="white-space: pre;">Organisation, Information, Koordination, Dokumentation</text>
-    <path d="M 906.216 1655.485 L 948.216 1693.485 L 990.216 1655.485 L 906.216 1655.485 Z" fill="#017AC0" fill-rule="evenodd"/>
-    <path d="M 906.215 2084.253 L 948.216 2122.253 L 990.216 2084.253 L 906.215 2084.253 Z" fill="#017AC0" fill-rule="evenodd"/>
-    <path d="M 910.448 2326.847 L 952.448 2364.847 L 994.448 2326.847 L 910.448 2326.847 Z" fill="#017AC0" fill-rule="evenodd"/>
-    <path d="M 1612.838 3319.784 L 1654.838 3357.784 L 1696.838 3319.784 L 1612.838 3319.784 Z" fill="#017AC0" fill-rule="evenodd"/>
-    <path d="M 1615.658 3648.412 L 1657.659 3686.412 L 1699.659 3648.412 L 1615.658 3648.412 Z" fill="#017AC0" fill-rule="evenodd"/>
-    <path d="M 1615.659 4085.956 L 1657.659 4123.956 L 1699.659 4085.956 L 1615.659 4085.956 Z" fill="#017AC0" fill-rule="evenodd"/>
-    <path d="M 1615.658 4510.022 L 1657.658 4548.021 L 1699.659 4510.022 L 1615.658 4510.022 Z" fill="#017AC0" fill-rule="evenodd"/>
-    <path d="M 1617.069 4754.025 L 1659.069 4792.025 L 1701.069 4754.025 L 1617.069 4754.025 Z" fill="#017AC0" fill-rule="evenodd"/>
-    <path d="M 2760.376 897.712 L 2802.377 935.712 L 2844.377 897.712 L 2760.376 897.712 Z" fill="#017AC0" fill-rule="evenodd"/>
-    <path d="M 2760.376 1276.006 L 2802.377 1314.006 L 2844.377 1276.006 L 2760.376 1276.006 Z" fill="#017AC0" fill-rule="evenodd"/>
-    <path d="M 2764.178 1646.696 L 2806.178 1684.695 L 2848.178 1646.696 L 2764.178 1646.696 Z" fill="#017AC0" fill-rule="evenodd"/>
-    <path d="M 2758.475 2065.966 L 2800.475 2103.966 L 2842.476 2065.966 L 2758.475 2065.966 Z" fill="#017AC0" fill-rule="evenodd"/>
-    <path d="M 2771.782 2316.261 L 2813.782 2354.26 L 2855.782 2316.261 L 2771.782 2316.261 Z" fill="#017AC0" fill-rule="evenodd"/>
-    <path d="M 4524.759 1283.471 L 4566.759 1321.471 L 4608.759 1283.471 L 4524.759 1283.471 Z" fill="#017AC0" fill-rule="evenodd"/>
-    <path d="M 4529.421 1661.07 L 4571.421 1699.07 L 4613.421 1661.07 L 4529.421 1661.07 Z" fill="#017AC0" fill-rule="evenodd"/>
-    <path d="M 4535.742 2088.393 L 4577.742 2126.393 L 4619.742 2088.393 L 4535.742 2088.393 Z" fill="#017AC0" fill-rule="evenodd"/>
-    <path d="M 4538.74 2330.973 L 4580.74 2368.973 L 4622.74 2330.973 L 4538.74 2330.973 Z" fill="#017AC0" fill-rule="evenodd"/>
-    <path d="M 3466.511 3110.831 L 3508.511 3148.831 L 3550.511 3110.831 L 3466.511 3110.831 Z" fill="#017AC0" fill-rule="evenodd"/>
-    <path d="M 3475.834 3347.022 L 3517.834 3385.022 L 3559.834 3347.022 L 3475.834 3347.022 Z" fill="#017AC0" fill-rule="evenodd"/>
-    <path d="M 3475.829 3828.375 L 3517.829 3866.375 L 3559.829 3828.375 L 3475.829 3828.375 Z" fill="#017AC0" fill-rule="evenodd"/>
-    <path d="M 3475.826 4138.804 L 3517.827 4176.804 L 3559.827 4138.804 L 3475.826 4138.804 Z" fill="#017AC0" fill-rule="evenodd"/>
-    <path d="M 4520.467 910.82 L 4562.467 948.82 L 4604.467 910.82 L 4520.467 910.82 Z" fill="#017AC0" fill-rule="evenodd"/>
-    <rect x="270.307" y="481.847" width="1349" height="421.012" fill="#FFFFFF" style=""/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1060"
+   height="920"
+   overflow="hidden"
+   version="1.1"
+   id="svg295"
+   sodipodi:docname="ProjektManagment.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs295" />
+  <sodipodi:namedview
+     id="namedview295"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="11.396293"
+     inkscape:cx="921.5716"
+     inkscape:cy="420.88248"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g278" />
+  <g
+     transform="matrix(0.20068266,0,0,0.20103309,-4.8496357,-63.617016)"
+     id="g278"
+     style="stroke-width:4.97865">
+    <path
+       d="M 3485.1,-24.095 H 2052.26 v 2065.89 H 3485.1 Z"
+       fill="#f2f2f2"
+       fill-rule="evenodd"
+       id="path1"
+       transform="translate(41,368)"
+       style="stroke-width:4.97865" />
+    <path
+       d="m 5244.353,-18.088 h -1432.84 v 2065.89 h 1432.84 z"
+       fill="#f2f2f2"
+       fill-rule="evenodd"
+       id="path2"
+       transform="translate(41,368)"
+       style="stroke-width:4.97865" />
+    <path
+       d="M 1673.715,341.322 H 240.875 v 2065.89 h 1432.84 z"
+       fill="#f2f2f2"
+       fill-rule="evenodd"
+       id="path3"
+       style="stroke-width:4.97865" />
+    <path
+       d="m 60.5,466 c 0,-35.622 29.1015,-64.5 65,-64.5 35.898,0 65,28.878 65,64.5 0,35.622 -29.102,64.5 -65,64.5 -35.8985,0 -65,-28.878 -65,-64.5 z"
+       stroke="#33ccff"
+       stroke-width="22.8188"
+       stroke-miterlimit="8"
+       fill="#017ac0"
+       fill-rule="evenodd"
+       id="path4" />
+    <text
+       fill="#ffffff"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="83px"
+       transform="translate(101.931,496)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text4">1</text>
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="50px"
+       transform="translate(336.11,433)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text5">Organisation, Information, Koordination, Dokumentation</text>
+    <rect
+       x="280"
+       y="1022"
+       width="1349"
+       height="241"
+       fill="#ffffff"
+       id="rect5"
+       style="stroke-width:4.97865" />
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(403.373,1071)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text6">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       style="white-space:pre;stroke-width:4.97865"
+       transform="translate(465.248,1071)"
+       id="text7">Überprüfung der Bedarfsplanung auf Vollständigkeit </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(465.248,1129)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text8">und Plausibilität</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(403.373,1193)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text9">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(465.248,1193)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text10">Mitwirkung bei der Klärung von Grundstück und </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(465.248,1251)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text11">Standortfragen</text>
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="50px"
+       transform="translate(633.104,1006)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text12">Qualitäten und Quantitäten</text>
+    <rect
+       x="335"
+       y="1393"
+       width="1294"
+       height="246"
+       fill="#ffffff"
+       id="rect12"
+       style="stroke-width:4.97865" />
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(458.373,1442)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text13">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(520.248,1442)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text14">Mitwirkung bei der Erstellung des Kostenrahmens </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(458.373,1505)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text15">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(520.248,1505)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text16">Abstimmung und Einrichtung der Kostenverfolgung </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(458.373,1568)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text17">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(520.248,1568)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text18">Mitwirkung bei der Ermittlung und Beantragung von </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(520.248,1627)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text19">Investitions</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(731.883,1627)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text20">-</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(757.321,1627)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text21">und Fördermittel</text>
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="50px"
+       transform="translate(687.174,1371)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text22">Kosten und Finanzierung</text>
+    <rect
+       x="293"
+       y="1770"
+       width="1336"
+       height="300"
+       fill="#ffffff"
+       id="rect22"
+       style="stroke-width:4.97865" />
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(416.367,1819)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text23">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(478.242,1819)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text24">Aufstellung und Abstimmen des Terminrahmens, </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(478.242,1877)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text25">Steuerungsterminplans und Ableiten des </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(478.242,1936)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text26">Kapazitätsrahmens </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(416.367,1999)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text27">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(478.242,1999)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text28">Erfassung logistisch relevanter Standort</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1226.47,1999)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text29">-</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1251.91,1999)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text30">und </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(478.242,2058)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text31">Rahmenbedingungen</text>
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="50px"
+       transform="translate(590.466,1759)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text32">Termine Kapazität und Logistik</text>
+    <rect
+       x="306"
+       y="2198"
+       width="1294"
+       height="118"
+       fill="#ffffff"
+       id="rect32"
+       style="stroke-width:4.97865" />
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(429.36,2246)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text33">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(491.235,2246)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text34">Mitwirkung bei der Durchsetzung von </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(491.235,2304)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text35">Vertragspflichten gegenüber den Beteiligten </text>
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="50px"
+       transform="translate(620.191,2177)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text36">Verträge und Versicherungen</text>
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="700"
+       font-size="48px"
+       transform="rotate(-90,1724.935,-276.935)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text37">Phase 2: </text>
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="700"
+       font-size="48px"
+       transform="rotate(-90,1753.425,-310.425)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text38">Planung</text>
+    <path
+       d="m 1941.5,453 c 0,-35.622 29.1,-64.5 65,-64.5 35.9,0 65,28.878 65,64.5 0,35.622 -29.1,64.5 -65,64.5 -35.9,0 -65,-28.878 -65,-64.5 z"
+       stroke="#33ccff"
+       stroke-width="5"
+       stroke-miterlimit="8"
+       fill="#017ac0"
+       fill-rule="evenodd"
+       id="path38" />
+    <text
+       fill="#ffffff"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="83px"
+       transform="translate(1983.05,483)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text39">2</text>
+    <rect
+       x="2142"
+       y="491"
+       width="1196"
+       height="59.000099"
+       fill="#ffffff"
+       id="rect39"
+       style="stroke-width:4.97865" />
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2734.4,540)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text40">)</text>
+    <rect
+       x="2142"
+       y="464"
+       width="1350"
+       height="428"
+       fill="#ffffff"
+       id="rect40"
+       style="stroke-width:4.97865" />
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2266.04,513)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text41">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2327.92,513)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text42">Mitwirkung bei der Fortschreitung der Fortschreibung </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2327.92,571)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text43">der Projektziele</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2266.04,635)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text44">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2327.92,635)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text45">Mitwirkung beim Risikomanagement</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2266.04,698)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text46">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2327.92,698)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text47">Mitwirkung bei der Herbeiführung der behördlichen </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2327.92,756)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text48">Genehmigungen</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2266.04,819)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text49">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2327.92,819)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text50">Regelmäßige Kontrolle der Einhaltung der Projektziele, </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2327.92,878)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text51">der Organisationsvorgaben und Planung der Planung  </text>
+    <rect
+       x="2139"
+       y="1022"
+       width="1349"
+       height="241"
+       fill="#ffffff"
+       id="rect51"
+       style="stroke-width:4.97865" />
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2262.26,1071)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text52">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2324.14,1071)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text53">Analysieren, Bewerten und Steuern der Leistungen der </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2324.14,1129)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text54">Planungsbeteiligten, insbesondere der Koordinations</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(3315.4,1129)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text55">-</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2324.14,1188)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text56">und Integrationsleistung des Objektplaners </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2262.26,1251)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text57">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2324.14,1251)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text58">Überprüfung der Ergebnisdokumentationen </text>
+    <rect
+       x="2194"
+       y="1393"
+       width="1294"
+       height="242"
+       fill="#ffffff"
+       id="rect58"
+       style="stroke-width:4.97865" />
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2317.26,1442)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text59">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2379.14,1442)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text60">Überprüfung der Kostenschätzung und </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(3118.89,1442)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text61">–</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(3142.49,1442)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text62">berechnung</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2379.14,1500)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text63">der Objekt</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2574.5,1500)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text64">-</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2599.94,1500)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text65">und Fachplaner sowie Veranlassen </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2379.14,1559)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text66">erforderlicher Anpassungsmaßnahmen </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2317.26,1622)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text67">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2379.14,1622)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text68">Planen von Mittelbedarf und Mittelabfluss</text>
+    <rect
+       x="2152"
+       y="1770"
+       width="1336"
+       height="246"
+       fill="#ffffff"
+       id="rect68"
+       style="stroke-width:4.97865" />
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2275.26,1819)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text69">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2337.13,1819)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text70">Fortschreiben des Terminrahmens </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2275.26,1882)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text71">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2337.13,1882)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text72">Fortschreiten der Termin</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2799.94,1882)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text73">-</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2825.37,1882)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text74">und Steuerungsterminpläne </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2275.26,1945)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text75">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2337.13,1945)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text76">Mitwirkung bei der Aktualisierung der logistisch </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2337.13,2004)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text77">relevanten Standort</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2706.55,2004)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text78">-</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2731.99,2004)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text79">und Rahmenbedingungen</text>
+    <rect
+       x="2165"
+       y="2198"
+       width="1294"
+       height="118"
+       fill="#ffffff"
+       id="rect79"
+       style="stroke-width:4.97865" />
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2288.25,2246)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text80">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2350.13,2246)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text81">Mitwirkung bei der Durchsetzung von </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2350.13,2304)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text82">Vertragspflichten gegenüber den Beteiligten </text>
+    <path
+       d="m 955.146,2359.35 v 82.51 L 954,2440.71 h 832.07 l -1.14,1.15 V 676.854 h 334.56 v 2.292 H 1786.07 L 1787.22,678 V 2443 H 952.854 v -83.65 z M 2114.9,664.25 l 27.5,13.75 -27.5,13.75 z"
+       fill="#017ac0"
+       id="path82"
+       style="stroke-width:4.97865" />
+    <rect
+       x="3909"
+       y="491"
+       width="1195"
+       height="59.000099"
+       fill="#ffffff"
+       id="rect83"
+       style="stroke-width:4.97865" />
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4500.72,540)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text83">)</text>
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="700"
+       font-size="48px"
+       transform="rotate(-90,2603.935,-1155.935)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text84">Phase 3: </text>
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="700"
+       font-size="48px"
+       transform="rotate(-90,2731.43,-1090.43)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text85">Ausführungsvorbereitung</text>
+    <rect
+       x="3909"
+       y="464"
+       width="1349"
+       height="428"
+       fill="#ffffff"
+       id="rect85"
+       style="stroke-width:4.97865" />
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4032.36,513)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text86">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4094.23,513)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text87">Mitwirkung beim Fortschreiten der Projektziele</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4032.36,576)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text88">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4094.23,576)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text89">Umsetzen des Entscheidungs</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4656.38,576)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text90">-</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4681.82,576)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text91">und </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4094.23,635)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text92">Änderungsmanagement </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4032.36,698)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text93">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4094.23,698)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text94">Fortschreibung der projektspezifischen </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4094.23,756)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text95">Organisationsvorgaben (Projekthandbuch) und der </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4094.23,815)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text96">Projektstrukturplanung</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4032.36,878)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text97">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4094.23,878)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text98">Empfehlungen und/oder Entscheidungsvorschläge</text>
+    <path
+       d="m 3685.5,466 c 0,-35.622 29.1,-64.5 65,-64.5 35.9,0 65,28.878 65,64.5 0,35.622 -29.1,64.5 -65,64.5 -35.9,0 -65,-28.878 -65,-64.5 z"
+       stroke="#33ccff"
+       stroke-width="5"
+       stroke-miterlimit="8"
+       fill="#017ac0"
+       fill-rule="evenodd"
+       id="path98" />
+    <text
+       fill="#ffffff"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="83px"
+       transform="translate(3727.14,496)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text99">3</text>
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="50px"
+       transform="translate(3912.01,436)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text100">Organisation, Information, Koordination, Dokumentation</text>
+    <rect
+       x="3905"
+       y="1022"
+       width="1349"
+       height="246"
+       fill="#ffffff"
+       id="rect100"
+       style="stroke-width:4.97865" />
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4028.58,1071)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text101">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4090.45,1071)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text102">Entscheidungsvorschläge zu den </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4090.45,1129)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text103">Anpassungsmaßnahmen </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4028.58,1193)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text104">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4090.45,1193)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text105">Dokumentierte Bemusterungen </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4028.58,1256)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text106">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4090.45,1256)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text107">Ergebnisberichte mit Entscheidungsvorschlägen</text>
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="50px"
+       transform="translate(4222.36,1005)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text108">Qualitäten und Quantitäten</text>
+    <rect
+       x="3960"
+       y="1393"
+       width="1294"
+       height="246"
+       fill="#ffffff"
+       id="rect108"
+       style="stroke-width:4.97865" />
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4083.58,1442)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text109">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4145.45,1442)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text110">Soll</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4216.38,1442)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text111">-</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4230.25,1442)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text112">Ist</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4274.7,1442)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text113">-</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4288.57,1442)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text114">Analysieren und Entscheidungsvorschläge </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4083.58,1505)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text115">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4145.45,1505)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text116">Prüfvermerke mit Freigabevorschläge zu den </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4145.45,1564)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text117">Rechnungen der Planungsbeteiligte </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4083.58,1627)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text118">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4145.45,1627)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text119">Fortgeschrittene Mittelbedarfs</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4704.62,1627)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text120">-</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4730.06,1627)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text121">und Abflussplan</text>
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="50px"
+       transform="translate(4297.02,1371)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text122">Kosten und Finanzierung</text>
+    <rect
+       x="3918"
+       y="1770"
+       width="1336"
+       height="310"
+       fill="#ffffff"
+       id="rect122"
+       style="stroke-width:4.97865" />
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4041.57,1819)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text123">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4103.45,1819)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text124">Fortgeschriebener Terminrahmen </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4041.57,1882)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text125">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4103.45,1882)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text126">Prüfberichte mit Entscheidungsvorschlägen </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4041.57,1945)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text127">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4103.45,1945)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text128">Abgestimmter Steuerungsterminplan für Abnahme und </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4103.45,2004)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text129">Inbetriebnahmen </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4041.57,2067)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text130">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4103.45,2067)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text131">Empfehlungen bei geänderten logistischen Einflüssen</text>
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="50px"
+       transform="translate(4191.01,1748)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text132">Termine Kapazität und Logistik</text>
+    <rect
+       x="3931"
+       y="2198"
+       width="1294"
+       height="123"
+       fill="#ffffff"
+       id="rect132"
+       style="stroke-width:4.97865" />
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4054.57,2246)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text133">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4116.44,2246)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text134">Entscheidungsvorschläge </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4054.57,2309)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text135">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4116.44,2309)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text136">Empfehlungen zu Einsatzformen und Vergabearten</text>
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="50px"
+       transform="translate(4220.22,2177)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text137">Verträge und Versicherungen</text>
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="700"
+       font-size="48px"
+       transform="rotate(-90,2363.351,1565.649)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text138">Phase 4: </text>
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="700"
+       font-size="48px"
+       transform="rotate(-90,2412.3445,1552.6555)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text139">Ausführung</text>
+    <path
+       d="m 746.5,2878.5 c 0,-35.9 29.102,-65 65,-65 35.899,0 65,29.1 65,65 0,35.9 -29.101,65 -65,65 -35.898,0 -65,-29.1 -65,-65 z"
+       stroke="#33ccff"
+       stroke-width="5"
+       stroke-miterlimit="8"
+       fill="#017ac0"
+       fill-rule="evenodd"
+       id="path139" />
+    <text
+       fill="#ffffff"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="83px"
+       transform="translate(787.623,2908)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text140">4</text>
+    <rect
+       x="991"
+       y="2916"
+       width="1195"
+       height="59.000198"
+       fill="#ffffff"
+       id="rect140"
+       style="stroke-width:4.97865" />
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1582.81,2965)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text141">)</text>
+    <path
+       d="M 2387.84,2792 H 954 v 2065.89 h 1433.84 z"
+       fill="#f2f2f2"
+       fill-rule="evenodd"
+       id="path141"
+       style="stroke-width:4.97865" />
+    <rect
+       x="991"
+       y="2889"
+       width="1349"
+       height="433"
+       fill="#ffffff"
+       id="rect141"
+       style="stroke-width:4.97865" />
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1114.45,2938)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text142">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1176.33,2938)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text143">Fortgeschriebene Projektziele </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1114.45,3001)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text144">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1176.33,3001)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text145">Empfehlungen und/oder Entscheidungsvorschläge </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1114.45,3064)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text146">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1176.33,3064)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text147">Fortgeschriebene Risikoliste mit Bewertung und </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1176.33,3123)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text148">Empfehlungen </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1114.45,3186)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text149">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1176.33,3186)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text150">Empfehlungen und Dokumentation </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1114.45,3249)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text151">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1176.33,3249)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text152">Fortgeschriebene Organisationsvorgaben </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1176.33,3307)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text153">(Projekthandbuch) mit aktualisierten Projektstrukturplan</text>
+    <rect
+       x="987"
+       y="3448"
+       width="1349"
+       height="182"
+       fill="#ffffff"
+       id="rect153"
+       style="stroke-width:4.97865" />
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1110.67,3496)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text154">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1172.55,3496)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text155">Entscheidungsvorschläge zu Anpassungsmaßnahmen </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1110.67,3559)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text156">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1172.55,3559)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text157">Anlassbezogene örtliche Analysiere und Bewerten der </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1172.55,3618)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text158">Leistung der Objektüberwachung</text>
+    <rect
+       x="1042"
+       y="3758"
+       width="1294"
+       height="310"
+       fill="#ffffff"
+       id="rect158"
+       style="stroke-width:4.97865" />
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1165.67,3807)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text159">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1227.55,3807)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text160">Kostensteuerung zur Einhaltung der Kostenziele </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1165.67,3870)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text161">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1227.55,3870)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text162">Prüfvermerk mit Freigabevorschlag zu den </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1227.55,3929)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text163">Rechnungen der Planungsbeteiligten </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1165.67,3992)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text164">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1227.55,3992)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text165">Fortgeschriebene Mittel</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1669.61,3992)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text166">-</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1695.05,3992)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text167">und Abflussplanung </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1165.67,4055)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text168">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1227.55,4055)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text169">Kostenbericht</text>
+    <rect
+       x="1000"
+       y="4195"
+       width="1336"
+       height="310"
+       fill="#ffffff"
+       id="rect169"
+       style="stroke-width:4.97865" />
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1123.67,4244)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text170">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1185.54,4244)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text171">Fortgeschriebener Terminrahmen </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1123.67,4307)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text172">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1185.54,4307)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text173">Ergebnisbericht zur Steuerungstermin</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1896.65,4307)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text174">-</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1922.08,4307)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text175">und </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1185.54,4366)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text176">Terminplan </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1123.67,4429)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text177">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1185.54,4429)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text178">Soll</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1256.47,4429)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text179">-</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1270.33,4429)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text180">Ist</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1314.79,4429)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text181">-</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1328.66,4429)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text182">Analysen und Entscheidungsvorschläge </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1123.67,4492)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text183">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1185.54,4492)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text184">Empfehlungen bei geänderten logistischen Einflüssen</text>
+    <rect
+       x="1013"
+       y="4623"
+       width="1323"
+       height="118"
+       fill="#ffffff"
+       id="rect184"
+       style="stroke-width:4.97865" />
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1136.66,4672)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text185">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1198.54,4672)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text186">Prüfvermerk zu den durch die Objekt</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1888.33,4672)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text187">-</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1902.19,4672)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text188">überwachungen </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(1198.54,4730)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text189">geprüften Nachträgen der ausführenden Firmen </text>
+    <path
+       d="m 4580.54,2359 v 266.13 H 908.503 l 1.146,-1.14 v 481.16 l -1.146,-1.15 h 59.58 v 2.29 H 907.357 V 2622.84 H 4579.39 l -1.14,1.15 V 2359 Z m -3617.04,732.4 27.5,13.75 -27.5,13.75 z"
+       fill="#017ac0"
+       id="path189"
+       style="stroke-width:4.97865" />
+    <path
+       d="m 2813.15,2347.78 v 82.51 l -1.15,-1.15 h 552.01 l -1.14,1.15 V 676.854 h 522.74 v 2.292 h -521.6 l 1.15,-1.146 v 1753.44 h -554.31 v -83.66 z m 1067.88,-1683.53 27.5,13.75 -27.5,13.75 z"
+       fill="#017ac0"
+       id="path191"
+       style="stroke-width:4.97865" />
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="700"
+       font-size="48px"
+       transform="rotate(-90,3285.375,606.625)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text192">Phase 5: </text>
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="700"
+       font-size="48px"
+       transform="rotate(-90,3365.87,625.13)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text193">Projektabschluss</text>
+    <path
+       d="m 2648.5,2826.5 c 0,-35.9 29.1,-65 65,-65 35.9,0 65,29.1 65,65 0,35.9 -29.1,65 -65,65 -35.9,0 -65,-29.1 -65,-65 z"
+       stroke="#33ccff"
+       stroke-width="5"
+       stroke-miterlimit="8"
+       fill="#017ac0"
+       fill-rule="evenodd"
+       id="path193" />
+    <text
+       fill="#ffffff"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="83px"
+       transform="translate(2690.35,2856)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text194">5</text>
+    <rect
+       x="2850"
+       y="2864"
+       width="1195"
+       height="59.999802"
+       fill="#ffffff"
+       id="rect194"
+       style="stroke-width:4.97865" />
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(3441.7,2913)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text195">)</text>
+    <path
+       d="M 4245.84,2740 H 2813 v 2065.89 h 1432.84 z"
+       fill="#f2f2f2"
+       fill-rule="evenodd"
+       id="path195"
+       style="stroke-width:4.97865" />
+    <rect
+       x="2850"
+       y="2837"
+       width="1349"
+       height="251"
+       fill="#ffffff"
+       id="rect195"
+       style="stroke-width:4.97865" />
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2973.34,2886)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text196">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(3035.22,2886)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text197">Ergebnisbericht, ggf. Entscheidungsvorschläge </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2973.34,2949)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text198">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(3035.22,2949)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text199">Ergebnisbericht </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2973.34,3012)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text200">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(3035.22,3012)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text201">Abschluss des Projektkommunikationssystem </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2973.34,3075)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text202">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(3035.22,3075)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text203">Abschlussbericht mit</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(3449.67,3075)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text204">&quot;leasson learned&quot;</text>
+    <rect
+       x="2846"
+       y="3205"
+       width="1349"
+       height="119"
+       fill="#ffffff"
+       id="rect204"
+       style="stroke-width:4.97865" />
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2969.57,3254)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text205">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(3031.44,3254)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text206">Analysieren und Bewertung der Auflistung der </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(3031.44,3312)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text207">Verjährungsfristen für Mittelansprüche </text>
+    <rect
+       x="2901"
+       y="3450"
+       width="1294"
+       height="368"
+       fill="#ffffff"
+       id="rect207"
+       style="stroke-width:4.97865" />
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(3024.57,3498)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text208">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(3086.44,3498)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text209">Überprüfung der Kostenfeststellungen der Objekt</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(4006.77,3498)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text210">-</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(3086.44,3556)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text211">und Fachplaner</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(3024.57,3621)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text212">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(3086.44,3621)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text213">Ergebnisbericht </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(3024.57,3683)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text214">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(3086.44,3683)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text215">Prüfvermerk mit Freigabevorschlag zu den </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(3086.44,3741)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text216">(Schluss</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(3249.49,3741)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text217">-</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(3263.36,3741)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text218">) Rechnungen der Planungsbeteiligte </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(3024.57,3804)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text219">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(3086.44,3804)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text220">Kostenbericht</text>
+    <rect
+       x="2859"
+       y="3930"
+       width="1294"
+       height="187"
+       fill="#ffffff"
+       id="rect220"
+       style="stroke-width:4.97865" />
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2982.56,3979)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text221">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(3044.44,3979)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text222">Steuern der Inbetriebnahme </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2982.56,4042)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text223">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(3044.44,4042)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text224">Soll</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(3115.36,4042)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text225">-</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(3129.23,4042)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text226">Ist</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(3173.69,4042)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text227">-</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(3187.55,4042)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text228">Analyse und Entscheidungsvorschläge </text>
+    <rect
+       x="2872"
+       y="4254"
+       width="1294"
+       height="491"
+       fill="#ffffff"
+       id="rect228"
+       style="stroke-width:4.97865" />
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2995.55,4303)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text229">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(3057.43,4303)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text230">Entscheidungsvorschläge </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2995.55,4366)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text231">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(3057.43,4366)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text232">Prüfberichte, Empfehlungen, Vorbereitungen </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(3057.43,4425)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text233">Bautragungen </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2995.55,4488)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text234">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(3057.43,4488)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text235">Mitwirken bei der Durchsetzung von </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(3057.43,4546)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text236">Vertragspflichten gegenüber den Beteiligten </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2995.55,4609)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text237">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(3057.43,4609)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text238">Unterstützen des Auftraggebers bei der Einleitung </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(3057.43,4668)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text239">von selbständigen Beweisverfahren </text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(2995.55,4731)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text240">•</text>
+    <text
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="44px"
+       transform="translate(3057.43,4731)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text241">Informationsbeschaffung und Empfehlungen</text>
+    <path
+       d="m 1662.15,4784.29 v 82.5 l -1.15,-1.15 h 598.23 l -1.15,1.15 V 2960.85 h 568.97 v 2.3 h -567.82 l 1.15,-1.15 v 1905.94 h -600.53 v -83.65 z m 1160.32,-1836.04 27.5,13.75 -27.5,13.75 z"
+       fill="#017ac0"
+       id="path241"
+       style="stroke-width:4.97865" />
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="50px"
+       transform="translate(2465.21,1014)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text243">Qualitäten und Quantitäten</text>
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="50px"
+       transform="translate(2539.86,1380)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text244">Kosten und Finanzierung</text>
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="50px"
+       transform="translate(2433.86,1757)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text245">Termine Kapazität und Logistik</text>
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="50px"
+       transform="translate(2463.06,2186)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text246">Verträge und Versicherungen</text>
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="50px"
+       transform="translate(1341.26,3432)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text247">Qualitäten und Quantitäten</text>
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="50px"
+       transform="translate(1415.91,3736)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text248">Kosten und Finanzierung</text>
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="50px"
+       transform="translate(1309.91,4175)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text249">Termine Kapazität und Logistik</text>
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="50px"
+       transform="translate(1339.12,4604)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text250">Verträge und Versicherungen</text>
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="50px"
+       transform="translate(3214.53,3190)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text251">Qualitäten und Quantitäten</text>
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="50px"
+       transform="translate(3289.18,3429)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text252">Kosten und Finanzierung</text>
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="50px"
+       transform="translate(3183.18,3910)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text253">Termine Kapazität und Logistik</text>
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="50px"
+       transform="translate(3212.39,4235)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text254">Verträge und Versicherungen</text>
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="50px"
+       transform="translate(2196.25,433)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text255">Organisation, Information, Koordination, Dokumentation</text>
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="50px"
+       transform="translate(1062.64,2866)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text256">Organisation, Information, Koordination, Dokumentation</text>
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="50px"
+       transform="translate(2909.83,2811)"
+       style="white-space:pre;stroke-width:4.97865"
+       id="text257">Organisation, Information, Koordination, Dokumentation</text>
+    <path
+       d="m 906.216,1655.485 42,38 42,-38 z"
+       fill="#017ac0"
+       fill-rule="evenodd"
+       id="path257"
+       style="stroke-width:4.97865" />
+    <path
+       d="m 906.215,2084.253 42.001,38 42,-38 z"
+       fill="#017ac0"
+       fill-rule="evenodd"
+       id="path258"
+       style="stroke-width:4.97865" />
+    <path
+       d="m 910.88525,2326.847 42,38 42,-38 z"
+       fill="#017ac0"
+       fill-rule="evenodd"
+       id="path259"
+       style="stroke-width:4.97865" />
+    <path
+       d="m 1612.838,3319.784 42,38 42,-38 z"
+       fill="#017ac0"
+       fill-rule="evenodd"
+       id="path260"
+       style="stroke-width:4.97865" />
+    <path
+       d="m 1615.658,3648.412 42.001,38 42,-38 z"
+       fill="#017ac0"
+       fill-rule="evenodd"
+       id="path261"
+       style="stroke-width:4.97865" />
+    <path
+       d="m 1615.659,4085.956 42,38 42,-38 z"
+       fill="#017ac0"
+       fill-rule="evenodd"
+       id="path262"
+       style="stroke-width:4.97865" />
+    <path
+       d="m 1615.658,4510.022 42,37.999 42.001,-37.999 z"
+       fill="#017ac0"
+       fill-rule="evenodd"
+       id="path263"
+       style="stroke-width:4.97865" />
+    <path
+       d="m 1618.818,4754.025 42,38 42,-38 z"
+       fill="#017ac0"
+       fill-rule="evenodd"
+       id="path264"
+       style="stroke-width:4.97865" />
+    <path
+       d="m 2760.376,897.712 42.001,38 42,-38 z"
+       fill="#017ac0"
+       fill-rule="evenodd"
+       id="path265"
+       style="stroke-width:4.97865" />
+    <path
+       d="m 2760.376,1276.006 42.001,38 42,-38 z"
+       fill="#017ac0"
+       fill-rule="evenodd"
+       id="path266"
+       style="stroke-width:4.97865" />
+    <path
+       d="m 2764.178,1646.696 42,37.999 42,-37.999 z"
+       fill="#017ac0"
+       fill-rule="evenodd"
+       id="path267"
+       style="stroke-width:4.97865" />
+    <path
+       d="m 2758.475,2065.966 42,38 42.001,-38 z"
+       fill="#017ac0"
+       fill-rule="evenodd"
+       id="path268"
+       style="stroke-width:4.97865" />
+    <path
+       d="m 2770.5453,2316.261 42,37.999 42,-37.999 z"
+       fill="#017ac0"
+       fill-rule="evenodd"
+       id="path269"
+       style="stroke-width:4.97865" />
+    <path
+       d="m 4524.759,1283.471 42,38 42,-38 z"
+       fill="#017ac0"
+       fill-rule="evenodd"
+       id="path270"
+       style="stroke-width:4.97865" />
+    <path
+       d="m 4529.421,1661.07 42,38 42,-38 z"
+       fill="#017ac0"
+       fill-rule="evenodd"
+       id="path271"
+       style="stroke-width:4.97865" />
+    <path
+       d="m 4535.742,2088.393 42,38 42,-38 z"
+       fill="#017ac0"
+       fill-rule="evenodd"
+       id="path272"
+       style="stroke-width:4.97865" />
+    <path
+       d="m 4536.991,2330.5365 42,38 42,-38 z"
+       fill="#017ac0"
+       fill-rule="evenodd"
+       id="path273"
+       style="stroke-width:4.97865" />
+    <path
+       d="m 3466.511,3110.831 42,38 42,-38 z"
+       fill="#017ac0"
+       fill-rule="evenodd"
+       id="path274"
+       style="stroke-width:4.97865" />
+    <path
+       d="m 3475.834,3347.022 42,38 42,-38 z"
+       fill="#017ac0"
+       fill-rule="evenodd"
+       id="path275"
+       style="stroke-width:4.97865" />
+    <path
+       d="m 3475.829,3828.375 42,38 42,-38 z"
+       fill="#017ac0"
+       fill-rule="evenodd"
+       id="path276"
+       style="stroke-width:4.97865" />
+    <path
+       d="m 3475.826,4138.804 42.001,38 42,-38 z"
+       fill="#017ac0"
+       fill-rule="evenodd"
+       id="path277"
+       style="stroke-width:4.97865" />
+    <path
+       d="m 4520.467,910.82 42,38 42,-38 z"
+       fill="#017ac0"
+       fill-rule="evenodd"
+       id="path278"
+       style="stroke-width:4.97865" />
+    <rect
+       x="270.30701"
+       y="481.84698"
+       width="1349"
+       height="421.01199"
+       fill="#ffffff"
+       id="rect278"
+       style="stroke-width:4.97865" />
+    <path
+       d="m 864.03,912.432 42,38 42,-38 z"
+       fill="#017ac0"
+       fill-rule="evenodd"
+       id="path279"
+       transform="translate(41,368)"
+       style="stroke-width:4.97865" />
+    <path
+       d="m 866.252,557.593 42,37.999 42,-37.999 z"
+       fill="#017ac0"
+       fill-rule="evenodd"
+       id="path280"
+       transform="translate(41,368)"
+       style="stroke-width:4.97865" />
+    <text
+       style="font-size:44px;font-family:Arial, sans-serif;white-space:pre;fill:#333333;stroke-width:4.97865"
+       transform="translate(25.44338,385.77899)"
+       id="text293"><tspan
+         x="339.32501"
+         y="156.564"
+         id="tspan280"
+         style="stroke-width:4.97865">•    Mitwirkung bei der Klärung der projektspezifischen </tspan><tspan
+         x="339.32501"
+         dy="1.2em"
+         id="tspan281"
+         style="stroke-width:4.97865">​</tspan><tspan
+         id="tspan282"
+         style="stroke-width:4.97865">     Randbedingung</tspan><tspan
+         x="339.32501"
+         dy="1.2em"
+         id="tspan283"
+         style="stroke-width:4.97865">​</tspan><tspan
+         id="tspan284"
+         style="stroke-width:4.97865">•    Mitwirkung bei der Festlegung der Projektziele </tspan><tspan
+         x="339.32501"
+         dy="1.2em"
+         id="tspan285"
+         style="stroke-width:4.97865">​</tspan><tspan
+         id="tspan286"
+         style="stroke-width:4.97865">•    Entwickeln und Abstimmen der Projektstrukturplanung </tspan><tspan
+         x="339.32501"
+         dy="1.2em"
+         id="tspan287"
+         style="stroke-width:4.97865">​</tspan><tspan
+         id="tspan288"
+         style="stroke-width:4.97865">•    Entwicklung und Koordination der maßgeblichen </tspan><tspan
+         x="339.32501"
+         dy="1.2em"
+         id="tspan289"
+         style="stroke-width:4.97865">​</tspan><tspan
+         id="tspan290"
+         style="stroke-width:4.97865">     Projektstrukturdokumente (Projekthandbuch)</tspan><tspan
+         x="339.32501"
+         dy="1.2em"
+         id="tspan291"
+         style="stroke-width:4.97865">​</tspan><tspan
+         id="tspan292"
+         style="stroke-width:4.97865">•    Mitwirkung beim Risikomanagement </tspan><tspan
+         x="339.32501"
+         dy="1.2em"
+         id="tspan293"
+         style="stroke-width:4.97865">​</tspan></text>
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="700"
+       font-size="14"
+       transform="rotate(-90,789.33767,660.04819)"
+       style="font-size:44px;white-space:pre;stroke-width:4.97865"
+       id="text294">Phase 1:</text>
+    <text
+       fill="#017ac0"
+       font-family="Arial, Arial_MSFontService, sans-serif"
+       font-weight="700"
+       font-size="14"
+       transform="rotate(-90,871.17004,685.22742)"
+       style="font-size:44px;white-space:pre;stroke-width:4.97865"
+       id="text295">Projektvorbereitung</text>
   </g>
-  <path d="M 864.03 912.432 L 906.03 950.432 L 948.03 912.432 L 864.03 912.432 Z" fill="#017AC0" fill-rule="evenodd"/>
-  <path d="M 866.252 557.593 L 908.252 595.592 L 950.252 557.593 L 866.252 557.593 Z" fill="#017AC0" fill-rule="evenodd"/>
-  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 44px; white-space: pre;" transform="matrix(1, 0, 0, 1, -15.55662, 17.778994)"><tspan x="339.325" y="156.564">•    Mitwirkung bei der Klärung der projektspezifischen </tspan><tspan x="339.325" dy="1.2em">​</tspan><tspan>     Randbedingung</tspan><tspan x="339.325" dy="1.2em">​</tspan><tspan>•    Mitwirkung bei der Festlegung der Projektziele </tspan><tspan x="339.325" dy="1.2em">​</tspan><tspan>•    Entwickeln und Abstimmen der Projektstrukturplanung </tspan><tspan x="339.325" dy="1.2em">​</tspan><tspan>•    Entwicklung und Koordination der maßgeblichen </tspan><tspan x="339.325" dy="1.2em">​</tspan><tspan>     Projektstrukturdokumente (Projekthandbuch)</tspan><tspan x="339.325" dy="1.2em">​</tspan><tspan>•    Mitwirkung beim Risikomanagement </tspan><tspan x="339.325" dy="1.2em">​</tspan></text>
-  <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="700" font-size="14" transform="matrix(0, -1, 1, 0, 88.289482, 1081.385864)" style="white-space: pre; font-size: 44px;">Phase 1:</text>
-  <text fill="#017AC0" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="700" font-size="14" transform="matrix(0, -1, 1, 0, 144.942627, 1188.397461)" style="white-space: pre; font-size: 44px;">Projektvorbereitung</text>
 </svg>
