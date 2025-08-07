@@ -310,7 +310,14 @@ def format_number(value):
 @app.route("/bg/Referenzen", methods=["GET", "POST"])
 def referenzen():
     route = request.path
-    data = Referenzen_en if "/en/" in route else Referenzen
+
+    if "/en/" in route:
+        data = Referenzen_en
+    elif "/bg/" in route:
+        # change to bulgarian data when available
+        data = Referenzen_en 
+    else:
+        data = Referenzen
 
     return render_template_("referenzen.html", data=data)
 
@@ -320,7 +327,14 @@ def referenzen():
 @app.route("/bg/Referenzen/<Projekt>", methods=["GET", "POST"])
 def projekt(Projekt):
     route = request.path
-    data = Referenzen_en if "/en/" in route else Referenzen
+
+    if "/en/" in route:
+        data = Referenzen_en
+    elif "/bg/" in route:
+        # change to bulgarian data when available
+        data = Referenzen_en 
+    else:
+        data = Referenzen
 
     for item in data:
         if item["Bild"][:-4] == Projekt:
