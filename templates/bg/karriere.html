@@ -15,7 +15,7 @@
     <div id="Karriere">
         <div class="KBild">
             <img src="{{ url_for('static', filename='Bilder/Karriere.jpg') }}">
-            <h1>Start your career <br>with us today!</h1>
+            <h1>ЗАПОЧНЕТЕ КАРИЕРАТА СИ С НАС ДНЕС</h1>
         </div>
 
         {% with messages = get_flashed_messages(with_categories=true) %}
@@ -35,59 +35,59 @@
 
         <div class="KText">
             <div class="Vorwort">
-                <h3>Your partner for the building life cycle.</h3>
-                <h1>Ready to transform the real estate world?</h1>
+                <h3>ВАШИЯТ ПАРТНЬОР ЗА ЖИЗНЕНИЯ ЦИКЪЛ НА СГРАДИТЕ</h3>
+                <h1>ГОТОВИ СТЕ ДА ТРАНСФОРМИРАТЕ СВЕТА НА НЕДВИЖИМИТЕ ИМОТИ?</h1>
                 <p>
-                    We shape the present and future of buildings – as the BAE Group, we take a comprehensive approach to real estate. Through our work on key topics, structured into eight strategic business units – Technical Building Equipment, Contracting, Project Management, Digital Solutions, Asset Management, Property Management, General Planning, and Investment Management – we unite all building-related solutions under one roof. We are looking for you!
+                    Ние формираме настоящето и бъдещето на сградите- като BAE Group, ние прилагаме цялостен подход към недвижимите имоти. Чрез нашата работа по ключови теми, структурирани в осем стратегически бизнес направления- Техническо оборудване за сгради, Договори, Управление на проекти, Дигитални решения, Управление на активи, Управление на недвижими имоти, Генерален проектант и Управление на инвестиции – ние обединяваме всички решения, свързани със сградите, под един покрив. Търсим теб!
                 </p>
             </div>
             <div class="Benefits">
-                <h3>Benefits</h3>
-                <h1>That's why you should join BAE:</h1>
+                <h3>ПРЕДИМСТВА</h3>
+                <h1>ЕТО ЗАЩО ТРЯБВА ДА СЕ ПРИСЪЕДИНИТЕ КЪМ BAE:</h1>
                 <div class="grid">
                     <div class="benefit">
                         <div>
                             <img src="{{ url_for('static', filename='Bilder/Homeoffice.jpg') }}" alt="">
                         </div>
-                        <h4>Home Office & <br> Flexible Working Hours</h4>
+                        <h4>Home office и гъвкаво работно време</h4>
                         <p>
-                            You can adjust your working hours within the 40-hour week, and remote work is possible by arrangement.
+                            Можете да нагласяте работното си време в рамките на 40-часовата работна седмица, а дистанционна работа е възможна по предварителна уговорка.
                         </p>
                     </div>
                     <div class="benefit">
                         <div>
                             <img src="{{ url_for('static', filename='Bilder/Seminare.jpg') }}" alt="">
                         </div>
-                        <h4>Training & <br> Seminars</h4>
+                        <h4>Обучения и семинари</h4>
                         <p>
-                            We focus on your future. With us, you have the opportunity to develop further through internal and external training or seminars and to switch between exciting business fields.
+                            Ние се фокусираме върху вашето бъдеще. С нас, Вие имате възможност да се развивате допълнително чрез вътрешни и външни обучения или семинари, и да превключвате между вълнуващи бизнес области.
                         </p>
                     </div>
                     <div class="benefit">
                         <div>
                             <img src="{{ url_for('static', filename='Bilder/Miteinander.jpg') }}" alt="">
                         </div>
-                        <h4>Collegial Cooperation & <br> Short Communication Channels</h4>
+                        <h4>Колегиално сътрудничество и кратки комуникационни канали</h4>
                         <p>
-                            With us, you'll experience a collegial atmosphere with direct communication channels.
+                            С нас ще се насладите на колегиална атмосфера с директни комуникационни канали.
                         </p>
                     </div>
                     <div class="benefit">
                         <div>
                             <img src="{{ url_for('static', filename='Bilder/Zuschuesse.jpg') }}" alt="">
                         </div>
-                        <h4>Subsidies & <br> Attractive Compensation</h4>
+                        <h4>Субсидии и атрактивни компенсации </h4>
                         <p>
-                            In addition to an attractive salary, we also offer a subsidy for the company pension scheme, direct insurance, and company benefits, as well as your personal means of transportation, which can also be used privately.
+                            В допълнение към атрактивното заплащане, ние предлагаме и субсидия за пенсионната схема на компанията, застраховка и фирмени придобивки, както и личен транспорт, който може да се използва и за лично ползване. 
                         </p>
                     </div>
                     <div class="benefit">
                         <div>
                             <img src="{{ url_for('static', filename='Bilder/Augenhoehe.jpg') }}" alt="">
                         </div>
-                        <h4>Working on <br> Equal Terms</h4>
+                        <h4>Работа при равни условия</h4>
                         <p>
-                            Diversity, respect, acceptance, and working on equal terms are particularly important to us.
+                            Разнообразието, уважението, приемането и работата при равни условия са особено важни за нас. 
                         </p>
 
                     </div>
@@ -95,9 +95,9 @@
                         <div>
                             <img src="{{ url_for('static', filename='Bilder/Teamevents.jpg') }}" alt="">
                         </div>
-                        <h4>Regular <br> Team Events</h4>
+                        <h4>Редовни събития на екипа</h4>
                         <p>
-                            Shared team events make us a strong team even outside work.
+                            Споделените събития на екипа ни правят силен отбор, дори извън работата. 
                         </p>
 
                     </div>
@@ -109,14 +109,14 @@
         </div>
 
         <div class="KStellen">
-            <h3>Apply Now</h3>
-            <h1>Open Positions</h1>
+            <h3>Кандидатствайте сега </h3>
+            <h1>Отворени позиции</h1>
 
             <div class="filter">
                 <div>
-                    <label for="ort"><b>Location:</b></label>
+                    <label for="ort"><b>Локация:</b></label>
                     <select id="ort" name="ort">
-                        <option value="stellenanzeige">All</option>
+                        <option value="stellenanzeige">Всички</option>
                         <option value="frankfurt">Frankfurt am Main</option>
                         <option value="berlin">Berlin</option>
                         <option value="muenchen">Munich</option>
@@ -129,31 +129,31 @@
                     </select>
                 </div>
                 <div>
-                    <label for="anstellung"><b>Employment Type:</b></label>
+                    <label for="anstellung"><b>Вид заетост:</b></label>
                     <select id="anstellung" name="anstellung">
-                        <option value="stellenanzeige">All</option>
-                        <option value="voll">Full-time</option>
-                        <option value="teil">Part-time</option>
-                        <option value="student">Working Student</option>
-                        <option value="azubi">Trainee</option>
+                        <option value="stellenanzeige">Всички</option>
+                        <option value="voll">Пълно работно време</option>
+                        <option value="teil">Непълно работно време</option>
+                        <option value="student">Работещ студент</option>
+                        <option value="azubi">Стажант</option>
                     </select>
                 </div>
                 <div>
-                    <label for="taetigkeit"><b>Position:</b></label>
+                    <label for="taetigkeit"><b>Позиция:</b></label>
                     <select id="taetigkeit" name="taetigkeit">
-                        <option value="stellenanzeige">All</option>
-                        <option value="azubi">Trainee</option>
+                        <option value="stellenanzeige">Всички</option>
+                        <option value="azubi">Стажант</option>
                         <option value="systemplaner">System Planner</option>
                         <option value="fachplaner">Specialist Planner</option>
-                        <option value="projektleiter">Project Manager</option>
-                        <option value="fuehrungspersonal">Management</option>
-                        <option value="assistenz">Assistant</option>
-                        <option value="hr">HR</option>
-                        <option value="marketing">Marketing, Social Media</option>
+                        <option value="projektleiter">Ръководител Проекти</option>
+                        <option value="fuehrungspersonal">мениджър</option>
+                        <option value="assistenz">Асистент</option>
+                        <option value="hr">Човешки ресурси</option>
+                        <option value="marketing">Маркетинг, Социални медии</option>
                     </select>
                 </div>
                 <div>
-                    <button onclick="filterApply()"><b>Apply filter</b></button>
+                    <button onclick="filterApply()"><b>Приложи филтър</b></button>
                 </div>
             </div>
             <div class="Stellen">

@@ -25,28 +25,28 @@
                 <h1>{{ item.Projekt }}</h1>
                 <table>
                     <tr>
-                        <td class="feature">Type of building:</td>
+                        <td class="feature">Вид на сградата:</td>
                         <td>{{ item.Gebaeude }}</td>
                     </tr>
                     <tr>
-                        <td class="feature">Type of project:</td>
+                        <td class="feature">Вид на проекта:</td>
                         <td>{{ item.Projektart }}</td>
                     </tr>
                     <tr>
-                        <td class="feature">Service phases:</td>
+                        <td class="feature">Сервизни фази:</td>
                         <td>{{ item.LPH }}</td>
                     </tr>
                     <tr>
-                        <td class="feature">System group:</td>
+                        <td class="feature">Системна група:</td>
                         <td>{{ item.Anlagengruppe }}</td>
                     </tr>
                     <tr>
-                        <td class="feature">Surface:</td>
+                        <td class="feature">Площ:</td>
                         <td>{{ item.BGF|format_number }} m²</td>
                     </tr>
                     {% if item.Gesamtkosten != '' %}
                     <tr>
-                        <td class="feature">Total costs:</td>
+                        <td class="feature">Обща стойност:</td>
                         <td>{{ item.Gesamtkosten|format_number }} €</td>
                     </tr>
                     {% endif %}
