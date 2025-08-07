@@ -162,6 +162,19 @@ p {
     }
   }
 
+  .language {
+    display: flex;
+
+    a {
+      color: black;
+      margin: 0 5px;
+    }
+
+    a:hover {
+      color: #017AC0;
+    }
+  }
+
   .mobile {
     width: 100%;
     display: none;
@@ -1732,8 +1745,16 @@ p {
       display: none;
     }
 
+    .language {
+      display: none;
+    }
+
     .mobile {
       display: flex;
+
+      .language {
+        display: block;
+      }
     }
   }
 
