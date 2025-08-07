@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAE GROUP</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='BAE.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='Logo/Rauten BAE.png') }}" type="image/x-icon">
+    <script src="{{ url_for('static', filename='BAE.js')}}"></script>
+</head>
+
+<body>
+    {% include menu_bar %}
+
+    <div id="ContainerVideo">
+        <video id="video-background" class="parallax" loop autoplay muted poster="{{ url_for('static', filename='Video/Landingpage.jpg') }}">
+            <source src="{{ url_for('static', filename='Video/LandingpageBAE.mp4') }}" type="video/mp4">
+            <img src="{{ url_for('static', filename='Video/Landingpage.jpg') }}">
+        </video>
+    </div>
+
+    <div id="ueberuns">
+        <div id="CPSM">
+            <div class="catchphrase">
+                <h2>Your Partner For The Building Life Cycle.</h2>
+            </div>
+            <div class="socialmedia">
+                <div><a href="https://www.linkedin.com/company/baegroup/" target="_blank">linkedin</a></div>
+                <div><a href="https://www.xing.com/pages/bae-group" target="_blank">xing</a></div>
+                <div><a href="https://www.facebook.com/profile.php?id=61554842673825" target="_blank">facebook</a></div>
+                <div><a href="https://www.instagram.com/baegroup.eu/" target="_blank">instagram</a></div>
+            </div>
+        </div>
+        <div class="UUBild">
+            <img src="{{ url_for('static', filename='Bilder/UeberUns.jpg') }}" alt="Technische Gebäudeausrüstung">
+        </div>
+        <div class="UUText">
+            <h3>Your Partner For The Building Life Cycle.</h3>
+            <h1>About Us</h1>
+            <p>
+                BAE GROUP is a corporate group of companies, which are dedicated to activities related to the complete lifecycle of real estate. Our core competencies span eight strategic business areas that cover the full spectrum of the real estate industry. From technical building equipment, contracting and project management to digital solutions, asset management, property management, general planning and investment management, BAE GROUP is a partner for all aspects of your real estate.
+
+            </p>
+            <p>
+                With a large team of dedicated employees, we form a dynamic group of real estate specialists who bring various perspectives and areas of expertise. Our experts, whether engineers, technicians, architects, business economists, or IT specialists, combine their skills to develop innovative and individual solutions for our clients.
+            </p>
+            <p>
+                BAE GROUP stands out not only for its broad range of services, but also for its regional presence and global perspective. Our locations in Germany and Eastern Europe allow us to respond flexibly to the needs of our clients and provide individual solutions for every challenge.
+            </p>
+        </div>
+        <img class="raute1" src="{{ url_for('static', filename='Icons/Raute.svg') }}">
+        <img class="raute2" src="{{ url_for('static', filename='Icons/Raute.svg') }}">
+        <img class="raute3" src="{{ url_for('static', filename='Icons/Raute.svg') }}">
+    </div>
+
+    <div id="geschaeftsfelder">
+        <h3>What We Do</h3>
+        <h1>Business Areas</h1>
+
+        <div class="grid">
+            <div class="geschaeftsfeld">
+                <a href="/en/Geschaeftsfelder/TGA">
+                    <div>
+                        <img src="{{ url_for('static', filename='Bilder/Gebäudetechnik.jpg') }}" alt="Technical Building Equipment">
+                    </div>
+                    <h4>Technical <br>Building Equipment</h4>
+                </a>
+            </div>
+
+            <div class="geschaeftsfeld">
+                <a href="/en/Geschaeftsfelder/Contracting">
+                    <div>
+                        <img src="{{ url_for('static', filename='Bilder/Contracting.jpg') }}" alt="Contracting">
+                    </div>
+                    <h4>Contracting</h4>
+                </a>
+            </div>
+
+            <div class="geschaeftsfeld">
+                <a href="/en/Geschaeftsfelder/Projektmanagement">
+                    <div>
+                        <img src="{{ url_for('static', filename='Bilder/Projektmanagement.jpg') }}" alt="Projektmanagement.jpg">
+                    </div>
+                    <h4>Project <br>Management</h4>
+                </a>
+            </div>
+
+            <div class="geschaeftsfeld">
+                <a href="/en/Geschaeftsfelder/DigitalSolutions">
+                    <div>
+                        <img src="{{ url_for('static', filename='Bilder/DigitalSolution.jpg') }}" alt="Digital Soluation">
+                    </div>
+                    <h4>Digital <br>Solutions</h4>
+                </a>
+            </div>
+
+            <div class="geschaeftsfeld">
+                <a href="/en/Geschaeftsfelder/AssetManagement">
+                    <div>
+                        <img src="{{ url_for('static', filename='Bilder/Assetmanagement.jpg') }}" alt="Assetmanagement.jpg">
+                    </div>
+                    <h4>Asset <br>Management</h4>
+                </a>
+            </div>
+
+            <div class="geschaeftsfeld">
+                <a href="/en/Geschaeftsfelder/PropertyManagement">
+                    <div>
+                        <img src="{{ url_for('static', filename='Bilder/Propertymanagement.jpg') }}" alt="Propertymanagement">
+                    </div>
+                    <h4>Property <br>Management</h4>
+                </a>
+            </div>
+
+            <div class="geschaeftsfeld">
+                <a href="/en/Geschaeftsfelder/Generalplanung">
+                    <div>
+                        <img src="{{ url_for('static', filename='Bilder/Generalplanung.jpg') }}" alt="Generalplanung">
+                    </div>
+                    <h4>General <br>Planning</h4>
+                </a>
+            </div>
+
+            <div class="geschaeftsfeld">
+                <a href="/en/Geschaeftsfelder/InvestmentManagement">
+                    <div>
+                        <img src="{{ url_for('static', filename='Bilder/Investmentmanagement.jpg') }}" alt="Investmentmanagement">
+                    </div>
+                    <h4>Investment <br>Management</h4>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="standorte">
+        <h3>Where We Are</h3>
+        <h1>Locations</h1>
+        <div class="normal">
+            <div class="grid">
+                {% for item in standorte %}
+                <div class="standort">
+                    <img src="{{ url_for('static', filename='Bilder/'+item.Bild) }}" alt="Coburg">
+                    <div>
+                        <h2>{{item.Standort}}</h2>
+                        <h4>{{item.Firma}}</h4>
+                        <p>
+                            {{item.Adresse}} <br>
+                            {{item.Email}} <br>
+                            {{item.Telefonnummer}}
+                        </p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="mobile">
+            <div class="grid">
+                {% for item in standorte %}
+                <button class="standortbtn" onclick="scrollToS('{{item.Standort}}', this)">{{item.Standort}}</button>
+                {% endfor %}
+            </div>
+            <div class="swipe">
+                <div class="arrow left">
+                    <button onclick="scrollPrev()">&#10094;</button>
+                </div>
+                <div class="scroll" id="scroll">
+                    {% for item in standorte %}
+                    <div class="standort" id="{{ item.Standort }}">
+                        <img src="{{ url_for('static', filename='Bilder/'+item.Bild) }}" alt="Coburg">
+                        <div>
+                            <h2>{{item.Standort}}</h2>
+                        </div>
+                        <h4>{{item.Firma}}</h4>
+                        <p>
+                            {{item.Adresse}} <br>
+                            {{item.Email}} <br>
+                            {{item.Telefonnummer}}
+                        </p>
+                    </div>
+                    {% endfor %}
+                </div>
+                <div class="arrow right">
+                    <button onclick="scrollNext()">&#10095;</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="HPReferenzen">
+        <h3>What We Have Done</h3>
+        <h1>References</h1>
+        <div class="grid">
+            {% set ns = namespace(counter=0) %}
+            {% for item in data %}
+            {% if item.Bild != '' and ns.counter < 5 %}
+            <div class="projektbild">
+                <img src="{{ url_for('static', filename='Bilder/Referenzen/' + item.Bild) }}" alt="{{ item.Projekt }}">
+                <a href="/en/Referenzen/{{ item.Bild[:-4] }}">
+                    <h4>{{ item.Projekt }}</h4>
+                </a>
+            </div>
+            {% set ns.counter = ns.counter + 1 %}
+            {% endif %}
+            {% endfor %}
+        </div>
+        <div class="referenzenButton">
+            <h2><a href="/en/Referenzen">More References</a></h2>
+        </div>
+    </div>
+    {% include footer %}
+</body>
+
+</html>

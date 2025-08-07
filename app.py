@@ -191,7 +191,14 @@ def send_email_kontakt(form):
 
 def language(html):
     route = request.path
-    html = "en/" + html if "/en/" in route else "de/" + html
+
+    if "/en/" in route:
+        html = "en/" + html
+    elif "/bg/" in route:
+        html = "bg/" + html
+    else:
+        html = "de/" + html
+
     return html
 
 
@@ -264,6 +271,7 @@ def render_template_(html, **context):
 
 @app.route("/", methods=["GET", "POST"])
 @app.route("/en/", methods=["GET", "POST"])
+@app.route("/bg/", methods=["GET", "POST"])
 def index():
     route = request.path
     data = Referenzen_en if "/en/" in route else Referenzen
@@ -280,12 +288,14 @@ def index():
 
 @app.route("/Impressum", methods=["GET", "POST"])
 @app.route("/en/Impressum", methods=["GET", "POST"])
+@app.route("/bg/Impressum", methods=["GET", "POST"])
 def impressum():
     return render_template_("impressum.html")
 
 
 @app.route("/Datenschutz", methods=["GET", "POST"])
 @app.route("/en/Datenschutz", methods=["GET", "POST"])
+@app.route("/bg/Datenschutz", methods=["GET", "POST"])
 def datenschutz():
     return render_template_("datenschutz.html")
 
@@ -297,6 +307,7 @@ def format_number(value):
 
 @app.route("/Referenzen", methods=["GET", "POST"])
 @app.route("/en/Referenzen", methods=["GET", "POST"])
+@app.route("/bg/Referenzen", methods=["GET", "POST"])
 def referenzen():
     route = request.path
     data = Referenzen_en if "/en/" in route else Referenzen
@@ -306,6 +317,7 @@ def referenzen():
 
 @app.route("/Referenzen/<Projekt>", methods=["GET", "POST"])
 @app.route("/en/Referenzen/<Projekt>", methods=["GET", "POST"])
+@app.route("/bg/Referenzen/<Projekt>", methods=["GET", "POST"])
 def projekt(Projekt):
     route = request.path
     data = Referenzen_en if "/en/" in route else Referenzen
@@ -317,6 +329,7 @@ def projekt(Projekt):
 
 @app.route("/Karriere", methods=["GET", "POST"])
 @app.route("/en/Karriere", methods=["GET", "POST"])
+@app.route("/bg/Karriere", methods=["GET", "POST"])
 def karriere():
     route = request.path
     data = Stellenanzeigen_en if "/en/" in route else Stellenanzeigen
@@ -326,9 +339,17 @@ def karriere():
 
 @app.route("/Karriere/<Stelle>", methods=["GET", "POST"])
 @app.route("/en/Karriere/<Stelle>", methods=["GET", "POST"])
+@app.route("/bg/Karriere/<Stelle>", methods=["GET", "POST"])
 def stelle(Stelle):
     route = request.path
-    data = Stellenanzeigen_en if "/en/" in route else Stellenanzeigen
+
+    if "/en/" in route:
+        data = Stellenanzeigen_en
+    elif "/bg/" in route:
+        # change to bulgarian data when available
+        data = Stellenanzeigen_en 
+    else:
+        data = Stellenanzeigen
 
     form = KarriereFormular()
 
@@ -339,7 +360,8 @@ def stelle(Stelle):
 
             if form.validate_on_submit():
                 send_email_karriere(form, Stelle)
-                return redirect("/en/Karriere" if "/en/" in route else "/Karriere")
+                return redirect(route[:-(len(Stelle) + 1)])
+                # return redirect("/en/Karriere" if "/en/" in route else "/Karriere")
             else:
                 if str(form.errors)[1:-1] != "":
                     if "/en/" in route:
@@ -349,7 +371,8 @@ def stelle(Stelle):
                         flash("Beim Senden sind Fehler aufgetreten", "danger")
                         flash("Schicken Sie eine E-Mail auf hr@b-a-e.eu", "danger")
                     print(form.errors)
-                    return redirect("/en/Karriere" if "/en/" in route else "/Karriere")
+                    return redirect(route[:-(len(Stelle) + 1)])
+                    # return redirect("/en/Karriere" if "/en/" in route else "/Karriere")
 
             return render_template_(
                 "stelle.html",
@@ -361,12 +384,14 @@ def stelle(Stelle):
 
 @app.route("/Geschaeftsfelder/<Geschaeftsfeld>", methods=["GET", "POST"])
 @app.route("/en/Geschaeftsfelder/<Geschaeftsfeld>", methods=["GET", "POST"])
+@app.route("/bg/Geschaeftsfelder/<Geschaeftsfeld>", methods=["GET", "POST"])
 def geschaeftsfelder(Geschaeftsfeld):
     return render_template_(f"Geschaeftsfelder/{Geschaeftsfeld}.html")
 
 
 @app.route("/Bilder/TextBilder/<Bild>")
 @app.route("/Bilder/TextBilder/en/<Bild>")
+@app.route("/Bilder/TextBilder/bg/<Bild>")
 @app.route("/Bilder/<Bild>")
 def bild(Bild):
     route = request.path

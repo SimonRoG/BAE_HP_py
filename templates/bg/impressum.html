@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAE GROUP</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='BAE.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='Logo/Rauten BAE.png') }}" type="image/x-icon">
+    <script src="{{ url_for('static', filename='BAE.js')}}"></script>
+</head>
+
+<body>
+    {% include menu_bar%}
+    <div id="ImpressumDatenschutz">
+        <div class="IDBild">
+            <img src="{{ url_for('static', filename='Bilder/ImpressumDatenschutz.jpg') }}">
+            <h1>Site Notice</h1>
+        </div>
+        <div class="IDText">
+            <h2>BAE GmbH</h2>
+            <p>
+                Raststra&szlig;e 20<br>
+                96450 Coburg
+            </p>
+
+            <p>
+                Commercial Register: HRB 6357<br>
+                Registration court: Amtsgericht Coburg
+            </p>
+
+            <h4>Represented by:</h4>
+            <p>
+                J&uuml;rgen Kerscher<br>
+                Michael H&ouml;lzle
+            </p>
+
+            <h4>Contact</h4>
+            <p>
+                Phone: +49 9561 97 69 983<br>
+                E-mail: office@b-a-e.eu
+            </p>
+
+            <h4>VAT ID</h4>
+            <p>
+                Sales tax identification number according to Sect. 27 a of the Sales Tax Law:<br>
+                DE 327804364
+            </p>
+
+            <h2>EU dispute resolution</h2>
+            <p>
+                The European Commission provides a platform for online dispute resolution (ODR): <a href="https://ec.europa.eu/consumers/odr/" target="_blank" rel="noopener noreferrer">https://ec.europa.eu/consumers/odr/</a>.<br> Our e-mail address can be found above in the site notice.
+            </p>
+
+            <h2>Dispute resolution proceedings in front of a consumer arbitration board</h2>
+            <p>
+                We are not willing or obliged to participate in dispute resolution proceedings in front of a consumer arbitration board.
+            </p>
+
+            <img class="raute1" src="{{ url_for('static', filename='Icons/Raute.svg') }}">
+            <img class="raute2" src="{{ url_for('static', filename='Icons/Raute.svg') }}">
+            <img class="raute3" src="{{ url_for('static', filename='Icons/Raute.svg') }}">
+        </div>
+    </div>
+    {% include footer %}
+</body>
+
+</html>

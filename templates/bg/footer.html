@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <div id="footer">
+        <h3>Interested?</h3>
+        <h1>Contact</h1>
+        <div class="links">
+            <a href="mailto:office@b-a-e.eu">E-mail</a>
+            <a href="https://www.linkedin.com/company/baegroup/" target="_blank">LinkedIn</a>
+            <a href="https://www.xing.com/pages/bae-group" target="_blank">Xing</a>
+            <a href="https://www.facebook.com/profile.php?id=61554842673825" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/baegroup.eu/" target="_blank">Instagram</a>
+        </div>
+        <div class="form">
+            <form method="POST" enctype="multipart/form-data">
+                {{ contactform.hidden_tag() }}
+                {{ contactform.name(placeholder="Name*") }} <br><br>
+                {{ contactform.email(placeholder="Email*") }} <br><br>
+                {{ contactform.message(rows="5", placeholder="Message") }} <br><br>
+                {{ contactform.recaptcha }} <br>
+                {{ contactform.submit(value="Send") }} <br><br>
+            </form>
+        </div>
+    </div>
+    <div id="footerfooter">
+        <p>
+            <a href="/en/Impressum">Site Notice</a> |
+            <a href="/en/Datenschutz">Privacy Policy</a>
+        </p>
+    </div>
+</body>
+
+</html>

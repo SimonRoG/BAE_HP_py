@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAE GROUP</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='BAE.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='Logo/Rauten BAE.png') }}" type="image/x-icon">
+    <script src="{{ url_for('static', filename='BAE.js')}}"></script>
+</head>
+
+<body>
+    {% include menu_bar %}
+
+    <div id="Geschaeftsfeld">
+        <div class="GFBild">
+            <img src="{{ url_for('static', filename='Bilder/AssetManagement.jpg') }}" alt="Asset Management">
+            <h1>Asset Management</h1>
+        </div>
+        <div class="GFText">
+            <div class="columns">
+                <p>
+                    Comprehensive asset management in buildings consists of two key components: technical asset management and commercial asset management. Technical asset management focuses on the strategic maintenance and optimization of a building's physical resources, while commercial asset management emphasizes the financial dimension of these assets.
+                </p>
+                <p>
+                    In the technical area, the goals are the efficient planning and monitoring of the lifecycle of building systems and equipment. Regular inspections, maintenance and targeted modernization measures play a main role in ensuring the reliability and performance of the technical infrastructure. This not only extends the service life of the equipment, but also minimizes unforeseen downtime and reduces long-term maintenance costs.
+                </p>
+                <p>
+                    In parallel, commercial asset management covers the financial aspects of assets. Budgeting and financial planning are the keys to the strategic allocation of financial resources throughout the lifecycle of the systems. Risk management identifies and mitigates financial uncertainties, while value enhancement and return optimization aim to maximize the economic benefit of the investments.
+                </p>
+                <p>
+                    The connection between technical and commercial asset management is essential to ensure a comprehensive approach. Effective planning and implementation of technical measures has a direct impact on the long-term financial results of the building. For example, targeted modernization through technical asset management can improve energy efficiency and reduce operating costs in the long term, positively affecting financial profitability. Conversely, commercial asset management provides a solid basis for prioritizing technical measures. Budgeting is based on the requirements of the technical infrastructure and financial analyses support decision-making regarding investments in maintenance, modernization or new technologies.
+
+                </p>
+                <p>
+                    With our Asset Management business unit, we offer all aspects of both commercial and technical asset management. In our opinion, only a harmonious integration of both aspects forms the basis for efficient, sustainable building management. By combining technical and commercial asset management, owners and operators can extend the life of their assets, minimize operating costs and ensure the economic success of their investments.
+                </p>
+            </div>
+            <h1>Overview of our services:</h1>
+
+            <div class="overview">
+                <button onclick="popup('/Bilder/TextBilder/en/AssetManagement.svg')">
+                    <img src="{{ url_for('static', filename='/Bilder/TextBilder/en/AssetManagement.svg') }}" alt="Projektmanagement Leistungen">
+                </button>
+            </div>
+
+            <img class="raute1" src="{{ url_for('static', filename='Icons/Raute.svg') }}">
+            <img class="raute2" src="{{ url_for('static', filename='Icons/Raute.svg') }}">
+            <img class="raute3" src="{{ url_for('static', filename='Icons/Raute.svg') }}">
+        </div>
+    </div>
+    {% include footer %}
+</body>
+
+</html>

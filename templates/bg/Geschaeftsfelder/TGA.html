@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAE GROUP</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='BAE.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='Logo/Rauten BAE.png') }}" type="image/x-icon">
+    <script src="{{ url_for('static', filename='BAE.js')}}"></script>
+</head>
+
+<body>
+    {% include menu_bar %}
+    <div id="Geschaeftsfeld">
+        <div class="GFBild">
+            <img src="{{ url_for('static', filename='Bilder/Gebäudetechnik.jpg') }}" alt="Technische Gebäudeausrüstung">
+            <h1>Technical Building Equipment</h1>
+        </div>
+        <div class="GFText">
+            <div class="columns">
+                <p>
+                    A building without technology is like human body without its blood vessels and muscles: not viable. The technology in buildings represents the blood vessels and muscles of any property. It ensures that buildings are functional and includes all technical systems essential for the operation and comfort in a building. These systems not only ensure the smooth functioning in the daily life, but also significantly contribute to the efficiency, safety and environmental friendliness of buildings.
+                </p>
+                <p>
+                    Today, building services engineering plays a main role in the development and renovation of buildings. While in the past, the location and the design were main priorities, now building technology has become a key pillar in the design of modern buildings in the context of sustainability. The energy has become expensive, but the sustainable building technology ensures energy efficiency and therefore low operating costs. 
+                </p>
+                <p>
+                    Today, building services engineering plays a main role in the development and renovation of buildings. While in the past, the location and the design were main priorities, now building technology has become a key pillar in the design of modern buildings in the context of sustainability. The energy has become expensive, but the sustainable building technology ensures energy efficiency and therefore low operating costs. 
+                </p>
+            </div>
+            <h1>Overview of our services:</h1>
+            <div class="overview">
+                <div class="list">
+                    <ul>
+                        <li>Planning and supervision of all service phases and all system groups in accordance with HOAI:
+                            <ul>
+                                <li>Sanitary engineering</li>
+                                <li>Heating engineering</li>
+                                <li>Ventilation and air conditioning technology</li>
+                                <li>High-voltage systems</li>
+                                <li>Low-voltage systems</li>
+                                <li>Use-specific systems (e.g. sprinkler systems)</li>
+                                <li>Building automation</li>
+                                <li>Other measures for technical systems</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>Feasibility studies</li>
+                        <li>Simulations</li>
+                        <li>Energy optimization</li>
+                        <li>Inventory and analysis</li>
+                        <li>Retrofit of technical systems</li>
+                        <li>Technical due diligence</li>
+                        <li>ESG consulting</li>
+                    </ul>
+                </div>
+
+                <button onclick="popup('/Bilder/3DModellTGA.png')">
+                    <img src="{{ url_for('static', filename='/Bilder/3DModellTGA.png') }}" alt="3D-Modell TGA">
+                </button>
+            </div>
+
+            <img class="raute1" src="{{ url_for('static', filename='Icons/Raute.svg') }}">
+            <img class="raute2" src="{{ url_for('static', filename='Icons/Raute.svg') }}">
+            <img class="raute3" src="{{ url_for('static', filename='Icons/Raute.svg') }}">
+        </div>
+    </div>
+    {% include footer %}
+</body>
+
+</html>

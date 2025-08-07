@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAE GROUP</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='BAE.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='Logo/Rauten BAE.png') }}" type="image/x-icon">
+    <script src="{{ url_for('static', filename='BAE.js')}}"></script>
+</head>
+
+<body>
+    {% include menu_bar %}
+
+    <div id="Geschaeftsfeld">
+        <div class="GFBild">
+            <img src="{{ url_for('static', filename='Bilder/PropertyManagement.jpg') }}" alt="Property Management">
+            <h1>Property Management</h1>
+        </div>
+        <div class="GFText">
+            <div class="columns">
+                <p>
+                    Through our Property Management division, we offer both commercial and technical property management. In our opinion, commercial and technical property management are two essential aspects of holistic real estate administration.
+                </p>
+                <p>
+                    Commercial property management focuses on the financial and administrative aspects of the property’s operation. This includes the management of lease agreements, collection of rental payments, budgeting of operating costs, management of service contracts and communication with tenants. The goal is to ensure smooth financial operations, to maximize rental income and to  manage operating costs efficiently. The difference between Property Management and Asset management is that the commercial property management is more focused on short-term financial issues and less on strategic decisions regarding the entire lifecycle of the assets.
+                </p>
+                <p>
+                    In contrast, technical property management focuses on the physical maintenance and optimization of buildings. This includes maintenance of technical systems, repairs, inspections and the implementation of modernization measures. The aim of technical property management is to extend the lifespan of building infrastructure, ensure operational reliability and maintain technical standards. Again, the distinction from asset management is evident, as technical property management is focused on immediate physical operations rather than strategic, financial decision-making.
+                </p>
+                <p>
+                    The advantage of commercial property management lies in efficient financial administration and budgeting, optimization of rental income and operating costs and creating a tenant satisfaction and retention through professional tenant management. Technical property management offers the advantage of extending the life of building infrastructure, minimizing downtime and operational disruptions, and ensuring high technical standards.
+                </p>
+                <p>
+                    In general, both commercial and technical property management contribute to maintaining and increasing the value of buildings and meeting the tenant requirements. With our Property Management division, we offer a wide range of services aimed at preserving and further optimizing the value of buildings.
+                </p>
+            </div>
+            <h1>Overview of our services:</h1>
+            <div class="overview">
+                <button onclick="popup('/Bilder/TextBilder/en/PropManag.svg')">
+                    <img src="{{ url_for('static', filename='/Bilder/TextBilder/en/PropManag.svg') }}" alt="PropertyManagement Leistungen">
+                </button>
+            </div>
+
+            <img class="raute1" src="{{ url_for('static', filename='Icons/Raute.svg') }}">
+            <img class="raute2" src="{{ url_for('static', filename='Icons/Raute.svg') }}">
+            <img class="raute3" src="{{ url_for('static', filename='Icons/Raute.svg') }}">
+        </div>
+    </div>
+    {% include footer %}
+</body>
+
+</html>
