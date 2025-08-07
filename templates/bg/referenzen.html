@@ -23,7 +23,7 @@
             {% if item.Bild != '' %}
             <div id="projekt{{ns.counter}}" class="projekt" style="display: {{'none' if ns.counter >= 6}};">
                 <img src="{{ url_for('static', filename='Bilder/Referenzen/'+item.Bild) }}" alt="{{item.Projekt}}">
-                <a href="/en/Referenzen/{{item.Bild[:-4]}}">
+                <a href="/bg/Referenzen/{{item.Bild[:-4]}}">
                     <div>
                         <h2>{{ item.Projekt }}</h1>
                         <p>

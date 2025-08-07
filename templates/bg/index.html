@@ -60,7 +60,7 @@
 
         <div class="grid">
             <div class="geschaeftsfeld">
-                <a href="/en/Geschaeftsfelder/TGA">
+                <a href="/bg/Geschaeftsfelder/TGA">
                     <div>
                         <img src="{{ url_for('static', filename='Bilder/Gebäudetechnik.jpg') }}" alt="Technical Building Equipment">
                     </div>
@@ -69,7 +69,7 @@
             </div>
 
             <div class="geschaeftsfeld">
-                <a href="/en/Geschaeftsfelder/Contracting">
+                <a href="/bg/Geschaeftsfelder/Contracting">
                     <div>
                         <img src="{{ url_for('static', filename='Bilder/Contracting.jpg') }}" alt="Contracting">
                     </div>
@@ -78,7 +78,7 @@
             </div>
 
             <div class="geschaeftsfeld">
-                <a href="/en/Geschaeftsfelder/Projektmanagement">
+                <a href="/bg/Geschaeftsfelder/Projektmanagement">
                     <div>
                         <img src="{{ url_for('static', filename='Bilder/Projektmanagement.jpg') }}" alt="Projektmanagement.jpg">
                     </div>
@@ -87,7 +87,7 @@
             </div>
 
             <div class="geschaeftsfeld">
-                <a href="/en/Geschaeftsfelder/DigitalSolutions">
+                <a href="/bg/Geschaeftsfelder/DigitalSolutions">
                     <div>
                         <img src="{{ url_for('static', filename='Bilder/DigitalSolution.jpg') }}" alt="Digital Soluation">
                     </div>
@@ -96,7 +96,7 @@
             </div>
 
             <div class="geschaeftsfeld">
-                <a href="/en/Geschaeftsfelder/AssetManagement">
+                <a href="/bg/Geschaeftsfelder/AssetManagement">
                     <div>
                         <img src="{{ url_for('static', filename='Bilder/Assetmanagement.jpg') }}" alt="Assetmanagement.jpg">
                     </div>
@@ -105,7 +105,7 @@
             </div>
 
             <div class="geschaeftsfeld">
-                <a href="/en/Geschaeftsfelder/PropertyManagement">
+                <a href="/bg/Geschaeftsfelder/PropertyManagement">
                     <div>
                         <img src="{{ url_for('static', filename='Bilder/Propertymanagement.jpg') }}" alt="Propertymanagement">
                     </div>
@@ -114,7 +114,7 @@
             </div>
 
             <div class="geschaeftsfeld">
-                <a href="/en/Geschaeftsfelder/Generalplanung">
+                <a href="/bg/Geschaeftsfelder/Generalplanung">
                     <div>
                         <img src="{{ url_for('static', filename='Bilder/Generalplanung.jpg') }}" alt="Generalplanung">
                     </div>
@@ -123,7 +123,7 @@
             </div>
 
             <div class="geschaeftsfeld">
-                <a href="/en/Geschaeftsfelder/InvestmentManagement">
+                <a href="/bg/Geschaeftsfelder/InvestmentManagement">
                     <div>
                         <img src="{{ url_for('static', filename='Bilder/Investmentmanagement.jpg') }}" alt="Investmentmanagement">
                     </div>
@@ -196,7 +196,7 @@
             {% if item.Bild != '' and ns.counter < 5 %}
             <div class="projektbild">
                 <img src="{{ url_for('static', filename='Bilder/Referenzen/' + item.Bild) }}" alt="{{ item.Projekt }}">
-                <a href="/en/Referenzen/{{ item.Bild[:-4] }}">
+                <a href="/bg/Referenzen/{{ item.Bild[:-4] }}">
                     <h4>{{ item.Projekt }}</h4>
                 </a>
             </div>
@@ -205,7 +205,7 @@
             {% endfor %}
         </div>
         <div class="referenzenButton">
-            <h2><a href="/en/Referenzen">More References</a></h2>
+            <h2><a href="/bg/Referenzen">More References</a></h2>
         </div>
     </div>
     {% include footer %}
