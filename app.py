@@ -191,7 +191,7 @@ def send_email_kontakt(form):
 
 def language(html):
     route = request.path
-    html = "en/" + html if "/en/" in route else html
+    html = "en/" + html if "/en/" in route else "de/" + html
     return html
 
 
