@@ -146,6 +146,8 @@ def send_email_karriere(form, Stelle):
 
     if "/en/" in route:
         flash("Application has been sent and is being processed.", "success")
+    elif "/bg/" in route:
+        flash("Application has been sent and is being processed.", "success")
     else:
         flash("Bewerbung wurde geschickt und wird bearbeitet.", "success")
 
@@ -184,6 +186,8 @@ def send_email_kontakt(form):
     route = request.path
 
     if "/en/" in route:
+        flash("Contact form has been sent and is being processed.", "success")
+    elif "/bg/" in route:
         flash("Contact form has been sent and is being processed.", "success")
     else:
         flash("Kontaktformular wurde geschickt und wird bearbeitet.", "success")
@@ -274,8 +278,23 @@ def render_template_(html, **context):
 @app.route("/bg/", methods=["GET", "POST"])
 def index():
     route = request.path
-    data = Referenzen_en if "/en/" in route else Referenzen
-    standorte = Standorte_en if "/en/" in route else Standorte
+
+    if "/en/" in route:
+        data = Referenzen_en
+    elif "/bg/" in route:
+        # change to bulgarian data when available
+        data = Referenzen_en 
+    else:
+        data = Referenzen
+
+    if "/en/" in route:
+        standorte = Standorte_en
+    elif "/bg/" in route:
+        # change to bulgarian data when available
+        standorte = Standorte_en 
+    else:
+        standorte = Standorte
+
     # if "/en/" in route:
     #     if request.cookies.get("language") == "de":
     #         return redirect("/")
@@ -346,7 +365,13 @@ def projekt(Projekt):
 @app.route("/bg/Karriere", methods=["GET", "POST"])
 def karriere():
     route = request.path
-    data = Stellenanzeigen_en if "/en/" in route else Stellenanzeigen
+    if "/en/" in route:
+        data = Stellenanzeigen_en
+    elif "/bg/" in route:
+        # change to bulgarian data when available
+        data = Stellenanzeigen_en 
+    else:
+        data = Stellenanzeigen
 
     return render_template_("karriere.html", data=data)
 
@@ -381,6 +406,9 @@ def stelle(Stelle):
                     if "/en/" in route:
                         flash("Errors occurred during transmission", "danger")
                         flash("Send an e-mail to hr@b-a-e.eu", "danger")
+                    elif "/bg/" in route:
+                        flash("Errors occurred during transmission", "danger")
+                        flash("Send an e-mail to hr@b-a-e.eu", "danger")
                     else:
                         flash("Beim Senden sind Fehler aufgetreten", "danger")
                         flash("Schicken Sie eine E-Mail auf hr@b-a-e.eu", "danger")
@@ -412,6 +440,8 @@ def bild(Bild):
     if "/TextBilder/" in route:
         if "/en/" in route:
             return send_from_directory("static/Bilder/TextBilder/en", Bild)
+        elif "/bg/" in route:
+            return send_from_directory("static/Bilder/TextBilder/bg", Bild)
         else:
             return send_from_directory("static/Bilder/TextBilder", Bild)
     else:

@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1800"
+   height="920"
+   overflow="hidden"
+   version="1.1"
+   id="svg87"
+   sodipodi:docname="GenPlan.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs87" />
+  <sodipodi:namedview
+     id="namedview87"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.55294105"
+     inkscape:cx="1033.5641"
+     inkscape:cy="406.01073"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g52" />
+  <g
+     transform="matrix(0.44070249,0,0,0.44054985,-3.0208276,-163.8185)"
+     id="g52"
+     style="stroke-width:2.26949">
+    <path
+       d="m 19.5001,448.335 c 0,-34.151 27.6845,-61.835 61.835,-61.835 H 893.665 c 34.151,0 61.835,27.684 61.835,61.835 v 247.33 c 0,34.151 -27.684,61.835 -61.835,61.835 H 81.3351 c -34.1505,0 -61.835,-27.684 -61.835,-61.835 z"
+       stroke="#017ac0"
+       stroke-width="2.60045"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path1" />
+    <path
+       d="m 500.5,1054.17 c 0,-9.21 7.462,-16.67 16.667,-16.67 h 784.663 c 9.21,0 16.67,7.46 16.67,16.67 v 66.66 c 0,9.21 -7.46,16.67 -16.67,16.67 H 517.167 c -9.205,0 -16.667,-7.46 -16.667,-16.67 z"
+       stroke="#017ac0"
+       stroke-width="2.60045"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path2" />
+    <path
+       d="m 636.5,1182.17 c 0,-9.21 7.462,-16.67 16.667,-16.67 h 784.663 c 9.21,0 16.67,7.46 16.67,16.67 v 66.66 c 0,9.21 -7.46,16.67 -16.67,16.67 H 653.167 c -9.205,0 -16.667,-7.46 -16.667,-16.67 z"
+       stroke="#017ac0"
+       stroke-width="2.60045"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path3" />
+    <path
+       d="m 227.5,812.333 c 0,-9.297 7.537,-16.833 16.833,-16.833 h 784.337 c 9.29,0 16.83,7.536 16.83,16.833 v 67.334 c 0,9.296 -7.54,16.833 -16.83,16.833 H 244.333 c -9.296,0 -16.833,-7.537 -16.833,-16.833 z"
+       stroke="#017ac0"
+       stroke-width="2.60045"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path4" />
+    <path
+       d="m 344.5,932.333 c 0,-9.297 7.536,-16.833 16.833,-16.833 h 784.337 c 9.29,0 16.83,7.536 16.83,16.833 v 67.334 c 0,9.293 -7.54,16.833 -16.83,16.833 H 361.333 c -9.297,0 -16.833,-7.54 -16.833,-16.833 z"
+       stroke="#017ac0"
+       stroke-width="2.60045"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path5" />
+    <path
+       d="m 773.5,1310.17 c 0,-9.21 7.462,-16.67 16.667,-16.67 h 784.663 c 9.21,0 16.67,7.46 16.67,16.67 v 66.66 c 0,9.21 -7.46,16.67 -16.67,16.67 H 790.167 c -9.205,0 -16.667,-7.46 -16.667,-16.67 z"
+       stroke="#017ac0"
+       stroke-width="2.60045"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path6" />
+    <path
+       d="m 1452.5,448.334 c 0,-34.15 27.68,-61.834 61.83,-61.834 h 811.34 c 34.15,0 61.83,27.684 61.83,61.834 v 247.332 c 0,34.15 -27.68,61.834 -61.83,61.834 h -811.34 c -34.15,0 -61.83,-27.684 -61.83,-61.834 z"
+       stroke="#017ac0"
+       stroke-width="2.60045"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path7" />
+    <path
+       d="m 1933.5,1054.17 c 0,-9.21 7.46,-16.67 16.67,-16.67 h 784.66 c 9.21,0 16.67,7.46 16.67,16.67 v 66.66 c 0,9.21 -7.46,16.67 -16.67,16.67 h -784.66 c -9.21,0 -16.67,-7.46 -16.67,-16.67 z"
+       stroke="#017ac0"
+       stroke-width="2.60045"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path8" />
+    <path
+       d="m 1660.5,812.333 c 0,-9.297 7.54,-16.833 16.83,-16.833 h 784.34 c 9.29,0 16.83,7.536 16.83,16.833 v 67.334 c 0,9.296 -7.54,16.833 -16.83,16.833 h -784.34 c -9.29,0 -16.83,-7.537 -16.83,-16.833 z"
+       stroke="#017ac0"
+       stroke-width="2.60045"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path9" />
+    <path
+       d="m 1777.5,932.333 c 0,-9.297 7.54,-16.833 16.83,-16.833 h 784.34 c 9.29,0 16.83,7.536 16.83,16.833 v 67.334 c 0,9.293 -7.54,16.833 -16.83,16.833 h -784.34 c -9.29,0 -16.83,-7.54 -16.83,-16.833 z"
+       stroke="#017ac0"
+       stroke-width="2.60045"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path10" />
+    <path
+       d="m 112.5,756.927 h 51.385 v 89.127 l -0.573,-0.573 h 41.645 v 1.146 H 162.739 V 757.5 l 0.573,0.573 H 112.5 Z m 87.874,75.377 27.5,13.75 -27.5,13.75 z"
+       fill="#017ac0"
+       id="path11"
+       style="stroke-width:2.26949" />
+    <path
+       d="M 0,-0.572917 H 209.161 V 158.993 h -1.146 V 0 l 0.573,0.572917 H 0 Z M 222.338,154.41 l -13.75,27.5 -13.75,-27.5 z"
+       fill="#017ac0"
+       transform="matrix(0,1,1,0,162.5,757.5)"
+       id="path12"
+       style="stroke-width:2.26949" />
+    <path
+       d="m 162.5,758.073 h -0.665 l 0.573,-0.573 v 330.06 l -0.573,-0.58 h 315.581 v 1.15 H 161.262 V 756.927 h 1.238 z m 310.333,315.737 27.5,13.75 -27.5,13.75 z"
+       fill="#017ac0"
+       id="path13"
+       style="stroke-width:2.26949" />
+    <path
+       d="m 162.5,758.073 h -0.754 l 0.573,-0.573 v 458.06 l -0.573,-0.57 h 451.852 v 1.15 H 161.173 V 756.927 h 1.327 z m 446.515,443.737 27.5,13.75 -27.5,13.75 z"
+       fill="#017ac0"
+       id="path14"
+       style="stroke-width:2.26949" />
+    <path
+       d="m 2846.5,446.334 c 0,-34.15 27.68,-61.834 61.83,-61.834 h 811.34 c 34.15,0 61.83,27.684 61.83,61.834 v 247.332 c 0,34.15 -27.68,61.834 -61.83,61.834 h -811.34 c -34.15,0 -61.83,-27.684 -61.83,-61.834 z"
+       stroke="#017ac0"
+       stroke-width="2.60045"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path15" />
+    <path
+       d="m 3050.5,812.333 c 0,-9.297 7.54,-16.833 16.83,-16.833 h 785.34 c 9.29,0 16.83,7.536 16.83,16.833 v 67.334 c 0,9.296 -7.54,16.833 -16.83,16.833 h -785.34 c -9.29,0 -16.83,-7.537 -16.83,-16.833 z"
+       stroke="#017ac0"
+       stroke-width="2.60045"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path16" />
+    <path
+       d="m 3167.5,932.333 c 0,-9.297 7.54,-16.833 16.83,-16.833 h 785.34 c 9.29,0 16.83,7.536 16.83,16.833 v 67.334 c 0,9.293 -7.54,16.833 -16.83,16.833 h -785.34 c -9.29,0 -16.83,-7.54 -16.83,-16.833 z"
+       stroke="#017ac0"
+       stroke-width="2.60045"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path17" />
+    <path
+       d="m 1398.5,1539.5 c 0,-29.82 24.18,-54 54,-54 h 827 c 29.82,0 54,24.18 54,54 v 216 c 0,29.82 -24.18,54 -54,54 h -827 c -29.82,0 -54,-24.18 -54,-54 z"
+       stroke="#017ac0"
+       stroke-width="2.60045"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path18" />
+    <path
+       d="m 2843.5,1541 c 0,-28.44 23.06,-51.5 51.5,-51.5 h 832 c 28.44,0 51.5,23.06 51.5,51.5 v 206 c 0,28.44 -23.06,51.5 -51.5,51.5 h -832 c -28.44,0 -51.5,-23.06 -51.5,-51.5 z"
+       stroke="#017ac0"
+       stroke-width="2.60045"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path19" />
+    <path
+       d="m 160.5,756.927 h 1.193 V 1343.57 L 161.12,1343 h 589.578 v 1.14 H 160.547 V 757.5 l 0.573,0.573 h -0.62 z m 585.615,572.893 27.5,13.75 -27.5,13.75 z"
+       fill="#017ac0"
+       id="path20"
+       style="stroke-width:2.26949" />
+    <path
+       d="m 1551.5,760.073 h -4.19 l 0.57,-0.573 v 88.554 l -0.57,-0.573 h 89.76 v 1.146 h -90.34 v -89.7 h 4.77 z m 80.99,74.231 27.5,13.75 -27.5,13.75 z"
+       fill="#017ac0"
+       id="path21"
+       style="stroke-width:2.26949" />
+    <path
+       d="m 1551.5,760.073 h -4.16 l 0.57,-0.573 v 206.244 l -0.57,-0.573 h 206.67 v 1.146 h -207.24 v -207.39 h 4.73 z m 197.93,191.921 27.5,13.75 -27.5,13.75 z"
+       fill="#017ac0"
+       id="path22"
+       style="stroke-width:2.26949" />
+    <path
+       d="m 1551.5,756.073 h -4.4 l 0.57,-0.573 v 332.21 l -0.57,-0.58 h 362.84 v 1.15 H 1546.53 V 754.927 h 4.97 z m 353.85,317.887 27.5,13.75 -27.5,13.75 z"
+       fill="#017ac0"
+       id="path23"
+       style="stroke-width:2.26949" />
+    <path
+       d="m 2928.5,756.927 h 61.56 v 86.783 l -0.57,-0.572 h 38.08 v 1.145 h -38.65 V 757.5 l 0.57,0.573 h -60.99 z m 94.48,73.033 27.5,13.75 -27.5,13.75 z"
+       fill="#017ac0"
+       id="path24"
+       style="stroke-width:2.26949" />
+    <path
+       d="M 0,-0.572917 H 205.765 V 155.017 h -1.146 V 0 l 0.573,0.572917 H 0 Z M 218.942,150.433 l -13.75,27.5 -13.75,-27.5 z"
+       fill="#017ac0"
+       transform="matrix(0,1,1,0,2989.5,760.5)"
+       id="path25"
+       style="stroke-width:2.26949" />
+    <path
+       d="m 205.5,1855.17 c 0,-9.21 7.462,-16.67 16.667,-16.67 h 784.663 c 9.21,0 16.67,7.46 16.67,16.67 v 66.66 c 0,9.21 -7.46,16.67 -16.67,16.67 H 222.167 c -9.205,0 -16.667,-7.46 -16.667,-16.67 z"
+       stroke="#017ac0"
+       stroke-width="2.60045"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path26" />
+    <path
+       d="m 322.50002,1975.17 c 0,-9.21 7.912,-16.67 17.67211,-16.67 h 831.98237 c 9.7655,0 17.6753,7.46 17.6753,16.67 v 66.66 c 0,9.21 -7.9098,16.67 -17.6753,16.67 H 340.17213 c -9.76011,0 -17.67211,-7.46 -17.67211,-16.67 z"
+       stroke="#017ac0"
+       stroke-width="2.60045"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path27" />
+    <path
+       d="m 83.5,1798.93 h 61.564 v 86.78 l -0.573,-0.57 h 38.074 v 1.14 h -38.647 v -86.78 l 0.573,0.57 H 83.5 Z m 94.482,73.03 27.5,13.75 -27.5,13.75 z"
+       fill="#017ac0"
+       id="path28"
+       style="stroke-width:2.26949" />
+    <path
+       d="M 0,-0.572917 H 205.765 V 155.017 h -1.146 V 0 l 0.573,0.572917 H 0 Z M 218.942,150.433 l -13.75,27.5 -13.75,-27.5 z"
+       fill="#017ac0"
+       transform="matrix(0,1,1,0,144.5,1803.5)"
+       id="path29"
+       style="stroke-width:2.26949" />
+    <path
+       d="m 1849.5,2107.33 c 0,-9.29 7.54,-16.83 16.83,-16.83 h 784.34 c 9.29,0 16.83,7.54 16.83,16.83 v 67.34 c 0,9.29 -7.54,16.83 -16.83,16.83 h -784.34 c -9.29,0 -16.83,-7.54 -16.83,-16.83 z"
+       stroke="#017ac0"
+       stroke-width="2.60045"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path30" />
+    <path
+       d="m 1985.5,2235.33 c 0,-9.29 7.54,-16.83 16.83,-16.83 h 785.34 c 9.29,0 16.83,7.54 16.83,16.83 v 67.34 c 0,9.29 -7.54,16.83 -16.83,16.83 h -785.34 c -9.29,0 -16.83,-7.54 -16.83,-16.83 z"
+       stroke="#017ac0"
+       stroke-width="2.60045"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path31" />
+    <path
+       d="m 1576.5,1866.17 c 0,-9.21 7.46,-16.67 16.67,-16.67 h 784.66 c 9.21,0 16.67,7.46 16.67,16.67 v 66.66 c 0,9.21 -7.46,16.67 -16.67,16.67 h -784.66 c -9.21,0 -16.67,-7.46 -16.67,-16.67 z"
+       stroke="#017ac0"
+       stroke-width="2.60045"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path32" />
+    <path
+       d="m 1693.5,1986.17 c 0,-9.21 7.46,-16.67 16.67,-16.67 h 784.66 c 9.21,0 16.67,7.46 16.67,16.67 v 66.66 c 0,9.21 -7.46,16.67 -16.67,16.67 h -784.66 c -9.21,0 -16.67,-7.46 -16.67,-16.67 z"
+       stroke="#017ac0"
+       stroke-width="2.60045"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path33" />
+    <path
+       d="m 2122.5,2363.33 c 0,-9.29 7.54,-16.83 16.83,-16.83 h 784.34 c 9.29,0 16.83,7.54 16.83,16.83 v 67.34 c 0,9.29 -7.54,16.83 -16.83,16.83 h -784.34 c -9.29,0 -16.83,-7.54 -16.83,-16.83 z"
+       stroke="#017ac0"
+       stroke-width="2.60045"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path34" />
+    <path
+       d="m 1459.5,1809.93 h 51.38 v 89.12 l -0.57,-0.57 h 41.65 v 1.15 h -42.22 v -89.13 l 0.57,0.57 h -50.81 z m 87.87,75.37 27.5,13.75 -27.5,13.75 z"
+       fill="#017ac0"
+       id="path35"
+       style="stroke-width:2.26949" />
+    <path
+       d="M 0,-0.572917 H 209.161 V 158.993 h -1.146 V 0 l 0.573,0.572917 H 0 Z M 222.338,154.41 l -13.75,27.5 -13.75,-27.5 z"
+       fill="#017ac0"
+       transform="matrix(0,1,1,0,1511.5,1810.5)"
+       id="path36"
+       style="stroke-width:2.26949" />
+    <path
+       d="m 1511.5,1811.07 h -0.67 l 0.58,-0.57 v 330.06 l -0.58,-0.58 h 315.59 v 1.15 h -316.16 v -331.2 h 1.24 z m 310.33,315.74 27.5,13.75 -27.5,13.75 z"
+       fill="#017ac0"
+       id="path37"
+       style="stroke-width:2.26949" />
+    <path
+       d="m 1511.5,1811.07 h -0.75 l 0.57,-0.57 v 458.06 l -0.57,-0.57 h 451.85 v 1.15 h -452.43 v -459.21 h 1.33 z m 446.51,443.74 27.5,13.75 -27.5,13.75 z"
+       fill="#017ac0"
+       id="path38"
+       style="stroke-width:2.26949" />
+    <path
+       d="m 1509.5,1809.93 h 1.19 v 586.64 l -0.57,-0.57 h 589.58 v 1.14 H 1509.55 V 1810.5 l 0.57,0.57 h -0.62 z m 585.61,572.89 27.5,13.75 -27.5,13.75 z"
+       fill="#017ac0"
+       id="path39"
+       style="stroke-width:2.26949" />
+    <path
+       d="m 3037.5001,1852.33 c 0,-9.29 7.9183,-16.83 17.6744,-16.83 h 823.6883 c 9.7561,0 17.6743,7.54 17.6743,16.83 v 67.34 c 0,9.29 -7.9182,16.83 -17.6743,16.83 h -823.6883 c -9.7561,0 -17.6744,-7.54 -17.6744,-16.83 z"
+       stroke="#017ac0"
+       stroke-width="2.60045"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path40" />
+    <path
+       d="m 3153.5,1972.33 c 0,-9.29 7.54,-16.83 16.83,-16.83 h 785.34 c 9.29,0 16.83,7.54 16.83,16.83 v 67.34 c 0,9.29 -7.54,16.83 -16.83,16.83 h -785.34 c -9.29,0 -16.83,-7.54 -16.83,-16.83 z"
+       stroke="#017ac0"
+       stroke-width="2.60045"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path41" />
+    <path
+       d="m 2915.5,1796.93 h 61.56 v 86.78 l -0.57,-0.57 h 38.08 v 1.14 h -38.65 v -86.78 l 0.57,0.57 h -60.99 z m 94.48,73.03 27.5,13.75 -27.5,13.75 z"
+       fill="#017ac0"
+       id="path42"
+       style="stroke-width:2.26949" />
+    <path
+       d="M 0,-0.572917 H 205.765 V 155.017 h -1.146 V 0 l 0.573,0.572917 H 0 Z M 218.942,150.433 l -13.75,27.5 -13.75,-27.5 z"
+       fill="#017ac0"
+       transform="matrix(0,1,1,0,2976.5,1800.5)"
+       id="path43"
+       style="stroke-width:2.26949" />
+    <path
+       d="m 3258.5,2101.17 c 0,-9.21 7.46,-16.67 16.67,-16.67 h 784.66 c 9.21,0 16.67,7.46 16.67,16.67 v 66.66 c 0,9.21 -7.46,16.67 -16.67,16.67 h -784.66 c -9.21,0 -16.67,-7.46 -16.67,-16.67 z"
+       stroke="#017ac0"
+       stroke-width="2.60045"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path44" />
+    <path
+       d="M 0,-0.572917 H 339.469 V 259.052 h -1.146 V 0 l 0.573,0.572917 H 0 Z M 352.646,254.468 l -13.75,27.5 -13.75,-27.5 z"
+       fill="#017ac0"
+       transform="matrix(0,1,1,0,2976.5,1795.5)"
+       id="path45"
+       style="stroke-width:2.26949" />
+    <path
+       d="m 20.5001,1539.5 c 0,-28.72 23.2817,-52 52.0011,-52 H 904.499 c 28.72,0 52.001,23.28 52.001,52 v 208 c 0,28.72 -23.281,52 -52.001,52 H 72.5012 c -28.7194,0 -52.0011,-23.28 -52.0011,-52 z"
+       stroke="#017ac0"
+       stroke-width="2.60045"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path46" />
+    <text
+       style="font-size:44px;font-family:Arial;text-anchor:middle;white-space:pre;stroke-width:2.26949"
+       id="text52"
+       x="491.41251"
+       y="522.3327"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         x="491.41251"
+         y="522.3327">Услуги по проектиране на сгради, </tspan><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         x="491.41251"
+         y="577.3327">външни съоръжения и пространствени </tspan><tspan
+         sodipodi:role="line"
+         x="497.52481"
+         y="632.3327"
+         id="tspan3">разширения съгласно HOAI (LPH1 - LPH9) </tspan></text>
+    <text
+       style="font-size:44px;font-family:Arial;text-anchor:middle;white-space:pre;stroke-width:2.26949"
+       x="605.073"
+       y="473.409"
+       id="text53"
+       transform="translate(19,384)">Разработване на концепция </text>
+    <text
+       style="font-size:44px;font-family:Arial;text-anchor:middle;white-space:pre;stroke-width:2.26949"
+       id="text55"
+       x="759.36005"
+       y="952.08276"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         x="759.36005"
+         y="952.08276">Тясна координация със специалист </tspan><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         x="759.36005"
+         y="1007.0828">по структурно и TGA проектиране</tspan></text>
+    <text
+       style="font-size:44px;font-family:Arial;text-anchor:middle;white-space:pre;stroke-width:2.26949"
+       x="894.02197"
+       y="718.46503"
+       id="text56"
+       transform="translate(19,384)">Получаване на разрешение за строеж </text>
+    <text
+       style="font-size:44px;font-family:Arial;text-anchor:middle;white-space:pre;stroke-width:2.26949"
+       x="1060.7458"
+       y="1201.4312"
+       id="text57"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         x="1060.7458"
+         y="1201.4312">Въвеждане към планиране </tspan><tspan
+         sodipodi:role="line"
+         id="tspan7"
+         x="1066.8582"
+         y="1256.4312">на изпълнението </tspan></text>
+    <text
+       style="font-size:44px;font-family:Arial;text-anchor:middle;white-space:pre;stroke-width:2.26949"
+       x="1171.59"
+       y="971.29999"
+       id="text58"
+       transform="translate(19,384)">Мониторинг на обекти </text>
+    <text
+       style="font-size:44px;font-family:Arial;text-anchor:middle;white-space:pre;stroke-width:2.26949"
+       x="2057.3591"
+       y="835.27924"
+       id="text59"><tspan
+         sodipodi:role="line"
+         id="tspan12"
+         x="2057.3591"
+         y="835.27924">Тясна координация с </tspan><tspan
+         sodipodi:role="line"
+         id="tspan13"
+         x="2063.4714"
+         y="890.27924">проектирането и TGA проектанта </tspan></text>
+    <text
+       style="font-size:44px;font-family:Arial;text-anchor:middle;white-space:pre;stroke-width:2.26949"
+       x="2148.8081"
+       y="593.32898"
+       id="text60"
+       transform="translate(19,384)">Изготвяне на статистика на обектите </text>
+    <text
+       style="font-size:44px;font-family:Arial;text-anchor:middle;white-space:pre;stroke-width:2.26949"
+       x="2284.9121"
+       y="713.112"
+       id="text61"
+       transform="translate(19,384)">Мониторинг на обекти </text>
+    <text
+       style="font-size:44px;font-family:Arial;text-anchor:middle;white-space:pre;stroke-width:2.26949"
+       id="text65"
+       x="3314.1624"
+       y="566.17975"><tspan
+         sodipodi:role="line"
+         id="tspan10"
+         x="3314.1624"
+         y="566.17975">Услуги по проектиране на технически </tspan><tspan
+         sodipodi:role="line"
+         id="tspan11"
+         x="3320.2747"
+         y="621.17975">сградни услуги съгласно HOAI (LPH1 - LPH9) </tspan></text>
+    <text
+       style="font-size:44px;font-family:Arial;text-anchor:middle;white-space:pre;stroke-width:2.26949"
+       x="3428.1399"
+       y="475.92499"
+       id="text66"
+       transform="translate(19,384)">Проектиране на всички фази  </text>
+    <text
+       style="font-size:44px;font-family:Arial;text-anchor:middle;white-space:pre;stroke-width:2.26949"
+       x="3541.1699"
+       y="595.66101"
+       id="text67"
+       transform="translate(19,384)">Проектиране на всички фази  </text>
+    <text
+       style="font-size:44px;font-family:Arial;text-anchor:middle;white-space:pre;stroke-width:2.26949"
+       x="472.36401"
+       y="1276.9399"
+       id="text68"
+       transform="translate(19,384)">Подготовка за GEG съответствие </text>
+    <text
+       style="font-size:44px;font-family:Arial;text-anchor:middle;white-space:pre;stroke-width:2.26949"
+       x="604.03601"
+       y="1521.12"
+       id="text69"
+       transform="translate(19,384)">Проектиране на всички фази  </text>
+    <text
+       style="font-size:44px;font-family:Arial;text-anchor:middle;white-space:pre;stroke-width:2.26949"
+       id="text71"
+       x="755.22754"
+       y="1995.1958"><tspan
+         sodipodi:role="line"
+         id="tspan14"
+         x="755.22754"
+         y="1995.1958">Координация с необходимите </tspan><tspan
+         sodipodi:role="line"
+         id="tspan15"
+         x="761.33984"
+         y="2050.1958">специализирани дисциплини (напр. TGA) </tspan></text>
+    <text
+       style="font-size:44px;font-family:Arial;text-anchor:middle;white-space:pre;stroke-width:2.26949"
+       id="text74"
+       x="1870.5032"
+       y="1646.019"><tspan
+         sodipodi:role="line"
+         id="tspan16"
+         x="1870.5032"
+         y="1646.019">Подкрепа и мониторинг на </tspan><tspan
+         sodipodi:role="line"
+         id="tspan17"
+         x="1870.5032"
+         y="1701.019">процесите на сертифициране</tspan></text>
+    <text
+       style="font-size:44px;font-family:Arial;text-anchor:middle;white-space:pre;stroke-width:2.26949"
+       x="1977.49"
+       y="1529.63"
+       id="text75"
+       transform="translate(19,384)">DGNB сертификация</text>
+    <text
+       style="font-size:44px;font-family:Arial;text-anchor:middle;white-space:pre;stroke-width:2.26949"
+       x="2084.3"
+       y="1646.9399"
+       id="text76"
+       transform="translate(19,384)">LEED сертификация</text>
+    <text
+       style="font-size:44px;font-family:Arial;text-anchor:middle;white-space:pre;stroke-width:2.26949"
+       x="2229.2"
+       y="1769.34"
+       id="text77"
+       transform="translate(19,384)">BREEM сертификация</text>
+    <text
+       style="font-size:44px;font-family:Arial;text-anchor:middle;white-space:pre;stroke-width:2.26949"
+       x="2358.3501"
+       y="1897.13"
+       id="text78"
+       transform="translate(19,384)">WiredScored сертификация</text>
+    <text
+       style="font-size:44px;font-family:Arial;text-anchor:middle;white-space:pre;stroke-width:2.26949"
+       x="2482.04"
+       y="2023.38"
+       id="text79"
+       transform="translate(19,384)">ESG сертификация</text>
+    <text
+       style="font-size:44px;font-family:Arial;text-anchor:middle;white-space:pre;stroke-width:2.26949"
+       x="3297.7"
+       y="1270.9399"
+       id="text80"
+       transform="translate(19,384)">Управление на проекти съгласно AHO </text>
+    <text
+       style="font-size:44px;font-family:Arial;text-anchor:middle;white-space:pre;stroke-width:2.26949"
+       id="text82"
+       x="3466.1958"
+       y="1871.9875"><tspan
+         sodipodi:role="line"
+         id="tspan19"
+         x="3466.1958"
+         y="1871.9875">Висш контрол върху проектните обекти </tspan><tspan
+         sodipodi:role="line"
+         x="3472.3081"
+         y="1926.9875"
+         id="tspan20">и неговите специализирани проектанти </tspan></text>
+    <text
+       style="font-size:44px;font-family:Arial;text-anchor:middle;white-space:pre;stroke-width:2.26949"
+       id="text85"
+       x="3570.3491"
+       y="1989.3379"><tspan
+         sodipodi:role="line"
+         id="tspan21"
+         x="3570.3491"
+         y="1989.3379">Неутрален инструмент за контрол </tspan><tspan
+         sodipodi:role="line"
+         id="tspan22"
+         x="3576.4614"
+         y="2044.3378">за собственика на сградата </tspan></text>
+    <text
+       style="font-size:44px;font-family:Arial;text-anchor:middle;white-space:pre;stroke-width:2.26949"
+       x="3665.9731"
+       y="2145.9661"
+       id="text86">Мониторинг срокове, разходи, качество</text>
+    <text
+       style="font-size:44px;font-family:Arial;text-anchor:middle;white-space:pre;stroke-width:2.26949"
+       x="1404.27"
+       y="180.772"
+       transform="translate(513.46646,384)"
+       id="text87"><tspan
+         sodipodi:role="line"
+         id="tspan8"
+         x="1404.27"
+         y="180.772">Услуги по структурно проектиране, </tspan><tspan
+         sodipodi:role="line"
+         id="tspan9"
+         x="1410.3823"
+         y="235.772">съгласно HOAI (LPH1 - LPH9) </tspan></text>
+  </g>
+</svg>
