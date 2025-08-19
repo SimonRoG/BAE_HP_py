@@ -1,43 +1,23 @@
 [
     {
-        "ID": "1",
-        "Name": "Training as a Technical System Planner (aGw*)",
-        "Tags": "systemplaner bamberg deggendorg muenchen coburg azubi teil",
-        "Standort": "Coburg, Bamberg, Deggendorf, Munich",
-        "Bild": "Auszubildender.jpg",
-        "Beschreibung": "With your training as a Technical System Planner HLSK (aGw*), you will join our team starting from 01.09 and take on a key role within our company group. (*all genders welcome)",
-        "Aufgaben": "Basic drawing training and creation of CAD plans in 2D/3D\nHands-on work by participating in projects\nPlanning the supply of buildings with heat, cold, air, and water together with colleagues\nCross-location work on exciting, innovative, and demanding projects in an international team",
-        "Eigenschaften": "You have good spatial visualization skills\nYou have technical understanding and mathematical knowledge\nYou enjoy working with the computer\nYou are a team player, reliable, and have an independent working style\nYou have at least a secondary school diploma"
+        "ID": "7",
+        "Name": "Project Manager HLSK (aGw*)",
+        "Tags": "projektleiter frankfurt berlin muenchen stuttgart coburg bamberg deggendorf sofia varna voll",
+        "Standort": "Coburg, Deggendorf, Munich, Frankfurt, Berlin, Stuttgart, Sofia, Varna",
+        "Bild": "Projektleiter_HLSK.jpg",
+        "Beschreibung": "As a Project Manager HLSK (aGw*), you take on a key role in the realization of our projects and significantly contribute to the development of our company group. (*all genders welcome)",
+        "Aufgaben": "Responsibility for the technical and economic execution of TGA projects through all phases of HOAI\nLeading, coordinating, and managing your project team, along with close collaboration with all project participants and the management team\nOrganizational and technical handling with the client\nCost and schedule management\nPoint of contact for clients and partners throughout the entire project process",
+        "Eigenschaften": "You have a completed degree or master/technician qualifications in supply and building technology or a comparable education.\nYou feel at home in the fields of heating, ventilation, sanitation, or air conditioning.\nYour motivation lies in creating innovative, resource-saving system solutions.\nYou are familiar with relevant standards, guidelines, and common project management tools like Revit, Orca, or Plancal Nova.\nYou work independently, are reliable, and take initiative."
     },
     {
-        "ID": "2",
-        "Name": "Specialist Planner HLSK (aGw*)",
-        "Tags": "fachplaner frankfurt berlin muenchen stuttgart coburg deggendorf sofia varna voll",
-        "Standort": "Coburg, Deggendorf, Munich, Frankfurt, Berlin, Stuttgart, Sofia, Varna",
-        "Bild": "Fachingenieu-HLSK.jpg",
-        "Beschreibung": "As a Specialist Planner HLSK (aGw*), you take on a key role in the realization of our projects and significantly contribute to the development of our company group. (*all genders welcome)",
-        "Aufgaben": "Execution of demanding and exciting TGA projects through all stages of HOAI\nDevelopment of innovative, resource-saving system solutions\nConceptualization, planning, tendering, and possibly object supervision of TGA projects\nBIM planning with digital twins and 3D modeling",
-        "Eigenschaften": "You have a completed degree, master/technician qualifications in supply and building technology or a comparable education.\nYou feel at home in the field of heating, ventilation, sanitation, or air conditioning.\nYour motivation lies in creating innovative, resource-saving system solutions.\nYou are familiar with relevant standards, guidelines, and common project management tools like Revit, Orca, or Plancal Nova.\nYou work independently and quickly grasp complex issues\nYou take initiative and are a team player."
-    },
-    {
-        "ID": "3",
-        "Name": "Specialist Planner ELT (aGw*)",
-        "Tags": "fachplaner frankfurt berlin muenchen stuttgart coburg bamberg deggendorf sofia varna voll",
-        "Standort": "Coburg, Deggendorf, Munich, Frankfurt, Berlin, Stuttgart, Sofia, Varna",
-        "Bild": "Fachplaner_ELT.jpg",
-        "Beschreibung": "As a Specialist Planner ELT (aGw*), you take on a key role in the realization of our projects and significantly contribute to the development of our company group. (*all genders welcome)",
-        "Aufgaben": "Execution of demanding and exciting TGA projects through all stages of HOAI\nDevelopment of innovative, resource-saving system solutions\nConceptualization, planning, tendering, and possibly object supervision of TGA projects\nBIM planning with digital twins and 3D modeling",
-        "Eigenschaften": "You have a completed degree, master/technician qualifications in electrical engineering or a comparable education.\nYou feel at home in the planning of electrical engineering.\nYour motivation lies in creating innovative, resource-saving system solutions.\nYou are familiar with relevant standards, guidelines, and common project management tools like Revit, Orca, or Plancal Nova.\nYou work independently and quickly grasp complex issues\nYou take initiative and are a team player."
-    },
-    {
-        "ID": "4",
-        "Name": "Specialist Planner GA (aGw*)",
-        "Tags": "fachplaner frankfurt berlin muenchen stuttgart coburg bamberg deggendorf sofia varna voll",
-        "Standort": "Coburg, Deggendorf, Munich, Frankfurt, Berlin, Stuttgart, Sofia, Varna",
-        "Bild": "Fachplaner_GA.jpg",
-        "Beschreibung": "As a Specialist Planner GA (aGw*), you take on a key role in the realization of our projects and significantly contribute to the development of our company group. (*all genders welcome)",
-        "Aufgaben": "Execution of demanding and exciting TGA projects through all stages of HOAI\nDevelopment of innovative, resource-saving system solutions\nConceptualization, planning, tendering, and possibly object supervision of GA projects\nConstruction of building systems with 2D/3D CAD software (WSCAD/Tric/Plancal Nova/Revit)",
-        "Eigenschaften": "You have a completed degree or technician qualification in building automation or a comparable education/field related to buildings.\nYou feel at home in the areas of heating, ventilation, sanitation, or air conditioning.\nYour motivation lies in creating innovative, resource-saving system solutions.\nYou are familiar with relevant standards, guidelines, and common project management tools like Revit, Orca, or Plancal Nova.\nYou work independently and quickly grasp complex issues\nYou take initiative and are a team player."
+        "ID": "8",
+        "Name": "Project Manager ELT (aGw*)",
+        "Tags": "projektleiter frankfurt berlin muenchen stuttgart coburg bamberg deggendorf sofia varna voll",
+        "Standort": "Coburg, Bamberg, Deggendorf, Munich, Frankfurt, Berlin, Stuttgart, Sofia, Varna",
+        "Bild": "Projektleiter_ELT.jpg",
+        "Beschreibung": "As a Project Manager ELT (aGw*), you take on a key role in the realization of our projects and significantly contribute to the development of our company group. (*all genders welcome)",
+        "Aufgaben": "Responsibility for the technical and economic execution of TGA projects through all stages of HOAI\nLeadership, coordination, and management of your project team, as well as close collaboration with all project participants and the management team\nOrganizational and technical handling with the client\nCost and schedule management\nPoint of contact for clients and partners throughout the entire project process",
+        "Eigenschaften": "You have a completed degree, master/technician qualification in supply and building technology, or a comparable education.\nYou are familiar with the field of electrical engineering and have several years of professional experience in leading projects in this area (LPH 1-9).\nYou are well-versed in relevant standards, guidelines, and common project management tools such as Revit, Orca, or Plancal Nova.\nYou have an independent working style and quick comprehension of complex issues, with an economic sense when handling projects and always keeping costs in mind.\nYou are self-reflective, a team player, and strong in communication."
     },
     {
         "ID": "5",
@@ -60,33 +40,23 @@
         "Eigenschaften": "You have completed training as a Technical System Planner ELT or comparable qualifications.\nYou feel at home in the field of electrical engineering.\nYou are familiar with relevant standards, guidelines, and common CAD tools like Revit or Plancal Nova.\nYou have an independent and structured working style.\nYou are communicative and enjoy working in a team."
     },
     {
-        "ID": "7",
-        "Name": "Project Manager HLSK (aGw*)",
-        "Tags": "projektleiter frankfurt berlin muenchen stuttgart coburg bamberg deggendorf sofia varna voll",
+        "ID": "2",
+        "Name": "Specialist Planner HLSK (aGw*)",
+        "Tags": "fachplaner frankfurt berlin muenchen stuttgart coburg deggendorf sofia varna voll",
         "Standort": "Coburg, Deggendorf, Munich, Frankfurt, Berlin, Stuttgart, Sofia, Varna",
-        "Bild": "Projektleiter_HLSK.jpg",
-        "Beschreibung": "As a Project Manager HLSK (aGw*), you take on a key role in the realization of our projects and significantly contribute to the development of our company group. (*all genders welcome)",
-        "Aufgaben": "Responsibility for the technical and economic execution of TGA projects through all phases of HOAI\nLeading, coordinating, and managing your project team, along with close collaboration with all project participants and the management team\nOrganizational and technical handling with the client\nCost and schedule management\nPoint of contact for clients and partners throughout the entire project process",
-        "Eigenschaften": "You have a completed degree or master/technician qualifications in supply and building technology or a comparable education.\nYou feel at home in the fields of heating, ventilation, sanitation, or air conditioning.\nYour motivation lies in creating innovative, resource-saving system solutions.\nYou are familiar with relevant standards, guidelines, and common project management tools like Revit, Orca, or Plancal Nova.\nYou work independently, are reliable, and take initiative."
+        "Bild": "Fachingenieu-HLSK.jpg",
+        "Beschreibung": "As a Specialist Planner HLSK (aGw*), you take on a key role in the realization of our projects and significantly contribute to the development of our company group. (*all genders welcome)",
+        "Aufgaben": "Execution of demanding and exciting TGA projects through all stages of HOAI\nDevelopment of innovative, resource-saving system solutions\nConceptualization, planning, tendering, and possibly object supervision of TGA projects\nBIM planning with digital twins and 3D modeling",
+        "Eigenschaften": "You have a completed degree, master/technician qualifications in supply and building technology or a comparable education.\nYou feel at home in the field of heating, ventilation, sanitation, or air conditioning.\nYour motivation lies in creating innovative, resource-saving system solutions.\nYou are familiar with relevant standards, guidelines, and common project management tools like Revit, Orca, or Plancal Nova.\nYou work independently and quickly grasp complex issues\nYou take initiative and are a team player."
     },
     {
-        "ID": "8",
-        "Name": "Project Manager ELT (aGw*)",
-        "Tags": "projektleiter frankfurt berlin muenchen stuttgart coburg bamberg deggendorf sofia varna voll",
-        "Standort": "Coburg, Bamberg, Deggendorf, Munich, Frankfurt, Berlin, Stuttgart, Sofia, Varna",
-        "Bild": "Projektleiter_ELT.jpg",
-        "Beschreibung": "As a Project Manager ELT (aGw*), you take on a key role in the realization of our projects and significantly contribute to the development of our company group. (*all genders welcome)",
-        "Aufgaben": "Responsibility for the technical and economic execution of TGA projects through all stages of HOAI\nLeadership, coordination, and management of your project team, as well as close collaboration with all project participants and the management team\nOrganizational and technical handling with the client\nCost and schedule management\nPoint of contact for clients and partners throughout the entire project process",
-        "Eigenschaften": "You have a completed degree, master/technician qualification in supply and building technology, or a comparable education.\nYou are familiar with the field of electrical engineering and have several years of professional experience in leading projects in this area (LPH 1-9).\nYou are well-versed in relevant standards, guidelines, and common project management tools such as Revit, Orca, or Plancal Nova.\nYou have an independent working style and quick comprehension of complex issues, with an economic sense when handling projects and always keeping costs in mind.\nYou are self-reflective, a team player, and strong in communication."
-    },
-    {
-        "ID": "9",
-        "Name": "Project Manager GA (aGw*)",
-        "Tags": "projektleiter frankfurt berlin muenchen stuttgart voll",
-        "Standort": "Frankfurt, Berlin, Munich, Stuttgart",
-        "Bild": "Projektleiter_Gebäudeautomation.jpg",
-        "Beschreibung": "As a Project Manager GA (aGw*), you take on a key role in the realization of our projects and significantly contribute to the development of our company group. (*all genders welcome)",
-        "Aufgaben": "Responsibility for the technical and economic execution of GA projects through all stages of HOAI\nLeadership, coordination, and management of your project team, as well as close collaboration with all project participants and the management team\nOrganizational and technical handling with the client\nCost and schedule management\nPoint of contact for clients and partners throughout the entire project process",
-        "Eigenschaften": "You have a completed degree, master/technician qualification in building automation, or a comparable education.\nYou are familiar with the field of building automation and have several years of professional experience in leading projects in this area (LPH 1-9).\nYou are well-versed in relevant standards, guidelines, and common project management tools such as Revit, Orca, or Plancal Nova.\nYou have an independent working style and quick comprehension of complex issues, with an economic sense when handling projects and always keeping costs in mind.\nYou are self-reflective, a team player, and strong in communication."
+        "ID": "3",
+        "Name": "Specialist Planner ELT (aGw*)",
+        "Tags": "fachplaner frankfurt berlin muenchen stuttgart coburg bamberg deggendorf sofia varna voll",
+        "Standort": "Coburg, Deggendorf, Munich, Frankfurt, Berlin, Stuttgart, Sofia, Varna",
+        "Bild": "Fachplaner_ELT.jpg",
+        "Beschreibung": "As a Specialist Planner ELT (aGw*), you take on a key role in the realization of our projects and significantly contribute to the development of our company group. (*all genders welcome)",
+        "Aufgaben": "Execution of demanding and exciting TGA projects through all stages of HOAI\nDevelopment of innovative, resource-saving system solutions\nConceptualization, planning, tendering, and possibly object supervision of TGA projects\nBIM planning with digital twins and 3D modeling",
+        "Eigenschaften": "You have a completed degree, master/technician qualifications in electrical engineering or a comparable education.\nYou feel at home in the planning of electrical engineering.\nYour motivation lies in creating innovative, resource-saving system solutions.\nYou are familiar with relevant standards, guidelines, and common project management tools like Revit, Orca, or Plancal Nova.\nYou work independently and quickly grasp complex issues\nYou take initiative and are a team player."
     }
 ]
