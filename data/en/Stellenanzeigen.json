@@ -1,5 +1,15 @@
 [
     {
+        "ID": "1",
+        "Name": "Training as a Technical System Planner (aGw*)",
+        "Tags": "systemplaner bamberg deggendorf muenchen coburg azubi teil",
+        "Standort": "Coburg, Bamberg, Deggendorf, Munich",
+        "Bild": "Auszubildender.jpg",
+        "Beschreibung": "With your training as a Technical System Planner HLSK (aGw*), you will join our team starting from 01.09.2026 and take on a key role within our company group. (*all genders welcome)",
+        "Aufgaben": "Basic drawing training and creation of CAD plans in 2D/3D\nHands-on work by participating in projects\nPlanning the supply of buildings with heat, cold, air, and water together with colleagues\nCross-location work on exciting, innovative, and demanding projects in an international team",
+        "Eigenschaften": "You have good spatial visualization skills\nYou have technical understanding and mathematical knowledge\nYou enjoy working with the computer\nYou are a team player, reliable, and have an independent working style\nYou have at least a secondary school diploma"
+    },
+    {
         "ID": "7",
         "Name": "Project Manager HLSK (aGw*)",
         "Tags": "projektleiter coburg bamberg deggendorf hassfurt muenchen stuttgart regensburg frankfurt berlin voll",

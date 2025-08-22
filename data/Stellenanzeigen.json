@@ -1,5 +1,15 @@
 [
     {
+        "ID": "1",
+        "Name": "Ausbildung Technischer Systemplaner (aGw*)",
+        "Tags": "systemplaner bamberg deggendorf muenchen coburg azubi teil",
+        "Standort": "Coburg, Bamberg, Deggendorf, München",
+        "Bild": "Auszubildender.jpg",
+        "Beschreibung": "Mit deiner Ausbildung zum Technischen Systemplaner HLSK (aGw*) wirst du ab 01.09.2026 Teil unseres Teams und übernimmst du eine Schlüsselrolle innerhalb unserer Unternehmensgruppe. (*alle Geschlechter willkommen)",
+        "Aufgaben": "Zeichnerische Grundausbildung sowie Erstellen von CAD-Plänen in 2D/3D\nPraxisorientiertes Arbeiten durch die Mitarbeit an Projekten\nPlanung der Versorgung von Gebäuden mit Wärme, Kälte, Luft und Wasser gemeinsam mit Kollegen\nStandortübergreifende Bearbeitung der spannenden, innovativen und anspruchsvollen Projekte in einem internationalen Team",
+        "Eigenschaften": "Du hast ein gutes räumliches Vorstellungsvermögen\nDu besitzt ein technisches Verständnis sowie mathematische Kenntnisse\nDir macht es Spaß mit dem Computer zu arbeiten\nDu bist teamfähig, zuverlässig und besitzt eine selbstständige Arbeitsweise\nDu besitzt mindestens einen Hauptschulabschluss"
+    },
+    {
         "ID": "7",
         "Name": "Projektleiter HLSK (aGw*)",
         "Tags": "projektleiter coburg bamberg deggendorf hassfurt muenchen stuttgart regensburg frankfurt berlin voll",
