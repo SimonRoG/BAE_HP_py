@@ -2,8 +2,8 @@
     {
         "ID": "7",
         "Name": "Project Manager HLSK (aGw*)",
-        "Tags": "projektleiter frankfurt berlin muenchen stuttgart coburg bamberg deggendorf sofia varna voll",
-        "Standort": "Coburg, Deggendorf, Munich, Frankfurt, Berlin, Stuttgart, Sofia, Varna",
+        "Tags": "projektleiter coburg bamberg deggendorf hassfurt muenchen stuttgart regensburg frankfurt berlin voll",
+        "Standort": "Coburg, Bamberg, Deggendorf, Hassfurt, Munich, Stuttgart, Regensburg, Frankfurt, Berlin",
         "Bild": "Projektleiter_HLSK.jpg",
         "Beschreibung": "As a Project Manager HLSK (aGw*), you take on a key role in the realization of our projects and significantly contribute to the development of our company group. (*all genders welcome)",
         "Aufgaben": "Responsibility for the technical and economic execution of TGA projects through all phases of HOAI\nLeading, coordinating, and managing your project team, along with close collaboration with all project participants and the management team\nOrganizational and technical handling with the client\nCost and schedule management\nPoint of contact for clients and partners throughout the entire project process",
@@ -12,8 +12,8 @@
     {
         "ID": "8",
         "Name": "Project Manager ELT (aGw*)",
-        "Tags": "projektleiter frankfurt berlin muenchen stuttgart coburg bamberg deggendorf sofia varna voll",
-        "Standort": "Coburg, Bamberg, Deggendorf, Munich, Frankfurt, Berlin, Stuttgart, Sofia, Varna",
+        "Tags": "projektleiter coburg bamberg deggendorf hassfurt muenchen stuttgart regensburg frankfurt berlin voll",
+        "Standort": "Coburg, Bamberg, Deggendorf, Hassfurt, Munich, Stuttgart, Regensburg, Frankfurt, Berlin",
         "Bild": "Projektleiter_ELT.jpg",
         "Beschreibung": "As a Project Manager ELT (aGw*), you take on a key role in the realization of our projects and significantly contribute to the development of our company group. (*all genders welcome)",
         "Aufgaben": "Responsibility for the technical and economic execution of TGA projects through all stages of HOAI\nLeadership, coordination, and management of your project team, as well as close collaboration with all project participants and the management team\nOrganizational and technical handling with the client\nCost and schedule management\nPoint of contact for clients and partners throughout the entire project process",
@@ -22,8 +22,8 @@
     {
         "ID": "5",
         "Name": "Technical System Planner HLSK (aGw*)",
-        "Tags": "systemplaner frankfurt berlin muenchen stuttgart coburg bamberg deggendorf sofia varna voll",
-        "Standort": "Coburg, Deggendorf, Munich, Frankfurt, Berlin, Stuttgart, Sofia, Varna",
+        "Tags": "systemplaner coburg bamberg deggendorf hassfurt muenchen stuttgart regensburg frankfurt berlin voll",
+        "Standort": "Coburg, Bamberg, Deggendorf, Hassfurt, Munich, Stuttgart, Regensburg, Frankfurt, Berlin",
         "Bild": "Technische_Systemplanerin_HLSK.jpg",
         "Beschreibung": "As a Technical System Planner HLSK (aGw*), you take on a key role in the realization of our projects and significantly contribute to the development of our company group. (*all genders welcome)",
         "Aufgaben": "Construction of building systems with 2D/3D CAD software (Revit/Plancal)\nProcessing of BIM projects\nConducting calculations and dimensioning of building systems\nCoordination and communication with other departments and external partners\nSupporting project management and documentation",
@@ -32,8 +32,8 @@
     {
         "ID": "6",
         "Name": "Technical System Planner ELT (aGw*)",
-        "Tags": "systemplaner frankfurt berlin muenchen stuttgart coburg bamberg deggendorf sofia varna voll",
-        "Standort": "Coburg, Deggendorf, Munich, Frankfurt, Berlin, Stuttgart, Sofia, Varna",
+        "Tags": "systemplaner coburg bamberg deggendorf hassfurt muenchen stuttgart regensburg frankfurt berlin voll",
+        "Standort": "Coburg, Bamberg, Deggendorf, Hassfurt, Munich, Stuttgart, Regensburg, Frankfurt, Berlin",
         "Bild": "Technische_Systemplanerin_ELT.jpg",
         "Beschreibung": "As a Technical System Planner ELT (aGw*), you take on a key role in the realization of our projects and significantly contribute to the development of our company group. (*all genders welcome)",
         "Aufgaben": "Construction of building systems with 2D/3D CAD software (Revit/Plancal)\nProcessing of BIM projects\nConducting calculations and dimensioning of building systems\nCoordination and communication with other departments and external partners\nSupporting project management and documentation",
@@ -42,8 +42,8 @@
     {
         "ID": "2",
         "Name": "Specialist Planner HLSK (aGw*)",
-        "Tags": "fachplaner frankfurt berlin muenchen stuttgart coburg deggendorf sofia varna voll",
-        "Standort": "Coburg, Deggendorf, Munich, Frankfurt, Berlin, Stuttgart, Sofia, Varna",
+        "Tags": "fachplaner coburg bamberg deggendorf hassfurt muenchen stuttgart regensburg frankfurt berlin voll",
+        "Standort": "Coburg, Bamberg, Deggendorf, Hassfurt, Munich, Stuttgart, Regensburg, Frankfurt, Berlin",
         "Bild": "Fachingenieu-HLSK.jpg",
         "Beschreibung": "As a Specialist Planner HLSK (aGw*), you take on a key role in the realization of our projects and significantly contribute to the development of our company group. (*all genders welcome)",
         "Aufgaben": "Execution of demanding and exciting TGA projects through all stages of HOAI\nDevelopment of innovative, resource-saving system solutions\nConceptualization, planning, tendering, and possibly object supervision of TGA projects\nBIM planning with digital twins and 3D modeling",
@@ -52,11 +52,21 @@
     {
         "ID": "3",
         "Name": "Specialist Planner ELT (aGw*)",
-        "Tags": "fachplaner frankfurt berlin muenchen stuttgart coburg bamberg deggendorf sofia varna voll",
-        "Standort": "Coburg, Deggendorf, Munich, Frankfurt, Berlin, Stuttgart, Sofia, Varna",
+        "Tags": "fachplaner coburg bamberg deggendorf hassfurt muenchen stuttgart regensburg frankfurt berlin voll",
+        "Standort": "Coburg, Bamberg, Deggendorf, Hassfurt, Munich, Stuttgart, Regensburg, Frankfurt, Berlin",
         "Bild": "Fachplaner_ELT.jpg",
         "Beschreibung": "As a Specialist Planner ELT (aGw*), you take on a key role in the realization of our projects and significantly contribute to the development of our company group. (*all genders welcome)",
         "Aufgaben": "Execution of demanding and exciting TGA projects through all stages of HOAI\nDevelopment of innovative, resource-saving system solutions\nConceptualization, planning, tendering, and possibly object supervision of TGA projects\nBIM planning with digital twins and 3D modeling",
         "Eigenschaften": "You have a completed degree, master/technician qualifications in electrical engineering or a comparable education.\nYou feel at home in the planning of electrical engineering.\nYour motivation lies in creating innovative, resource-saving system solutions.\nYou are familiar with relevant standards, guidelines, and common project management tools like Revit, Orca, or Plancal Nova.\nYou work independently and quickly grasp complex issues\nYou take initiative and are a team player."
+    },
+    {
+        "ID": "",
+        "Name": "Team Assistant (aGw*)",
+        "Tags": "assistenz regensburg frankfurt voll",
+        "Standort": "Regensburg, Frankfurt",
+        "Bild": "",
+        "Beschreibung": "Are you an organizational talent who enjoys supporting your colleagues? Do you always keep an overview, love to coordinate, and work proactively? Then join us!\nAs a Team Assistant (aGw*), you are a permanent part of our team and support us with all organizational and administrative tasks. (*all genders welcome)",
+        "Aufgaben": "General administrative activities, such as correspondence, ordering, incoming and outgoing mail\nWelcoming and catering to customers and guests\nTaking over the telephone switchboard, organizing meetings and seminars\nOrganizing team-related tasks\nDocumenting meetings and events\nCommunication in German and English",
+        "Eigenschaften": "You have completed commercial training or relevant professional experience as a team assistant (m/f/d).\nYou have very good knowledge of MS Office.\nYou are reliable, motivated, and keep a cool head even in hectic situations.\nYou work in a structured and solution-oriented manner."
     }
 ]

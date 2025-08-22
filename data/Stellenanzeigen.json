@@ -2,8 +2,8 @@
     {
         "ID": "7",
         "Name": "Projektleiter HLSK (aGw*)",
-        "Tags": "projektleiter frankfurt berlin muenchen stuttgart coburg bamberg deggendorf sofia varna voll",
-        "Standort": "Coburg, Deggendorf, München, Frankfurt, Berlin, Stuttgart, Sofia, Varna",
+        "Tags": "projektleiter coburg bamberg deggendorf hassfurt muenchen stuttgart regensburg frankfurt berlin voll",
+        "Standort": "Coburg, Bamberg, Deggendorf, Haßfurt, München, Stuttgart, Regensburg, Frankfurt, Berlin",
         "Bild": "Projektleiter_HLSK.jpg",
         "Beschreibung": "Als Projektleiter HLSK (aGw*) übernimmst du eine Schlüsselrolle bei der Realisierung unserer Projekte und trägst maßgeblich zur Entwicklung unserer Unternehmensgruppe bei. (*alle Geschlechter willkommen)\n",
         "Aufgaben": "Verantwortung für die technische und wirtschaftliche Durchführung von TGA-Projekten über alle Leistungsphasen der HOAI\nFührung, Koordination und Steuerung deines Projektteams sowie eine enge Zusammenarbeit mit allen Projektbeteiligten und dem Führungsteam\nOrganisatorische und fachliche Abwicklung mit dem Auftraggeber\nKosten- und Terminmanagement\nAnsprechpartner für Kunden und Partner während des gesamten Projektverlaufs",
@@ -12,8 +12,8 @@
     {
         "ID": "8",
         "Name": "Projektleiter ELT (aGw*)",
-        "Tags": "projektleiter frankfurt berlin muenchen stuttgart coburg bamberg deggendorf sofia varna voll",
-        "Standort": "Coburg, Bamberg, Deggendorf, München, Frankfurt, Berlin, Stuttgart, Sofia, Varna",
+        "Tags": "projektleiter coburg bamberg deggendorf hassfurt muenchen stuttgart regensburg frankfurt berlin voll",
+        "Standort": "Coburg, Bamberg, Deggendorf, Haßfurt, München, Stuttgart, Regensburg, Frankfurt, Berlin",
         "Bild": "Projektleiter_ELT.jpg",
         "Beschreibung": "Als Projektleiter ELT (aGw*) übernimmst du eine Schlüsselrolle bei der Realisierung unserer Projekte und trägst maßgeblich zur Entwicklung unserer Unternehmensgruppe bei. (*alle Geschlechter willkommen)",
         "Aufgaben": "Verantwortung für die technische und wirtschaftliche Durchführung von TGA-Projekten über alle Leistungsphasen der HOAI\nFührung, Koordination und Steuerung deines Projektteams sowie eine enge Zusammenarbeit mit allen Projektbeteiligten und dem Führungsteam\nOrganisatorische und fachliche Abwicklung mit dem Auftraggeber\nKosten- und Terminmanagement\nAnsprechpartner für Kunden und Partner während des gesamten Projektverlaufs",
@@ -22,8 +22,8 @@
     {
         "ID": "5",
         "Name": "Technischer Systemplaner HLSK (aGw*)",
-        "Tags": "systemplaner frankfurt berlin muenchen stuttgart coburg bamberg deggendorf sofia varna voll",
-        "Standort": "Coburg, Deggendorf, München, Frankfurt, Berlin, Stuttgart, Sofia, Varna",
+        "Tags": "systemplaner coburg bamberg deggendorf hassfurt muenchen stuttgart regensburg frankfurt berlin voll",
+        "Standort": "Coburg, Bamberg, Deggendorf, Haßfurt, München, Stuttgart, Regensburg, Frankfurt, Berlin",
         "Bild": "Technische_Systemplanerin_HLSK.jpg",
         "Beschreibung": "Als Technischer Systemplaner HLSK (aGw*) übernimmst du eine Schlüsselrolle bei der Realisierung unserer Projekte und trägst maßgeblich zur Entwicklung unserer Unternehmensgruppe bei. (*alle Geschlechter willkommen)",
         "Aufgaben": "Konstruktion von gebäudetechnischen Anlagen mit 2D/3D CAD-Software (Revit/Plancal)\nBearbeitung von BIM-Projekten\nDurchführung von Berechnungen und Dimensionierungen von gebäudetechnischen Anlagen\nKoordination und Abstimmung mit anderen Fachbereichen und externen Partnern\nUnterstützung bei der Projektabwicklung und -dokumentation",
@@ -33,7 +33,7 @@
         "ID": "6",
         "Name": "Technischer Systemplaner ELT (aGw*)",
         "Tags": "systemplaner frankfurt berlin muenchen stuttgart coburg bamberg deggendorf sofia varna voll",
-        "Standort": "Coburg, Deggendorf, München, Frankfurt, Berlin, Stuttgart, Sofia, Varna",
+        "Standort": "Coburg, Bamberg, Deggendorf, Haßfurt, München, Stuttgart, Regensburg, Frankfurt, Berlin",
         "Bild": "Technische_Systemplanerin_ELT.jpg",
         "Beschreibung": "Als Technischer Systemplaner ELT (aGw*) übernimmst du eine Schlüsselrolle bei der Realisierung unserer Projekte und trägst maßgeblich zur Entwicklung unserer Unternehmensgruppe bei. (*alle Geschlechter willkommen)",
         "Aufgaben": "Konstruktion von gebäudetechnischen Anlagen mit 2D/3D CAD-Software (Revit/Plancal)\nBearbeitung von BIM-Projekten\nDurchführung von Berechnungen und Dimensionierungen von gebäudetechnischen Anlagen\nKoordination und Abstimmung mit anderen Fachbereichen und externen Partnern\nUnterstützung bei der Projektabwicklung und -dokumentation",
@@ -43,7 +43,7 @@
         "ID": "2",
         "Name": "Fachplaner HLSK (aGw*)",
         "Tags": " fachplaner frankfurt berlin muenchen stuttgart coburg deggendorf sofia varna voll",
-        "Standort": "Coburg, Deggendorf, München, Frankfurt, Berlin, Stuttgart, Sofia, Varna",
+        "Standort": "Coburg, Bamberg, Deggendorf, Haßfurt, München, Stuttgart, Regensburg, Frankfurt, Berlin",
         "Bild": "Fachingenieu-HLSK.jpg",
         "Beschreibung": "Als Fachplaner HLSK (aGw*) übernimmst du eine Schlüsselrolle bei der Realisierung unserer Projekte und trägst maßgeblich zur Entwicklung unserer Unternehmensgruppe bei. (*alle Geschlechter willkommen)",
         "Aufgaben": "Durchführung von anspruchsvollen und spannenden TGA-Projekten über alle Leistungsphasen der HOAI\nErarbeitung von innovativen, ressourcenschonenden Systemlösungen\nKonzeption, Planung, Ausschreibung und gegebenenfalls Objektüberwachung von TGA-Projekten\nBIM-Planungen mit digitalem Zwilling und 3D-Modellierung",
@@ -53,10 +53,20 @@
         "ID": "3",
         "Name": "Fachplaner ELT (aGw*)",
         "Tags": "fachplaner frankfurt berlin muenchen stuttgart coburg bamberg deggendorf sofia varna voll",
-        "Standort": "Coburg, Deggendorf, München, Frankfurt, Berlin, Stuttgart, Sofia, Varna",
+        "Standort": "Coburg, Bamberg, Deggendorf, Haßfurt, München, Stuttgart, Regensburg, Frankfurt, Berlin",
         "Bild": "Fachplaner_ELT.jpg",
         "Beschreibung": "Als Fachplaner ELT (aGw*) übernimmst du eine Schlüsselrolle bei der Realisierung unserer Projekte und trägst maßgeblich zur Entwicklung unserer Unternehmensgruppe bei. (*alle Geschlechter willkommen)",
         "Aufgaben": "Durchführung von anspruchsvollen und spannenden TGA-Projekten über alle Leistungsphasen der HOAI\nErarbeitung von innovativen, ressourcenschonenden Systemlösungen\nKonzeption, Planung, Ausschreibung und gegebenenfalls Objektüberwachung von TGA-Projekten\nBIM-Planungen mit digitalem Zwilling und 3D-Modellierung",
         "Eigenschaften": "Du hast ein abgeschlossenes Studium, einen Meister/Techniker als Abschluss im Bereich Elektrotechnik oder eine vergleichbare Ausbildung.\nDu fühlst dich in der Planung der Elektrotechnik zuhause.\nDeine Motivation liegt in der Erstellung von innovativen, ressourcenschonenden Systemlösungen.\nDu kennst dich in relevanten Normen, Richtlinien und den gängigen Projektabwicklungstools wie Revit, Orca oder Plancal Nova aus.\nDu besitzt eine selbstständige Arbeitsweise und schnelle Auffassungsgabe bei komplexen Sachverhalten\nDu ergreifst Eigeninitiative und bist teamfähig."
+    },
+    {
+        "ID": "",
+        "Name": "Teamassistenz (aGw*)",
+        "Tags": "assistenz regensburg frankfurt voll",
+        "Standort": "Regensburg, Frankfurt",
+        "Bild": "",
+        "Beschreibung": "Du bist ein Organisationstalent und greifst deinen Kolleginnen und Kollegen gerne unter die Arme? Du hast stets alles im Blick, liebst es zu koordinieren und arbeitest vorausschauend? Dann komm zu uns!\nAls Teamassistenz (aGw*) bist du ein fester Bestandteil unseres Teams und unterstützt uns bei allen organisatorischen und administrativen Aufgaben. (*alle Geschlechter willkommen)",
+        "Aufgaben": "Allgemeine Verwaltungstätigkeiten, wie Korrespondenz, Bestellwesen, Posteingang und -ausgang\nBegrüßung und Bewirtung von Kunden und Gästen\nÜbernahme der Telefonzentrale, Organisation von Meetings und Seminaren\nOrganisation der teamrelevanten Aufgaben\nDokumentation von Besprechungen und Ereignissen\nKommunikation Deutsch und Englisch",
+        "Eigenschaften": "Du hast eine abgeschlossene kaufmännische Ausbildung oder einschlägige Berufserfahrung als Teamassistenz (m/w/d).\nDu besitzt sehr gute Kenntnisse in MS-Office.\nDu bist zuverlässig, motiviert und behältst auch in hektischen Situationen den Überblick.\nDu arbeitest strukturiert und lösungsorientiert."
     }
 ]
