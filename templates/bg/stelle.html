@@ -22,9 +22,9 @@
             <div class="Titel">
                 <h3>{{item.Standort}}</h3>
                 <h1>{{ item.Name }}</h1>
-                <p>
-                    {{item.Beschreibung}}
-                </p>
+                {% for P in item.Beschreibung.split("\n") %}
+                <p>{{P}}</p>
+                {% endfor %}
             </div>
             <div class="Aufgaben">
                 <h2>Your tasks:</h2>
